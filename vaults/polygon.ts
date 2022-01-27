@@ -19,7 +19,6 @@ export const polygon = [
     assets: ["CRYSTL", "MATIC"],
     addLiquidityUrl:
       "https://app.apeswap.finance/add/ETH/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64",
-    buyTokenUrl: "https://app.apeswap.finance/swap",
   },
   {
     id: "dino-weth-dino",
@@ -41,6 +40,5 @@ export const polygon = [
     assets: ["DINO", "ETH"],
     addLiquidityUrl:
       "https://trade.dinoswap.exchange/?t=l#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xAa9654BECca45B5BDFA5ac646c939C62b527D394",
-    buyTokenUrl: "https://trade.dinoswap.exchange/?t=l#/swap",
   },
 ];
