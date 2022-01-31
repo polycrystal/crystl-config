@@ -767,7 +767,7 @@ export const polygon = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "cafe-btc-weth",
+    oracleId: "cafe-wbtc-weth",
     oraclePrice: 0,
     paused: false,
     platform: "Cafeswap",
