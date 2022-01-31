@@ -1074,7 +1074,7 @@ export const polygon = [
       "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xCa4992F01B63C7cEB98505946b79D7D8855449F9",
   },
   {
-    id: "destruction-destruction-wmatic",
+    id: "destruction-wmatic-destruction",
     pid: 51,
     lpSymbol: "DESTRUCTION-WMATIC LP",
     lpProvider: "Quickswap",
@@ -1084,7 +1084,7 @@ export const polygon = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "destruction-destruction-wmatic",
+    oracleId: "destruction-wmatic-destruction",
     oraclePrice: 0,
     paused: false,
     platform: "Destruction",
