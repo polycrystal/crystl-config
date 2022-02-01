@@ -315,7 +315,7 @@ export const polygon = [
       "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64",
   },
   {
-    id: "dino-weth-sx",
+    id: "dino-weth-sx-2",
     pid: 15,
     lpSymbol: "SX-WETH LP",
     lpProvider: "Sushiswap",
@@ -1168,7 +1168,7 @@ export const polygon = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "dino-dino-weth",
+    oracleId: "dino-weth-dino",
     oraclePrice: 0,
     paused: false,
     platform: "Dinoswap",
@@ -1369,7 +1369,7 @@ export const polygon = [
       "https://trade.dinoswap.exchange/?t=l#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
   },
   {
-    id: "dino-weth-dino",
+    id: "dino-weth-dino-2",
     pid: 65,
     lpSymbol: "DINO-WETH LP",
     lpProvider: "Dinoswap",
@@ -1432,7 +1432,7 @@ export const polygon = [
       "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
   },
   {
-    id: "dino-usdc-dino",
+    id: "dino-usdc-dino-2",
     pid: 68,
     lpSymbol: "DINO-USDC LP",
     lpProvider: "Dinoswap",
