@@ -1326,7 +1326,7 @@ export const polygon = [
       "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8",
   },
   {
-    id: "dfyn-dfyn-frm",
+    id: "dfyn-dfyn-frm-2",
     pid: 63,
     lpSymbol: "FRM-DFYN LP",
     lpProvider: "DFYN",
@@ -1336,7 +1336,7 @@ export const polygon = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "dfyn-dfyn-frm",
+    oracleId: "dfyn-dfyn-frm-2",
     oraclePrice: 0,
     paused: true,
     platform: "DFYN",
