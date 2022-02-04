@@ -336,7 +336,7 @@ export const polygon = [
       "https://app.sushi.com/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
   },
   {
-    id: "barber-usdc-hair",
+    id: "barber-hair-usdc-2",
     pid: 16,
     lpSymbol: "USDC-HAIR LP",
     lpProvider: "Apeswap",
@@ -346,7 +346,7 @@ export const polygon = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "barber-usdc-hair",
+    oracleId: "barber-hair-usdc",
     oraclePrice: 0,
     paused: true,
     platform: "Barbershop",
@@ -357,7 +357,7 @@ export const polygon = [
       "https://app.apeswap.finance/#/add/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
   },
   {
-    id: "barber-wmatic-crystl",
+    id: "barber-wmatic-crystl-2",
     pid: 17,
     lpSymbol: "CRYSTL-WMATIC LP",
     lpProvider: "Apeswap",
