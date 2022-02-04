@@ -462,7 +462,7 @@ export const polygon = [
       "https://swap.cometh.io/#/add/0x5C7F7Fe4766fE8f0fa9b41E2E4194d939488ff1C/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
   },
   {
-    id: "quick-quick-kom",
+    id: "quick-quick-kom-2",
     pid: 22,
     lpSymbol: "KOM-QUICK LP",
     lpProvider: "Quickswap",
@@ -472,7 +472,7 @@ export const polygon = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "quick-quick-kom",
+    oracleId: "quick-quick-kom-2",
     oraclePrice: 0,
     paused: true,
     platform: "Quickswap",
