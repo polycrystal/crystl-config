@@ -1494,7 +1494,7 @@ export const cronos = [
       "https://vvs.finance/add/0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
   },
   {
-    id: "crona-wtbc-weth",
+    id: "crona-wbtc-weth",
     pid: 71,
     lpSymbol: "WETH-WBTC",
     lpProvider: "Crona",
@@ -1504,7 +1504,7 @@ export const cronos = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: "crona-wtbc-weth",
+    oracleId: "crona-wbtc-weth",
     oraclePrice: 0,
     paused: false,
     platform: "Crona",
