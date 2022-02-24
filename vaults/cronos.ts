@@ -2,7 +2,7 @@ export const cronos = [
   {
     id: "crodex-wbtc-usdt",
     pid: 0,
-    lpSymbol: "USDT-WBTC",
+    lpSymbol: "USDT-WBTC LP",
     lpProvider: "Crodex",
     wantAddress: "0xA9005A6C054a432a7A53d413d5afE5D216cf69e3",
     depositFee: "0%",
@@ -23,7 +23,7 @@ export const cronos = [
   {
     id: "crodex-usdt-dai",
     pid: 1,
-    lpSymbol: "DAI-USDT",
+    lpSymbol: "DAI-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0x297049Bd11C1c53381e5a1730Ae1cbf27e258739",
     depositFee: "0%",
@@ -44,7 +44,7 @@ export const cronos = [
   {
     id: "crodex-usdt-usdc",
     pid: 2,
-    lpSymbol: "USDC-USDT",
+    lpSymbol: "USDC-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0xaa9d281B761d8988Af83B4E2bF3fC8f5dB2E7aE5",
     depositFee: "0%",
@@ -65,7 +65,7 @@ export const cronos = [
   {
     id: "crodex-usdc-crx",
     pid: 3,
-    lpSymbol: "CRX-USDC",
+    lpSymbol: "CRX-USDC LP",
     lpProvider: "Crodex",
     wantAddress: "0xa6E9f20A93E0b50f074bc2FC693E8Add3812F8c4",
     depositFee: "0%",
@@ -86,7 +86,7 @@ export const cronos = [
   {
     id: "crodex-usdt-weth",
     pid: 4,
-    lpSymbol: "WETH-USDT",
+    lpSymbol: "WETH-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0xc061A750B252f36337e960BbC2A7dB96b3Bc7906",
     depositFee: "0%",
@@ -108,7 +108,7 @@ export const cronos = [
   {
     id: "crodex-wcro-usdc",
     pid: 5,
-    lpSymbol: "USDC-CRO",
+    lpSymbol: "USDC-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x182414159C3eeF1435aF91Bcf0d12AbcBe277A46",
     depositFee: "0%",
@@ -129,7 +129,7 @@ export const cronos = [
   {
     id: "crodex-wcro-dai",
     pid: 6,
-    lpSymbol: "DAI-CRO",
+    lpSymbol: "DAI-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x586e3658d0299d5e79B53aA51B641d6A0B8A4Dd3",
     depositFee: "0%",
@@ -150,7 +150,7 @@ export const cronos = [
   {
     id: "crodex-wcro-usdt",
     pid: 7,
-    lpSymbol: "USDT-CRO",
+    lpSymbol: "USDT-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x47AB43F8176696CA569b14A24621A46b318096A7",
     depositFee: "0%",
@@ -171,7 +171,7 @@ export const cronos = [
   {
     id: "crodex-mimatic-usdc",
     pid: 8,
-    lpSymbol: "USDC-miMatic",
+    lpSymbol: "USDC-miMatic LP",
     lpProvider: "Crodex",
     wantAddress: "0x42c754b7b6b67994666dC9a79068FABCD44B012C",
     depositFee: "0%",
@@ -192,7 +192,7 @@ export const cronos = [
   {
     id: "crodex-mimatic-wcro",
     pid: 9,
-    lpSymbol: "CRO-miMatic",
+    lpSymbol: "CRO-miMatic LP",
     lpProvider: "Crodex",
     wantAddress: "0x28C7AEB8f51C6C7e43D273A2a20072A51445dBdA",
     depositFee: "0%",
@@ -213,7 +213,7 @@ export const cronos = [
   {
     id: "crodex-usdt-matic",
     pid: 10,
-    lpSymbol: "MATIC-USDT",
+    lpSymbol: "MATIC-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0x831562B1fC831f89a0Ec7919e4F709057845BE09",
     depositFee: "0%",
@@ -234,7 +234,7 @@ export const cronos = [
   {
     id: "crodex-wcro-relay",
     pid: 11,
-    lpSymbol: "RELAY-CRO",
+    lpSymbol: "RELAY-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x65B51aad23e20C5937a7A3a19112fCC6d71a524A",
     depositFee: "0%",
@@ -255,7 +255,7 @@ export const cronos = [
   {
     id: "crodex-usdt-ravax",
     pid: 12,
-    lpSymbol: "rAVAX-USDT",
+    lpSymbol: "rAVAX-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0xBAbF643b2Ff4C4F1B184b41F2C88a03D1abfa346",
     depositFee: "0%",
@@ -276,7 +276,7 @@ export const cronos = [
   {
     id: "crodex-wcro-crx",
     pid: 13,
-    lpSymbol: "CRX-CRO",
+    lpSymbol: "CRX-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xd141aeD3FA86f411808D5D74BEbBC038e94f300D",
     depositFee: "0%",
@@ -297,7 +297,7 @@ export const cronos = [
   {
     id: "crodex-mim-wcro",
     pid: 14,
-    lpSymbol: "CRO-MIM",
+    lpSymbol: "CRO-MIM LP",
     lpProvider: "Crodex",
     wantAddress: "0x5Fa30Ff80be31772E20f322c45F60B5C67c3f65B",
     depositFee: "0%",
@@ -318,7 +318,7 @@ export const cronos = [
   {
     id: "vvs-vvs-wcro",
     pid: 15,
-    lpSymbol: "CRO-VVS",
+    lpSymbol: "CRO-VVS LP",
     lpProvider: "VVS",
     wantAddress: "0xbf62c67eA509E86F07c8c69d0286C0636C50270b",
     depositFee: "0%",
@@ -339,7 +339,7 @@ export const cronos = [
   {
     id: "vvs-wbtc-wcro",
     pid: 16,
-    lpSymbol: "CRO-WBTC",
+    lpSymbol: "CRO-WBTC LP",
     lpProvider: "VVS",
     wantAddress: "0x8F09fFf247B8fDB80461E5Cf5E82dD1aE2EBd6d7",
     depositFee: "0%",
@@ -360,7 +360,7 @@ export const cronos = [
   {
     id: "vvs-wcro-weth",
     pid: 17,
-    lpSymbol: "WETH-CRO",
+    lpSymbol: "WETH-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0xA111C17f8B8303280d3EB01BBcd61000AA7F39F9",
     depositFee: "0%",
@@ -382,7 +382,7 @@ export const cronos = [
   {
     id: "vvs-vvs-usdc",
     pid: 18,
-    lpSymbol: "USDC-VVS",
+    lpSymbol: "USDC-VVS LP",
     lpProvider: "VVS",
     wantAddress: "0x814920D1b8007207db6cB5a2dD92bF0b082BDBa1",
     depositFee: "0%",
@@ -403,7 +403,7 @@ export const cronos = [
   {
     id: "crona-wcro-usdc",
     pid: 19,
-    lpSymbol: "USDC-CRO",
+    lpSymbol: "USDC-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0x0625A68D25d304aed698c806267a4e369e8Eb12a",
     depositFee: "0%",
@@ -424,7 +424,7 @@ export const cronos = [
   {
     id: "crona-wcro-usdt",
     pid: 20,
-    lpSymbol: "USDT-CRO",
+    lpSymbol: "USDT-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0x19Dd1683e8c5F6Cc338C1438f2D25EBb4e0b0b08",
     depositFee: "0%",
@@ -445,7 +445,7 @@ export const cronos = [
   {
     id: "crona-wcro-weth",
     pid: 21,
-    lpSymbol: "WETH-CRO",
+    lpSymbol: "WETH-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0x8232aA9C3EFf79cd845FcDa109B461849Bf1Be83",
     depositFee: "0%",
@@ -467,7 +467,7 @@ export const cronos = [
   {
     id: "crona-wbtc-wcro",
     pid: 22,
-    lpSymbol: "CRO-WBTC",
+    lpSymbol: "CRO-WBTC LP",
     lpProvider: "Crona",
     wantAddress: "0xb4684F52867dC0dDe6F931fBf6eA66Ce94666860",
     depositFee: "0%",
@@ -488,7 +488,7 @@ export const cronos = [
   {
     id: "crona-wcro-dai",
     pid: 23,
-    lpSymbol: "DAI-CRO",
+    lpSymbol: "DAI-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0xDA2FC0fE4B03deFf09Fd8CFb92d14e7ebC1F9690",
     depositFee: "0%",
@@ -509,7 +509,7 @@ export const cronos = [
   {
     id: "crona-usdt-busd",
     pid: 24,
-    lpSymbol: "BUSD-USDT",
+    lpSymbol: "BUSD-USDT LP",
     lpProvider: "Crona",
     wantAddress: "0x503d56B2f535784B7f2bcD6581F7e1b46DC0e60c",
     depositFee: "0%",
@@ -530,7 +530,7 @@ export const cronos = [
   {
     id: "crona-usdt-matic",
     pid: 25,
-    lpSymbol: "MATIC-USDT",
+    lpSymbol: "MATIC-USDT LP",
     lpProvider: "Crona",
     wantAddress: "0x394080F7c770771B6EE4f4649bC477F0676ceA5C",
     depositFee: "0%",
@@ -551,7 +551,7 @@ export const cronos = [
   {
     id: "crona-usdt-avax",
     pid: 26,
-    lpSymbol: "AVAX-USDT",
+    lpSymbol: "AVAX-USDT LP",
     lpProvider: "Crona",
     wantAddress: "0x193add22b0a333956C2Cb13F4D574aF129629c5f",
     depositFee: "0%",
@@ -572,7 +572,7 @@ export const cronos = [
   {
     id: "crona-usdt-ftm",
     pid: 27,
-    lpSymbol: "FTM-USDT",
+    lpSymbol: "FTM-USDT LP",
     lpProvider: "Crona",
     wantAddress: "0xDee7A79bb414FFB248EF4d4c5560AdC91F547F41",
     depositFee: "0%",
@@ -593,7 +593,7 @@ export const cronos = [
   {
     id: "crona-wcro-crona",
     pid: 28,
-    lpSymbol: "CRONA-CRO",
+    lpSymbol: "CRONA-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0xeD75347fFBe08d5cce4858C70Df4dB4Bbe8532a0",
     depositFee: "0%",
@@ -614,7 +614,7 @@ export const cronos = [
   {
     id: "crodex-wcro-free",
     pid: 29,
-    lpSymbol: "FREE-CRO",
+    lpSymbol: "FREE-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xC340f1C211bD3304bAbc076A63009c6Da0Bf9D42",
     depositFee: "0%",
@@ -635,7 +635,7 @@ export const cronos = [
   {
     id: "crodex-mim-usdt",
     pid: 30,
-    lpSymbol: "USDT-MIM",
+    lpSymbol: "USDT-MIM LP",
     lpProvider: "Crodex",
     wantAddress: "0xe35c203E2183869001304212873e8261016a8CDe",
     depositFee: "0%",
@@ -656,7 +656,7 @@ export const cronos = [
   {
     id: "crodex-busd-crx",
     pid: 31,
-    lpSymbol: "CRX-BUSD",
+    lpSymbol: "CRX-BUSD LP",
     lpProvider: "Crodex",
     wantAddress: "0x77c30A3940a7178683aFC75E1e97Dd51AD80bdD0",
     depositFee: "0%",
@@ -677,7 +677,7 @@ export const cronos = [
   {
     id: "crodex-wcro-ftm",
     pid: 32,
-    lpSymbol: "FTM-CRO",
+    lpSymbol: "FTM-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x8E85D51b1297dcB486837994d66736bc90E50D6e",
     depositFee: "0%",
@@ -698,7 +698,7 @@ export const cronos = [
   {
     id: "crodex-wcro-bnb",
     pid: 33,
-    lpSymbol: "BNB-CRO",
+    lpSymbol: "BNB-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x7Ac511e0240ccFb86B358c73DFbC4d7497749412",
     depositFee: "0%",
@@ -719,7 +719,7 @@ export const cronos = [
   {
     id: "crona-usdt-usdc",
     pid: 34,
-    lpSymbol: "USDC-USDT",
+    lpSymbol: "USDC-USDT LP",
     lpProvider: "Crona",
     wantAddress: "0x968fE4C06fdD503E278d89d5dFe29935A111476C",
     depositFee: "0%",
@@ -740,7 +740,7 @@ export const cronos = [
   {
     id: "crodex-usdt-crx",
     pid: 35,
-    lpSymbol: "CRX-USDT",
+    lpSymbol: "CRX-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0x89e1135b2C82FEb19F5ecb78e35C309A6aEF7b01",
     depositFee: "0%",
@@ -761,7 +761,7 @@ export const cronos = [
   {
     id: "photon-wcro-photon",
     pid: 36,
-    lpSymbol: "PHOTON-CRO",
+    lpSymbol: "PHOTON-CRO LP",
     lpProvider: "Photon",
     wantAddress: "0x2F47AE6d9d8e45BFb3b1358fD0f77652ad3AB18F",
     depositFee: "0%",
@@ -782,7 +782,7 @@ export const cronos = [
   {
     id: "photon-wcro-dxp",
     pid: 37,
-    lpSymbol: "DxP-CRO",
+    lpSymbol: "DxP-CRO LP",
     lpProvider: "Photon",
     wantAddress: "0xeb6950FC5282CC32a1759B8E81EF4b175C5211EE",
     depositFee: "0%",
@@ -803,7 +803,7 @@ export const cronos = [
   {
     id: "photon-wcro-usdc",
     pid: 38,
-    lpSymbol: "USDC-CRO",
+    lpSymbol: "USDC-CRO LP",
     lpProvider: "Photon",
     wantAddress: "0x637348EaCE7f44C1dF82e15bcb0F968351fB7406",
     depositFee: "0%",
@@ -824,7 +824,7 @@ export const cronos = [
   {
     id: "vvs-usdt-usdc",
     pid: 39,
-    lpSymbol: "USDC-USDT",
+    lpSymbol: "USDC-USDT LP",
     lpProvider: "VVS",
     wantAddress: "0x39cC0E14795A8e6e9D02A21091b81FE0d61D82f9",
     depositFee: "0%",
@@ -845,7 +845,7 @@ export const cronos = [
   {
     id: "crodex-wcro-polydoge",
     pid: 40,
-    lpSymbol: "PolyDoge-CRO",
+    lpSymbol: "PolyDoge-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x7AA68B5D29a838C8Dafa033c5276a5379BCD0d3B",
     depositFee: "0%",
@@ -866,7 +866,7 @@ export const cronos = [
   {
     id: "crodex-wcro-crystl",
     pid: 41,
-    lpSymbol: "CRYSTL-CRO",
+    lpSymbol: "CRYSTL-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xDF06013797083E077aA1347D74bD7c7cDfeF7856",
     depositFee: "0%",
@@ -887,7 +887,7 @@ export const cronos = [
   {
     id: "storm-wind-wcro",
     pid: 42,
-    lpSymbol: "CRO-WIND",
+    lpSymbol: "CRO-WIND LP",
     lpProvider: "Crona",
     wantAddress: "0x7d978D63b0109fEd6A0FaE1400970E145c86c508",
     depositFee: "0%",
@@ -908,7 +908,7 @@ export const cronos = [
   {
     id: "vvs-vvs-usdt",
     pid: 43,
-    lpSymbol: "USDT-VVS",
+    lpSymbol: "USDT-VVS LP",
     lpProvider: "VVS",
     wantAddress: "0x280aCAD550B2d3Ba63C8cbff51b503Ea41a1c61B",
     depositFee: "0%",
@@ -929,7 +929,7 @@ export const cronos = [
   {
     id: "crona-wcro-crystl",
     pid: 44,
-    lpSymbol: "CRYSTL-CRO",
+    lpSymbol: "CRYSTL-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0xdEb28305D5c8d5Ce3B3bc5398Ba81012580a5A11",
     depositFee: "0%",
@@ -950,7 +950,7 @@ export const cronos = [
   {
     id: "crona-usdc-dai",
     pid: 45,
-    lpSymbol: "DAI-USDC",
+    lpSymbol: "DAI-USDC LP",
     lpProvider: "Crona",
     wantAddress: "0xaEbaFDbe975DB0bfbF4e95a6493CB93d02cc86aE",
     depositFee: "0%",
@@ -971,7 +971,7 @@ export const cronos = [
   {
     id: "crona-usdt-crona",
     pid: 46,
-    lpSymbol: "CRONA-USDT",
+    lpSymbol: "CRONA-USDT LP",
     lpProvider: "Crona",
     wantAddress: "0x0427F9C304b0028f67A5fD61ffdD613186c1894B",
     depositFee: "0%",
@@ -992,7 +992,7 @@ export const cronos = [
   {
     id: "crona-crona-usdc",
     pid: 47,
-    lpSymbol: "USDC-CRONA",
+    lpSymbol: "USDC-CRONA LP",
     lpProvider: "Crona",
     wantAddress: "0x482E0eEb877091cfca439D131321bDE23ddf9bB5",
     depositFee: "0%",
@@ -1013,7 +1013,7 @@ export const cronos = [
   {
     id: "elk-wcro-elk",
     pid: 48,
-    lpSymbol: "ELK-CRO",
+    lpSymbol: "ELK-CRO LP",
     lpProvider: "Elk",
     wantAddress: "0xfe6379509C7134429f7B0AEfDdA6f2b74d82b6bC",
     depositFee: "0%",
@@ -1034,7 +1034,7 @@ export const cronos = [
   {
     id: "vvs-wcro-shib",
     pid: 49,
-    lpSymbol: "SHIB-CRO",
+    lpSymbol: "SHIB-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0xc9eA98736dbC94FAA91AbF9F4aD1eb41e7fb40f4",
     depositFee: "0%",
@@ -1055,7 +1055,7 @@ export const cronos = [
   {
     id: "vvs-wcro-usdc",
     pid: 50,
-    lpSymbol: "USDC-CRO",
+    lpSymbol: "USDC-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0xe61Db569E231B3f5530168Aa2C9D50246525b6d6",
     depositFee: "0%",
@@ -1076,7 +1076,7 @@ export const cronos = [
   {
     id: "vvs-wcro-usdt",
     pid: 51,
-    lpSymbol: "USDT-CRO",
+    lpSymbol: "USDT-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0x3d2180DB9E1B909f35C398BC39EF36108C0FC8c3",
     depositFee: "0%",
@@ -1097,7 +1097,7 @@ export const cronos = [
   {
     id: "photon-usdt-usdc",
     pid: 52,
-    lpSymbol: "USDC-USDT",
+    lpSymbol: "USDC-USDT LP",
     lpProvider: "Photon",
     wantAddress: "0xe8D33AEEE115245e684Ab7A2A9bf7dCF0cB71f40",
     depositFee: "0%",
@@ -1118,7 +1118,7 @@ export const cronos = [
   {
     id: "vvs-wcro-dai",
     pid: 53,
-    lpSymbol: "DAI-CRO",
+    lpSymbol: "DAI-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0x3Eb9FF92e19b73235A393000C176c8bb150F1B20",
     depositFee: "0%",
@@ -1139,7 +1139,7 @@ export const cronos = [
   {
     id: "chrono-cno-usdc",
     pid: 54,
-    lpSymbol: "USDC-CNO",
+    lpSymbol: "USDC-CNO LP",
     lpProvider: "Chronoswap",
     wantAddress: "0x50aF1c38AF0481C9d06F72a045274201781773ae",
     depositFee: "0%",
@@ -1160,7 +1160,7 @@ export const cronos = [
   {
     id: "chrono-cno-wcro",
     pid: 55,
-    lpSymbol: "CRO-CNO",
+    lpSymbol: "CRO-CNO LP",
     lpProvider: "Chronoswap",
     wantAddress: "0x4BbCE14d69F9fEA118992f1944c084753f1B0bf9",
     depositFee: "0%",
@@ -1181,7 +1181,7 @@ export const cronos = [
   {
     id: "chrono-wcro-crystl",
     pid: 56,
-    lpSymbol: "CRYSTL-CRO",
+    lpSymbol: "CRYSTL-CRO LP",
     lpProvider: "Chronoswap",
     wantAddress: "0xb00336649c04a073c2Dde47260618721b8223d94",
     depositFee: "0%",
@@ -1202,7 +1202,7 @@ export const cronos = [
   {
     id: "photon-wcro-usdc",
     pid: 57,
-    lpSymbol: "USDC-CRO",
+    lpSymbol: "USDC-CRO LP",
     lpProvider: "Photon",
     wantAddress: "0x637348EaCE7f44C1dF82e15bcb0F968351fB7406",
     depositFee: "0%",
@@ -1223,7 +1223,7 @@ export const cronos = [
   {
     id: "photon-wcro-dxp",
     pid: 58,
-    lpSymbol: "DxP-CRO",
+    lpSymbol: "DxP-CRO LP",
     lpProvider: "Photon",
     wantAddress: "0xeb6950FC5282CC32a1759B8E81EF4b175C5211EE",
     depositFee: "0%",
@@ -1244,7 +1244,7 @@ export const cronos = [
   {
     id: "photon-wcro-photon",
     pid: 59,
-    lpSymbol: "PHOTON-CRO",
+    lpSymbol: "PHOTON-CRO LP",
     lpProvider: "Photon",
     wantAddress: "0x2F47AE6d9d8e45BFb3b1358fD0f77652ad3AB18F",
     depositFee: "0%",
@@ -1265,7 +1265,7 @@ export const cronos = [
   {
     id: "crodex-usdc-crx-2",
     pid: 60,
-    lpSymbol: "CRX-USDC",
+    lpSymbol: "CRX-USDC LP",
     lpProvider: "Crodex",
     wantAddress: "0xa6E9f20A93E0b50f074bc2FC693E8Add3812F8c4",
     depositFee: "0%",
@@ -1286,7 +1286,7 @@ export const cronos = [
   {
     id: "crodex-wcro-usdt-2",
     pid: 61,
-    lpSymbol: "USDT-CRO",
+    lpSymbol: "USDT-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x47AB43F8176696CA569b14A24621A46b318096A7",
     depositFee: "0%",
@@ -1307,7 +1307,7 @@ export const cronos = [
   {
     id: "crodex-usdt-crx-2",
     pid: 62,
-    lpSymbol: "CRX-USDT",
+    lpSymbol: "CRX-USDT LP",
     lpProvider: "Crodex",
     wantAddress: "0x89e1135b2C82FEb19F5ecb78e35C309A6aEF7b01",
     depositFee: "0%",
@@ -1328,7 +1328,7 @@ export const cronos = [
   {
     id: "crodex-busd-crx-2",
     pid: 63,
-    lpSymbol: "CRX-BUSD",
+    lpSymbol: "CRX-BUSD LP",
     lpProvider: "Crodex",
     wantAddress: "0x77c30A3940a7178683aFC75E1e97Dd51AD80bdD0",
     depositFee: "0%",
@@ -1349,7 +1349,7 @@ export const cronos = [
   {
     id: "crodex-wcro-crystl-2",
     pid: 64,
-    lpSymbol: "CRYSTL-CRO",
+    lpSymbol: "CRYSTL-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xDF06013797083E077aA1347D74bD7c7cDfeF7856",
     depositFee: "0%",
@@ -1370,7 +1370,7 @@ export const cronos = [
   {
     id: "crodex-wcro-crx-2",
     pid: 65,
-    lpSymbol: "CRX-CRO",
+    lpSymbol: "CRX-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xd141aeD3FA86f411808D5D74BEbBC038e94f300D",
     depositFee: "0%",
@@ -1391,7 +1391,7 @@ export const cronos = [
   {
     id: "crodex-mai-usdc",
     pid: 66,
-    lpSymbol: "USDC-MAI",
+    lpSymbol: "USDC-MAI LP",
     lpProvider: "Crodex",
     wantAddress: "0xD8a6b00D066bf66dEABA913fB1E63D24d81ff68b",
     depositFee: "0%",
@@ -1412,7 +1412,7 @@ export const cronos = [
   {
     id: "crodex-mim-usdc",
     pid: 67,
-    lpSymbol: "USDC-MIM",
+    lpSymbol: "USDC-MIM LP",
     lpProvider: "Crodex",
     wantAddress: "0x2310866684D3cbbf335e68692Fd481A051128a4d",
     depositFee: "0%",
@@ -1433,7 +1433,7 @@ export const cronos = [
   {
     id: "crodex-wcro-crystl-3",
     pid: 68,
-    lpSymbol: "CRYSTL-CRO",
+    lpSymbol: "CRYSTL-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xDF06013797083E077aA1347D74bD7c7cDfeF7856",
     depositFee: "0%",
@@ -1454,7 +1454,7 @@ export const cronos = [
   {
     id: "salem-wcro-salem",
     pid: 69,
-    lpSymbol: "SALEM-CRO",
+    lpSymbol: "SALEM-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0x03F297457ED6197D0A387a5C53dC72aCf8fDB3FC",
     depositFee: "0%",
@@ -1475,7 +1475,7 @@ export const cronos = [
   {
     id: "vvs-doge-wcro",
     pid: 70,
-    lpSymbol: "CRO-DOGE",
+    lpSymbol: "CRO-DOGE LP",
     lpProvider: "VVS",
     wantAddress: "0x2A560f2312CB56327AD5D65a03F1bfEC10b62075",
     depositFee: "0%",
@@ -1496,7 +1496,7 @@ export const cronos = [
   {
     id: "crona-wbtc-weth",
     pid: 71,
-    lpSymbol: "WETH-WBTC",
+    lpSymbol: "WETH-WBTC LP",
     lpProvider: "Crona",
     wantAddress: "0x285a569EDD6210a0410883d2E29471A6B0c7790d",
     depositFee: "0%",
@@ -1518,7 +1518,7 @@ export const cronos = [
   {
     id: "crona-usdc-weth",
     pid: 72,
-    lpSymbol: "WETH-USDC",
+    lpSymbol: "WETH-USDC LP",
     lpProvider: "Crona",
     wantAddress: "0x5cc953f278bf6908B2632c65D6a202D6fd1370f9",
     depositFee: "0%",
@@ -1540,7 +1540,7 @@ export const cronos = [
   {
     id: "crona-wbtc-usdc",
     pid: 73,
-    lpSymbol: "USDC-WBTC",
+    lpSymbol: "USDC-WBTC LP",
     lpProvider: "Crona",
     wantAddress: "0xea7fc6A39B0d0344e1662E6ABF2FEcD19Bf3D029",
     depositFee: "0%",
@@ -1561,7 +1561,7 @@ export const cronos = [
   {
     id: "vvs-wcro-atom",
     pid: 74,
-    lpSymbol: "ATOM-CRO",
+    lpSymbol: "ATOM-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0x9e5bd780dff875Dd85848a65549791445AE25De0",
     depositFee: "0%",
@@ -1582,7 +1582,7 @@ export const cronos = [
   {
     id: "crodex-wcro-loot",
     pid: 75,
-    lpSymbol: "LOOT-CRO",
+    lpSymbol: "LOOT-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0x8678778b74884F1d01290E323D4b04481f587231",
     depositFee: "0%",
@@ -1601,10 +1601,10 @@ export const cronos = [
       "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEd34211cDD2cf76C3cceE162761A72d7b6601E2B",
   },
   {
-    id: "dnadollar-dshare-usdc", //used dnadollar for the short website name
+    id: "dnadollar-dshare-usdc",
     pid: 76,
-    lpSymbol: "USDC-DSHARE",
-    lpProvider: "Ducky", //used Ducky for duckydefi
+    lpSymbol: "USDC-DSHARE LP",
+    lpProvider: "Ducky",
     wantAddress: "0x3AC3A1A067E3159bD9201aB05C965BCC66763dfE",
     depositFee: "0%",
     strategyAddress: "0x87213aA48037F48806FC0F29bc39C2f65C17ECF8",
@@ -1624,7 +1624,7 @@ export const cronos = [
   {
     id: "dnadollar-usdc-dna",
     pid: 77,
-    lpSymbol: "DNA-USDC",
+    lpSymbol: "DNA-USDC LP",
     lpProvider: "Ducky",
     wantAddress: "0x3f72530e62Bc731fCaA8BE9F3a7A10aab457d365",
     depositFee: "0%",
@@ -1645,7 +1645,7 @@ export const cronos = [
   {
     id: "crodex-wcro-crx-3",
     pid: 78,
-    lpSymbol: "CRX-CRO",
+    lpSymbol: "CRX-CRO LP",
     lpProvider: "Crodex",
     wantAddress: "0xd141aeD3FA86f411808D5D74BEbBC038e94f300D",
     depositFee: "0%",
@@ -1666,7 +1666,7 @@ export const cronos = [
   {
     id: "crona-wcro-cross",
     pid: 79,
-    lpSymbol: "CROSS-CRO",
+    lpSymbol: "CROSS-CRO LP",
     lpProvider: "Crona",
     wantAddress: "0x3A0490585Aa889DeD22BCB8C2E6C03a0Cb319E51",
     depositFee: "0%",
@@ -1687,7 +1687,7 @@ export const cronos = [
   {
     id: "avtocross-cross-xusd",
     pid: 80,
-    lpSymbol: "xUSD-CROSS",
+    lpSymbol: "xUSD-CROSS LP",
     lpProvider: "Crona",
     wantAddress: "0x26882757Bc8A8DcFace126d78d38a7bBA2a280cd",
     depositFee: "0%",
@@ -1708,7 +1708,7 @@ export const cronos = [
   {
     id: "dnadollar-usdc-dna",
     pid: 81,
-    lpSymbol: "DNA-USDC",
+    lpSymbol: "DNA-USDC LP",
     lpProvider: "Meerkat",
     wantAddress: "0x853067186eeB57241d8D460bD8c3aA92CBF6f60e",
     depositFee: "0%",
@@ -1729,7 +1729,7 @@ export const cronos = [
   {
     id: "dnadollar-dshare-usdc",
     pid: 82,
-    lpSymbol: "USDC-DSHARE",
+    lpSymbol: "USDC-DSHARE LP",
     lpProvider: "Meerkat",
     wantAddress: "0xFe0F0d50175789C1F69B41dB797cc9ABd8Ab0120",
     depositFee: "0%",
@@ -1750,7 +1750,7 @@ export const cronos = [
   {
     id: "darkcrypto-wcro-dark",
     pid: 83,
-    lpSymbol: "DARK-CRO",
+    lpSymbol: "DARK-CRO LP",
     lpProvider: "Meerkat",
     wantAddress: "0xA4AA24B8e855052071Df60E174219e6c8FEe45a3",
     depositFee: "0%",
@@ -1771,7 +1771,7 @@ export const cronos = [
   {
     id: "darkcrypto-wcro-sky",
     pid: 84,
-    lpSymbol: "SKY-CRO",
+    lpSymbol: "SKY-CRO LP",
     lpProvider: "Meerkat",
     wantAddress: "0xaA0845EE17e4f1D4F3A8c22cB1e8102baCf56a77",
     depositFee: "0%",
@@ -1792,7 +1792,7 @@ export const cronos = [
   {
     id: "chrono-cno-wcro",
     pid: 85,
-    lpSymbol: "CRO-CNO",
+    lpSymbol: "CRO-CNO LP",
     lpProvider: "Chronoswap",
     wantAddress: "0xC20397D6D31d4A0ff76b94E4Eaed7a36f5c4d992",
     depositFee: "0%",
@@ -1813,7 +1813,7 @@ export const cronos = [
   {
     id: "chrono-wcro-crystl",
     pid: 86,
-    lpSymbol: "CRYSTL-CRO",
+    lpSymbol: "CRYSTL-CRO LP",
     lpProvider: "Chronoswap",
     wantAddress: "0x92591aDD92FA326F8E7a87d7DFE44b3bDE09f919",
     depositFee: "0%",
@@ -1834,7 +1834,7 @@ export const cronos = [
   {
     id: "vvs-wcro-tonic",
     pid: 87,
-    lpSymbol: "TONIC-CRO",
+    lpSymbol: "TONIC-CRO LP",
     lpProvider: "VVS",
     wantAddress: "0x4B377121d968Bf7a62D51B96523d59506e7c2BF0",
     depositFee: "0%",
