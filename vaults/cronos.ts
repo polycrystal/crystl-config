@@ -2041,4 +2041,25 @@ export const cronos = [
     addLiquidityUrl:
       "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66ec6E9F61ac288f5BA661CD9a2dBe3aBf9871C9",
   },
+  {
+    id: "gaur-gaur-weth",
+    pid: 97,
+    lpSymbol: "WETH-GAUR LP",
+    lpProvider: "Meerkat",
+    wantAddress: "0xe34973E9C89A9a1d2886379CE52D32DDE296cA22",
+    depositFee: "0%",
+    strategyAddress: "0x5D21662E72fB38dC4668F4A527CAEfc55282ff82",
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: "lps",
+    oracleId: "gaur-gaur-weth",
+    oraclePrice: 0,
+    paused: false,
+    platform: "GaurMoney",
+    farmSite: "https://gaur.money/",
+    projectSite: "https://gaur.money/",
+    assets: ["WETH", "GAUR"],
+    addLiquidityUrl:
+      "https://mm.finance/add/0x046cb616d7a52173e4Da9efF1BFd590550aa3228/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+  },
 ];
