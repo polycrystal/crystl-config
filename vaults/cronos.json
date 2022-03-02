@@ -2061,5 +2061,5 @@
     "assets": ["WETH", "GAUR"],
     "addLiquidityUrl":
       "https://mm.finance/add/0x046cb616d7a52173e4Da9efF1BFd590550aa3228/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
-  },
-];
+  }
+]
