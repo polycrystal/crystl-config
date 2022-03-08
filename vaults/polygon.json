@@ -1691,6 +1691,7 @@
     "wantAddress": "0xA7E340Eead5DFF3752c4818aE1AeeEB7b81b78d1",
     "depositFee": "0%",
     "strategyAddress": "0xABbCAf2412e07134F8D1aE14f382Ab62561585bB",
+    "farmPid": 0,
     "pricePerFullShare": 1,
     "tvl": 0,
     "oracle": "lps",
