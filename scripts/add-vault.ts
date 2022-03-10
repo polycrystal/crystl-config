@@ -190,7 +190,9 @@ async function main() {
   const newVault = {
     id: tempName,
     pid,
-    lpSymbol: `${token1.symbol}-${token0.symbol} LP`,
+    lpSymbol: `${token1.symbol === "WCRO" ? "CRO" : token1.symbol}-${
+      token0.symbol === "WCRO" ? "CRO" : token0.symbol
+    } LP`,
     lpProvider: provider.toUpperCase(),
     wantAddress: lp.address,
     depositFee: "0%",

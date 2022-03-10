@@ -2304,7 +2304,7 @@
   {
     "id": "crona-wcro-usdc-2",
     "pid": 100,
-    "lpSymbol": "USDC-WCRO LP",
+    "lpSymbol": "USDC-CRO LP",
     "lpProvider": "CRONA",
     "wantAddress": "0x0625A68D25d304aed698c806267a4e369e8Eb12a",
     "depositFee": "0%",
@@ -2328,7 +2328,7 @@
   {
     "id": "crona-wcro-crona-2",
     "pid": 101,
-    "lpSymbol": "CRONA-WCRO LP",
+    "lpSymbol": "CRONA-CRO LP",
     "lpProvider": "CRONA",
     "wantAddress": "0xeD75347fFBe08d5cce4858C70Df4dB4Bbe8532a0",
     "depositFee": "0%",
@@ -2352,7 +2352,7 @@
   {
     "id": "crodex-wcro-crystl-5",
     "pid": 102,
-    "lpSymbol": "CRYSTL-WCRO LP",
+    "lpSymbol": "CRYSTL-CRO LP",
     "lpProvider": "CRODEX",
     "wantAddress": "0xDF06013797083E077aA1347D74bD7c7cDfeF7856",
     "depositFee": "0%",
@@ -2376,7 +2376,7 @@
   {
     "id": "crodex-wcro-crx-5",
     "pid": 103,
-    "lpSymbol": "CRX-WCRO LP",
+    "lpSymbol": "CRX-CRO LP",
     "lpProvider": "CRODEX",
     "wantAddress": "0xd141aeD3FA86f411808D5D74BEbBC038e94f300D",
     "depositFee": "0%",
