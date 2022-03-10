@@ -16,7 +16,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://wbtc.network/",
-    "assets": ["USDT", "BTC"],
+    "assets": [
+      "USDT",
+      "BTC"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -36,7 +39,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.makerdao.com/",
-    "assets": ["DAI", "USDT"],
+    "assets": [
+      "DAI",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xF2001B145b43032AAF5Ee2884e456CCd805F677D"
   },
   {
@@ -56,7 +62,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "USDT"],
+    "assets": [
+      "USDC",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -76,7 +85,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "USDC"],
+    "assets": [
+      "CRX",
+      "USDC"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -96,7 +108,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "USDT"],
+    "assets": [
+      "ETH",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
   },
   {
@@ -116,7 +131,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDC", "CRO"],
+    "assets": [
+      "USDC",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -136,7 +154,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["DAI", "CRO"],
+    "assets": [
+      "DAI",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xF2001B145b43032AAF5Ee2884e456CCd805F677D"
   },
   {
@@ -156,7 +177,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDT", "CRO"],
+    "assets": [
+      "USDT",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -176,7 +200,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.mai.finance/",
-    "assets": ["USDC", "MIMATIC"],
+    "assets": [
+      "USDC",
+      "MIMATIC"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x1c965D8E53fb1a448789e2B0FA5abc3EB2c36993/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -196,7 +223,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.mai.finance/",
-    "assets": ["CRO", "MIMATIC"],
+    "assets": [
+      "CRO",
+      "MIMATIC"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x1c965D8E53fb1a448789e2B0FA5abc3EB2c36993/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -216,7 +246,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://polygon.technology",
-    "assets": ["MATIC", "USDT"],
+    "assets": [
+      "MATIC",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xad79AC3c5a5c15C6B9194F5568e451b3fc3C2B40"
   },
   {
@@ -236,7 +269,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.relaychain.com/",
-    "assets": ["RELAY", "CRO"],
+    "assets": [
+      "RELAY",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x9C29650a1B273A031A35F3121914aae882B144A4"
   },
   {
@@ -256,7 +292,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.avax.network/",
-    "assets": ["RAVAX", "USDT"],
+    "assets": [
+      "RAVAX",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xe7e12F436ae05cE6623eFB68B28ca4b83A953600"
   },
   {
@@ -276,7 +315,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "CRO"],
+    "assets": [
+      "CRX",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -296,7 +338,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.mim-swarm.com/",
-    "assets": ["CRO", "MIM"],
+    "assets": [
+      "CRO",
+      "MIM"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x2BC472832Eb20C65F82d6A869db845aB0C0099ba/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -316,7 +361,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://vvs.finance/",
-    "assets": ["CRO", "VVS"],
+    "assets": [
+      "CRO",
+      "VVS"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -336,7 +384,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://wbtc.network/",
-    "assets": ["CRO", "BTC"],
+    "assets": [
+      "CRO",
+      "BTC"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -356,7 +407,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "CRO"],
+    "assets": [
+      "ETH",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
   },
   {
@@ -376,7 +430,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://vvs.finance/",
-    "assets": ["USDC", "VVS"],
+    "assets": [
+      "USDC",
+      "VVS"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -396,7 +453,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDC", "CRO"],
+    "assets": [
+      "USDC",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -416,7 +476,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDT", "CRO"],
+    "assets": [
+      "USDT",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -436,7 +499,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "CRO"],
+    "assets": [
+      "ETH",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
   },
   {
@@ -456,7 +522,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://wbtc.network/",
-    "assets": ["CRO", "BTC"],
+    "assets": [
+      "CRO",
+      "BTC"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -476,7 +545,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://www.makerdao.com/",
-    "assets": ["DAI", "CRO"],
+    "assets": [
+      "DAI",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xF2001B145b43032AAF5Ee2884e456CCd805F677D"
   },
   {
@@ -496,7 +568,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://tether.to",
-    "assets": ["BUSD", "USDT"],
+    "assets": [
+      "BUSD",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8"
   },
   {
@@ -516,7 +591,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://polygon.technology",
-    "assets": ["MATIC", "USDT"],
+    "assets": [
+      "MATIC",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055"
   },
   {
@@ -536,7 +614,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://www.avax.network/",
-    "assets": ["AVAX", "USDT"],
+    "assets": [
+      "AVAX",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0x765277EebeCA2e31912C9946eAe1021199B39C61"
   },
   {
@@ -556,7 +637,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://fantom.foundation/",
-    "assets": ["FTM", "USDT"],
+    "assets": [
+      "FTM",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xB44a9B6905aF7c801311e8F4E76932ee959c663C"
   },
   {
@@ -576,7 +660,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://app.cronaswap.org/",
-    "assets": ["CRONA", "CRO"],
+    "assets": [
+      "CRONA",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xadbd1231fb360047525BEdF962581F3eee7b49fe"
   },
   {
@@ -596,7 +683,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://freeriver.exchange/",
-    "assets": ["FREE", "CRO"],
+    "assets": [
+      "FREE",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x9209d64F2930DaAe334e0fc2939709E593A88041"
   },
   {
@@ -616,7 +706,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.mim-swarm.com/",
-    "assets": ["USDT", "MIM"],
+    "assets": [
+      "USDT",
+      "MIM"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x2BC472832Eb20C65F82d6A869db845aB0C0099ba/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -636,7 +729,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "BUSD"],
+    "assets": [
+      "CRX",
+      "BUSD"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -656,7 +752,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://fantom.foundation/",
-    "assets": ["FTM", "CRO"],
+    "assets": [
+      "FTM",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xB44a9B6905aF7c801311e8F4E76932ee959c663C"
   },
   {
@@ -676,7 +775,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://binance.com/",
-    "assets": ["BNB", "CRO"],
+    "assets": [
+      "BNB",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xfA9343C3897324496A05fC75abeD6bAC29f8A40f"
   },
   {
@@ -696,7 +798,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "USDT"],
+    "assets": [
+      "USDC",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -716,7 +821,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "USDT"],
+    "assets": [
+      "CRX",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -736,7 +844,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://photonswap.finance/",
-    "assets": ["PHOTON", "CRO"],
+    "assets": [
+      "PHOTON",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xbdd4e5660839a088573191A9889A262c0Efc0983"
   },
   {
@@ -756,7 +867,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://dexpad.io/",
-    "assets": ["DXP", "CRO"],
+    "assets": [
+      "DXP",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe0c41FF9a7032de445771E12C14868CbE061C993"
   },
   {
@@ -776,7 +890,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "CRO"],
+    "assets": [
+      "USDC",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -796,7 +913,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "USDT"],
+    "assets": [
+      "USDC",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -816,7 +936,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.polydoge.com",
-    "assets": ["POLYDOGE", "CRO"],
+    "assets": [
+      "POLYDOGE",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x9b8077C6590b560f1A9D60512648277D29b35A3B"
   },
   {
@@ -836,7 +959,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -856,7 +982,10 @@
     "platform": "STORMSWAP",
     "farmSite": "https://cronos.stormswap.finance/",
     "projectSite": "https://cronos.stormswap.finance/",
-    "assets": ["CRO", "WIND"],
+    "assets": [
+      "CRO",
+      "WIND"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x48713151E5AFB7b4CC45f3653c1c59CF81E88D4B/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -876,7 +1005,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://vvs.finance/",
-    "assets": ["USDT", "VVS"],
+    "assets": [
+      "USDT",
+      "VVS"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -896,7 +1028,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -916,7 +1051,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["DAI", "USDC"],
+    "assets": [
+      "DAI",
+      "USDC"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xF2001B145b43032AAF5Ee2884e456CCd805F677D"
   },
   {
@@ -936,7 +1074,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://app.cronaswap.org/",
-    "assets": ["CRONA", "USDT"],
+    "assets": [
+      "CRONA",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xadbd1231fb360047525BEdF962581F3eee7b49fe"
   },
   {
@@ -956,7 +1097,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://app.cronaswap.org/",
-    "assets": ["USDC", "CRONA"],
+    "assets": [
+      "USDC",
+      "CRONA"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0xadbd1231fb360047525BEdF962581F3eee7b49fe/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -976,7 +1120,10 @@
     "platform": "ELK",
     "farmSite": "https://app.elk.finance/",
     "projectSite": "https://app.elk.finance/",
-    "assets": ["ELK", "CRO"],
+    "assets": [
+      "ELK",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.elk.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C"
   },
   {
@@ -996,7 +1143,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://shibatoken.com/",
-    "assets": ["SHIB", "CRO"],
+    "assets": [
+      "SHIB",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xbED48612BC69fA1CaB67052b42a95FB30C1bcFee"
   },
   {
@@ -1016,7 +1166,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDC", "CRO"],
+    "assets": [
+      "USDC",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1036,7 +1189,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDT", "CRO"],
+    "assets": [
+      "USDT",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -1056,7 +1212,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "USDT"],
+    "assets": [
+      "USDC",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1076,7 +1235,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["DAI", "CRO"],
+    "assets": [
+      "DAI",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xF2001B145b43032AAF5Ee2884e456CCd805F677D"
   },
   {
@@ -1096,7 +1258,10 @@
     "platform": "CHRONOSWAP",
     "farmSite": "https://chronoswap.org/",
     "projectSite": "https://chronoswap.org/",
-    "assets": ["USDC", "CNO"],
+    "assets": [
+      "USDC",
+      "CNO"
+    ],
     "addLiquidityUrl": "https://chronoswap.org/add/0x322e21dcAcE43d319646756656b29976291d7C76/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1116,7 +1281,10 @@
     "platform": "CHRONOSWAP",
     "farmSite": "https://chronoswap.org/",
     "projectSite": "https://chronoswap.org/",
-    "assets": ["CRO", "CNO"],
+    "assets": [
+      "CRO",
+      "CNO"
+    ],
     "addLiquidityUrl": "https://chronoswap.org/add/0x322e21dcAcE43d319646756656b29976291d7C76/0xca2503482e5D6D762b524978f400f03E38d5F962"
   },
   {
@@ -1136,7 +1304,10 @@
     "platform": "CHRONOSWAP",
     "farmSite": "https://chronoswap.org/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://chronoswap.org/add/0xca2503482e5D6D762b524978f400f03E38d5F962/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -1156,7 +1327,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "CRO"],
+    "assets": [
+      "USDC",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1176,7 +1350,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://dexpad.io/",
-    "assets": ["DXP", "CRO"],
+    "assets": [
+      "DXP",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe0c41FF9a7032de445771E12C14868CbE061C993"
   },
   {
@@ -1196,7 +1373,10 @@
     "platform": "PHOTON",
     "farmSite": "https://photonswap.finance/",
     "projectSite": "https://photonswap.finance/",
-    "assets": ["PHOTON", "CRO"],
+    "assets": [
+      "PHOTON",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xbdd4e5660839a088573191A9889A262c0Efc0983"
   },
   {
@@ -1216,7 +1396,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "USDC"],
+    "assets": [
+      "CRX",
+      "USDC"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -1236,7 +1419,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["USDT", "CRO"],
+    "assets": [
+      "USDT",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66e428c3f67a68878562e79A0234c1F83c208770"
   },
   {
@@ -1256,7 +1442,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "USDT"],
+    "assets": [
+      "CRX",
+      "USDT"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -1276,7 +1465,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "BUSD"],
+    "assets": [
+      "CRX",
+      "BUSD"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -1296,7 +1488,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -1316,7 +1511,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "CRO"],
+    "assets": [
+      "CRX",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -1336,7 +1534,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.mai.finance/",
-    "assets": ["USDC", "MAI"],
+    "assets": [
+      "USDC",
+      "MAI"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x2Ae35c8E3D4bD57e8898FF7cd2bBff87166EF8cb/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1356,7 +1557,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://www.mim-swarm.com/",
-    "assets": ["USDC", "MIM"],
+    "assets": [
+      "USDC",
+      "MIM"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x2BC472832Eb20C65F82d6A869db845aB0C0099ba/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1376,7 +1580,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -1396,7 +1603,10 @@
     "platform": "Salem",
     "farmSite": "https://cronos.salem.finance/",
     "projectSite": "https://cronos.salem.finance/",
-    "assets": ["SALEM", "CRO"],
+    "assets": [
+      "SALEM",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x637CB66526244029407046867E1E0DFD28b2294E"
   },
   {
@@ -1416,7 +1626,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://dogecoin.com/",
-    "assets": ["CRO", "DOGE"],
+    "assets": [
+      "CRO",
+      "DOGE"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -1436,7 +1649,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "BTC"],
+    "assets": [
+      "ETH",
+      "BTC"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
   },
   {
@@ -1456,7 +1672,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "USDC"],
+    "assets": [
+      "ETH",
+      "USDC"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
   },
   {
@@ -1476,7 +1695,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://wbtc.network/",
-    "assets": ["USDC", "BTC"],
+    "assets": [
+      "USDC",
+      "BTC"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1496,7 +1718,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://cosmos.network/",
-    "assets": ["ATOM", "CRO"],
+    "assets": [
+      "ATOM",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93"
   },
   {
@@ -1516,7 +1741,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://lootnetwork.ca/",
-    "assets": ["LOOT", "CRO"],
+    "assets": [
+      "LOOT",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEd34211cDD2cf76C3cceE162761A72d7b6601E2B"
   },
   {
@@ -1536,7 +1764,10 @@
     "platform": "DNADOLLAR",
     "farmSite": "https://dnadollar.com/",
     "projectSite": "https://dnadollar.com",
-    "assets": ["USDC", "DSHARE"],
+    "assets": [
+      "USDC",
+      "DSHARE"
+    ],
     "addLiquidityUrl": "https://exchange.duckydefi.com/#/add/0x0e98DC462fF438b802FaD0D68fF7F111a0674BB5/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1556,7 +1787,10 @@
     "platform": "DNADOLLAR",
     "farmSite": "https://dnadollar.com/",
     "projectSite": "https://dnadollar.com",
-    "assets": ["DNA", "USDC"],
+    "assets": [
+      "DNA",
+      "USDC"
+    ],
     "addLiquidityUrl": "https://exchange.duckydefi.com/#/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xCc57F84637B441127f2f74905b9d99821b47b20c"
   },
   {
@@ -1576,7 +1810,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "CRO"],
+    "assets": [
+      "CRX",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -1596,7 +1833,10 @@
     "platform": "CRONA",
     "farmSite": "https://app.cronaswap.org/",
     "projectSite": "https://avtocross.finance/",
-    "assets": ["CROSS", "CRO"],
+    "assets": [
+      "CROSS",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x6ef20cA7E493c52095e892DAB78a7FD0e7e2a279"
   },
   {
@@ -1616,7 +1856,10 @@
     "platform": "AVTOCROSS",
     "farmSite": "https://avtocross.finance/",
     "projectSite": "https://avtocross.finance/",
-    "assets": ["XUSD", "CROSS"],
+    "assets": [
+      "XUSD",
+      "CROSS"
+    ],
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x6ef20cA7E493c52095e892DAB78a7FD0e7e2a279/0xe6052a9a4c0A2f14ADC9876A3A1a7b2882f5F139"
   },
   {
@@ -1636,7 +1879,10 @@
     "platform": "DNADOLLAR",
     "farmSite": "https://dnadollar.com/",
     "projectSite": "https://dnadollar.com",
-    "assets": ["DNA", "USDC"],
+    "assets": [
+      "DNA",
+      "USDC"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xCc57F84637B441127f2f74905b9d99821b47b20c"
   },
   {
@@ -1656,7 +1902,10 @@
     "platform": "DNADOLLAR",
     "farmSite": "https://dnadollar.com/",
     "projectSite": "https://dnadollar.com",
-    "assets": ["USDC", "DSHARE"],
+    "assets": [
+      "USDC",
+      "DSHARE"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x0e98DC462fF438b802FaD0D68fF7F111a0674BB5/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
@@ -1676,7 +1925,10 @@
     "platform": "DARKCRYPTO",
     "farmSite": "https://www.darkcrypto.finance/",
     "projectSite": "https://www.darkcrypto.finance/",
-    "assets": ["DARK", "CRO"],
+    "assets": [
+      "DARK",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x83b2AC8642aE46FC2823Bc959fFEB3c1742c48B5"
   },
   {
@@ -1696,7 +1948,10 @@
     "platform": "DARKCRYPTO",
     "farmSite": "https://www.darkcrypto.finance/",
     "projectSite": "https://www.darkcrypto.finance/",
-    "assets": ["SKY", "CRO"],
+    "assets": [
+      "SKY",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x9D3BBb0e988D9Fb2d55d07Fe471Be2266AD9c81c"
   },
   {
@@ -1716,7 +1971,10 @@
     "platform": "CHRONOSWAP",
     "farmSite": "https://chronoswap.org/",
     "projectSite": "https://chronoswap.org/",
-    "assets": ["CRO", "CNO"],
+    "assets": [
+      "CRO",
+      "CNO"
+    ],
     "addLiquidityUrl": "https://chronoswap.org/add/0x322e21dcAcE43d319646756656b29976291d7C76/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -1736,7 +1994,10 @@
     "platform": "CHRONOSWAP",
     "farmSite": "https://chronoswap.org/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://chronoswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -1756,7 +2017,10 @@
     "platform": "VVS",
     "farmSite": "https://vvs.finance/",
     "projectSite": "https://tectonic.finance/",
-    "assets": ["TONIC", "CRO"],
+    "assets": [
+      "TONIC",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2"
   },
   {
@@ -1776,7 +2040,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://hibiki.finance/",
-    "assets": ["CHIBIKI", "CRO"],
+    "assets": [
+      "CHIBIKI",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x6B66fCB66Dba37F99876a15303b759c73fc54ed0"
   },
   {
@@ -1796,7 +2063,10 @@
     "platform": "RNACASH",
     "farmSite": "https://rnacash.com/",
     "projectSite": "https://rnacash.com/",
-    "assets": ["CRO", "RSHARE"],
+    "assets": [
+      "CRO",
+      "RSHARE"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x0827E67bA4E7626f515a023B28CC4E4462d2295f/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -1816,7 +2086,10 @@
     "platform": "RNACASH",
     "farmSite": "https://rnacash.com/",
     "projectSite": "https://rnacash.com/",
-    "assets": ["RNA", "CRO"],
+    "assets": [
+      "RNA",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xDe9E2ADDFd3BBadB67553CDb120c6C6593b180F9"
   },
   {
@@ -1836,7 +2109,10 @@
     "platform": "CHRONOSWAP",
     "farmSite": "https://chronoswap.org/",
     "projectSite": "https://chronoswap.org/",
-    "assets": ["CNFT", "CNO"],
+    "assets": [
+      "CNFT",
+      "CNO"
+    ],
     "addLiquidityUrl": "https://chronoswap.org/add/0x322e21dcAcE43d319646756656b29976291d7C76/0xE2589867ad472bD1Aa46407c182E13c08f8Eadc9"
   },
   {
@@ -1856,7 +2132,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://lootnetwork.ca/",
-    "assets": ["LOOT", "CRO"],
+    "assets": [
+      "LOOT",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEd34211cDD2cf76C3cceE162761A72d7b6601E2B"
   },
   {
@@ -1876,7 +2155,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "CRO"],
+    "assets": [
+      "CRYSTL",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   },
   {
@@ -1896,7 +2178,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://swap.crodex.app/",
-    "assets": ["CRX", "CRO"],
+    "assets": [
+      "CRX",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   },
   {
@@ -1916,7 +2201,10 @@
     "platform": "CRODEX",
     "farmSite": "https://swap.crodex.app/",
     "projectSite": "https://croking.net/",
-    "assets": ["CRO", "CRK"],
+    "assets": [
+      "CRO",
+      "CRK"
+    ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x065DE42E28E42d90c2052a1B49e7f83806Af0e1F/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
@@ -1936,7 +2224,10 @@
     "platform": "GAURMONEY",
     "farmSite": "https://gaur.money/",
     "projectSite": "https://gaur.money/",
-    "assets": ["GSHARE", "CRO"],
+    "assets": [
+      "GSHARE",
+      "CRO"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66ec6E9F61ac288f5BA661CD9a2dBe3aBf9871C9"
   },
   {
@@ -1956,7 +2247,154 @@
     "platform": "GAURMONEY",
     "farmSite": "https://gaur.money/",
     "projectSite": "https://gaur.money/",
-    "assets": ["ETH", "GAUR"],
+    "assets": [
+      "ETH",
+      "GAUR"
+    ],
     "addLiquidityUrl": "https://mm.finance/add/0x046cb616d7a52173e4Da9efF1BFd590550aa3228/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
+  },
+  {
+    "id": "crona-usdt-usdc-2",
+    "pid": 98,
+    "lpSymbol": "USDC-USDT LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x968fE4C06fdD503E278d89d5dFe29935A111476C",
+    "depositFee": "0%",
+    "strategyAddress": "0x31326D4624D0c15D63F7733B41A1073231bF0140",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 11,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crona-usdt-usdc-2",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://www.centre.io/usdc",
+    "assets": [
+      "USDT",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x66e428c3f67a68878562e79A0234c1F83c208770/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "crona-wbtc-weth-2",
+    "pid": 99,
+    "lpSymbol": "WETH-WBTC LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x285a569EDD6210a0410883d2E29471A6B0c7790d",
+    "depositFee": "0%",
+    "strategyAddress": "0x0296FF960Ec558Ce06E363C0aa6eE01366F0fA73",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 9,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crona-wbtc-weth-2",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
+  },
+  {
+    "id": "crona-wcro-usdc-2",
+    "pid": 100,
+    "lpSymbol": "USDC-WCRO LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x0625A68D25d304aed698c806267a4e369e8Eb12a",
+    "depositFee": "0%",
+    "strategyAddress": "0xE91F482E038CE14161fB83A238aA86531047F2Cb",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 3,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crona-wcro-usdc-2",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://cronos.crypto.org/",
+    "assets": [
+      "CRO",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "crona-wcro-crona-2",
+    "pid": 101,
+    "lpSymbol": "CRONA-WCRO LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0xeD75347fFBe08d5cce4858C70Df4dB4Bbe8532a0",
+    "depositFee": "0%",
+    "strategyAddress": "0x26f3158a0757a0a60673152fA99448258Ce0BA43",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crona-wcro-crona-2",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://app.cronaswap.org/",
+    "assets": [
+      "CRO",
+      "CRONA"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xadbd1231fb360047525BEdF962581F3eee7b49fe"
+  },
+  {
+    "id": "crodex-wcro-crystl-5",
+    "pid": 102,
+    "lpSymbol": "CRYSTL-WCRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0xDF06013797083E077aA1347D74bD7c7cDfeF7856",
+    "depositFee": "0%",
+    "strategyAddress": "0x8fa2cDacB4CdA2ED8C0639cF59dda811F50ae362",
+    "masterchef": "0x55011aE27D6f9bd2201C38DE40c44178Fc2aA2dE",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-crystl-5",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://crystl.finance/",
+    "assets": [
+      "CRO",
+      "CRYSTL"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
+  },
+  {
+    "id": "crodex-wcro-crx-5",
+    "pid": 103,
+    "lpSymbol": "CRX-WCRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0xd141aeD3FA86f411808D5D74BEbBC038e94f300D",
+    "depositFee": "0%",
+    "strategyAddress": "0x9324dbbFE024d17cB73C833108Db82E2579e1a7A",
+    "masterchef": "0x3c9F97D67c87231A1FD3440B039C802a40DC1660",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-crx-5",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://swap.crodex.app/",
+    "assets": [
+      "CRO",
+      "CRX"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
   }
 ]
