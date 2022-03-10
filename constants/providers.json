@@ -1,0 +1,74 @@
+[
+  {
+    "name": "SUSHI",
+    "site": "https://app.sushi.com/add"
+  },
+  {
+    "name": "JETSWAP",
+    "site": "https://polygon-exchange.jetswap.finance/#/add"
+  },
+  {
+    "name": "WAULT",
+    "site": "https://swap.wault.finance/polygon/index.html#/add"
+  },
+  {
+    "name": "QUICK",
+    "site": "https://quickswap.exchange/#/add"
+  },
+  {
+    "name": "APE",
+    "site": "https://apeswap.finance/add"
+  },
+  {
+    "name": "POLYCAT",
+    "site": "https://polycat.finance/add"
+  },
+  {
+    "name": "COMETH",
+    "site": "https://swap.cometh.io/#/add"
+  },
+  {
+    "name": "CRONA",
+    "site": "https://app.cronaswap.org/add"
+  },
+  {
+    "name": "CRODEX",
+    "site": "https://swap.crodex.app/#/add"
+  },
+  {
+    "name": "VVS",
+    "site": "https://vvs.finance/add"
+  },
+  {
+    "name": "PHOTON",
+    "site": "https://photonswap.finance/#/add"
+  },
+  {
+    "name": "ELK",
+    "site": "https://app.elk.finance/#/add"
+  },
+  {
+    "name": "SMOL",
+    "site": "https://www.smolswap.com/add"
+  },
+  {
+    "name": "CHRONO",
+    "site": "https://chronoswap.org/add"
+  },
+  {
+    "name": "MEERKAT",
+    "site": "https://mm.finance/add"
+  },
+  {
+    "name": "DUCKY",
+    "site": "https://exchange.duckydefi.com/#/add"
+  },
+  {
+    "name": "CAFE",
+    "site": "https://polygondex.cafeswap.finance/#/add"
+  },
+  {
+    "name": "DINO",
+    "site": "https://trade.dinoswap.exchange/?t=l#/add"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "DEATH",
+    "id": "death",
+    "site": "https://app.death.sandman.finance/"
+  },
+  {
+    "name": "DESTINY",
+    "id": "destiny",
+    "site": "https://app.destiny.sandman.finance/"
+  },
+  {
+    "name": "DESIRE",
+    "id": "desire",
+    "site": "https://app.desire.sandman.finance/"
+  },
+  {
+    "name": "SALSA",
+    "id": "salsa",
+    "site": "https://salsa.tacoparty.finance/"
+  },
+  {
+    "name": "DESTRUCTION",
+    "id": "destruction",
+    "site": "https://app.destruction.sandman.finance/"
+  },
+  {
+    "name": "CAFESWAP",
+    "id": "cafe",
+    "site": "https://polygon.cafeswap.finance/"
+  },
+  {
+    "name": "DINOSWAP",
+    "id": "dino",
+    "site": "https://dinoswap.exchange"
+  },
+  {
+    "name": "JETSWAP",
+    "id": "jet",
+    "site": "https://polygon.jetswap.finance"
+  },
+  {
+    "name": "BARBERSHOP",
+    "id": "barber",
+    "site": "https://www.barbershop.finance/"
+  },
+  {
+    "name": "BONESWAP",
+    "id": "bone",
+    "site": "https://farm.boneswap.finance"
+  },
+  {
+    "name": "WAULTSWAP",
+    "id": "wault",
+    "site": "https://app.wault.finance/polygon/"
+  },
+  {
+    "name": "KAVIAN",
+    "id": "kavian",
+    "site": "https://kavian.finance/"
+  },
+  {
+    "name": "POLYPULSAR",
+    "id": "polypulsar",
+    "site": "https://gamma.polypulsar.farm/"
+  },
+  {
+    "name": "TAKODEFI",
+    "id": "tako",
+    "site": "https://takodefi.com/"
+  },
+  {
+    "name": "POLYROLL",
+    "id": "polyroll",
+    "site": "https://polyroll.org"
+  },
+  {
+    "name": "LIBRA",
+    "id": "libra",
+    "site": "https://libra.astrofarms.finance"
+  },
+  {
+    "name": "CRONA",
+    "id": "crona",
+    "site": "https://app.cronaswap.org/"
+  },
+  {
+    "name": "VVS",
+    "id": "vvs",
+    "site": "https://vvs.finance/"
+  },
+  {
+    "name": "STORMSWAP",
+    "id": "storm",
+    "site": "https://cronos.stormswap.finance/"
+  },
+  {
+    "name": "SMOLSWAP",
+    "id": "smol",
+    "site": "https://www.smolswap.com/"
+  },
+  {
+    "name": "CHRONOSWAP",
+    "id": "chrono",
+    "site": "https://chronoswap.org/"
+  },
+  {
+    "name": "SALEM",
+    "id": "salem",
+    "site": "https://cronos.salem.finance/"
+  },
+  {
+    "name": "MMFINANCE",
+    "id": "mmf",
+    "site": "https://mm.finance/"
+  },
+  {
+    "name": "DNADOLLAR",
+    "id": "dnadollar",
+    "site": "https://dnadollar.com/"
+  },
+  {
+    "name": "AVTOCROSS",
+    "id": "avtocross",
+    "site": "https://avtocross.finance/"
+  },
+  {
+    "name": "DARKCRYPTO",
+    "id": "darkcrypto",
+    "site": "https://www.darkcrypto.finance/"
+  },
+  {
+    "name": "RNACASH",
+    "id": "rnacash",
+    "site": "https://rnacash.com/"
+  },
+  {
+    "name": "GAURMONEY",
+    "id": "gaur",
+    "site": "https://gaur.money/"
+  }
+]
