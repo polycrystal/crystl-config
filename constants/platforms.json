@@ -80,6 +80,11 @@
     "site": "https://libra.astrofarms.finance"
   },
   {
+    "name": "CRODEX",
+    "id": "crodex",
+    "site": "https://swap.crodex.app/"
+  },
+  {
     "name": "CRONA",
     "id": "crona",
     "site": "https://app.cronaswap.org/"

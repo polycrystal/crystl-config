@@ -15,16 +15,16 @@ const providerJson = require("../constants/providers.json");
 const vaultABI = require("../abis/CrystlVaultHealerV2.json");
 const strategyABI = require("../abis/CrystlStrategyV2.json");
 
-const vaultHealerAddress = "0x4dF0dDc29cE92106eb8C8c17e21083D4e3862533";
-
 const network: any = {
   cronos: {
     configFile: "../vaults/cronos.json",
     chainId: ChainId.cronos,
+    vaultHealer: "0x4dF0dDc29cE92106eb8C8c17e21083D4e3862533",
   },
   polygon: {
     configFile: "../vaults/polygon.json",
     chainId: ChainId.polygon,
+    vaultHealer: "0xD4d696ad5A7779F4D3A0Fc1361adf46eC51C632d",
   },
 };
 
@@ -61,6 +61,7 @@ const platform = args["platform"];
 const project = args["project"];
 const provider = args["provider"];
 
+const vaultHealerAddress = network[args["network"] as string].vaultHealer;
 const configFile = network[args["network"] as string].configFile;
 const config = require(configFile);
 const chainId = network[args["network"] as string].chainId;
@@ -189,7 +190,9 @@ async function main() {
   const newVault = {
     id: tempName,
     pid,
-    lpSymbol: `${token0.symbol}-${token0.symbol} LP`,
+    lpSymbol: `${token1.symbol === "WCRO" ? "CRO" : token1.symbol}-${
+      token0.symbol === "WCRO" ? "CRO" : token0.symbol
+    } LP`,
     lpProvider: provider.toUpperCase(),
     wantAddress: lp.address,
     depositFee: "0%",
@@ -205,7 +208,7 @@ async function main() {
     farmSite: platformData.site,
     projectSite: site,
     assets: [unwrappedToken0, unwrappedToken1],
-    addLiquidityUrl: `${lpProvider.site}/${token0.address}/${token0.address}`,
+    addLiquidityUrl: `${lpProvider.site}/${token0.address}/${token1.address}`,
   };
 
   const newVaults = [...config, newVault];
