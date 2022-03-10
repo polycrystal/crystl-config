@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "ISC",
   "scripts": {
-    "polygon:add": "ts-node scripts/add-polygon-vault.ts",
-    "cronos:add": "ts-node scripts/add-cronos-vault.ts",
+    "polygon:add": "ts-node scripts/add-vault.ts --network polygon",
+    "cronos:add": "ts-node scripts/add-vault.ts --network cronos",
     "token:add": "ts-node scripts/add-token.ts",
     "platform:add": "ts-node scripts/add-platform.ts",
     "provider:add": "ts-node scripts/add-provider.ts"

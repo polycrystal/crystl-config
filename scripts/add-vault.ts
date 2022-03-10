@@ -17,10 +17,23 @@ const strategyABI = require("../abis/CrystlStrategyV2.json");
 
 const vaultHealerAddress = "0x4dF0dDc29cE92106eb8C8c17e21083D4e3862533";
 
-const configFile = "../vaults/cronos.json";
-const config = require(configFile);
+const network: any = {
+  cronos: {
+    configFile: "../vaults/cronos.json",
+    chainId: ChainId.cronos,
+  },
+  polygon: {
+    configFile: "../vaults/polygon.json",
+    chainId: ChainId.polygon,
+  },
+};
 
 const args = yargs.options({
+  network: {
+    type: "string",
+    demandOption: true,
+    describe: "network name",
+  },
   pid: {
     type: "number",
     demandOption: true,
@@ -48,7 +61,9 @@ const platform = args["platform"];
 const project = args["project"];
 const provider = args["provider"];
 
-const chainId = ChainId.cronos;
+const configFile = network[args["network"] as string].configFile;
+const config = require(configFile);
+const chainId = network[args["network"] as string].chainId;
 const rpcProvider = new ethers.providers.JsonRpcProvider(
   MULTICHAIN_RPC[chainId]
 );
@@ -179,6 +194,8 @@ async function main() {
     wantAddress: lp.address,
     depositFee: "0%",
     strategyAddress: strategy.address,
+    masterchef: strategy.masterchef,
+    farmPid: strategy.pid,
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
