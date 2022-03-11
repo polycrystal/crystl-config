@@ -1,5 +1,35 @@
 [
   {
+    "name": "ELK",
+    "id": "elk",
+    "site": "https://app.elk.finance/"
+  },
+  {
+    "name": "PHOTON",
+    "id": "photon",
+    "site": "https://photonswap.finance/"
+  },
+  {
+    "name": "DOKIDOKI",
+    "id": "doki",
+    "site": "https://dokidoki.com/"
+  },
+  {
+    "name": "APESWAP",
+    "id": "ape",
+    "site": "https://apeswap.finance/"
+  },
+  {
+    "name": "DFYN",
+    "id": "dfyn",
+    "site": "https://exchange.dfyn.network/"
+  },
+  {
+    "name": "QUICKSWAP",
+    "id": "quick",
+    "site": "https://quickswap.exchange/"
+  },
+  {
     "name": "DEATH",
     "id": "death",
     "site": "https://app.death.sandman.finance/"
