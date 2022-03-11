@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-7 {
+        fill: #2c3851;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2571" data-name="Ellipse 2571" class="cls-1" cx="32" cy="32" r="32"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.498" cy="0" r="1.503" gradientTransform="translate(0.745 1) rotate(90) scale(1 0.745)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ee0ff"/>
+      <stop offset="1" stop-color="#1292f5"/>
+    </radialGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_5464" data-name="Rectangle 5464" class="cls-1" width="64" height="64"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_2570" data-name="Ellipse 2570" class="cls-2" cx="32" cy="32" r="32" transform="translate(17948 -23814)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13470" data-name="Group 13470" transform="translate(20175 24751)">
+    <g id="Group_13469" data-name="Group 13469" transform="translate(-20175 -24751)">
+      <g id="Group_13465" data-name="Group 13465">
+        <g id="Group_13464" data-name="Group 13464" class="cls-3">
+          <rect id="Rectangle_5463" data-name="Rectangle 5463" class="cls-4" width="64" height="64"/>
+        </g>
+      </g>
+      <g id="Group_13467" data-name="Group 13467">
+        <g id="Group_13466" data-name="Group 13466" class="cls-5">
+          <path id="Path_32598" data-name="Path 32598" class="cls-2" d="M21.315,28.757l6.66-6.649h8.06l6.66,6.649L32,39.453Zm29.136-.076L43.52,35.613H38.541l6.931-6.932-7.04-6.986H43.39Zm-8.4,8.407L32,47.143,21.944,37.088h4.99L32,42.154l5.065-5.066ZM18.527,28.681l6.932,6.932H20.48l-6.932-6.932,7.062-6.986H25.6ZM33.334,53.63,56.927,30.091a1.9,1.9,0,0,0,0-2.679l-10.6-10.587a1.878,1.878,0,0,0-1.334-.553H18.961a1.878,1.878,0,0,0-1.334.553L7.072,27.412a1.9,1.9,0,0,0,0,2.679L30.665,53.684a1.887,1.887,0,0,0,2.669,0ZM19.677,19.8H44.312l8.97,8.96L32,50.04,10.717,28.757Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_579" data-name="Mask Group 579" class="cls-6" transform="translate(-38073 -937)">
+      <g id="_0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03" data-name="0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03" transform="translate(17948 -23814.006)">
+        <circle id="Ellipse_2569" data-name="Ellipse 2569" class="cls-7" cx="32" cy="32" r="32" transform="translate(0 0.005)"/>
+        <g id="Group_13463" data-name="Group 13463">
+          <path id="Path_32593" data-name="Path 32593" class="cls-2" d="M32,50.573a11.132,11.132,0,0,1-7.923-3.282L15.8,39.012a11.216,11.216,0,0,1,0-15.845l4.14-4.14a11.132,11.132,0,0,1,7.923-3.282H36.14a11.132,11.132,0,0,1,7.923,3.282l4.14,4.14a11.218,11.218,0,0,1,0,15.845l-8.279,8.278A11.128,11.128,0,0,1,32,50.573ZM27.86,20.192a6.714,6.714,0,0,0-4.779,1.98l-4.14,4.14a6.766,6.766,0,0,0,0,9.557l8.279,8.278a6.757,6.757,0,0,0,9.557,0l8.279-8.278a6.766,6.766,0,0,0,0-9.557l-4.14-4.14a6.714,6.714,0,0,0-4.779-1.98H27.86Z"/>
+          <path id="Path_32594" data-name="Path 32594" class="cls-2" d="M32,44.617a6.394,6.394,0,0,1-4.551-1.886l-6.893-6.893a6.44,6.44,0,0,1,0-9.1L24,23.291a6.393,6.393,0,0,1,4.55-1.885h6.893A6.393,6.393,0,0,1,40,23.291l3.446,3.446a6.44,6.44,0,0,1,0,9.1l-6.893,6.893A6.386,6.386,0,0,1,32,44.617ZM28.554,25.808a1.993,1.993,0,0,0-1.438.6L23.669,29.85a2.038,2.038,0,0,0,0,2.876l6.893,6.893a2.06,2.06,0,0,0,2.876,0l6.893-6.894a2.037,2.037,0,0,0,0-2.876L36.883,26.4a1.993,1.993,0,0,0-1.438-.6H28.554Z"/>
+          <path id="Path_32595" data-name="Path 32595" class="cls-2" d="M32,39.151,24.451,31.6l4.736-4.736h5.627L39.55,31.6Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
