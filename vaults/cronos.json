@@ -2396,5 +2396,125 @@
       "CRX"
     ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
+  },
+  {
+    "id": "crona-bank-wcro",
+    "pid": 104,
+    "lpSymbol": "CRO-BANK LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0xe6278a9425fc3ECc3514cD782598493043B6CDF4",
+    "depositFee": "0%",
+    "strategyAddress": "0x101D4F31654f3cB779145020f1f4786aE9d7d8A8",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 23,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crona-bank-wcro",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://www.crobank.xyz/",
+    "assets": [
+      "BANK",
+      "CRO"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x55210C2a69b4c52a9d9289A257D54d35C4a2d2eC/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
+  },
+  {
+    "id": "crodex-wcro-loot-3",
+    "pid": 105,
+    "lpSymbol": "LOOT-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x8678778b74884F1d01290E323D4b04481f587231",
+    "depositFee": "0%",
+    "strategyAddress": "0xD726B90dED0b8a3b2d0DB89Ca90b3EcfA4a91727",
+    "masterchef": "0x746CA2fe30c61C1969bbE0476fE200604f87ABFA",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-loot-3",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://lootnetwork.ca/",
+    "assets": [
+      "CRO",
+      "LOOT"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEd34211cDD2cf76C3cceE162761A72d7b6601E2B"
+  },
+  {
+    "id": "crodex-wcro-icy",
+    "pid": 106,
+    "lpSymbol": "ICY-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x1Cb86702cde12E91477aD9DaF2634403fdea3277",
+    "depositFee": "0%",
+    "strategyAddress": "0xaea1c1402a6BB24691e9f24A6E8647232C48956c",
+    "masterchef": "0xA6741D64a52E32c4F5196b1687561737Fd64E39F",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-icy",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://www.icycro.org/",
+    "assets": [
+      "CRO",
+      "ICY"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x8F857Af6Ea31447Bb502fE0E3F4e4340CDFCfc6C"
+  },
+  {
+    "id": "v3s-vvs-v3s",
+    "pid": 107,
+    "lpSymbol": "V3S-VVS LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0x57b975364140e4a8d1C96FAa00225b855BaB0E8E",
+    "depositFee": "0%",
+    "strategyAddress": "0xA2AdEe1A000e1D8eDe65a5A9Bbc3832969609388",
+    "masterchef": "0x569608516A81C0B1247310A3E0CD001046dA0663",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "v3s-vvs-v3s",
+    "paused": false,
+    "platform": "V3S",
+    "farmSite": "https://www.v3s.finance/",
+    "projectSite": "https://www.v3s.finance/",
+    "assets": [
+      "VVS",
+      "V3S"
+    ],
+    "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0xC7e99a2f064Cf86aF91Db252a9D8Bc16e6fE7427"
+  },
+  {
+    "id": "v3s-wcro-vshare",
+    "pid": 108,
+    "lpSymbol": "VSHARE-CRO LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0xcb0704BC4E885384ac96F0ED22B9204C3adD91AD",
+    "depositFee": "0%",
+    "strategyAddress": "0xB21cBFd05A8466151d552bCbF8b9d98263E7b7Da",
+    "masterchef": "0x569608516A81C0B1247310A3E0CD001046dA0663",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "v3s-wcro-vshare",
+    "paused": false,
+    "platform": "V3S",
+    "farmSite": "https://www.v3s.finance/",
+    "projectSite": "https://www.v3s.finance/",
+    "assets": [
+      "CRO",
+      "VSHARE"
+    ],
+    "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xdcC261c03cD2f33eBea404318Cdc1D9f8b78e1AD"
   }
 ]

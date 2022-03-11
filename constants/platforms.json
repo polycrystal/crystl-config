@@ -1,5 +1,10 @@
 [
   {
+    "name": "V3S",
+    "id": "v3s",
+    "site": "https://www.v3s.finance/"
+  },
+  {
     "name": "ELK",
     "id": "elk",
     "site": "https://app.elk.finance/"
