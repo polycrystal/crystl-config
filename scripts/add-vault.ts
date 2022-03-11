@@ -44,10 +44,10 @@ const args = yargs.options({
     demandOption: true,
     describe: "platform name",
   },
-  project: {
+  token: {
     type: "string",
     demandOption: true,
-    describe: "project token name",
+    describe: "token token name",
   },
   provider: {
     type: "string",
@@ -58,7 +58,7 @@ const args = yargs.options({
 
 const pid = args["pid"];
 const platform = args["platform"];
-const project = args["project"];
+const token = args["token"];
 const provider = args["provider"];
 
 const vaultHealerAddress = network[args["network"] as string].vaultHealer;
@@ -164,7 +164,7 @@ async function main() {
   const token0 = await fetchToken(lp.token0);
   const token1 = await fetchToken(lp.token1);
   const platformData = fetchPlatform(platform);
-  const site = fetchProject(project);
+  const site = fetchProject(token);
   const lpProvider = fetchProvider(provider);
   const unwrappedToken0 = removeWrapped(token0.symbol);
   const unwrappedToken1 = removeWrapped(token1.symbol);
