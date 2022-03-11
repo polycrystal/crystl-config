@@ -8,7 +8,9 @@ In order to add a new vault to the config you will need to know 5 things:
 1. `token`: the name of the main token of the lp, a.k.a. the project (e.g., CRYSTL, BANANA, ETH, USDC, etc.)
 1. `provider`: the lp provider name (e.g., ApeSwap, Crodex, etc.)
 
-If `platform`, `token` or `provider` are not present in their respective files (under ./constants folder), take a look below on how to add them.
+If `platform`, `token` or `provider` are not present in their respective files (under `./constants` folder), take a look below on how to add them.
+
+Also, if this is a new pair, don't forget adding the pair image in `./images/pairs`.
 
 ## How to add a vault
 
