@@ -16,9 +16,11 @@
     "platform": "TAKODEFI",
     "farmSite": "https://takodefi.com/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
+    "assets": [
+      "CRYSTL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
   },
   {
     "id": "tako-wmatic-tako",
@@ -37,9 +39,11 @@
     "platform": "TAKODEFI",
     "farmSite": "https://takodefi.com/",
     "projectSite": "https://takodefi.com/",
-    "assets": ["TAKO", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x6D2a71f4edF10ab1E821B9B373363e1E24E5DF6b"
+    "assets": [
+      "TAKO",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x6D2a71f4edF10ab1E821B9B373363e1E24E5DF6b"
   },
   {
     "id": "polypulsar-wmatic-gpul",
@@ -58,9 +62,11 @@
     "platform": "POLYPULSAR",
     "farmSite": "https://gamma.polypulsar.farm/",
     "projectSite": "https://gamma.polypulsar.farm",
-    "assets": ["GPUL", "MATIC"],
-    "addLiquidityUrl":
-      "https://polycat.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x40ed0565eCFB14eBCdFE972624ff2364933a8cE3"
+    "assets": [
+      "GPUL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://polycat.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x40ed0565eCFB14eBCdFE972624ff2364933a8cE3"
   },
   {
     "id": "polypulsar-wmatic-gbnt",
@@ -79,9 +85,11 @@
     "platform": "POLYPULSAR",
     "farmSite": "https://gamma.polypulsar.farm/",
     "projectSite": "https://gamma.polypulsar.farm",
-    "assets": ["GBNT", "MATIC"],
-    "addLiquidityUrl":
-      "https://polycat.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8c9aAcA6e712e2193acCCbAC1a024e09Fb226E51"
+    "assets": [
+      "GBNT",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://polycat.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8c9aAcA6e712e2193acCCbAC1a024e09Fb226E51"
   },
   {
     "id": "quick-quick-kom",
@@ -100,9 +108,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://kommunitas.net",
-    "assets": ["KOM", "QUICK"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0xC004e2318722EA2b15499D6375905d75Ee5390B8"
+    "assets": [
+      "KOM",
+      "QUICK"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0xC004e2318722EA2b15499D6375905d75Ee5390B8"
   },
   {
     "id": "jet-wmatic-piratep",
@@ -121,9 +131,11 @@
     "platform": "JETSWAP",
     "farmSite": "https://polygon.jetswap.finance",
     "projectSite": "https://treasurekey.bet",
-    "assets": ["PIRATEP", "MATIC"],
-    "addLiquidityUrl":
-      "https://polygon-exchange.jetswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x3750144AcD56CC1d3e8dAFD8a187Ad10d174d462"
+    "assets": [
+      "PIRATEP",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://polygon-exchange.jetswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x3750144AcD56CC1d3e8dAFD8a187Ad10d174d462"
   },
   {
     "id": "barber-wmatic-hair",
@@ -142,9 +154,11 @@
     "platform": "BARBERSHOP",
     "farmSite": "https://www.barbershop.finance/",
     "projectSite": "https://www.barbershop.finance/",
-    "assets": ["HAIR", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C"
+    "assets": [
+      "HAIR",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C"
   },
   {
     "id": "tako-wmatic-inku",
@@ -163,9 +177,11 @@
     "platform": "TAKODEFI",
     "farmSite": "https://takodefi.com/",
     "projectSite": "https://takodefi.com/",
-    "assets": ["INKU", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x1Dd9e9e142f3f84d90aF1a9F2cb617C7e08420a4"
+    "assets": [
+      "INKU",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x1Dd9e9e142f3f84d90aF1a9F2cb617C7e08420a4"
   },
   {
     "id": "tako-banana-weth",
@@ -184,9 +200,11 @@
     "platform": "TAKODEFI",
     "farmSite": "https://takodefi.com/",
     "projectSite": "https://apeswap.finance/",
-    "assets": ["ETH", "BANANA"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x5d47bAbA0d66083C52009271faF3F50DCc01023C/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "assets": [
+      "ETH",
+      "BANANA"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x5d47bAbA0d66083C52009271faF3F50DCc01023C/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "polyroll-wmatic-roll",
@@ -205,9 +223,11 @@
     "platform": "POLYROLL",
     "farmSite": "https://polyroll.org",
     "projectSite": "https://polyroll.org",
-    "assets": ["ROLL", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xC68e83a305b0FaD69E264A1769a0A070F190D2d6"
+    "assets": [
+      "ROLL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xC68e83a305b0FaD69E264A1769a0A070F190D2d6"
   },
   {
     "id": "libra-usdc-libra",
@@ -226,9 +246,11 @@
     "platform": "LIBRA",
     "farmSite": "https://libra.astrofarms.finance",
     "projectSite": "https://libra.astrofarms.finance/",
-    "assets": ["LIBRA", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x2f535aE1A9f6405E9e6E2Ff10FdEd846358a5C39"
+    "assets": [
+      "LIBRA",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x2f535aE1A9f6405E9e6E2Ff10FdEd846358a5C39"
   },
   {
     "id": "libra-wmatic-libra",
@@ -247,9 +269,11 @@
     "platform": "LIBRA",
     "farmSite": "https://libra.astrofarms.finance",
     "projectSite": "https://libra.astrofarms.finance/",
-    "assets": ["LIBRA", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x2f535aE1A9f6405E9e6E2Ff10FdEd846358a5C39"
+    "assets": [
+      "LIBRA",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x2f535aE1A9f6405E9e6E2Ff10FdEd846358a5C39"
   },
   {
     "id": "dino-weth-sx",
@@ -268,9 +292,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://sportx.bet/",
-    "assets": ["SX", "ETH"],
-    "addLiquidityUrl":
-      "https://app.sushi.com/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79"
+    "assets": [
+      "SX",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://app.sushi.com/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79"
   },
   {
     "id": "barber-hair-usdc",
@@ -289,9 +315,11 @@
     "platform": "BARBERSHOP",
     "farmSite": "https://www.barbershop.finance/",
     "projectSite": "https://www.barbershop.finance/",
-    "assets": ["USDC", "HAIR"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "HAIR"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "barber-wmatic-crystl",
@@ -310,9 +338,11 @@
     "platform": "BARBERSHOP",
     "farmSite": "https://www.barbershop.finance/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
+    "assets": [
+      "CRYSTL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
   },
   {
     "id": "dino-weth-sx-2",
@@ -331,9 +361,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://sportx.bet/",
-    "assets": ["SX", "ETH"],
-    "addLiquidityUrl":
-      "https://app.sushi.com/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79"
+    "assets": [
+      "SX",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://app.sushi.com/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79"
   },
   {
     "id": "barber-hair-usdc-2",
@@ -352,9 +384,11 @@
     "platform": "BARBERSHOP",
     "farmSite": "https://www.barbershop.finance/",
     "projectSite": "https://www.barbershop.finance/",
-    "assets": ["USDC", "HAIR"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "HAIR"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x100A947f51fA3F1dcdF97f3aE507A72603cAE63C/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "barber-wmatic-crystl-2",
@@ -373,9 +407,11 @@
     "platform": "BARBERSHOP",
     "farmSite": "https://www.barbershop.finance/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
+    "assets": [
+      "CRYSTL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
   },
   {
     "id": "doki-azuki-must",
@@ -394,9 +430,11 @@
     "platform": "DOKIDOKI",
     "farmSite": "https://dokidoki.com/",
     "projectSite": "https://dokidoki.com",
-    "assets": ["MUST", "AZUKI"],
-    "addLiquidityUrl":
-      "https://swap.cometh.io/#/add/0x7CdC0421469398e0F3aA8890693d86c840Ac8931/0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f"
+    "assets": [
+      "MUST",
+      "AZUKI"
+    ],
+    "addLiquidityUrl": "https://swap.cometh.io/#/add/0x7CdC0421469398e0F3aA8890693d86c840Ac8931/0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f"
   },
   {
     "id": "doki-azuki-weth",
@@ -415,9 +453,11 @@
     "platform": "DOKIDOKI",
     "farmSite": "https://dokidoki.com/",
     "projectSite": "https://dokidoki.com",
-    "assets": ["ETH", "AZUKI"],
-    "addLiquidityUrl":
-      "https://swap.cometh.io/#/add/0x7CdC0421469398e0F3aA8890693d86c840Ac8931/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "assets": [
+      "ETH",
+      "AZUKI"
+    ],
+    "addLiquidityUrl": "https://swap.cometh.io/#/add/0x7CdC0421469398e0F3aA8890693d86c840Ac8931/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "doki-doki-must",
@@ -436,9 +476,11 @@
     "platform": "DOKIDOKI",
     "farmSite": "https://dokidoki.com/",
     "projectSite": "https://dokidoki.com",
-    "assets": ["MUST", "DOKI"],
-    "addLiquidityUrl":
-      "https://swap.cometh.io/#/add/0x5C7F7Fe4766fE8f0fa9b41E2E4194d939488ff1C/0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f"
+    "assets": [
+      "MUST",
+      "DOKI"
+    ],
+    "addLiquidityUrl": "https://swap.cometh.io/#/add/0x5C7F7Fe4766fE8f0fa9b41E2E4194d939488ff1C/0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f"
   },
   {
     "id": "doki-doki-weth",
@@ -457,9 +499,11 @@
     "platform": "DOKIDOKI",
     "farmSite": "https://dokidoki.com/",
     "projectSite": "https://dokidoki.com",
-    "assets": ["ETH", "DOKI"],
-    "addLiquidityUrl":
-      "https://swap.cometh.io/#/add/0x5C7F7Fe4766fE8f0fa9b41E2E4194d939488ff1C/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "assets": [
+      "ETH",
+      "DOKI"
+    ],
+    "addLiquidityUrl": "https://swap.cometh.io/#/add/0x5C7F7Fe4766fE8f0fa9b41E2E4194d939488ff1C/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "quick-quick-kom-2",
@@ -478,9 +522,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://kommunitas.net",
-    "assets": ["KOM", "QUICK"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0xC004e2318722EA2b15499D6375905d75Ee5390B8"
+    "assets": [
+      "KOM",
+      "QUICK"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0xC004e2318722EA2b15499D6375905d75Ee5390B8"
   },
   {
     "id": "ape-wmatic-crystl",
@@ -499,9 +545,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
+    "assets": [
+      "CRYSTL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
   },
   {
     "id": "ape-wmatic-banana",
@@ -520,9 +568,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://apeswap.finance/",
-    "assets": ["BANANA", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
+    "assets": [
+      "BANANA",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
     "id": "ape-wmatic-bnb",
@@ -541,9 +591,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://binance.com/",
-    "assets": ["BNB", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
+    "assets": [
+      "BNB",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F"
   },
   {
     "id": "ape-usdc-dai",
@@ -562,9 +614,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["DAI", "USDC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+    "assets": [
+      "DAI",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
   },
   {
     "id": "ape-wmatic-wbtc",
@@ -583,9 +637,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://wbtc.network/",
-    "assets": ["BTC", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+    "assets": [
+      "BTC",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
   },
   {
     "id": "ape-wmatic-usdt",
@@ -604,9 +660,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://tether.to",
-    "assets": ["USDT", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    "assets": [
+      "USDT",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
   },
   {
     "id": "cafe-link-weth",
@@ -625,9 +683,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://chain.link/",
-    "assets": ["ETH", "LINK"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "assets": [
+      "ETH",
+      "LINK"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "ape-wmatic-weth",
@@ -645,11 +705,12 @@
     "paused": false,
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
-    "projectSite":
-      "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
+    "assets": [
+      "ETH",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "cafe-weth-aave",
@@ -668,9 +729,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://aave.com/",
-    "assets": ["AAVE", "ETH"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xD6DF932A45C0f255f85145f286eA0b292B21C90B"
+    "assets": [
+      "AAVE",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xD6DF932A45C0f255f85145f286eA0b292B21C90B"
   },
   {
     "id": "cafe-wbtc-renbtc",
@@ -689,9 +752,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://wbtc.network/",
-    "assets": ["RENBTC", "BTC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6/0xDBf31dF14B66535aF65AaC99C32e9eA844e14501"
+    "assets": [
+      "RENBTC",
+      "BTC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6/0xDBf31dF14B66535aF65AaC99C32e9eA844e14501"
   },
   {
     "id": "cafe-usdc-pbrew",
@@ -710,9 +775,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://polygon.cafeswap.finance",
-    "assets": ["PBREW", "USDC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xb5106A3277718eCaD2F20aB6b86Ce0Fee7A21F09"
+    "assets": [
+      "PBREW",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xb5106A3277718eCaD2F20aB6b86Ce0Fee7A21F09"
   },
   {
     "id": "ape-wmatic-dai",
@@ -731,9 +798,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://www.makerdao.com/",
-    "assets": ["DAI", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+    "assets": [
+      "DAI",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
   },
   {
     "id": "cafe-weth-pbrew",
@@ -752,9 +821,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://polygon.cafeswap.finance",
-    "assets": ["PBREW", "ETH"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xb5106A3277718eCaD2F20aB6b86Ce0Fee7A21F09"
+    "assets": [
+      "PBREW",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xb5106A3277718eCaD2F20aB6b86Ce0Fee7A21F09"
   },
   {
     "id": "cafe-wbtc-weth",
@@ -772,11 +843,12 @@
     "paused": true,
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
-    "projectSite":
-      "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["BTC", "ETH"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "cafe-wmatic-usdc",
@@ -795,9 +867,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDC", "MATIC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "cafe-usdc-ust",
@@ -816,9 +890,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://www.terra.money/",
-    "assets": ["UST", "USDC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x692597b009d13C4049a947CAB2239b7d6517875F"
+    "assets": [
+      "UST",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x692597b009d13C4049a947CAB2239b7d6517875F"
   },
   {
     "id": "ape-wmatic-dai",
@@ -837,9 +913,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://www.makerdao.com/",
-    "assets": ["DAI", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+    "assets": [
+      "DAI",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
   },
   {
     "id": "cafe-weth-quick",
@@ -858,9 +936,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://quickswap.exchange/",
-    "assets": ["QUICK", "ETH"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x831753DD7087CaC61aB5644b308642cc1c33Dc13"
+    "assets": [
+      "QUICK",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x831753DD7087CaC61aB5644b308642cc1c33Dc13"
   },
   {
     "id": "cafe-usdc-usdt",
@@ -879,9 +959,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDT", "USDC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    "assets": [
+      "USDT",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
   },
   {
     "id": "jet-weth-usdt",
@@ -900,9 +982,11 @@
     "platform": "JETSWAP",
     "farmSite": "https://polygon.jetswap.finance",
     "projectSite": "https://tether.to",
-    "assets": ["USDT", "ETH"],
-    "addLiquidityUrl":
-      "https://polygon-exchange.jetswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    "assets": [
+      "USDT",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://polygon-exchange.jetswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
   },
   {
     "id": "cafe-usdc-pwings",
@@ -921,9 +1005,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://polygon.jetswap.finance/",
-    "assets": ["PWINGS", "USDC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x845E76A8691423fbc4ECb8Dd77556Cb61c09eE25"
+    "assets": [
+      "PWINGS",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x845E76A8691423fbc4ECb8Dd77556Cb61c09eE25"
   },
   {
     "id": "cafe-weth-pauto",
@@ -942,9 +1028,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://autofarm.network/polygon/",
-    "assets": ["PAUTO", "ETH"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x7f426F6Dc648e50464a0392E60E1BB465a67E9cf"
+    "assets": [
+      "PAUTO",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x7f426F6Dc648e50464a0392E60E1BB465a67E9cf"
   },
   {
     "id": "dino-usdc-dino",
@@ -963,9 +1051,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://dinoswap.exchange/",
-    "assets": ["DINO", "USDC"],
-    "addLiquidityUrl":
-      "https://app.sushi.com/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
+    "assets": [
+      "DINO",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://app.sushi.com/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
   },
   {
     "id": "quick-quick-polydoge",
@@ -984,9 +1074,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://www.polydoge.com",
-    "assets": ["POLYDOGE", "QUICK"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0x8A953CfE442c5E8855cc6c61b1293FA648BAE472"
+    "assets": [
+      "POLYDOGE",
+      "QUICK"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0x8A953CfE442c5E8855cc6c61b1293FA648BAE472"
   },
   {
     "id": "quick-wmatic-shib",
@@ -1005,9 +1097,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://shibatoken.com/",
-    "assets": ["SHIB", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec"
+    "assets": [
+      "SHIB",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec"
   },
   {
     "id": "cafe-usdc-crystl",
@@ -1026,9 +1120,11 @@
     "platform": "CAFESWAP",
     "farmSite": "https://polygon.cafeswap.finance/",
     "projectSite": "https://crystl.finance/",
-    "assets": ["CRYSTL", "USDC"],
-    "addLiquidityUrl":
-      "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
+    "assets": [
+      "CRYSTL",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://polygondex.cafeswap.finance/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
   },
   {
     "id": "dfyn-dfyn-frm",
@@ -1047,11 +1143,12 @@
     "platform": "DFYN",
     "farmSite": "https://exchange.dfyn.network/",
     "projectSite": "https://ferrum.network/",
-    "assets": ["FRM", "DFYN"],
-    "addLiquidityUrl":
-      "https://exchange.dfyn.network/#/add/0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97/0xd99baFe5031cC8B345cb2e8c80135991F12D7130"
+    "assets": [
+      "FRM",
+      "DFYN"
+    ],
+    "addLiquidityUrl": "https://exchange.dfyn.network/#/add/0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97/0xd99baFe5031cC8B345cb2e8c80135991F12D7130"
   },
-
   {
     "id": "destruction-usdc-destruction",
     "pid": 50,
@@ -1069,9 +1166,11 @@
     "platform": "DESTRUCTION",
     "farmSite": "https://app.destruction.sandman.finance/",
     "projectSite": "https://app.destruction.sandman.finance/",
-    "assets": ["DESTRUCTION", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xCa4992F01B63C7cEB98505946b79D7D8855449F9"
+    "assets": [
+      "DESTRUCTION",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xCa4992F01B63C7cEB98505946b79D7D8855449F9"
   },
   {
     "id": "destruction-wmatic-destruction",
@@ -1090,9 +1189,11 @@
     "platform": "DESTRUCTION",
     "farmSite": "https://app.destruction.sandman.finance/",
     "projectSite": "https://app.destruction.sandman.finance/",
-    "assets": ["DESTRUCTION", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xCa4992F01B63C7cEB98505946b79D7D8855449F9"
+    "assets": [
+      "DESTRUCTION",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xCa4992F01B63C7cEB98505946b79D7D8855449F9"
   },
   {
     "id": "quick-quick-relay",
@@ -1111,9 +1212,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://www.relaychain.com",
-    "assets": ["RELAY", "QUICK"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0x904371845Bc56dCbBcf0225ef84a669b2fD6bd0d"
+    "assets": [
+      "RELAY",
+      "QUICK"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0x904371845Bc56dCbBcf0225ef84a669b2fD6bd0d"
   },
   {
     "id": "salsa-usdc-salsa",
@@ -1132,9 +1235,11 @@
     "platform": "SALSA",
     "farmSite": "https://salsa.tacoparty.finance/",
     "projectSite": "https://salsa.tacoparty.finance",
-    "assets": ["SALSA", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x64367C7A9e91da86386964DCFfECf0EC48D2fbc0"
+    "assets": [
+      "SALSA",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x64367C7A9e91da86386964DCFfECf0EC48D2fbc0"
   },
   {
     "id": "salsa-wmatic-salsa",
@@ -1153,9 +1258,11 @@
     "platform": "SALSA",
     "farmSite": "https://salsa.tacoparty.finance/",
     "projectSite": "https://salsa.tacoparty.finance",
-    "assets": ["SALSA", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x64367C7A9e91da86386964DCFfECf0EC48D2fbc0"
+    "assets": [
+      "SALSA",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x64367C7A9e91da86386964DCFfECf0EC48D2fbc0"
   },
   {
     "id": "dino-weth-dino",
@@ -1174,9 +1281,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://dinoswap.exchange/",
-    "assets": ["DINO", "ETH"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
+    "assets": [
+      "DINO",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
   },
   {
     "id": "quick-wmatic-wcro",
@@ -1195,9 +1304,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://cronos.crypto.org/",
-    "assets": ["CRO", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xf2D8124b8F9267DaD61351c7aD252362880C6638"
+    "assets": [
+      "CRO",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xf2D8124b8F9267DaD61351c7aD252362880C6638"
   },
   {
     "id": "quick-wmatic-elixir",
@@ -1216,9 +1327,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://starchi.gg/",
-    "assets": ["ELIXIR", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xED0bb69f9F96E8C5FffdF16c468eceC385134eA5"
+    "assets": [
+      "ELIXIR",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xED0bb69f9F96E8C5FffdF16c468eceC385134eA5"
   },
   {
     "id": "quick-tech-weth",
@@ -1237,9 +1350,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://cryptomeda.tech/",
-    "assets": ["ETH", "TECH"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x6286A9e6f7e745A6D884561D88F94542d6715698/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "assets": [
+      "ETH",
+      "TECH"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x6286A9e6f7e745A6D884561D88F94542d6715698/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "ape-abr-usdc",
@@ -1258,9 +1373,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://allbridge.io/",
-    "assets": ["USDC", "ABR"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x04429fbb948BBD09327763214b45e505A5293346/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "ABR"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x04429fbb948BBD09327763214b45e505A5293346/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "desire-wmatic-desire",
@@ -1279,9 +1396,11 @@
     "platform": "DESIRE",
     "farmSite": "https://app.desire.sandman.finance/",
     "projectSite": "https://app.desire.sandman.finance/",
-    "assets": ["DESIRE", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8"
+    "assets": [
+      "DESIRE",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8"
   },
   {
     "id": "desire-usdc-desire",
@@ -1300,9 +1419,11 @@
     "platform": "DESIRE",
     "farmSite": "https://app.desire.sandman.finance/",
     "projectSite": "https://app.desire.sandman.finance/",
-    "assets": ["DESIRE", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8"
+    "assets": [
+      "DESIRE",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8"
   },
   {
     "id": "desire-usdc-desire",
@@ -1321,9 +1442,11 @@
     "platform": "DESIRE",
     "farmSite": "https://app.desire.sandman.finance/",
     "projectSite": "https://app.desire.sandman.finance/",
-    "assets": ["DESIRE", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8"
+    "assets": [
+      "DESIRE",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xfbbEa521578059D8c2D53899E44c5A68b8ee88D8"
   },
   {
     "id": "dfyn-dfyn-frm-2",
@@ -1342,9 +1465,11 @@
     "platform": "DFYN",
     "farmSite": "https://exchange.dfyn.network/",
     "projectSite": "https://ferrum.network/",
-    "assets": ["FRM", "DFYN"],
-    "addLiquidityUrl":
-      "https://exchange.dfyn.network/#/add/0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97/0xd99baFe5031cC8B345cb2e8c80135991F12D7130"
+    "assets": [
+      "FRM",
+      "DFYN"
+    ],
+    "addLiquidityUrl": "https://exchange.dfyn.network/#/add/0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97/0xd99baFe5031cC8B345cb2e8c80135991F12D7130"
   },
   {
     "id": "dino-wmatic-weth",
@@ -1362,11 +1487,12 @@
     "paused": false,
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
-    "projectSite":
-      "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
-    "assets": ["ETH", "MATIC"],
-    "addLiquidityUrl":
-      "https://trade.dinoswap.exchange/?t=l#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
+    "assets": [
+      "ETH",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://trade.dinoswap.exchange/?t=l#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "dino-weth-dino-2",
@@ -1385,9 +1511,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://dinoswap.exchange",
-    "assets": ["DINO", "ETH"],
-    "addLiquidityUrl":
-      "https://trade.dinoswap.exchange/?t=l#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
+    "assets": [
+      "DINO",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://trade.dinoswap.exchange/?t=l#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
   },
   {
     "id": "dino-usdc-usdt",
@@ -1406,9 +1534,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://www.centre.io/usdc",
-    "assets": ["USDT", "USDC"],
-    "addLiquidityUrl":
-      "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    "assets": [
+      "USDT",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
   },
   {
     "id": "dino-usdc-weth",
@@ -1427,9 +1557,11 @@
     "platform": "DINOSWAP",
     "farmSite": "0xa8fB745919D959fbbDFAB71b88E82BB4E6BA502E",
     "projectSite": "0x8f82cA192136d4AbE75EF0f763975114e82A838E",
-    "assets": ["ETH", "USDC"],
-    "addLiquidityUrl":
-      "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    "assets": [
+      "ETH",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
     "id": "dino-usdc-dino-2",
@@ -1448,9 +1580,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://dinoswap.exchange/",
-    "assets": ["DINO", "USDC"],
-    "addLiquidityUrl":
-      "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
+    "assets": [
+      "DINO",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://trade.dinoswap.exchange/?t=l#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xAa9654BECca45B5BDFA5ac646c939C62b527D394"
   },
   {
     "id": "dino-wmatic-usdc",
@@ -1469,9 +1603,11 @@
     "platform": "DINOSWAP",
     "farmSite": "https://dinoswap.exchange",
     "projectSite": "https://polygon.technology",
-    "assets": ["USDC", "MATIC"],
-    "addLiquidityUrl":
-      "https://trade.dinoswap.exchange/?t=l#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://trade.dinoswap.exchange/?t=l#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "destiny-destiny-usdc",
@@ -1490,9 +1626,11 @@
     "platform": "DESTINY",
     "farmSite": "https://app.destiny.sandman.finance/",
     "projectSite": "https://app.destiny.sandman.finance/",
-    "assets": ["USDC", "DESTINY"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x214188993b36bD8cD15f805Adee9eb49fD80BA74/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "DESTINY"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x214188993b36bD8cD15f805Adee9eb49fD80BA74/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "destiny-wmatic-destiny",
@@ -1511,9 +1649,11 @@
     "platform": "DESTINY",
     "farmSite": "https://app.destiny.sandman.finance/",
     "projectSite": "https://app.destiny.sandman.finance/",
-    "assets": ["DESTINY", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x214188993b36bD8cD15f805Adee9eb49fD80BA74"
+    "assets": [
+      "DESTINY",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x214188993b36bD8cD15f805Adee9eb49fD80BA74"
   },
   {
     "id": "ape-wmatic-crystl",
@@ -1532,9 +1672,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://www.crystl.finance/",
-    "assets": ["CRYSTL", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
+    "assets": [
+      "CRYSTL",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x76bF0C28e604CC3fE9967c83b3C3F31c213cfE64"
   },
   {
     "id": "quick-quick-relay",
@@ -1553,9 +1695,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://www.relaychain.com",
-    "assets": ["RELAY", "QUICK"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0x904371845Bc56dCbBcf0225ef84a669b2fD6bd0d"
+    "assets": [
+      "RELAY",
+      "QUICK"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x831753DD7087CaC61aB5644b308642cc1c33Dc13/0x904371845Bc56dCbBcf0225ef84a669b2fD6bd0d"
   },
   {
     "id": "quick-welt-usdc",
@@ -1574,9 +1718,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://www.fabwelt.com",
-    "assets": ["USDC", "WELT"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x23E8B6A3f6891254988B84Da3738D2bfe5E703b9/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    "assets": [
+      "USDC",
+      "WELT"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x23E8B6A3f6891254988B84Da3738D2bfe5E703b9/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
   },
   {
     "id": "quick-mimatic-usdt",
@@ -1595,9 +1741,11 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://app.mai.finance",
-    "assets": ["USDT", "MIMATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    "assets": [
+      "USDT",
+      "MIMATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
   },
   {
     "id": "dfyn-aga-agar",
@@ -1616,9 +1764,11 @@
     "platform": "DFYN",
     "farmSite": "https://exchange.dfyn.network/",
     "projectSite": "https://agatoken.com",
-    "assets": ["AGAR", "AGA"],
-    "addLiquidityUrl":
-      "https://exchange.dfyn.network/#/add/0x033d942A6b495C4071083f4CDe1f17e986FE856c/0xF84BD51eab957c2e7B7D646A3427C5A50848281D"
+    "assets": [
+      "AGAR",
+      "AGA"
+    ],
+    "addLiquidityUrl": "https://exchange.dfyn.network/#/add/0x033d942A6b495C4071083f4CDe1f17e986FE856c/0xF84BD51eab957c2e7B7D646A3427C5A50848281D"
   },
   {
     "id": "ape-wmatic-nfty",
@@ -1637,9 +1787,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://nftytoken.io/",
-    "assets": ["NFTY", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8623e66Bea0DCe41B6d47f9C44e806A115baBae0"
+    "assets": [
+      "NFTY",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8623e66Bea0DCe41B6d47f9C44e806A115baBae0"
   },
   {
     "id": "ape-wmatic-kom",
@@ -1658,9 +1810,11 @@
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://kommunitas.net",
-    "assets": ["KOM", "MATIC"],
-    "addLiquidityUrl":
-      "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xC004e2318722EA2b15499D6375905d75Ee5390B8"
+    "assets": [
+      "KOM",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xC004e2318722EA2b15499D6375905d75Ee5390B8"
   },
   {
     "id": "death-wmatic-death",
@@ -1679,9 +1833,11 @@
     "platform": "DEATH",
     "farmSite": "https://app.death.sandman.finance/",
     "projectSite": "https://app.death.sandman.finance/",
-    "assets": ["DEATH", "MATIC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xb95289ED25C5765762E978F0c766818a05456551"
+    "assets": [
+      "DEATH",
+      "MATIC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xb95289ED25C5765762E978F0c766818a05456551"
   },
   {
     "id": "death-usdc-death",
@@ -1701,9 +1857,11 @@
     "platform": "DEATH",
     "farmSite": "https://app.death.sandman.finance/",
     "projectSite": "https://app.death.sandman.finance/",
-    "assets": ["DEATH", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xb95289ED25C5765762E978F0c766818a05456551"
+    "assets": [
+      "DEATH",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xb95289ED25C5765762E978F0c766818a05456551"
   },
   {
     "id": "quick-usdc-blank",
@@ -1722,8 +1880,34 @@
     "platform": "QUICKSWAP",
     "farmSite": "https://quickswap.exchange/",
     "projectSite": "https://blockwallet.io/",
-    "assets": ["BLANK", "USDC"],
-    "addLiquidityUrl":
-      "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xf4C83080E80AE530d6f8180572cBbf1Ac9D5d435"
+    "assets": [
+      "BLANK",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xf4C83080E80AE530d6f8180572cBbf1Ac9D5d435"
+  },
+  {
+    "id": "quick-wmatic-peco",
+    "pid": 82,
+    "lpSymbol": "PECO-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xc2ea6521F23358d18C3623d33Ce1106f798aCC64",
+    "depositFee": "0%",
+    "strategyAddress": "0x118055AAAd1DD4A6865Df4bE07815b13D9703EbB",
+    "masterchef": "0x27b3f4e93b7dCE173F682E760F492665e7f15Ad9",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "quick-wmatic-peco",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://amun.com/",
+    "assets": [
+      "MATIC",
+      "PECO"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xA9536B9c75A9E0faE3B56a96AC8EdF76AbC91978"
   }
 ]
