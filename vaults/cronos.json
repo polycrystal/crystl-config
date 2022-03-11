@@ -2516,5 +2516,77 @@
       "VSHARE"
     ],
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xdcC261c03cD2f33eBea404318Cdc1D9f8b78e1AD"
+  },
+  {
+    "id": "cyborg-wcro-cbo",
+    "pid": 109,
+    "lpSymbol": "CBO-CRO LP",
+    "lpProvider": "CHRONO",
+    "wantAddress": "0x9b76213969885044FeF03AFCc08d3F4039768F7e",
+    "depositFee": "0%",
+    "strategyAddress": "0xAe3f55Bc721C125F2f26B371f37d9211Ea7ba366",
+    "masterchef": "0xaBAD73Be9fd441731ADb007AdB6C1b03e730A8e0",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cyborg-wcro-cbo",
+    "paused": false,
+    "platform": "CYBORGSWAP",
+    "farmSite": "https://cyborgswap.io/",
+    "projectSite": "https://cyborgswap.io/",
+    "assets": [
+      "CRO",
+      "CBO"
+    ],
+    "addLiquidityUrl": "https://chronoswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA46d5775c18837e380eFB3d8Bf9D315bcd028AB1"
+  },
+  {
+    "id": "cyborg-cbo-usdc",
+    "pid": 110,
+    "lpSymbol": "USDC-CBO LP",
+    "lpProvider": "CHRONO",
+    "wantAddress": "0xd80Fd5371C73adc150b05742b0E6e43B0deCC5A0",
+    "depositFee": "0%",
+    "strategyAddress": "0x1e4535994859e03b32C2431e9293CAB325112A70",
+    "masterchef": "0xaBAD73Be9fd441731ADb007AdB6C1b03e730A8e0",
+    "farmPid": 2,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cyborg-cbo-usdc",
+    "paused": false,
+    "platform": "CYBORGSWAP",
+    "farmSite": "https://cyborgswap.io/",
+    "projectSite": "https://cyborgswap.io/",
+    "assets": [
+      "CBO",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://chronoswap.org/add/0xA46d5775c18837e380eFB3d8Bf9D315bcd028AB1/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "cyborg-cbo-cnft",
+    "pid": 111,
+    "lpSymbol": "CNFT-CBO LP",
+    "lpProvider": "CHRONO",
+    "wantAddress": "0x566B8cC06D129E112a9246B967A0578855cB49bb",
+    "depositFee": "0%",
+    "strategyAddress": "0xe81eB1a73D3297040554639aD5af5701C42e4869",
+    "masterchef": "0xaBAD73Be9fd441731ADb007AdB6C1b03e730A8e0",
+    "farmPid": 4,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cyborg-cbo-cnft",
+    "paused": false,
+    "platform": "CYBORGSWAP",
+    "farmSite": "https://cyborgswap.io/",
+    "projectSite": "https://chronoswap.org/",
+    "assets": [
+      "CBO",
+      "CNFT"
+    ],
+    "addLiquidityUrl": "https://chronoswap.org/add/0xA46d5775c18837e380eFB3d8Bf9D315bcd028AB1/0xE2589867ad472bD1Aa46407c182E13c08f8Eadc9"
   }
 ]
