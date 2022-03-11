@@ -24,8 +24,8 @@ async function main() {
     },
   }).argv;
 
-  const platformName = String(args["name"]);
-  const idName = String(args["id"]);
+  const platformName = String(args["name"]).toUpperCase();
+  const idName = String(args["id"]).toLowerCase();
   const siteUrl = String(args["site"]);
 
   const newPlatform = {
