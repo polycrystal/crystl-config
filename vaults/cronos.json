@@ -2491,7 +2491,7 @@
       "VVS",
       "V3S"
     ],
-    "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0xC7e99a2f064Cf86aF91Db252a9D8Bc16e6fE7427"
+    "addLiquidityUrl": "https://swap.v3s.finance/add/0xC7e99a2f064Cf86aF91Db252a9D8Bc16e6fE7427/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03"
   },
   {
     "id": "v3s-wcro-vshare",
@@ -2515,7 +2515,7 @@
       "CRO",
       "VSHARE"
     ],
-    "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xdcC261c03cD2f33eBea404318Cdc1D9f8b78e1AD"
+    "addLiquidityUrl": "https://swap.v3s.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xdcC261c03cD2f33eBea404318Cdc1D9f8b78e1AD"
   },
   {
     "id": "cyborg-wcro-cbo",
