@@ -2588,5 +2588,53 @@
       "CNFT"
     ],
     "addLiquidityUrl": "https://chronoswap.org/add/0xA46d5775c18837e380eFB3d8Bf9D315bcd028AB1/0xE2589867ad472bD1Aa46407c182E13c08f8Eadc9"
+  },
+  {
+    "id": "darkness-wcro-ness",
+    "pid": 112,
+    "lpSymbol": "NESS-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0xbfAAB211C3ea99A2Db682fbc1D9a999861dCba2D",
+    "depositFee": "0%",
+    "strategyAddress": "0x1A03B1D81105D382e0c54C1E05e6eeD96B87e863",
+    "masterchef": "0x63Df75d039f7d7A8eE4A9276d6A9fE7990D7A6C5",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "darkness-wcro-ness",
+    "paused": false,
+    "platform": "DARKNESS",
+    "farmSite": "https://www.darkness.finance/",
+    "projectSite": "https://www.darkness.finance/",
+    "assets": [
+      "CRO",
+      "NESS"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xE727240728C1a5f95437b8b50AFDd0EA4AE5F0c8"
+  },
+  {
+    "id": "darkness-dusd-usdc",
+    "pid": 113,
+    "lpSymbol": "USDC-DUSD LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x8C183C81A5aE3E7A46eCaac17C4Bf27A6a40Bbe8",
+    "depositFee": "0%",
+    "strategyAddress": "0xd46877000fa299632A79A3F9a9b36abE6e12201B",
+    "masterchef": "0x63Df75d039f7d7A8eE4A9276d6A9fE7990D7A6C5",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "darkness-dusd-usdc",
+    "paused": false,
+    "platform": "DARKNESS",
+    "farmSite": "https://www.darkness.finance/",
+    "projectSite": "https://www.darkness.finance/",
+    "assets": [
+      "DUSD",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x6582C738660bf0701f05b04DcE3c4E5Fcfcda47a/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   }
 ]

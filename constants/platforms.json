@@ -1,5 +1,10 @@
 [
   {
+    "name": "DARKNESS",
+    "id": "darkness",
+    "site": "https://www.darkness.finance/"
+  },
+  {
     "name": "CYBORGSWAP",
     "id": "cyborg",
     "site": "https://cyborgswap.io/"
