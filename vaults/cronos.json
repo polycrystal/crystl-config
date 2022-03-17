@@ -2636,5 +2636,29 @@
       "USDC"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0x6582C738660bf0701f05b04DcE3c4E5Fcfcda47a/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "photon-wcro-icy",
+    "pid": 114,
+    "lpSymbol": "ICY-CRO LP",
+    "lpProvider": "PHOTON",
+    "wantAddress": "0xAf2B637Ef8Acd55758dBc447EBB762EA7799193E",
+    "depositFee": "0%",
+    "strategyAddress": "0xc5d9d9E48FD528B021bA73800b441A034919A560",
+    "masterchef": "0xF328F4D925f68a7454e2c714072D9645369A39b3",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "photon-wcro-icy",
+    "paused": false,
+    "platform": "PHOTON",
+    "farmSite": "https://photonswap.finance/",
+    "projectSite": "https://www.icycro.org/",
+    "assets": [
+      "CRO",
+      "ICY"
+    ],
+    "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x8F857Af6Ea31447Bb502fE0E3F4e4340CDFCfc6C"
   }
 ]
