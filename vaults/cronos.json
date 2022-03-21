@@ -2473,7 +2473,7 @@
     "id": "v3s-vvs-v3s",
     "pid": 107,
     "lpSymbol": "V3S-VVS LP",
-    "lpProvider": "VVS",
+    "lpProvider": "V3S",
     "wantAddress": "0x57b975364140e4a8d1C96FAa00225b855BaB0E8E",
     "depositFee": "0%",
     "strategyAddress": "0xA2AdEe1A000e1D8eDe65a5A9Bbc3832969609388",
@@ -2497,7 +2497,7 @@
     "id": "v3s-wcro-vshare",
     "pid": 108,
     "lpSymbol": "VSHARE-CRO LP",
-    "lpProvider": "VVS",
+    "lpProvider": "V3S",
     "wantAddress": "0xcb0704BC4E885384ac96F0ED22B9204C3adD91AD",
     "depositFee": "0%",
     "strategyAddress": "0xB21cBFd05A8466151d552bCbF8b9d98263E7b7Da",
@@ -2660,5 +2660,53 @@
       "ICY"
     ],
     "addLiquidityUrl": "https://photonswap.finance/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x8F857Af6Ea31447Bb502fE0E3F4e4340CDFCfc6C"
+  },
+  {
+    "id": "v3s-wcro-v3tonic",
+    "pid": 115,
+    "lpSymbol": "V3TONIC-CRO LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x173F819F6596334d316A4DCcfe370DF375e7f9A3",
+    "depositFee": "0%",
+    "strategyAddress": "0x6a9A5F839eFFAD81144B556Dd674eDCDD4F7D3D2",
+    "masterchef": "0x7011182B5B1e7E2E5F95cAc86350b07CfA472d06",
+    "farmPid": 2,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "v3s-wcro-v3tonic",
+    "paused": false,
+    "platform": "V3S",
+    "farmSite": "https://www.v3s.finance/",
+    "projectSite": "https://www.v3s.finance/",
+    "assets": [
+      "CRO",
+      "V3TONIC"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA29EB0318F522ca98FdB5cEdc0c7549526625517"
+  },
+  {
+    "id": "v3s-v3tonic-tonic",
+    "pid": 116,
+    "lpSymbol": "TONIC-V3TONIC LP",
+    "lpProvider": "V3S",
+    "wantAddress": "0xd40A1a5E574293e1B468bd240BF9a26685FBDE9D",
+    "depositFee": "0%",
+    "strategyAddress": "0xE4a82a8b7D80B8725667a0Fd4866C2D813a152B1",
+    "masterchef": "0x569608516A81C0B1247310A3E0CD001046dA0663",
+    "farmPid": 2,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "v3s-v3tonic-tonic",
+    "paused": false,
+    "platform": "V3S",
+    "farmSite": "https://www.v3s.finance/",
+    "projectSite": "https://www.v3s.finance/",
+    "assets": [
+      "V3TONIC",
+      "TONIC"
+    ],
+    "addLiquidityUrl": "https://swap.v3s.finance/add/0xA29EB0318F522ca98FdB5cEdc0c7549526625517/0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2"
   }
 ]
