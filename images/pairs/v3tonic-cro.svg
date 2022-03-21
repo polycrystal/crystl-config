@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-7 {
+        fill: #103f68;
+      }
+
+      .cls-10, .cls-8 {
+        fill: none;
+      }
+
+      .cls-8 {
+        stroke: #fff;
+        stroke-width: 2.125px;
+      }
+
+      .cls-10, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-10 {
+        stroke: #979797;
+        stroke-width: 0.125px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1896" data-name="Ellipse 1896" class="cls-1" cx="32" cy="32" r="32" transform="translate(-20323 -23593)"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.481" cy="0.007" r="1.503" gradientTransform="matrix(0, 1, 0.745, 0, -4.943, 6.717)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f3a4"/>
+      <stop offset="1" stop-color="#d2d178"/>
+    </radialGradient>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_3473" data-name="Ellipse 3473" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21477 -24525)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_1807" data-name="Ellipse 1807" class="cls-1" cx="32" cy="32" r="32" transform="translate(-24123 -23674)"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <circle id="Ellipse_2221" data-name="Ellipse 2221" class="cls-1" cx="32" cy="32" r="32" transform="translate(-24083 -9037)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_17030" data-name="Group 17030" transform="translate(20323 23573)">
+    <g id="Mask_Group_618" data-name="Mask Group 618" class="cls-2" transform="translate(0 20)">
+      <g id="b" transform="translate(-20323 -23593)">
+        <g id="c">
+          <path id="Path_35203" data-name="Path 35203" class="cls-3" d="M32,64A32,32,0,1,0,0,32,32,32,0,0,0,32,64Z"/>
+          <path id="Path_35204" data-name="Path 35204" d="M21.32,28.76l6.66-6.65h8.06l6.66,6.65L32,39.46,21.32,28.76Zm29.14-.08-6.93,6.93H38.55l6.93-6.93-7.04-6.99H43.4Zm-8.4,8.41L32,47.15,21.94,37.09h4.99L32,42.16l5.07-5.07ZM18.53,28.68l6.93,6.93H20.48l-6.93-6.93,7.06-6.99H25.6ZM33.34,53.63,56.93,30.09a1.907,1.907,0,0,0,0-2.68L46.33,16.82a1.685,1.685,0,0,0-.61-.41,1.963,1.963,0,0,0-.72-.14H18.96a1.963,1.963,0,0,0-.72.14,1.685,1.685,0,0,0-.61.41L7.07,27.41a1.907,1.907,0,0,0,0,2.68L30.66,53.68a1.883,1.883,0,0,0,2.66,0v-.05ZM19.68,19.8H44.31l8.97,8.96L32,50.04,10.72,28.76Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_616" data-name="Mask Group 616" class="cls-4" transform="translate(1204 952)">
+      <g id="Group_720" data-name="Group 720" transform="translate(2646 -851)">
+        <g id="Mask_Group_11" data-name="Mask Group 11" class="cls-5">
+          <g id="Mask_Group_471" data-name="Mask Group 471" class="cls-6" transform="translate(-40 -14637)">
+            <g id="Page-1" transform="translate(-24083 -9037)">
+              <circle id="Oval" class="cls-7" cx="32" cy="32" r="32"/>
+              <path id="Polygon" class="cls-8" d="M32.188,11.164,50.232,21.582V42.418L32.188,52.836,14.143,42.418V21.582Z"/>
+              <path id="Path" class="cls-9" d="M24.379,19.561l-1.686,7.632H41.121l-1.8-7.632Z"/>
+              <path id="Path-2" class="cls-9" d="M22.626,29.8l-4.989,3.74,6.8,11.908h2.735l3.212-3.02v-1.5l-3.335-3.2v-5.1Z"/>
+              <path id="Path-2-2" data-name="Path-2" class="cls-9" d="M38.372-29.745l-4.989-3.742,6.8-11.908h2.735l3.211,3.02v1.5l-3.335,3.2v5.1Z" transform="translate(79.513) rotate(180)"/>
+              <path id="Path-3" class="cls-10"/>
+              <path id="Path-4" class="cls-9" d="M27.068,28.362l1.623,4.257-.5,4.771,7.4-.024-.452-4.747,1.6-4.257Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
