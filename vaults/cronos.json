@@ -2708,5 +2708,53 @@
       "TONIC"
     ],
     "addLiquidityUrl": "https://swap.v3s.finance/add/0xA29EB0318F522ca98FdB5cEdc0c7549526625517/0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2"
+  },
+  {
+    "id": "oasis-wcro-olive",
+    "pid": 117,
+    "lpSymbol": "OLIVE-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x232E77e92C7De218D6743077a5aeB05c06358b4C",
+    "depositFee": "0%",
+    "strategyAddress": "0xD6c93a9BCe5571C139BF06a0E3Fbd5A344205Be1",
+    "masterchef": "0x7dC6AdD55a128715C91fc86037B285C16e27044F",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "oasis-wcro-olive",
+    "paused": false,
+    "platform": "OASIS",
+    "farmSite": "https://crooasis.com/",
+    "projectSite": "https://crooasis.com/",
+    "assets": [
+      "CRO",
+      "OLIVE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xBF528d35bfAf3c0Ef24A240E53Dd2C537a8ddB59"
+  },
+  {
+    "id": "oasis-oshare-wcro",
+    "pid": 118,
+    "lpSymbol": "CRO-OSHARE LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x48FF946a759790dc938E7ffb291b237F881060ff",
+    "depositFee": "0%",
+    "strategyAddress": "0xAdB3410c7c4C2c0BACf56600e6EF98E5Ea8d712e",
+    "masterchef": "0x7dC6AdD55a128715C91fc86037B285C16e27044F",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "oasis-oshare-wcro",
+    "paused": false,
+    "platform": "OASIS",
+    "farmSite": "https://crooasis.com/",
+    "projectSite": "https://crooasis.com/",
+    "assets": [
+      "OSHARE",
+      "CRO"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x038f5972bcDF0cCC963FBFCCe6ddaDF06B6A91be/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   }
 ]

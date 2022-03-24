@@ -1,5 +1,10 @@
 [
   {
+    "name": "OASIS",
+    "id": "oasis",
+    "site": "https://crooasis.com/"
+  },
+  {
     "name": "DARKNESS",
     "id": "darkness",
     "site": "https://www.darkness.finance/"
