@@ -54,12 +54,18 @@ const args = yargs.options({
     demandOption: true,
     describe: "lp provider name",
   },
+  deposit: {
+    type: "number",
+    demandOption: false,
+    describe: "deposit fee",
+  },
 }).argv;
 
 const pid = args["pid"];
 const platform = args["platform"];
 const token = args["token"];
 const provider = args["provider"];
+const depositFee: number = args["deposit"] ?? 0;
 
 const vaultHealerAddress = network[args["network"] as string].vaultHealer;
 const configFile = network[args["network"] as string].configFile;
@@ -195,7 +201,7 @@ async function main() {
     } LP`,
     lpProvider: provider.toUpperCase(),
     wantAddress: lp.address,
-    depositFee: "0%",
+    depositFee: `${depositFee.toLocaleString('en-US')}%`,
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
     farmPid: strategy.pid,

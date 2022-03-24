@@ -1,5 +1,9 @@
 [
   {
+    "name": "GREEN",
+    "site": "https://trade.greenhousedex.com/#/add"
+  },
+  {
     "name": "V3S",
     "site": "https://swap.v3s.finance/add"
   },
