@@ -1925,7 +1925,7 @@
     "oracle": "lps",
     "oracleId": "green-usdt-ust",
     "paused": false,
-    "platform": "GREEN",
+    "platform": "GREENHOUSE",
     "farmSite": "https://greenhousedex.com/",
     "projectSite": "https://www.terra.money/",
     "assets": [
@@ -1949,7 +1949,7 @@
     "oracle": "lps",
     "oracleId": "green-usdc-ust",
     "paused": false,
-    "platform": "GREEN",
+    "platform": "GREENHOUSE",
     "farmSite": "https://greenhousedex.com/",
     "projectSite": "https://www.terra.money/",
     "assets": [
@@ -1973,7 +1973,7 @@
     "oracle": "lps",
     "oracleId": "green-green-ust",
     "paused": false,
-    "platform": "GREEN",
+    "platform": "GREENHOUSE",
     "farmSite": "https://greenhousedex.com/",
     "projectSite": "https://greenhousedex.com/",
     "assets": [
@@ -1997,7 +1997,7 @@
     "oracle": "lps",
     "oracleId": "green-green-weth",
     "paused": false,
-    "platform": "GREEN",
+    "platform": "GREENHOUSE",
     "farmSite": "https://greenhousedex.com/",
     "projectSite": "https://greenhousedex.com/",
     "assets": [
@@ -2021,7 +2021,7 @@
     "oracle": "lps",
     "oracleId": "green-wmatic-weth",
     "paused": false,
-    "platform": "GREEN",
+    "platform": "GREENHOUSE",
     "farmSite": "https://greenhousedex.com/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
     "assets": [
@@ -2045,7 +2045,7 @@
     "oracle": "lps",
     "oracleId": "green-weth-ust",
     "paused": false,
-    "platform": "GREEN",
+    "platform": "GREENHOUSE",
     "farmSite": "https://greenhousedex.com/",
     "projectSite": "https://pbs.twimg.com/media/EWYbP7DXQAMDgz5?format=jpg&name=large",
     "assets": [
