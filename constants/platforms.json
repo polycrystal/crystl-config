@@ -1,5 +1,10 @@
 [
   {
+    "name": "BONFIRE",
+    "id": "bonfire",
+    "site": "https://crobonfire.com/"
+  },
+  {
     "name": "GREENHOUSE",
     "id": "green",
     "site": "https://greenhousedex.com/"
