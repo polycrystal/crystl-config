@@ -2948,5 +2948,29 @@
       "LUNA"
     ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x9278C8693e7328bef49804BacbFb63253565dffD"
+  },
+  {
+    "id": "bonfire-wcro-bfire-2",
+    "pid": 127,
+    "lpSymbol": "BFIRE-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x60337372A65A709dE0BBCB4A27Caa3e912f8875d",
+    "depositFee": "0%",
+    "strategyAddress": "0xb709e4c15cd9B007aEE63cA113a04a0463afCFA9",
+    "masterchef": "0x5F7E69Df7eE3fA53cd70a3cB0dC681753931FED1",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bonfire-wcro-bfire",
+    "paused": false,
+    "platform": "BONFIRE",
+    "farmSite": "https://crobonfire.com/",
+    "projectSite": "https://crobonfire.com/",
+    "assets": [
+      "CRO",
+      "BFIRE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x601f79d65929a6ac2831ef90F662A2248A786756"
   }
 ]
