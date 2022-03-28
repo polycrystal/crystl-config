@@ -2876,5 +2876,77 @@
       "BSHARE"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xf300E240C41E0a35990ad6C3d813e1a324FB718e"
+  },
+  {
+    "id": "crodex-wcro-usdt-3",
+    "pid": 124,
+    "lpSymbol": "USDT-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x47AB43F8176696CA569b14A24621A46b318096A7",
+    "depositFee": "0%",
+    "strategyAddress": "0xA051486fc4402f9D4D32F255C39d39F2fd508c97",
+    "masterchef": "0x6d3f843dD0a07214E014C3beaB421DcfD881c936",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-usdt-3",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://cronos.crypto.org/",
+    "assets": [
+      "CRO",
+      "USDT"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x66e428c3f67a68878562e79A0234c1F83c208770"
+  },
+  {
+    "id": "crodex-wcro-usdc-2",
+    "pid": 125,
+    "lpSymbol": "USDC-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x182414159C3eeF1435aF91Bcf0d12AbcBe277A46",
+    "depositFee": "0%",
+    "strategyAddress": "0xcb7781bd57F8a25Ed6D3cE2E0aB222D8Bf35D465",
+    "masterchef": "0x65A88434cb5316Ce4Aeb8efA28de48BEc05E72Cb",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-usdc-2",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://cronos.crypto.org/",
+    "assets": [
+      "CRO",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "crodex-wcro-luna",
+    "pid": 126,
+    "lpSymbol": "LUNA-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x6DA172EC29b4c644bFa8E0eF9457D6E748CcD17c",
+    "depositFee": "0%",
+    "strategyAddress": "0xD90b1fc0C6bFd0ab97Cd5b824ea452fAA72015F1",
+    "masterchef": "0x586fbC3C8cB40d73E9d824CF31A4851a750B58A4",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-luna",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://www.terra.money/",
+    "assets": [
+      "CRO",
+      "LUNA"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x9278C8693e7328bef49804BacbFb63253565dffD"
   }
 ]
