@@ -2756,5 +2756,77 @@
       "CRO"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0x038f5972bcDF0cCC963FBFCCe6ddaDF06B6A91be/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
+  },
+  {
+    "id": "crodex-wcro-icy-2",
+    "pid": 119,
+    "lpSymbol": "ICY-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x1Cb86702cde12E91477aD9DaF2634403fdea3277",
+    "depositFee": "0%",
+    "strategyAddress": "0x957279055861ac10779c7A2E7480b6b4776f593E",
+    "masterchef": "0xeA9949534dE1FF590ee7b53a73a65426402b9Fe9",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-icy-2",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://www.icycro.org/",
+    "assets": [
+      "CRO",
+      "ICY"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x8F857Af6Ea31447Bb502fE0E3F4e4340CDFCfc6C"
+  },
+  {
+    "id": "crodex-wcro-crx-6",
+    "pid": 120,
+    "lpSymbol": "CRX-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0xd141aeD3FA86f411808D5D74BEbBC038e94f300D",
+    "depositFee": "0%",
+    "strategyAddress": "0x1847a2800c1726Fe04Ccd347B6dfC2A7E7114994",
+    "masterchef": "0xAAbA1579f6f8488f3CADacb8513CF1200AD52cC4",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-crx-6",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://swap.crodex.app/",
+    "assets": [
+      "CRO",
+      "CRX"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xe243CCab9E66E6cF1215376980811ddf1eb7F689"
+  },
+  {
+    "id": "crodex-wcro-crystl-6",
+    "pid": 121,
+    "lpSymbol": "CRYSTL-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0xDF06013797083E077aA1347D74bD7c7cDfeF7856",
+    "depositFee": "0%",
+    "strategyAddress": "0x09FF697cFE5318d275aE254b70C4EF8583E83e71",
+    "masterchef": "0x56d00E9f9679B7942CCE0e7Dea270e970602Df37",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-crystl-6",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://crystl.finance/",
+    "assets": [
+      "CRO",
+      "CRYSTL"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
   }
 ]
