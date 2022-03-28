@@ -2828,5 +2828,53 @@
       "CRYSTL"
     ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
+  },
+  {
+    "id": "bonfire-wcro-bfire",
+    "pid": 122,
+    "lpSymbol": "BFIRE-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x60337372A65A709dE0BBCB4A27Caa3e912f8875d",
+    "depositFee": "0%",
+    "strategyAddress": "0x0b8A18Ef55f72cB923a4B69273f4d0728a79ce6A",
+    "masterchef": "0x5F7E69Df7eE3fA53cd70a3cB0dC681753931FED1",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bonfire-wcro-bfire",
+    "paused": false,
+    "platform": "BONFIRE",
+    "farmSite": "https://crobonfire.com/",
+    "projectSite": "https://crobonfire.com/",
+    "assets": [
+      "CRO",
+      "BFIRE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x601f79d65929a6ac2831ef90F662A2248A786756"
+  },
+  {
+    "id": "bonfire-wcro-bshare",
+    "pid": 123,
+    "lpSymbol": "BSHARE-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x2C1eA92907A91Ee79469eD6eD874779A81ec8189",
+    "depositFee": "0%",
+    "strategyAddress": "0xCb36744Dc198f8Fb0a5f97F4e25d5dE8532623Bc",
+    "masterchef": "0x5F7E69Df7eE3fA53cd70a3cB0dC681753931FED1",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bonfire-wcro-bshare",
+    "paused": false,
+    "platform": "BONFIRE",
+    "farmSite": "https://crobonfire.com/",
+    "projectSite": "https://crobonfire.com/",
+    "assets": [
+      "CRO",
+      "BSHARE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xf300E240C41E0a35990ad6C3d813e1a324FB718e"
   }
 ]
