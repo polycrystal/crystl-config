@@ -2972,5 +2972,29 @@
       "BFIRE"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x601f79d65929a6ac2831ef90F662A2248A786756"
+  },
+  {
+    "id": "v3s-wcro-v3cro",
+    "pid": 128,
+    "lpSymbol": "V3CRO-CRO LP",
+    "lpProvider": "V3S",
+    "wantAddress": "0xFC1CCfC8F1A9C726c2A75604C1B8FEfAbea46F03",
+    "depositFee": "0%",
+    "strategyAddress": "0x5e2172B1Ae263513cbC6b1bE946397328AdEB1aC",
+    "masterchef": "0x569608516A81C0B1247310A3E0CD001046dA0663",
+    "farmPid": 4,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "v3s-wcro-v3cro",
+    "paused": false,
+    "platform": "V3S",
+    "farmSite": "https://www.v3s.finance/",
+    "projectSite": "https://www.v3s.finance/",
+    "assets": [
+      "CRO",
+      "V3CRO"
+    ],
+    "addLiquidityUrl": "https://swap.v3s.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xdB04627376661D678Cf6efFBad509D631B0050ae"
   }
 ]
