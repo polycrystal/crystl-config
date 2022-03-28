@@ -2996,5 +2996,29 @@
       "V3CRO"
     ],
     "addLiquidityUrl": "https://swap.v3s.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xdB04627376661D678Cf6efFBad509D631B0050ae"
+  },
+  {
+    "id": "crodex-wcro-loot-4",
+    "pid": 129,
+    "lpSymbol": "LOOT-CRO LP",
+    "lpProvider": "CRODEX",
+    "wantAddress": "0x8678778b74884F1d01290E323D4b04481f587231",
+    "depositFee": "0%",
+    "strategyAddress": "0x2eD4f67b3FD81f12ceffe8b6b545346f4635ca0a",
+    "masterchef": "0xFf14cF27986F006FCF82DC233073eC915620B056",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crodex-wcro-loot-4",
+    "paused": false,
+    "platform": "CRODEX",
+    "farmSite": "https://swap.crodex.app/",
+    "projectSite": "https://lootnetwork.ca/",
+    "assets": [
+      "CRO",
+      "LOOT"
+    ],
+    "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEd34211cDD2cf76C3cceE162761A72d7b6601E2B"
   }
 ]
