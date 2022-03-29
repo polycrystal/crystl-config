@@ -2053,5 +2053,77 @@
       "UST"
     ],
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
+  },
+  {
+    "id": "polydogedao-wmatic-pddollar",
+    "pid": 89,
+    "lpSymbol": "PDDOLLAR-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xEBcA34c9Fc0be6a37dEAF62DDd064941f53Ed246",
+    "depositFee": "0%",
+    "strategyAddress": "0xA8C4EA0aBCf93b5058A69Ea2911bFa551A0DC652",
+    "masterchef": "0x9682D175830643658798ac3367915e57bDdB506A",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polydogedao-wmatic-pddollar",
+    "paused": false,
+    "platform": "POLYDOGEDAO",
+    "farmSite": "https://polydogedao.net/",
+    "projectSite": "https://polydogedao.net/",
+    "assets": [
+      "MATIC",
+      "PDDOLLAR"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x146e58D34EaB0bFf7e0a63cfe9332908d680c667"
+  },
+  {
+    "id": "polydogedao-wmatic-pdshare",
+    "pid": 90,
+    "lpSymbol": "PDSHARE-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xa7c858261F33dEbB1718A6D417E3E4fbfFD9E01b",
+    "depositFee": "0%",
+    "strategyAddress": "0x31B52278CCaF5faBDfc1Dd1CD63E6B3292421586",
+    "masterchef": "0x9682D175830643658798ac3367915e57bDdB506A",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polydogedao-wmatic-pdshare",
+    "paused": false,
+    "platform": "POLYDOGEDAO",
+    "farmSite": "https://polydogedao.net/",
+    "projectSite": "https://polydogedao.net/",
+    "assets": [
+      "MATIC",
+      "PDSHARE"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x3068382885602FC0089aeC774944b5ad6123ae60"
+  },
+  {
+    "id": "polydogedao-pdshare-weth",
+    "pid": 91,
+    "lpSymbol": "WETH-PDSHARE LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x03AFc0563B287CAACe97B1dE84e087fE5e478027",
+    "depositFee": "0%",
+    "strategyAddress": "0xD3B3C36e2B9F5b129dF31105F6D65d8BdB48a74A",
+    "masterchef": "0x9682D175830643658798ac3367915e57bDdB506A",
+    "farmPid": 2,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polydogedao-pdshare-weth",
+    "paused": false,
+    "platform": "POLYDOGEDAO",
+    "farmSite": "https://polydogedao.net/",
+    "projectSite": "https://polydogedao.net/",
+    "assets": [
+      "PDSHARE",
+      "ETH"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x3068382885602FC0089aeC774944b5ad6123ae60/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   }
 ]
