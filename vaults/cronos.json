@@ -3020,5 +3020,53 @@
       "LOOT"
     ],
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEd34211cDD2cf76C3cceE162761A72d7b6601E2B"
+  },
+  {
+    "id": "oasis-oshare-olive",
+    "pid": 130,
+    "lpSymbol": "OLIVE-OSHARE LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x466C6F60aaBF05f0e73EBf79FAc4F95F28B17f28",
+    "depositFee": "0%",
+    "strategyAddress": "0x0667f0EC5cCC7069ec4072A2ceb6f5E457272466",
+    "masterchef": "0x7dC6AdD55a128715C91fc86037B285C16e27044F",
+    "farmPid": 2,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "oasis-oshare-olive",
+    "paused": false,
+    "platform": "OASIS",
+    "farmSite": "https://crooasis.com/",
+    "projectSite": "https://crooasis.com/",
+    "assets": [
+      "OSHARE",
+      "OLIVE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x038f5972bcDF0cCC963FBFCCe6ddaDF06B6A91be/0xBF528d35bfAf3c0Ef24A240E53Dd2C537a8ddB59"
+  },
+  {
+    "id": "bonfire-bfire-bshare",
+    "pid": 131,
+    "lpSymbol": "BSHARE-BFIRE LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x2C9BC5bd477f33c2079BAD7bc04c1E63d622898A",
+    "depositFee": "0%",
+    "strategyAddress": "0x8fd47853f9430c83fFD4d2BfdeBd9EBA51ceCbF8",
+    "masterchef": "0x5F7E69Df7eE3fA53cd70a3cB0dC681753931FED1",
+    "farmPid": 3,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bonfire-bfire-bshare",
+    "paused": false,
+    "platform": "BONFIRE",
+    "farmSite": "https://crobonfire.com/",
+    "projectSite": "https://crobonfire.com/",
+    "assets": [
+      "BFIRE",
+      "BSHARE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x601f79d65929a6ac2831ef90F662A2248A786756/0xf300E240C41E0a35990ad6C3d813e1a324FB718e"
   }
 ]
