@@ -3044,5 +3044,29 @@
       "OLIVE"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0x038f5972bcDF0cCC963FBFCCe6ddaDF06B6A91be/0xBF528d35bfAf3c0Ef24A240E53Dd2C537a8ddB59"
+  },
+  {
+    "id": "bonfire-bfire-bshare",
+    "pid": 131,
+    "lpSymbol": "BSHARE-BFIRE LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x2C9BC5bd477f33c2079BAD7bc04c1E63d622898A",
+    "depositFee": "0%",
+    "strategyAddress": "0x8fd47853f9430c83fFD4d2BfdeBd9EBA51ceCbF8",
+    "masterchef": "0x5F7E69Df7eE3fA53cd70a3cB0dC681753931FED1",
+    "farmPid": 3,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bonfire-bfire-bshare",
+    "paused": false,
+    "platform": "BONFIRE",
+    "farmSite": "https://crobonfire.com/",
+    "projectSite": "https://crobonfire.com/",
+    "assets": [
+      "BFIRE",
+      "BSHARE"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x601f79d65929a6ac2831ef90F662A2248A786756/0xf300E240C41E0a35990ad6C3d813e1a324FB718e"
   }
 ]
