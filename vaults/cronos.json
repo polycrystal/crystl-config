@@ -3068,5 +3068,53 @@
       "BSHARE"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0x601f79d65929a6ac2831ef90F662A2248A786756/0xf300E240C41E0a35990ad6C3d813e1a324FB718e"
+  },
+  {
+    "id": "pegasus-pes-metf",
+    "pid": 132,
+    "lpSymbol": "METF-PES LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0xADab84BF91c130aF81d76Be9D7f28b8c4F515367",
+    "depositFee": "0%",
+    "strategyAddress": "0x390fa20E81754E09F176197F2af13007a6e1A4eb",
+    "masterchef": "0xdD403db142A320261858840103B907c2486240c6",
+    "farmPid": 0,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "pegasus-pes-metf",
+    "paused": false,
+    "platform": "PEGASUSDOLLAR",
+    "farmSite": "https://pegasusdollar.finance/",
+    "projectSite": "https://pegasusdollar.finance/",
+    "assets": [
+      "PES",
+      "METF"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0x8EfBaA6080412D7832025b03B9239D0be1e2aa3B/0xB8Df27c687c6af9aFE845A2aFAD2D01e199f4878"
+  },
+  {
+    "id": "pegasus-metf-spes",
+    "pid": 133,
+    "lpSymbol": "SPES-METF LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x72c1f5fB7E5513A07e1FF663Ad861554887a0A0a",
+    "depositFee": "0%",
+    "strategyAddress": "0x57f667F697121a36d70B2FC1958aA6b3678B01a0",
+    "masterchef": "0xdD403db142A320261858840103B907c2486240c6",
+    "farmPid": 1,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "pegasus-metf-spes",
+    "paused": false,
+    "platform": "PEGASUSDOLLAR",
+    "farmSite": "https://pegasusdollar.finance/",
+    "projectSite": "https://pegasusdollar.finance/",
+    "assets": [
+      "METF",
+      "SPES"
+    ],
+    "addLiquidityUrl": "https://mm.finance/add/0xB8Df27c687c6af9aFE845A2aFAD2D01e199f4878/0xBBd4650EeA85f9DBd83d6Fb2a6E8B3d8f32FE1C5"
   }
 ]

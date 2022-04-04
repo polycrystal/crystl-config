@@ -1,5 +1,10 @@
 [
   {
+    "name": "PEGASUSDOLLAR",
+    "id": "pegasus",
+    "site": "https://pegasusdollar.finance/"
+  },
+  {
     "name": "POLYDOGEDAO",
     "id": "polydogedao",
     "site": "https://polydogedao.net/"
