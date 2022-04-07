@@ -7,23 +7,26 @@
     "wantAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
     "depositFee": "0%",
     "strategyAddress": "0x5d094b25e00cb63A17b536C4C460abA234d0b138",
+    "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
+    "farmPid": 0,
     "pricePerFullShare": 1,
     "tvl": 0,
     "oracle": "lps",
     "oracleId": "ape-wmatic-banana",
-    "oraclePrice": 0,
     "paused": false,
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://apeswap.finance/",
     "assets": [
-      "BANANA",
-      "MATIC"
+      "MATIC",
+      "BANANA"
     ],
+    "boosted": false,
+    "type": "TRADITIONAL",
     "category": [
-      "TRADITIONAL",
-      "BLUE CHIPTS"
+      "BLUE CHIP",
+      "DEFI TOKEN"
     ],
-    "addLiquidityUrl": "https://app.apeswap.finance/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
+    "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   }
 ]

@@ -12,8 +12,10 @@ const ERC20ABI = require("../abis/ERC20.json");
 const platformJson = require("../constants/platforms.json");
 const tokenJson = require("../constants/tokens.json");
 const providerJson = require("../constants/providers.json");
-const vaultABI = require("../abis/CrystlVaultHealerV2.json");
-const strategyABI = require("../abis/CrystlStrategyV2.json");
+const vaultV2ABI = require("../abis/CrystlVaultHealerV2.json");
+const strategyV2ABI = require("../abis/CrystlStrategyV2.json");
+const vaultV3ABI = require("../abis/CrystlVaultHealerV3.json");
+const strategyV3ABI = require("../abis/CrystlStrategyV3.json");
 
 const network: any = {
   cronos: {
@@ -25,6 +27,18 @@ const network: any = {
     configFile: "../vaults/polygon.json",
     chainId: ChainId.polygon,
     vaultHealer: "0xD4d696ad5A7779F4D3A0Fc1361adf46eC51C632d",
+  },
+  cronosV3: {
+    configFile: "../vaults/cronosV3.json",
+    chainId: ChainId.cronos,
+    vaultHealer: "",
+    isV3: true,
+  },
+  polygonV3: {
+    configFile: "../vaults/polygonV3.json",
+    chainId: ChainId.polygon,
+    vaultHealer: "0xD429b58a3807Bc6537950492B2658E0697CC5f81",
+    isV3: true,
   },
 };
 
@@ -59,48 +73,85 @@ const args = yargs.options({
     demandOption: false,
     describe: "deposit fee",
   },
+  boosted: {
+    type: "boolean",
+    demandOption: false,
+    describe: "is boosted",
+  },
+  type: {
+    type: "string",
+    demandOption: false,
+    describe: "(S)ingle Staking | (T)raditional",
+  },
+  category: {
+    type: "string",
+    demandOption: false,
+    describe:
+      "(S)table Coin | (B)lue Chip | (D)eFi Token | (G)ameFi | (N)FT/GameFi | (T)omb Fork (DYOR). You can select multiple with a '/' like: s/b",
+  },
 }).argv;
 
-const pid = args["pid"];
-const platform = args["platform"];
-const token = args["token"];
-const provider = args["provider"];
+const pid: number = args["pid"];
+const platform: string = args["platform"];
+const token: string = args["token"];
+const provider: string = args["provider"];
 const depositFee: number = args["deposit"] ?? 0;
+const isBoosted: boolean = args["boosted"] ?? false;
+const type: string = args["type"] ?? "";
+const category: string = args["category"] ?? "";
 
-const vaultHealerAddress = network[args["network"] as string].vaultHealer;
-const configFile = network[args["network"] as string].configFile;
+const networkSelected = network[args["network"] as string];
+const isV3 = networkSelected.isV3 ?? false;
+const vaultHealerAddress = networkSelected.vaultHealer;
+const configFile = networkSelected.configFile;
 const config = require(configFile);
-const chainId = network[args["network"] as string].chainId;
+const chainId = networkSelected.chainId;
 const rpcProvider = new ethers.providers.JsonRpcProvider(
   MULTICHAIN_RPC[chainId]
 );
 
-async function fetchVault(vaultHealerAddress: string, poolId: number) {
+async function fetchVault(
+  vaultHealerAddress: string,
+  poolId: number,
+  isV3 = false
+) {
   console.log(`fetchVault(${vaultHealerAddress}, ${poolId})`);
   const vaultHealerContract = new ethers.Contract(
     vaultHealerAddress,
-    vaultABI,
+    isV3 ? vaultV3ABI : vaultV2ABI,
     rpcProvider
   );
 
-  const poolInfo = await vaultHealerContract.poolInfo(poolId);
+  const poolInfo = isV3
+    ? await vaultHealerContract.vaultInfo(poolId)
+    : await vaultHealerContract.poolInfo(poolId);
+  const strat = isV3 ? await vaultHealerContract.strat(poolId) : poolInfo.strat;
+
   return {
     want: poolInfo.want,
-    strat: poolInfo.strat,
+    strat,
   };
 }
-async function fetchStrategy(strategy: string) {
+async function fetchStrategy(strategy: string, isV3 = false) {
   console.log(`fetchStrategy(${strategy})`);
   const strategyContract = new ethers.Contract(
     strategy,
-    strategyABI,
+    isV3 ? strategyV3ABI : strategyV2ABI,
     rpcProvider
   );
 
+  const configInfo = isV3 ? await strategyContract.configInfo() : null;
+  const masterchef = isV3
+    ? configInfo.masterchef
+    : await strategyContract.masterchefAddress();
+  const pid = isV3
+    ? configInfo.pid.toNumber()
+    : (await strategyContract.pid()).toNumber();
+
   return {
     address: ethers.utils.getAddress(strategy),
-    masterchef: await strategyContract.masterchefAddress(),
-    pid: (await strategyContract.pid()).toNumber(),
+    masterchef,
+    pid,
   };
 }
 
@@ -163,9 +214,39 @@ function removeWrapped(symbol: string) {
     : symbol.toUpperCase();
 }
 
+function getType(type: string): string {
+  switch (type.toLowerCase()) {
+    case "s":
+      return "SINGLE STAKING";
+    case "t":
+      return "TRADITIONAL";
+    default:
+      return "";
+  }
+}
+
+function getCategory(category: string): string[] {
+  return category.split("/").map((c) => {
+    switch (c.toLowerCase()) {
+      case "s":
+        return "STABLE COIN";
+      case "b":
+        return "BLUE CHIP";
+      case "d":
+        return "DEFI TOKEN";
+      case "n":
+        return "NFT/GAMEFI";
+      case "t":
+        return "TOMB FORK (DYOR)";
+      default:
+        return "";
+    }
+  });
+}
+
 async function main() {
-  const vault = await fetchVault(vaultHealerAddress, pid);
-  const strategy = await fetchStrategy(vault.strat);
+  const vault = await fetchVault(vaultHealerAddress, pid, isV3);
+  const strategy = await fetchStrategy(vault.strat, isV3);
   const lp = await fetchLiquidityPair(vault.want);
   const token0 = await fetchToken(lp.token0);
   const token1 = await fetchToken(lp.token1);
@@ -175,7 +256,8 @@ async function main() {
   const unwrappedToken0 = removeWrapped(token0.symbol);
   const unwrappedToken1 = removeWrapped(token1.symbol);
 
-  const newVaultName = `${
+  const isV3Label = isV3 ? "v3-" : "";
+  const newVaultName = `${isV3Label}${
     platformData.id
   }-${token0.symbol.toLowerCase()}-${token1.symbol.toLowerCase()}`;
 
@@ -201,19 +283,22 @@ async function main() {
     } LP`,
     lpProvider: provider.toUpperCase(),
     wantAddress: lp.address,
-    depositFee: `${depositFee.toLocaleString('en-US')}%`,
+    depositFee: `${depositFee.toLocaleString("en-US")}%`,
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
     farmPid: strategy.pid,
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: tempName,
+    oracleId: isV3 ? tempName.slice(3) : tempName,
     paused: false,
     platform: platformData.name,
     farmSite: platformData.site,
     projectSite: site,
     assets: [unwrappedToken0, unwrappedToken1],
+    boosted: isBoosted,
+    type: getType(type),
+    category: [...getCategory(category)],
     addLiquidityUrl: `${lpProvider.site}/${token0.address}/${token1.address}`,
   };
 
