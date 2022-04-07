@@ -3116,5 +3116,29 @@
       "SPES"
     ],
     "addLiquidityUrl": "https://mm.finance/add/0xB8Df27c687c6af9aFE845A2aFAD2D01e199f4878/0xBBd4650EeA85f9DBd83d6Fb2a6E8B3d8f32FE1C5"
+  },
+  {
+    "id": "crona-arc-crona",
+    "pid": 134,
+    "lpSymbol": "CRONA-ARC LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0xd712862C859A904Ce16A7BAbdfFdbCAf10946ebe",
+    "depositFee": "0%",
+    "strategyAddress": "0x71376c7089f6103167DE93fe7073bd2B802bC9a2",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 28,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "crona-arc-crona",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://arcanenft.financial/",
+    "assets": [
+      "ARC",
+      "CRONA"
+    ],
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x289B8f552c9fD66f9cEA35B193F7ca73ae24A5d5/0xadbd1231fb360047525BEdF962581F3eee7b49fe"
   }
 ]
