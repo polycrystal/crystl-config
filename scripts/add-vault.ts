@@ -1,4 +1,4 @@
-import { ChainId } from "blockchain-addressbook/build/address-book";
+import { ChainId } from "../constants/constants";
 
 const yargs = require("yargs");
 const fs = require("fs");
@@ -37,7 +37,7 @@ const network: any = {
   polygonV3: {
     configFile: "../vaults/polygonV3.json",
     chainId: ChainId.polygon,
-    vaultHealer: "0xD429b58a3807Bc6537950492B2658E0697CC5f81",
+    vaultHealer: "0x8fcb6ce37d2a279a80d65b92af9691f796cf1848",
     isV3: true,
   },
 };
@@ -147,11 +147,13 @@ async function fetchStrategy(strategy: string, isV3 = false) {
   const pid = isV3
     ? configInfo.pid.toNumber()
     : (await strategyContract.pid()).toNumber();
+  const router: string = isV3 ? await strategyContract.router() : "";
 
   return {
     address: ethers.utils.getAddress(strategy),
     masterchef,
     pid,
+    router,
   };
 }
 
@@ -287,6 +289,7 @@ async function main() {
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
     farmPid: strategy.pid,
+    router: strategy.router,
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
@@ -295,7 +298,10 @@ async function main() {
     platform: platformData.name,
     farmSite: platformData.site,
     projectSite: site,
-    assets: [unwrappedToken0, unwrappedToken1],
+    assets: [
+      { name: unwrappedToken0, address: token0.address },
+      { name: unwrappedToken1, address: token1.address },
+    ],
     boosted: isBoosted,
     type: getType(type),
     category: [...getCategory(category)],

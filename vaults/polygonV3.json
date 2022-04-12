@@ -6,9 +6,10 @@
     "lpProvider": "APESWAP",
     "wantAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
     "depositFee": "0%",
-    "strategyAddress": "0x5d094b25e00cb63A17b536C4C460abA234d0b138",
+    "strategyAddress": "0x053452038E078bbb2fF5920A13980d65aDC800e0",
     "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
     "farmPid": 0,
+    "router": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607",
     "pricePerFullShare": 1,
     "tvl": 0,
     "oracle": "lps",
@@ -18,8 +19,14 @@
     "farmSite": "https://apeswap.finance/",
     "projectSite": "https://apeswap.finance/",
     "assets": [
-      "MATIC",
-      "BANANA"
+      {
+        "name": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      {
+        "name": "BANANA",
+        "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
+      }
     ],
     "boosted": false,
     "type": "TRADITIONAL",
