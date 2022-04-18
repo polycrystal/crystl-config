@@ -2125,5 +2125,29 @@
       "ETH"
     ],
     "addLiquidityUrl": "https://quickswap.exchange/#/add/0x3068382885602FC0089aeC774944b5ad6123ae60/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
+    "id": "quick-wmatic-pddollar",
+    "pid": 95,
+    "lpSymbol": "PDDOLLAR-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xEBcA34c9Fc0be6a37dEAF62DDd064941f53Ed246",
+    "depositFee": "0%",
+    "strategyAddress": "0x35bE5bdFb5A285cBedFefc6F591F15ada84Cad62",
+    "masterchef": "0x1bd082eC458Cf2EB4a2918C5de3b4b6cc655e977",
+    "farmPid": 999,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "quick-wmatic-pddollar",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://polydogedao.net/",
+    "assets": [
+      "MATIC",
+      "PDDOLLAR"
+    ],
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x146e58D34EaB0bFf7e0a63cfe9332908d680c667"
   }
 ]
