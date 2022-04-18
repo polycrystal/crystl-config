@@ -73,11 +73,11 @@ const args = yargs.options({
     demandOption: false,
     describe: "deposit fee",
   },
-  boosted: {
-    type: "boolean",
-    demandOption: false,
-    describe: "is boosted",
-  },
+  // boosted: {
+  //   type: "boolean",
+  //   demandOption: false,
+  //   describe: "is boosted",
+  // },
   type: {
     type: "string",
     demandOption: false,
@@ -96,7 +96,7 @@ const platform: string = args["platform"];
 const token: string = args["token"];
 const provider: string = args["provider"];
 const depositFee: number = args["deposit"] ?? 0;
-const isBoosted: boolean = args["boosted"] ?? false;
+// const isBoosted: boolean = args["boosted"] ?? false;
 const type: string = args["type"] ?? "";
 const category: string = args["category"] ?? "";
 
@@ -302,7 +302,7 @@ async function main() {
       { name: unwrappedToken0, address: token0.address },
       { name: unwrappedToken1, address: token1.address },
     ],
-    boosted: isBoosted,
+    // boosted: isBoosted,
     type: getType(type),
     category: [...getCategory(category)],
     addLiquidityUrl: `${lpProvider.site}/${token0.address}/${token1.address}`,

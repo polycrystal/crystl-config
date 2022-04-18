@@ -60,10 +60,14 @@ async function fetchVault(vaultHealerAddress: string, poolId: number) {
   );
 
   const boostInfo = await vaultHealerContract.boostInfo(ZERO_ADDRESS, poolId);
+  const strat = await vaultHealerContract.strat(poolId);
+  const want = (await vaultHealerContract.vaultInfo(poolId)).want;
 
   return await Promise.all(
     boostInfo.available.map(async (pool: { id: any }) => ({
       ...pool,
+      strat,
+      want,
       address: await vaultHealerContract.boostPool(pool.id),
     }))
   );
@@ -136,17 +140,20 @@ async function main() {
   const rewardToken = await fetchToken(poolDetails.rewardToken);
 
   const newPool = {
-    id: boostPool.id.toString(),
+    boostPoolId: boostPool.id.toString(),
     address: boostPoolAddress,
+    stratAddress: boostPool.strat,
+    vid: pid,
     projectName,
+    wantTokenAddress: boostPool.want,
     rewardToken: removeWrapped(rewardToken.symbol),
     rewardTokenAddress: rewardToken.address,
     rewardPerBlock: new BigNumber(poolDetails.rewardPerBlock._hex).div(1e18).toNumber(),
   };
 
-  config.forEach((pool: { id: any; }) => {
-    if (pool.id === newPool.id) {
-      throw Error(`Duplicate: pool with id ${newPool.id} already exists`);
+  config.forEach((pool: { boostPoolId: any; }) => {
+    if (pool.boostPoolId === newPool.boostPoolId) {
+      throw Error(`Duplicate: pool with id ${newPool.boostPoolId} already exists`);
     }
   });
 
