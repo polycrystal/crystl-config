@@ -19,11 +19,13 @@ const network: any = {
     configFile: "../pools/cronosBoostPools.json",
     chainId: ChainId.cronos,
     vaultHealer: "",
+    vaultConfig: "../vaults/cronosV3.json",
   },
   polygon: {
     configFile: "../pools/polygonBoostPools.json",
     chainId: ChainId.polygon,
     vaultHealer: "0x8FcB6ce37D2a279A80d65B92AF9691F796CF1848",
+    vaultConfig: "../vaults/polygonV3.json",
   },
 };
 
@@ -44,6 +46,7 @@ const pid: number = args["pid"];
 
 const networkSelected = network[args["network"] as string];
 const vaultHealerAddress = networkSelected.vaultHealer;
+const vaults = require(networkSelected.vaultConfig);
 const configFile = networkSelected.configFile;
 const config = require(configFile);
 const chainId = networkSelected.chainId;
@@ -108,6 +111,11 @@ function removeWrapped(symbol: string) {
     : symbol.toUpperCase();
 }
 
+function fetchWantToken() {
+  const vault = vaults.find((vault: { pid: number }) => vault.pid === pid);
+  return { oracle: vault.oracle, oracleId: vault.oracleId };
+}
+
 async function main() {
   const boostPools = await fetchVault(vaultHealerAddress, pid);
 
@@ -138,23 +146,28 @@ async function main() {
   );
   const poolDetails = await fetchPool(boostPoolAddress);
   const rewardToken = await fetchToken(poolDetails.rewardToken);
+  const oracle = fetchWantToken();
 
   const newPool = {
-    boostPoolId: boostPool.id.toString(),
+    id: boostPool.id.toString(),
     address: boostPoolAddress,
     stratAddress: boostPool.strat,
     vaultHealerAddress,
     vid: pid,
     projectName,
+    oracle: oracle.oracle,
+    oracleId: oracle.oracleId,
     wantTokenAddress: boostPool.want,
     rewardToken: removeWrapped(rewardToken.symbol),
     rewardTokenAddress: rewardToken.address,
-    rewardPerBlock: new BigNumber(poolDetails.rewardPerBlock._hex).div(1e18).toNumber(),
+    rewardPerBlock: new BigNumber(poolDetails.rewardPerBlock._hex)
+      .div(1e18)
+      .toNumber(),
   };
 
-  config.forEach((pool: { boostPoolId: any; }) => {
-    if (pool.boostPoolId === newPool.boostPoolId) {
-      throw Error(`Duplicate: pool with id ${newPool.boostPoolId} already exists`);
+  config.forEach((pool: { id: any }) => {
+    if (pool.id === newPool.id) {
+      throw Error(`Duplicate: pool with id ${newPool.id} already exists`);
     }
   });
 
