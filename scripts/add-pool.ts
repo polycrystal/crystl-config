@@ -23,7 +23,7 @@ const network: any = {
   polygon: {
     configFile: "../pools/polygonBoostPools.json",
     chainId: ChainId.polygon,
-    vaultHealer: "0x8fcb6ce37d2a279a80d65b92af9691f796cf1848",
+    vaultHealer: "0x8FcB6ce37D2a279A80d65B92AF9691F796CF1848",
   },
 };
 
@@ -143,6 +143,7 @@ async function main() {
     boostPoolId: boostPool.id.toString(),
     address: boostPoolAddress,
     stratAddress: boostPool.strat,
+    vaultHealerAddress,
     vid: pid,
     projectName,
     wantTokenAddress: boostPool.want,
