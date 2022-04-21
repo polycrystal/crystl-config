@@ -1,0 +1,523 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: url(#pattern);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-7 {
+        fill: #1d3f1d;
+      }
+
+      .cls-11, .cls-8 {
+        opacity: 0.4;
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-9 {
+        fill: #0d723b;
+      }
+
+      .cls-10 {
+        fill: #4db96b;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 400 400">
+      <image width="400" height="400" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5415" data-name="Ellipse 5415" class="cls-1" cx="32" cy="32" r="32" transform="translate(-20979 -23593)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_7529" data-name="Rectangle 7529" class="cls-2" width="64" height="64"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.207" y1="-12.448" x2="0.785" y2="-11.635" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4496d2"/>
+      <stop offset="1" stop-color="#58ba4d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_19963" data-name="Group 19963" transform="translate(22330 21705)">
+    <circle id="svgexport-1" class="cls-3" cx="32" cy="32" r="32" transform="translate(-22330 -21705)"/>
+    <circle id="Ellipse_5288" data-name="Ellipse 5288" class="cls-1" cx="32" cy="32" r="32" transform="translate(-22280 -21705)"/>
+    <g id="Mask_Group_670" data-name="Mask Group 670" class="cls-4" transform="translate(-1301 1888)">
+      <g id="b" transform="translate(-20979 -23593)">
+        <g id="c">
+          <g id="Group_19813" data-name="Group 19813" class="cls-5">
+            <g id="Group_19812" data-name="Group 19812">
+              <path id="Path_40195" data-name="Path 40195" class="cls-6" d="M32,64A32,32,0,1,0,0,32,31.991,31.991,0,0,0,32,64Z"/>
+              <path id="Path_40196" data-name="Path 40196" class="cls-7" d="M40.4,42.987H53.44L51.307,40l-9.04-12.8L32.64,13.6,23.013,27.2l-9.04,12.773L11.84,42.987H24.88l-2.64-3.84H19.227l3.52-4.96L28.96,42.96h7.387l6.213-8.747,3.493,4.96H43.04Zm-6.027-3.84h-3.44l-5.84-8.24,7.573-10.693L40.24,30.907l-5.84,8.24Z"/>
+              <path id="Path_40197" data-name="Path 40197" class="cls-7" d="M11.84,42.987l-.64-.96,1.813-.64Z"/>
+              <path id="Path_40198" data-name="Path 40198" class="cls-7" d="M40.4,42.987l-.64-.96,1.76-.507Z"/>
+              <path id="Path_40199" data-name="Path 40199" class="cls-1" d="M39.76,42.027H52.8L50.667,39.04l-9.04-12.8L32,12.64l-9.627,13.6-9.04,12.773L11.2,42.027H24.24l-2.64-3.84H18.587l3.52-4.96L28.32,42h7.387l6.213-8.747,3.493,4.96H42.4l-2.64,3.813Zm-6.027-3.84h-3.44l-5.84-8.24,7.573-10.693L39.6,29.947l-5.84,8.24Z"/>
+              <path id="Path_40200" data-name="Path 40200" class="cls-8" d="M32.32,5.76l.933.533V7.387l-.933.533-.933-.533V6.293ZM26.933,6.8l.187,1.067,1.013.373.827-.693L28.773,6.48,27.76,6.107ZM22.64,8.053l.373,1.013,1.067.187.693-.827L24.4,7.413l-1.067-.187Zm-4.027,2,.533.933H20.24l.533-.933L20.24,9.12H19.147l-.533.933Zm-3.6,2.667.693.827,1.067-.187.373-1.013-.693-.827-1.067.187L15.04,12.72ZM11.92,15.973l.827.693,1.013-.373.187-1.067-.827-.693-1.013.373ZM9.44,19.707l.933.533.933-.533V18.613l-.933-.533-.933.533ZM7.653,23.813l1.013.373.827-.693-.187-1.067-1.013-.373-.827.693ZM6.587,28.187l1.067.187.693-.827-.373-1.013-1.067-.187-.693.827Zm-.293,4.48H7.387l.533-.96-.533-.933H6.293l-.533.933ZM6.8,37.12l1.067-.187L8.24,35.92l-.693-.827L6.48,35.28l-.373,1.013Zm1.253,4.293,1.013-.373.187-1.067-.827-.693-1.013.373L7.227,40.72Zm2,4.027.933-.533V43.813l-.933-.533-.933.533v1.093l.933.533Zm2.667,3.6.827-.693L13.36,47.28l-1.013-.373-.827.693.187,1.067Zm3.253,3.093.693-.827-.373-1.013-1.067-.187-.693.827.373,1.013Zm3.733,2.48.533-.933-.533-.933H18.613l-.533.933.533.933ZM23.813,56.4l.373-1.013-.693-.827-1.067.187-.373,1.013.693.8,1.067-.187Zm4.373,1.067.187-1.067-.827-.693-1.013.373-.187,1.067.827.693Zm4.48.293V56.667l-.96-.533-.933.533V57.76l.933.533Zm4.453-.507-.187-1.067-1.013-.373-.827.693.187,1.067,1.013.373ZM41.413,56l-.373-1.013L39.973,54.8l-.693.827.373,1.013,1.067.187Zm4.027-2-.533-.933H43.813L43.28,54l.533.933h1.093Zm3.6-2.667-.693-.827-1.067.187-.373,1.013.693.827,1.067-.187Zm3.093-3.253-.827-.693-1.04.373-.187,1.067.827.693,1.013-.373Zm2.48-3.733-.933-.533-.933.533V45.44l.933.533.933-.533ZM56.4,40.24l-1.013-.373-.827.693.187,1.067L55.76,42l.827-.693Zm1.067-4.347L56.4,35.707l-.693.827.373,1.013,1.067.187.693-.827Zm.293-4.48H56.667l-.533.933.533.933H57.76l.533-.933-.533-.96Zm-.507-4.453-1.067.187-.373,1.013.693.827,1.067-.187.373-1.013Zm-1.28-4.293-1.013.373-.187,1.067.827.693,1.013-.373L56.8,23.36Zm-2-4.027-.933.533v1.093l.933.533.933-.533V19.173Zm-2.667-3.6-.827.693.187,1.067,1.013.373.827-.693-.187-1.067-1.013-.347Zm-3.253-3.093-.693.827.347,1.013,1.067.187.693-.827-.373-1.013-1.067-.187ZM44.32,9.467l-.533.933.533.933h1.093l.533-.933-.533-.933ZM40.213,7.68,39.84,8.693l.693.827L41.6,9.333l.373-1.013-.693-.827ZM35.84,6.613,35.653,7.68l.827.693L37.493,8l.187-1.067-.827-.693Z"/>
+              <path id="Path_40201" data-name="Path 40201" class="cls-9" d="M32,3.84a28.224,28.224,0,1,1-19.893,8.267A28.208,28.208,0,0,1,32,3.84ZM32,0A31.912,31.912,0,1,0,54.613,9.333,32.055,32.055,0,0,0,32,0Z"/>
+              <path id="Path_40202" data-name="Path 40202" class="cls-1" d="M32,4.8a27.183,27.183,0,1,1,.027-.027Zm0-.64a27.909,27.909,0,1,1,.027.027Z"/>
+              <path id="Path_40203" data-name="Path 40203" class="cls-10" d="M32,3.52a28.5,28.5,0,0,1,15.813,4.8A28.492,28.492,0,0,1,59.92,37.547,28.465,28.465,0,1,1,32,3.52ZM32,0A31.912,31.912,0,1,0,54.613,9.333,32.055,32.055,0,0,0,32,0Z"/>
+              <g id="Group_19811" data-name="Group 19811">
+                <g id="Group_19737" data-name="Group 19737" class="cls-11">
+                  <g id="Group_19665" data-name="Group 19665" class="cls-11">
+                    <path id="Path_40204" data-name="Path 40204" class="cls-1" d="M32.16.8h-.32V2.587h.32Z"/>
+                  </g>
+                  <g id="Group_19666" data-name="Group 19666" class="cls-11">
+                    <path id="Path_40205" data-name="Path 40205" class="cls-1" d="M29.547.827h-.32l.16,1.84h.32Z"/>
+                  </g>
+                  <g id="Group_19667" data-name="Group 19667" class="cls-11">
+                    <path id="Path_40206" data-name="Path 40206" class="cls-1" d="M26.747,1.253l-.32.053.32,1.76.32-.053-.32-1.76Z"/>
+                  </g>
+                  <g id="Group_19668" data-name="Group 19668" class="cls-11">
+                    <path id="Path_40207" data-name="Path 40207" class="cls-1" d="M24.08,1.813l-.32.08.453,1.733.32-.08L24.08,1.813Z"/>
+                  </g>
+                  <g id="Group_19669" data-name="Group 19669" class="cls-11">
+                    <path id="Path_40208" data-name="Path 40208" class="cls-1" d="M21.467,2.64l-.293.107.613,1.68.293-.107Z"/>
+                  </g>
+                  <g id="Group_19670" data-name="Group 19670" class="cls-11">
+                    <path id="Path_40209" data-name="Path 40209" class="cls-1" d="M18.96,3.653l-.293.133.747,1.627.293-.133Z"/>
+                  </g>
+                  <g id="Group_19671" data-name="Group 19671" class="cls-11">
+                    <path id="Path_40210" data-name="Path 40210" class="cls-1" d="M16.533,4.907l-.267.16.907,1.547.267-.16-.907-1.547Z"/>
+                  </g>
+                  <g id="Group_19672" data-name="Group 19672" class="cls-11">
+                    <path id="Path_40211" data-name="Path 40211" class="cls-1" d="M14.24,6.347l-.267.187L15.013,8l.267-.187Z"/>
+                  </g>
+                  <g id="Group_19673" data-name="Group 19673" class="cls-11">
+                    <path id="Path_40212" data-name="Path 40212" class="cls-1" d="M12.053,8l-.24.213L12.96,9.6l.24-.213Z"/>
+                  </g>
+                  <g id="Group_19674" data-name="Group 19674" class="cls-11">
+                    <path id="Path_40213" data-name="Path 40213" class="cls-1" d="M10.053,9.813l-.213.213,1.28,1.28.213-.213Z"/>
+                  </g>
+                  <g id="Group_19675" data-name="Group 19675" class="cls-11">
+                    <path id="Path_40214" data-name="Path 40214" class="cls-1" d="M8.187,11.813l-.213.24L9.36,13.2l.213-.24Z"/>
+                  </g>
+                  <g id="Group_19676" data-name="Group 19676" class="cls-11">
+                    <path id="Path_40215" data-name="Path 40215" class="cls-1" d="M6.533,13.973l-.187.267,1.467,1.04L8,15.013Z"/>
+                  </g>
+                  <g id="Group_19677" data-name="Group 19677" class="cls-11">
+                    <path id="Path_40216" data-name="Path 40216" class="cls-1" d="M5.067,16.267l-.16.267,1.547.907.16-.267-1.547-.907Z"/>
+                  </g>
+                  <g id="Group_19678" data-name="Group 19678" class="cls-11">
+                    <path id="Path_40217" data-name="Path 40217" class="cls-1" d="M3.787,18.667l-.133.293,1.627.747.133-.293Z"/>
+                  </g>
+                  <g id="Group_19679" data-name="Group 19679" class="cls-11">
+                    <path id="Path_40218" data-name="Path 40218" class="cls-1" d="M2.72,21.173l-.107.293,1.68.613.107-.293-1.68-.613Z"/>
+                  </g>
+                  <g id="Group_19680" data-name="Group 19680" class="cls-11">
+                    <path id="Path_40219" data-name="Path 40219" class="cls-1" d="M1.893,23.76l-.08.32,1.733.453.08-.32L1.893,23.76Z"/>
+                  </g>
+                  <g id="Group_19681" data-name="Group 19681" class="cls-11">
+                    <path id="Path_40220" data-name="Path 40220" class="cls-1" d="M1.307,26.427l-.053.32,1.76.32.053-.32-1.76-.32Z"/>
+                  </g>
+                  <g id="Group_19682" data-name="Group 19682" class="cls-11">
+                    <path id="Path_40221" data-name="Path 40221" class="cls-1" d="M.933,29.12v.32l1.76.16v-.32l-1.76-.16Z"/>
+                  </g>
+                  <g id="Group_19683" data-name="Group 19683" class="cls-11">
+                    <path id="Path_40222" data-name="Path 40222" class="cls-1" d="M2.587,31.84H.8v.32H2.587Z"/>
+                  </g>
+                  <g id="Group_19684" data-name="Group 19684" class="cls-11">
+                    <path id="Path_40223" data-name="Path 40223" class="cls-1" d="M2.693,34.4l-1.787.16v.32l1.813-.16V34.4Z"/>
+                  </g>
+                  <g id="Group_19685" data-name="Group 19685" class="cls-11">
+                    <path id="Path_40224" data-name="Path 40224" class="cls-1" d="M3.013,36.96l-1.76.32.053.32,1.76-.32Z"/>
+                  </g>
+                  <g id="Group_19686" data-name="Group 19686" class="cls-11">
+                    <path id="Path_40225" data-name="Path 40225" class="cls-1" d="M3.573,39.467,1.84,39.92l.08.32,1.733-.453Z"/>
+                  </g>
+                  <g id="Group_19687" data-name="Group 19687" class="cls-11">
+                    <path id="Path_40226" data-name="Path 40226" class="cls-1" d="M4.32,41.92l-1.68.613.107.293,1.68-.613Z"/>
+                  </g>
+                  <g id="Group_19688" data-name="Group 19688" class="cls-11">
+                    <path id="Path_40227" data-name="Path 40227" class="cls-1" d="M5.28,44.293l-1.627.747.133.293,1.627-.747Z"/>
+                  </g>
+                  <g id="Group_19689" data-name="Group 19689" class="cls-11">
+                    <path id="Path_40228" data-name="Path 40228" class="cls-1" d="M6.453,46.56l-1.547.907.16.267,1.547-.907Z"/>
+                  </g>
+                  <g id="Group_19690" data-name="Group 19690" class="cls-11">
+                    <path id="Path_40229" data-name="Path 40229" class="cls-1" d="M7.813,48.72,6.347,49.76l.187.267L8,48.987Z"/>
+                  </g>
+                  <g id="Group_19691" data-name="Group 19691" class="cls-11">
+                    <path id="Path_40230" data-name="Path 40230" class="cls-1" d="M9.387,50.773,8,51.92l.213.24L9.6,51.013Z"/>
+                  </g>
+                  <g id="Group_19692" data-name="Group 19692" class="cls-11">
+                    <path id="Path_40231" data-name="Path 40231" class="cls-1" d="M11.093,52.667l-1.28,1.28.213.213,1.28-1.28Z"/>
+                  </g>
+                  <g id="Group_19693" data-name="Group 19693" class="cls-11">
+                    <path id="Path_40232" data-name="Path 40232" class="cls-1" d="M12.987,54.427,11.84,55.813l.24.213,1.147-1.387Z"/>
+                  </g>
+                  <g id="Group_19694" data-name="Group 19694" class="cls-11">
+                    <path id="Path_40233" data-name="Path 40233" class="cls-1" d="M15.013,56l-1.04,1.467.267.187,1.04-1.467Z"/>
+                  </g>
+                  <g id="Group_19695" data-name="Group 19695" class="cls-11">
+                    <path id="Path_40234" data-name="Path 40234" class="cls-1" d="M17.147,57.387l-.907,1.547.267.16.907-1.547Z"/>
+                  </g>
+                  <g id="Group_19696" data-name="Group 19696" class="cls-11">
+                    <path id="Path_40235" data-name="Path 40235" class="cls-1" d="M19.44,58.587l-.747,1.627.293.133.747-1.627Z"/>
+                  </g>
+                  <g id="Group_19697" data-name="Group 19697" class="cls-11">
+                    <path id="Path_40236" data-name="Path 40236" class="cls-1" d="M21.787,59.573l-.613,1.68.293.107.613-1.68Z"/>
+                  </g>
+                  <g id="Group_19698" data-name="Group 19698" class="cls-11">
+                    <path id="Path_40237" data-name="Path 40237" class="cls-1" d="M24.24,60.347l-.453,1.733.32.08.453-1.733Z"/>
+                  </g>
+                  <g id="Group_19699" data-name="Group 19699" class="cls-11">
+                    <path id="Path_40238" data-name="Path 40238" class="cls-1" d="M26.747,60.933l-.32,1.76.32.053.32-1.76Z"/>
+                  </g>
+                  <g id="Group_19700" data-name="Group 19700" class="cls-11">
+                    <path id="Path_40239" data-name="Path 40239" class="cls-1" d="M29.28,61.28l-.16,1.787h.32l.16-1.76h-.32Z"/>
+                  </g>
+                  <g id="Group_19701" data-name="Group 19701" class="cls-11">
+                    <path id="Path_40240" data-name="Path 40240" class="cls-1" d="M32.16,61.413h-.32V63.2h.32Z"/>
+                  </g>
+                  <g id="Group_19702" data-name="Group 19702" class="cls-11">
+                    <path id="Path_40241" data-name="Path 40241" class="cls-1" d="M35.013,61.413h-.32l.16,1.84h.32Z"/>
+                  </g>
+                  <g id="Group_19703" data-name="Group 19703" class="cls-11">
+                    <path id="Path_40242" data-name="Path 40242" class="cls-1" d="M37.253,60.933l-.32.053.32,1.76.32-.053Z"/>
+                  </g>
+                  <g id="Group_19704" data-name="Group 19704" class="cls-11">
+                    <path id="Path_40243" data-name="Path 40243" class="cls-1" d="M39.76,60.347l-.32.08.453,1.733.32-.08Z"/>
+                  </g>
+                  <g id="Group_19705" data-name="Group 19705" class="cls-11">
+                    <path id="Path_40244" data-name="Path 40244" class="cls-1" d="M42.213,59.573l-.293.107.613,1.68.293-.107Z"/>
+                  </g>
+                  <g id="Group_19706" data-name="Group 19706" class="cls-11">
+                    <path id="Path_40245" data-name="Path 40245" class="cls-1" d="M44.56,58.587l-.293.133.747,1.627.293-.133Z"/>
+                  </g>
+                  <g id="Group_19707" data-name="Group 19707" class="cls-11">
+                    <path id="Path_40246" data-name="Path 40246" class="cls-1" d="M46.827,57.387l-.267.16.907,1.547.267-.16Z"/>
+                  </g>
+                  <g id="Group_19708" data-name="Group 19708" class="cls-11">
+                    <path id="Path_40247" data-name="Path 40247" class="cls-1" d="M48.987,56l-.267.187,1.04,1.467.267-.187Z"/>
+                  </g>
+                  <g id="Group_19709" data-name="Group 19709" class="cls-11">
+                    <path id="Path_40248" data-name="Path 40248" class="cls-1" d="M51.013,54.427l-.24.213,1.147,1.387.24-.213Z"/>
+                  </g>
+                  <g id="Group_19710" data-name="Group 19710" class="cls-11">
+                    <path id="Path_40249" data-name="Path 40249" class="cls-1" d="M52.907,52.667l-.213.213,1.28,1.28.213-.213Z"/>
+                  </g>
+                  <g id="Group_19711" data-name="Group 19711" class="cls-11">
+                    <path id="Path_40250" data-name="Path 40250" class="cls-1" d="M54.613,50.773l-.213.24,1.387,1.147L56,51.92Z"/>
+                  </g>
+                  <g id="Group_19712" data-name="Group 19712" class="cls-11">
+                    <path id="Path_40251" data-name="Path 40251" class="cls-1" d="M56.187,48.72,56,48.987l1.467,1.04.187-.267Z"/>
+                  </g>
+                  <g id="Group_19713" data-name="Group 19713" class="cls-11">
+                    <path id="Path_40252" data-name="Path 40252" class="cls-1" d="M57.547,46.56l-.16.267,1.547.907.16-.267Z"/>
+                  </g>
+                  <g id="Group_19714" data-name="Group 19714" class="cls-11">
+                    <path id="Path_40253" data-name="Path 40253" class="cls-1" d="M58.72,44.267l-.133.293,1.627.747.133-.293Z"/>
+                  </g>
+                  <g id="Group_19715" data-name="Group 19715" class="cls-11">
+                    <path id="Path_40254" data-name="Path 40254" class="cls-1" d="M59.68,41.893l-.107.293,1.68.613.107-.293Z"/>
+                  </g>
+                  <g id="Group_19716" data-name="Group 19716" class="cls-11">
+                    <path id="Path_40255" data-name="Path 40255" class="cls-1" d="M60.427,39.467l-.08.32,1.733.453.08-.32Z"/>
+                  </g>
+                  <g id="Group_19717" data-name="Group 19717" class="cls-11">
+                    <path id="Path_40256" data-name="Path 40256" class="cls-1" d="M60.987,36.96l-.053.32,1.76.32.053-.32Z"/>
+                  </g>
+                  <g id="Group_19718" data-name="Group 19718" class="cls-11">
+                    <path id="Path_40257" data-name="Path 40257" class="cls-1" d="M61.307,34.4v.32l1.76.16v-.32Z"/>
+                  </g>
+                  <g id="Group_19719" data-name="Group 19719" class="cls-11">
+                    <path id="Path_40258" data-name="Path 40258" class="cls-1" d="M63.2,31.84H61.413v.32H63.2Z"/>
+                  </g>
+                  <g id="Group_19720" data-name="Group 19720" class="cls-11">
+                    <path id="Path_40259" data-name="Path 40259" class="cls-1" d="M63.067,29.12l-1.787.16v.32l1.813-.16v-.32Z"/>
+                  </g>
+                  <g id="Group_19721" data-name="Group 19721" class="cls-11">
+                    <path id="Path_40260" data-name="Path 40260" class="cls-1" d="M62.693,26.427l-1.76.32.053.32,1.76-.32Z"/>
+                  </g>
+                  <g id="Group_19722" data-name="Group 19722" class="cls-11">
+                    <path id="Path_40261" data-name="Path 40261" class="cls-1" d="M62.107,23.76l-1.733.453.08.32,1.733-.453Z"/>
+                  </g>
+                  <g id="Group_19723" data-name="Group 19723" class="cls-11">
+                    <path id="Path_40262" data-name="Path 40262" class="cls-1" d="M61.253,21.173l-1.68.613.107.293,1.68-.613Z"/>
+                  </g>
+                  <g id="Group_19724" data-name="Group 19724" class="cls-11">
+                    <path id="Path_40263" data-name="Path 40263" class="cls-1" d="M60.213,18.667l-1.627.747.133.293,1.627-.747Z"/>
+                  </g>
+                  <g id="Group_19725" data-name="Group 19725" class="cls-11">
+                    <path id="Path_40264" data-name="Path 40264" class="cls-1" d="M58.933,16.267l-1.547.907.16.267,1.547-.907Z"/>
+                  </g>
+                  <g id="Group_19726" data-name="Group 19726" class="cls-11">
+                    <path id="Path_40265" data-name="Path 40265" class="cls-1" d="M57.467,13.973,56,15.013l.187.267,1.467-1.04Z"/>
+                  </g>
+                  <g id="Group_19727" data-name="Group 19727" class="cls-11">
+                    <path id="Path_40266" data-name="Path 40266" class="cls-1" d="M55.787,11.813,54.4,12.96l.213.24L56,12.053Z"/>
+                  </g>
+                  <g id="Group_19728" data-name="Group 19728" class="cls-11">
+                    <path id="Path_40267" data-name="Path 40267" class="cls-1" d="M53.947,9.813l-1.28,1.28.213.213,1.28-1.28Z"/>
+                  </g>
+                  <g id="Group_19729" data-name="Group 19729" class="cls-11">
+                    <path id="Path_40268" data-name="Path 40268" class="cls-1" d="M51.947,8,50.8,9.387l.24.213,1.147-1.387Z"/>
+                  </g>
+                  <g id="Group_19730" data-name="Group 19730" class="cls-11">
+                    <path id="Path_40269" data-name="Path 40269" class="cls-1" d="M49.76,6.347,48.72,7.813,48.987,8l1.04-1.467Z"/>
+                  </g>
+                  <g id="Group_19731" data-name="Group 19731" class="cls-11">
+                    <path id="Path_40270" data-name="Path 40270" class="cls-1" d="M47.467,4.907,46.56,6.453l.267.16.907-1.547-.267-.16Z"/>
+                  </g>
+                  <g id="Group_19732" data-name="Group 19732" class="cls-11">
+                    <path id="Path_40271" data-name="Path 40271" class="cls-1" d="M45.04,3.653,44.293,5.28l.293.133.747-1.627Z"/>
+                  </g>
+                  <g id="Group_19733" data-name="Group 19733" class="cls-11">
+                    <path id="Path_40272" data-name="Path 40272" class="cls-1" d="M42.507,2.613l-.613,1.68.293.107L42.8,2.72l-.293-.107Z"/>
+                  </g>
+                  <g id="Group_19734" data-name="Group 19734" class="cls-11">
+                    <path id="Path_40273" data-name="Path 40273" class="cls-1" d="M39.92,1.813l-.453,1.733.32.08.453-1.733-.32-.08Z"/>
+                  </g>
+                  <g id="Group_19735" data-name="Group 19735" class="cls-11">
+                    <path id="Path_40274" data-name="Path 40274" class="cls-1" d="M37.253,1.253l-.32,1.76.32.053.32-1.76-.32-.053Z"/>
+                  </g>
+                  <g id="Group_19736" data-name="Group 19736" class="cls-11">
+                    <path id="Path_40275" data-name="Path 40275" class="cls-1" d="M34.56.907,34.4,2.693h.32l.16-1.76h-.32Z"/>
+                  </g>
+                </g>
+                <g id="Group_19810" data-name="Group 19810" class="cls-11">
+                  <g id="Group_19738" data-name="Group 19738" class="cls-11">
+                    <path id="Path_40276" data-name="Path 40276" class="cls-1" d="M30.88.827h-.32l.08,1.813h.32Z"/>
+                  </g>
+                  <g id="Group_19739" data-name="Group 19739" class="cls-11">
+                    <path id="Path_40277" data-name="Path 40277" class="cls-1" d="M28.16,1.04l-.32.053.24,1.787.32-.053L28.16,1.04Z"/>
+                  </g>
+                  <g id="Group_19740" data-name="Group 19740" class="cls-11">
+                    <path id="Path_40278" data-name="Path 40278" class="cls-1" d="M25.467,1.493l-.32.08.373,1.76.32-.08Z"/>
+                  </g>
+                  <g id="Group_19741" data-name="Group 19741" class="cls-11">
+                    <path id="Path_40279" data-name="Path 40279" class="cls-1" d="M22.827,2.187l-.293.107L23.067,4l.293-.107-.533-1.707Z"/>
+                  </g>
+                  <g id="Group_19742" data-name="Group 19742" class="cls-11">
+                    <path id="Path_40280" data-name="Path 40280" class="cls-1" d="M20.267,3.093l-.293.133.693,1.653.293-.133-.693-1.653Z"/>
+                  </g>
+                  <g id="Group_19743" data-name="Group 19743" class="cls-11">
+                    <path id="Path_40281" data-name="Path 40281" class="cls-1" d="M17.787,4.213l-.293.16.827,1.6.293-.16Z"/>
+                  </g>
+                  <g id="Group_19744" data-name="Group 19744" class="cls-11">
+                    <path id="Path_40282" data-name="Path 40282" class="cls-1" d="M15.387,5.467l-.267.16.96,1.52.267-.16Z"/>
+                  </g>
+                  <g id="Group_19745" data-name="Group 19745" class="cls-11">
+                    <path id="Path_40283" data-name="Path 40283" class="cls-1" d="M13.2,7.12l-.267.187,1.093,1.44.267-.187Z"/>
+                  </g>
+                  <g id="Group_19746" data-name="Group 19746" class="cls-11">
+                    <path id="Path_40284" data-name="Path 40284" class="cls-1" d="M11.093,8.853l-.24.213,1.2,1.333.24-.213Z"/>
+                  </g>
+                  <g id="Group_19747" data-name="Group 19747" class="cls-11">
+                    <path id="Path_40285" data-name="Path 40285" class="cls-1" d="M9.147,10.747l-.213.24,1.333,1.227.213-.24Z"/>
+                  </g>
+                  <g id="Group_19748" data-name="Group 19748" class="cls-11">
+                    <path id="Path_40286" data-name="Path 40286" class="cls-1" d="M7.387,12.827l-.187.267,1.413,1.093L8.8,13.92Z"/>
+                  </g>
+                  <g id="Group_19749" data-name="Group 19749" class="cls-11">
+                    <path id="Path_40287" data-name="Path 40287" class="cls-1" d="M5.813,15.04l-.16.267,1.52.96L7.333,16Z"/>
+                  </g>
+                  <g id="Group_19750" data-name="Group 19750" class="cls-11">
+                    <path id="Path_40288" data-name="Path 40288" class="cls-1" d="M4.427,17.387l-.16.293,1.6.827.16-.293Z"/>
+                  </g>
+                  <g id="Group_19751" data-name="Group 19751" class="cls-11">
+                    <path id="Path_40289" data-name="Path 40289" class="cls-1" d="M3.253,19.84l-.133.293,1.653.693.133-.293L3.253,19.84Z"/>
+                  </g>
+                  <g id="Group_19752" data-name="Group 19752" class="cls-11">
+                    <path id="Path_40290" data-name="Path 40290" class="cls-1" d="M2.32,22.4l-.107.293,1.707.533.107-.293Z"/>
+                  </g>
+                  <g id="Group_19753" data-name="Group 19753" class="cls-11">
+                    <path id="Path_40291" data-name="Path 40291" class="cls-1" d="M1.6,25.013l-.08.32,1.76.4.08-.32-1.76-.4Z"/>
+                  </g>
+                  <g id="Group_19754" data-name="Group 19754" class="cls-11">
+                    <path id="Path_40292" data-name="Path 40292" class="cls-1" d="M1.093,27.707l-.053.32,1.787.24.053-.32-1.787-.24Z"/>
+                  </g>
+                  <g id="Group_19755" data-name="Group 19755" class="cls-11">
+                    <path id="Path_40293" data-name="Path 40293" class="cls-1" d="M.827,30.4v.32l1.787.08v-.32Z"/>
+                  </g>
+                  <g id="Group_19756" data-name="Group 19756" class="cls-11">
+                    <path id="Path_40294" data-name="Path 40294" class="cls-1" d="M2.613,33.067l-1.787.08v.32l1.813-.08v-.32Z"/>
+                  </g>
+                  <g id="Group_19757" data-name="Group 19757" class="cls-11">
+                    <path id="Path_40295" data-name="Path 40295" class="cls-1" d="M2.827,35.627l-1.787.24.053.32,1.787-.24Z"/>
+                  </g>
+                  <g id="Group_19758" data-name="Group 19758" class="cls-11">
+                    <path id="Path_40296" data-name="Path 40296" class="cls-1" d="M3.253,38.133l-1.76.373.08.32,1.76-.373Z"/>
+                  </g>
+                  <g id="Group_19759" data-name="Group 19759" class="cls-11">
+                    <path id="Path_40297" data-name="Path 40297" class="cls-1" d="M3.893,40.64l-1.707.533.107.293L4,40.933Z"/>
+                  </g>
+                  <g id="Group_19760" data-name="Group 19760" class="cls-11">
+                    <path id="Path_40298" data-name="Path 40298" class="cls-1" d="M4.747,43.04l-1.653.693.133.293,1.653-.693Z"/>
+                  </g>
+                  <g id="Group_19761" data-name="Group 19761" class="cls-11">
+                    <path id="Path_40299" data-name="Path 40299" class="cls-1" d="M5.813,45.387l-1.6.827.16.293,1.6-.827Z"/>
+                  </g>
+                  <g id="Group_19762" data-name="Group 19762" class="cls-11">
+                    <path id="Path_40300" data-name="Path 40300" class="cls-1" d="M7.067,47.6l-1.52.96.16.267,1.52-.96Z"/>
+                  </g>
+                  <g id="Group_19763" data-name="Group 19763" class="cls-11">
+                    <path id="Path_40301" data-name="Path 40301" class="cls-1" d="M8.64,49.467,7.227,50.56l.187.24,1.413-1.093Z"/>
+                  </g>
+                  <g id="Group_19764" data-name="Group 19764" class="cls-11">
+                    <path id="Path_40302" data-name="Path 40302" class="cls-1" d="M10.16,51.707l-1.333,1.2.213.24,1.333-1.2Z"/>
+                  </g>
+                  <g id="Group_19765" data-name="Group 19765" class="cls-11">
+                    <path id="Path_40303" data-name="Path 40303" class="cls-1" d="M11.973,53.52l-1.227,1.333.24.213,1.227-1.333Z"/>
+                  </g>
+                  <g id="Group_19766" data-name="Group 19766" class="cls-11">
+                    <path id="Path_40304" data-name="Path 40304" class="cls-1" d="M13.813,55.2,12.72,56.613l.24.187,1.093-1.413Z"/>
+                  </g>
+                  <g id="Group_19767" data-name="Group 19767" class="cls-11">
+                    <path id="Path_40305" data-name="Path 40305" class="cls-1" d="M16,56.667l-.96,1.52.267.16.96-1.52Z"/>
+                  </g>
+                  <g id="Group_19768" data-name="Group 19768" class="cls-11">
+                    <path id="Path_40306" data-name="Path 40306" class="cls-1" d="M18.213,57.973l-.827,1.6.293.16.827-1.6Z"/>
+                  </g>
+                  <g id="Group_19769" data-name="Group 19769" class="cls-11">
+                    <path id="Path_40307" data-name="Path 40307" class="cls-1" d="M20.533,59.067,19.84,60.72l.293.133.693-1.653Z"/>
+                  </g>
+                  <g id="Group_19770" data-name="Group 19770" class="cls-11">
+                    <path id="Path_40308" data-name="Path 40308" class="cls-1" d="M22.933,59.973,22.4,61.68l.293.107.533-1.707Z"/>
+                  </g>
+                  <g id="Group_19771" data-name="Group 19771" class="cls-11">
+                    <path id="Path_40309" data-name="Path 40309" class="cls-1" d="M25.413,60.667l-.4,1.76.32.08.4-1.76Z"/>
+                  </g>
+                  <g id="Group_19772" data-name="Group 19772" class="cls-11">
+                    <path id="Path_40310" data-name="Path 40310" class="cls-1" d="M27.947,61.12l-.24,1.787.32.053.24-1.787Z"/>
+                  </g>
+                  <g id="Group_19773" data-name="Group 19773" class="cls-11">
+                    <path id="Path_40311" data-name="Path 40311" class="cls-1" d="M30.48,61.36l-.08,1.787h.32l.08-1.787Z"/>
+                  </g>
+                  <g id="Group_19774" data-name="Group 19774" class="cls-11">
+                    <path id="Path_40312" data-name="Path 40312" class="cls-1" d="M33.387,61.36h-.32l.08,1.813h.32Z"/>
+                  </g>
+                  <g id="Group_19775" data-name="Group 19775" class="cls-11">
+                    <path id="Path_40313" data-name="Path 40313" class="cls-1" d="M35.92,61.147l-.32.053.24,1.787.32-.053Z"/>
+                  </g>
+                  <g id="Group_19776" data-name="Group 19776" class="cls-11">
+                    <path id="Path_40314" data-name="Path 40314" class="cls-1" d="M38.453,60.693l-.32.08.373,1.76.32-.08Z"/>
+                  </g>
+                  <g id="Group_19777" data-name="Group 19777" class="cls-11">
+                    <path id="Path_40315" data-name="Path 40315" class="cls-1" d="M40.933,60l-.293.107.533,1.707.293-.107Z"/>
+                  </g>
+                  <g id="Group_19778" data-name="Group 19778" class="cls-11">
+                    <path id="Path_40316" data-name="Path 40316" class="cls-1" d="M43.333,59.12l-.293.133.693,1.653.293-.133Z"/>
+                  </g>
+                  <g id="Group_19779" data-name="Group 19779" class="cls-11">
+                    <path id="Path_40317" data-name="Path 40317" class="cls-1" d="M45.653,58.027l-.293.16.827,1.6.293-.16Z"/>
+                  </g>
+                  <g id="Group_19780" data-name="Group 19780" class="cls-11">
+                    <path id="Path_40318" data-name="Path 40318" class="cls-1" d="M47.92,56.267l-.267.16.96,1.52.267-.16Z"/>
+                  </g>
+                  <g id="Group_19781" data-name="Group 19781" class="cls-11">
+                    <path id="Path_40319" data-name="Path 40319" class="cls-1" d="M49.973,55.28l-.267.187,1.093,1.44.267-.187Z"/>
+                  </g>
+                  <g id="Group_19782" data-name="Group 19782" class="cls-11">
+                    <path id="Path_40320" data-name="Path 40320" class="cls-1" d="M51.947,53.627l-.24.213,1.2,1.333.24-.213Z"/>
+                  </g>
+                  <g id="Group_19783" data-name="Group 19783" class="cls-11">
+                    <path id="Path_40321" data-name="Path 40321" class="cls-1" d="M53.733,51.787l-.213.24,1.333,1.227.213-.24Z"/>
+                  </g>
+                  <g id="Group_19784" data-name="Group 19784" class="cls-11">
+                    <path id="Path_40322" data-name="Path 40322" class="cls-1" d="M55.387,49.813l-.187.267,1.413,1.093.187-.24L55.387,49.84Z"/>
+                  </g>
+                  <g id="Group_19785" data-name="Group 19785" class="cls-11">
+                    <path id="Path_40323" data-name="Path 40323" class="cls-1" d="M56.853,47.707l-.16.267,1.52.96.16-.267Z"/>
+                  </g>
+                  <g id="Group_19786" data-name="Group 19786" class="cls-11">
+                    <path id="Path_40324" data-name="Path 40324" class="cls-1" d="M58.133,45.493l-.16.293,1.6.827.16-.293Z"/>
+                  </g>
+                  <g id="Group_19787" data-name="Group 19787" class="cls-11">
+                    <path id="Path_40325" data-name="Path 40325" class="cls-1" d="M59.2,43.173l-.133.293,1.653.693.133-.293Z"/>
+                  </g>
+                  <g id="Group_19788" data-name="Group 19788" class="cls-11">
+                    <path id="Path_40326" data-name="Path 40326" class="cls-1" d="M60.08,40.747l-.107.293,1.707.533.107-.293Z"/>
+                  </g>
+                  <g id="Group_19789" data-name="Group 19789" class="cls-11">
+                    <path id="Path_40327" data-name="Path 40327" class="cls-1" d="M60.72,38.267l-.08.32,1.76.4.08-.32Z"/>
+                  </g>
+                  <g id="Group_19790" data-name="Group 19790" class="cls-11">
+                    <path id="Path_40328" data-name="Path 40328" class="cls-1" d="M61.173,35.733l-.053.32,1.787.24.053-.32Z"/>
+                  </g>
+                  <g id="Group_19791" data-name="Group 19791" class="cls-11">
+                    <path id="Path_40329" data-name="Path 40329" class="cls-1" d="M61.387,33.2v.32l1.787.08v-.32Z"/>
+                  </g>
+                  <g id="Group_19792" data-name="Group 19792" class="cls-11">
+                    <path id="Path_40330" data-name="Path 40330" class="cls-1" d="M63.173,30.533l-1.787.08v.32l1.813-.08v-.32Z"/>
+                  </g>
+                  <g id="Group_19793" data-name="Group 19793" class="cls-11">
+                    <path id="Path_40331" data-name="Path 40331" class="cls-1" d="M62.933,27.84l-1.787.24.053.32,1.787-.24Z"/>
+                  </g>
+                  <g id="Group_19794" data-name="Group 19794" class="cls-11">
+                    <path id="Path_40332" data-name="Path 40332" class="cls-1" d="M62.453,25.147l-1.76.373.08.32,1.76-.373Z"/>
+                  </g>
+                  <g id="Group_19795" data-name="Group 19795" class="cls-11">
+                    <path id="Path_40333" data-name="Path 40333" class="cls-1" d="M61.733,22.533l-1.707.533.107.293,1.707-.533Z"/>
+                  </g>
+                  <g id="Group_19796" data-name="Group 19796" class="cls-11">
+                    <path id="Path_40334" data-name="Path 40334" class="cls-1" d="M60.8,19.973l-1.653.693.133.293,1.653-.693-.133-.293Z"/>
+                  </g>
+                  <g id="Group_19797" data-name="Group 19797" class="cls-11">
+                    <path id="Path_40335" data-name="Path 40335" class="cls-1" d="M59.627,17.52l-1.6.827.16.293,1.6-.827Z"/>
+                  </g>
+                  <g id="Group_19798" data-name="Group 19798" class="cls-11">
+                    <path id="Path_40336" data-name="Path 40336" class="cls-1" d="M58.267,15.173l-1.52.96.16.267,1.52-.96Z"/>
+                  </g>
+                  <g id="Group_19799" data-name="Group 19799" class="cls-11">
+                    <path id="Path_40337" data-name="Path 40337" class="cls-1" d="M56.48,12.72l-1.413,1.093.187.24,1.413-1.093Z"/>
+                  </g>
+                  <g id="Group_19800" data-name="Group 19800" class="cls-11">
+                    <path id="Path_40338" data-name="Path 40338" class="cls-1" d="M54.933,10.853l-1.333,1.2.213.24,1.333-1.2Z"/>
+                  </g>
+                  <g id="Group_19801" data-name="Group 19801" class="cls-11">
+                    <path id="Path_40339" data-name="Path 40339" class="cls-1" d="M53.013,8.933l-1.227,1.333.24.213,1.227-1.333Z"/>
+                  </g>
+                  <g id="Group_19802" data-name="Group 19802" class="cls-11">
+                    <path id="Path_40340" data-name="Path 40340" class="cls-1" d="M50.88,7.307,49.787,8.72l.24.187L51.12,7.493Z"/>
+                  </g>
+                  <g id="Group_19803" data-name="Group 19803" class="cls-11">
+                    <path id="Path_40341" data-name="Path 40341" class="cls-1" d="M48.693,5.627l-.96,1.52.267.16.96-1.52Z"/>
+                  </g>
+                  <g id="Group_19804" data-name="Group 19804" class="cls-11">
+                    <path id="Path_40342" data-name="Path 40342" class="cls-1" d="M46.32,4.293l-.827,1.6.293.16.827-1.6Z"/>
+                  </g>
+                  <g id="Group_19805" data-name="Group 19805" class="cls-11">
+                    <path id="Path_40343" data-name="Path 40343" class="cls-1" d="M43.867,3.147,43.173,4.8l.293.133L44.16,3.28Z"/>
+                  </g>
+                  <g id="Group_19806" data-name="Group 19806" class="cls-11">
+                    <path id="Path_40344" data-name="Path 40344" class="cls-1" d="M41.307,2.213,40.773,3.92l.293.107L41.6,2.32Z"/>
+                  </g>
+                  <g id="Group_19807" data-name="Group 19807" class="cls-11">
+                    <path id="Path_40345" data-name="Path 40345" class="cls-1" d="M38.667,1.52l-.4,1.76.32.08.4-1.76Z"/>
+                  </g>
+                  <g id="Group_19808" data-name="Group 19808" class="cls-11">
+                    <path id="Path_40346" data-name="Path 40346" class="cls-1" d="M35.973,1.067l-.24,1.787.32.053.24-1.787Z"/>
+                  </g>
+                  <g id="Group_19809" data-name="Group 19809" class="cls-11">
+                    <path id="Path_40347" data-name="Path 40347" class="cls-1" d="M33.28.827,33.2,2.613h.32L33.6.827Z"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
