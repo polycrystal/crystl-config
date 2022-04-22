@@ -3212,5 +3212,29 @@
       "V3DUSD"
     ],
     "addLiquidityUrl": "https://swap.v3s.finance/add/0x6582C738660bf0701f05b04DcE3c4E5Fcfcda47a/0xD9EF024bb157C2B897a95007a1b73543712f3b48"
+  },
+  {
+    "id": "v3s-v3dark-dark",
+    "pid": 138,
+    "lpSymbol": "DARK-V3DARK LP",
+    "lpProvider": "V3S",
+    "wantAddress": "0xCAC8e9d5758CB2225E1E6CF58a58c428b8e240AB",
+    "depositFee": "0%",
+    "strategyAddress": "0x906664d8f77471115378590f8d07E28888AB8d2b",
+    "masterchef": "0x89c007126302d9c1FF7f67FFA4908Cfa80Ac5384",
+    "farmPid": 2,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "v3s-v3dark-dark",
+    "paused": false,
+    "platform": "V3S",
+    "farmSite": "https://www.v3s.finance/",
+    "projectSite": "https://www.v3s.finance/",
+    "assets": [
+      "V3DARK",
+      "DARK"
+    ],
+    "addLiquidityUrl": "https://swap.v3s.finance/add/0x40D34600E959A9549CdA7dB2c04A7D5925A96E32/0x83b2AC8642aE46FC2823Bc959fFEB3c1742c48B5"
   }
 ]
