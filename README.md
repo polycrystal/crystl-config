@@ -53,3 +53,11 @@ yarn token:add --name crystl --site https://crystl.finance/
 ```
 yarn provider:add --name apeswap --site https://apeswap.finance/add
 ```
+
+## Useful commands
+
+This command for macOS terminal (maybe it works too on Linux) lowercases all the files in a specific folder. It's useful as we receive vault images in different ways, like all uppercase, camelcase, etc.
+
+```
+for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower:]"`"; done
+```
