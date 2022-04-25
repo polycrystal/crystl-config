@@ -11,6 +11,7 @@
     "wantTokenAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
     "rewardToken": "VTT",
     "rewardTokenAddress": "0x2aDCF5347C3e883064a36EfeE8b1d114079118C4",
+    "rewardTokenDecimals": "1e18",
     "rewardPerBlock": 1
   },
   {
@@ -25,6 +26,7 @@
     "wantTokenAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
     "rewardToken": "VTT",
     "rewardTokenAddress": "0x2aDCF5347C3e883064a36EfeE8b1d114079118C4",
+    "rewardTokenDecimals": "1e18",
     "rewardPerBlock": 1
   }
 ]

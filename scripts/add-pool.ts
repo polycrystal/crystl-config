@@ -100,6 +100,7 @@ async function fetchToken(tokenAddress: string) {
   return {
     address: ethers.utils.getAddress(tokenAddress),
     symbol: await tokenContract.symbol(),
+    decimals: await tokenContract.decimals(),
   };
 }
 
@@ -160,6 +161,7 @@ async function main() {
     wantTokenAddress: boostPool.want,
     rewardToken: removeWrapped(rewardToken.symbol),
     rewardTokenAddress: rewardToken.address,
+    rewardTokenDecimals: `1e${rewardToken.decimals}`,
     rewardPerBlock: new BigNumber(poolDetails.rewardPerBlock._hex)
       .div(1e18)
       .toNumber(),
