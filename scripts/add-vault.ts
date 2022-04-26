@@ -177,6 +177,7 @@ async function fetchToken(tokenAddress: string) {
   return {
     address: ethers.utils.getAddress(tokenAddress),
     symbol: await tokenContract.symbol(),
+    decimals: await tokenContract.decimals(),
   };
 }
 
@@ -299,8 +300,8 @@ async function main() {
     farmSite: platformData.site,
     projectSite: site,
     assets: [
-      { name: unwrappedToken0, address: token0.address },
-      { name: unwrappedToken1, address: token1.address },
+      { name: unwrappedToken0, address: token0.address, decimals: token0.decimals },
+      { name: unwrappedToken1, address: token1.address, decimals: token1.decimals },
     ],
     // boosted: isBoosted,
     type: getType(type),
