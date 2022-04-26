@@ -231,9 +231,9 @@ function removeWrapped(symbol: string) {
 function getType(type: string): string {
   switch (type.toLowerCase()) {
     case "s":
-      return "SINGLE STAKING";
+      return "Single Staking";
     case "t":
-      return "TRADITIONAL";
+      return "Traditional";
     default:
       return "";
   }
@@ -243,15 +243,15 @@ function getCategory(category: string): string[] {
   return category.split("/").map((c) => {
     switch (c.toLowerCase()) {
       case "s":
-        return "STABLE COIN";
+        return "Stable Coin";
       case "b":
-        return "BLUE CHIP";
+        return "Blue Chip";
       case "d":
-        return "DEFI TOKEN";
+        return "DeFi Token";
       case "n":
-        return "NFT/GAMEFI";
-      case "t":
-        return "TOMB FORK (DYOR)";
+        return "NFT/GameFi";
+      case "a":
+        return "Algorithmic Token (DYOR)";
       default:
         return "";
     }

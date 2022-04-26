@@ -30,10 +30,10 @@
         "decimals": 18
       }
     ],
-    "type": "TRADITIONAL",
+    "type": "Traditional",
     "category": [
-      "BLUE CHIP",
-      "DEFI TOKEN"
+      "Blue Chip",
+      "DeFi Token"
     ],
     "isMaximizer": false,
     "isSingleStaking": false,
@@ -70,10 +70,10 @@
         "decimals": 18
       }
     ],
-    "type": "TRADITIONAL",
+    "type": "Traditional",
     "category": [
-      "BLUE CHIP",
-      "DEFI TOKEN"
+      "Blue Chip",
+      "DeFi Token"
     ],
     "isMaximizer": true,
     "isSingleStaking": false,
@@ -105,9 +105,9 @@
         "decimals": 18
       }
     ],
-    "type": "SINGLE STAKING",
+    "type": "Single Staking",
     "category": [
-      "DEFI TOKEN"
+      "DeFi Token"
     ],
     "isMaximizer": false,
     "isSingleStaking": true,
