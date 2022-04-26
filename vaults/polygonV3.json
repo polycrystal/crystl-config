@@ -112,5 +112,39 @@
     "isMaximizer": false,
     "isSingleStaking": true,
     "addLiquidityUrl": "https://greenhousedex.com/"
+  },
+  {
+    "id": "v3-green-green-2",
+    "pid": 131073,
+    "lpSymbol": "GREEN",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
+    "depositFee": "0%",
+    "strategyAddress": "0x01dEfe95fa6B94385837CC6B01664124a9F507b5",
+    "masterchef": "0x03c17582435FcA893c342cecc40786C1B0C48C55",
+    "farmPid": 0,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "tokens",
+    "oracleId": "GREEN",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://greenhousedex.com/",
+    "assets": [
+      {
+        "name": "GREEN",
+        "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
+        "decimals": 18
+      }
+    ],
+    "type": "Single Staking",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": true,
+    "addLiquidityUrl": "https://greenhousedex.com/"
   }
 ]
