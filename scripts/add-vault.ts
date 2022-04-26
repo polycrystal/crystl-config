@@ -178,10 +178,17 @@ async function fetchToken(tokenAddress: string) {
     ERC20ABI,
     rpcProvider
   );
+
+  const address = ethers.utils.getAddress(tokenAddress);
+  const symbol = await tokenContract.symbol();
+  const decimals = await tokenContract.decimals();
+  const unwrappedSymbol = removeWrapped(symbol);
+
   return {
-    address: ethers.utils.getAddress(tokenAddress),
-    symbol: await tokenContract.symbol(),
-    decimals: await tokenContract.decimals(),
+    address,
+    symbol,
+    decimals,
+    unwrappedSymbol,
   };
 }
 
@@ -252,25 +259,65 @@ function getCategory(category: string): string[] {
 }
 
 async function main() {
+  const isV3Label = isV3 ? "v3-" : "";
+
   const vault = await fetchVault(vaultHealerAddress, pid, isV3);
   const strategy = await fetchStrategy(vault.strat, isV3);
-  const lp = await fetchLiquidityPair(vault.want);
-  const token0 = await fetchToken(lp.token0);
-  const token1 = await fetchToken(lp.token1);
   const platformData = fetchPlatform(platform);
   const site = fetchProject(token);
   const lpProvider = fetchProvider(provider);
-  const unwrappedToken0 = removeWrapped(token0.symbol);
-  const unwrappedToken1 = removeWrapped(token1.symbol);
 
-  const isV3Label = isV3 ? "v3-" : "";
-  const newVaultName = `${isV3Label}${
-    platformData.id
-  }-${token0.symbol.toLowerCase()}-${token1.symbol.toLowerCase()}`;
+  const selectedType = getType(type);
+  let tokens = [];
+  let wantToken: {
+    token0?: any;
+    token1?: any;
+    address: any;
+    symbol?: any;
+    decimals?: any;
+    unwrappedSymbol?: string;
+  };
+  let newVaultName: string;
+  let lpSymbol: string;
+  let oracle: string;
+  let addLiquidityUrl: string;
+  let isSingleStaking = false;
+
+  if (selectedType === getType("s")) {
+    wantToken = await fetchToken(vault.want);
+    tokens.push(wantToken);
+
+    newVaultName = `${isV3Label}${
+      platformData.id
+    }-${tokens[0].symbol.toLowerCase()}`;
+
+    lpSymbol = `${tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol}`;
+
+    oracle = "tokens";
+    addLiquidityUrl = site;
+    isSingleStaking = true;
+  } else {
+    wantToken = await fetchLiquidityPair(vault.want);
+    tokens.push(
+      await fetchToken(wantToken.token0),
+      await fetchToken(wantToken.token1)
+    );
+
+    newVaultName = `${isV3Label}${
+      platformData.id
+    }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`;
+
+    lpSymbol = `${tokens[1].symbol === "WCRO" ? "CRO" : tokens[1].symbol}-${
+      tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol
+    } LP`;
+
+    oracle = "lps";
+    addLiquidityUrl = `${lpProvider.site}/${tokens[0].address}/${tokens[1].address}`;
+  }
 
   let searching = true;
   let counter = 1;
-  let counterLabel = `-${counter}`;
+  let counterLabel = "";
   let tempName = newVaultName;
   while (searching) {
     searching = false;
@@ -284,14 +331,18 @@ async function main() {
     });
   }
 
+  const oracleId = isSingleStaking
+    ? lpSymbol
+    : isV3
+    ? tempName.slice(3, tempName.length - counterLabel.length)
+    : tempName;
+
   const newVault = {
     id: tempName,
     pid,
-    lpSymbol: `${token1.symbol === "WCRO" ? "CRO" : token1.symbol}-${
-      token0.symbol === "WCRO" ? "CRO" : token0.symbol
-    } LP`,
+    lpSymbol,
     lpProvider: provider.toUpperCase(),
-    wantAddress: lp.address,
+    wantAddress: wantToken.address,
     depositFee: `${depositFee.toLocaleString("en-US")}%`,
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
@@ -299,31 +350,25 @@ async function main() {
     router: strategy.router,
     pricePerFullShare: 1,
     tvl: 0,
-    oracle: "lps",
-    oracleId: isV3
-      ? tempName.slice(3, tempName.length - counterLabel.length)
-      : tempName,
+    oracle,
+    oracleId,
     paused: false,
     platform: platformData.name,
     farmSite: platformData.site,
     projectSite: site,
-    assets: [
-      {
-        name: unwrappedToken0,
-        address: token0.address,
-        decimals: token0.decimals,
-      },
-      {
-        name: unwrappedToken1,
-        address: token1.address,
-        decimals: token1.decimals,
-      },
-    ],
+    assets: tokens.map((token) => {
+      return {
+        name: token.unwrappedSymbol,
+        address: token.address,
+        decimals: token.decimals,
+      };
+    }),
     // boosted: isBoosted,
     type: getType(type),
     category: [...getCategory(category)],
     isMaximizer: strategy.isMaximizer,
-    addLiquidityUrl: `${lpProvider.site}/${token0.address}/${token1.address}`,
+    isSingleStaking,
+    addLiquidityUrl,
   };
 
   const newVaults = [...config, newVault];
