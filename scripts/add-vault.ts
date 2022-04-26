@@ -148,12 +148,14 @@ async function fetchStrategy(strategy: string, isV3 = false) {
     ? configInfo.pid.toNumber()
     : (await strategyContract.pid()).toNumber();
   const router: string = isV3 ? await strategyContract.router() : "";
+  const isMaximizer: boolean = isV3 ? await strategyContract.isMaximizer() : false;
 
   return {
     address: ethers.utils.getAddress(strategy),
     masterchef,
     pid,
     router,
+    isMaximizer,
   };
 }
 
@@ -306,6 +308,7 @@ async function main() {
     // boosted: isBoosted,
     type: getType(type),
     category: [...getCategory(category)],
+    isMaximizer: strategy.isMaximizer,
     addLiquidityUrl: `${lpProvider.site}/${token0.address}/${token1.address}`,
   };
 

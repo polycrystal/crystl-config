@@ -35,6 +35,7 @@
       "BLUE CHIP",
       "DEFI TOKEN"
     ],
+    "isMaximizer": false,
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   }
 ]
