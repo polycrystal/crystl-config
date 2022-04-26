@@ -37,5 +37,44 @@
     ],
     "isMaximizer": false,
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
+  },
+  {
+    "id": "v3-ape-wmatic-banana-2",
+    "pid": 65537,
+    "lpSymbol": "BANANA-WMATIC LP",
+    "lpProvider": "APESWAP",
+    "wantAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
+    "depositFee": "0%",
+    "strategyAddress": "0x773B1B1f2e384b0306eE9caf6969332714aE4005",
+    "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
+    "farmPid": 0,
+    "router": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "ape-wmatic-banana",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://apeswap.finance/",
+    "assets": [
+      {
+        "name": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18
+      },
+      {
+        "name": "BANANA",
+        "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
+        "decimals": 18
+      }
+    ],
+    "type": "TRADITIONAL",
+    "category": [
+      "BLUE CHIP",
+      "DEFI TOKEN"
+    ],
+    "isMaximizer": true,
+    "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   }
 ]

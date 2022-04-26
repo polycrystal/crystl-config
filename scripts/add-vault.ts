@@ -148,7 +148,9 @@ async function fetchStrategy(strategy: string, isV3 = false) {
     ? configInfo.pid.toNumber()
     : (await strategyContract.pid()).toNumber();
   const router: string = isV3 ? await strategyContract.router() : "";
-  const isMaximizer: boolean = isV3 ? await strategyContract.isMaximizer() : false;
+  const isMaximizer: boolean = isV3
+    ? await strategyContract.isMaximizer()
+    : false;
 
   return {
     address: ethers.utils.getAddress(strategy),
@@ -268,13 +270,15 @@ async function main() {
 
   let searching = true;
   let counter = 1;
+  let counterLabel = `-${counter}`;
   let tempName = newVaultName;
   while (searching) {
     searching = false;
     config.forEach((vault: { id: string }) => {
       if (vault.id === tempName) {
         counter++;
-        tempName = `${newVaultName}-${counter}`;
+        counterLabel = `-${counter}`;
+        tempName = `${newVaultName}${counterLabel}`;
         searching = true;
       }
     });
@@ -296,14 +300,24 @@ async function main() {
     pricePerFullShare: 1,
     tvl: 0,
     oracle: "lps",
-    oracleId: isV3 ? tempName.slice(3) : tempName,
+    oracleId: isV3
+      ? tempName.slice(3, tempName.length - counterLabel.length)
+      : tempName,
     paused: false,
     platform: platformData.name,
     farmSite: platformData.site,
     projectSite: site,
     assets: [
-      { name: unwrappedToken0, address: token0.address, decimals: token0.decimals },
-      { name: unwrappedToken1, address: token1.address, decimals: token1.decimals },
+      {
+        name: unwrappedToken0,
+        address: token0.address,
+        decimals: token0.decimals,
+      },
+      {
+        name: unwrappedToken1,
+        address: token1.address,
+        decimals: token1.decimals,
+      },
     ],
     // boosted: isBoosted,
     type: getType(type),
