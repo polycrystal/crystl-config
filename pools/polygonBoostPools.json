@@ -12,7 +12,9 @@
     "rewardToken": "VTT",
     "rewardTokenAddress": "0x2aDCF5347C3e883064a36EfeE8b1d114079118C4",
     "rewardTokenDecimals": "1e18",
-    "rewardPerBlock": 1
+    "rewardPerBlock": 1,
+    "startBlock": 26954127,
+    "endBlock": 27054127
   },
   {
     "id": "79616668608529563485647801168300241355572557074954293377752447720263415496705",
@@ -27,6 +29,8 @@
     "rewardToken": "VTT",
     "rewardTokenAddress": "0x2aDCF5347C3e883064a36EfeE8b1d114079118C4",
     "rewardTokenDecimals": "1e18",
-    "rewardPerBlock": 1
+    "rewardPerBlock": 1,
+    "startBlock": 27366785,
+    "endBlock": 27466785
   }
 ]

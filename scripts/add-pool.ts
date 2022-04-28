@@ -55,7 +55,6 @@ const rpcProvider = new ethers.providers.JsonRpcProvider(
 );
 
 async function fetchVault(vaultHealerAddress: string, poolId: number) {
-  // console.log(`fetchVault(${vaultHealerAddress}, ${poolId})`);
   const vaultHealerContract = new ethers.Contract(
     vaultHealerAddress,
     vaultV3ABI,
@@ -77,17 +76,20 @@ async function fetchVault(vaultHealerAddress: string, poolId: number) {
 }
 
 async function fetchPool(poolAddress: string) {
-  // console.log(`fetchPool(${poolAddress})`);
   const poolContract = new ethers.Contract(poolAddress, poolABI, rpcProvider);
 
   const boostId = (await poolContract.BOOST_ID()).toString();
   const rewardToken = await poolContract.REWARD_TOKEN();
   const rewardPerBlock = await poolContract.rewardPerBlock();
+  const startBlock = await poolContract.startBlock();
+  const endBlock = await poolContract.bonusEndBlock();
 
   return {
     boostId,
     rewardToken,
     rewardPerBlock,
+    startBlock,
+    endBlock,
   };
 }
 
@@ -165,6 +167,8 @@ async function main() {
     rewardPerBlock: new BigNumber(poolDetails.rewardPerBlock._hex)
       .div(1e18)
       .toNumber(),
+    startBlock: poolDetails.startBlock,
+    endBlock: poolDetails.endBlock,
   };
 
   config.forEach((pool: { id: any }) => {
