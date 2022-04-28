@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-rule: evenodd;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        fill: #092d74;
+      }
+
+      .cls-6, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-3);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1807" data-name="Ellipse 1807" class="cls-1" cx="32" cy="32" r="32" transform="translate(-24921 -23472)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="64" height="64"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_17669" data-name="Path 17669" class="cls-2" d="M64,32A32,32,0,1,0,32,64,32.015,32.015,0,0,0,64,32Z"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_71" data-name="Mask Group 71" class="cls-3" transform="translate(24921 23472)">
+    <g id="wind" transform="translate(-24921 -23472)">
+      <rect id="Logo_Darkblue" class="cls-4" width="64" height="64"/>
+      <g id="Group_774" data-name="Group 774" class="cls-5">
+        <g id="Group_773" data-name="Group 773">
+          <image id="Rectangle_6" data-name="Rectangle 6" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEUklEQVR4nO1b7XIbIQyUP9r3f+Prj4YL6HalFWA70+nOZBBCgBArnX1Jbmb2y/7iZt+4Ja06xvoVHEH/IG00drF5fnUqAVAPHwVlFke3Vi8zu6htfh03M/sNnF1tI7kKdLu9vNqeTDAbD7I7CKivILrtFQyM8OmgBqBSKwyMVRytjvXjrB1snqYH4FNsaEAHjw4Z2VivUwvjLjbsoHaVBalOYYI67vVe5+UKohtWbWggMiZUgoFaL6M+QqUgqofv5SElIibMsGFHgZwpiBHdU5kx4SewoUEpdsw+kpsflAm+vxIMLxvRH0BXQfXw51jGBN/fyQaPiOa9rDz7kWykD5mQ9TPZH6gSiB7q94TINnuCUCa0/ivYgPoIagFcYUHTHf67Q3R4359lQ6RDdWGFBRb0T11LB8aEmdRArZcZvI1SE5gdWqP1h/0yJhjQvSsdetuZoujno/0HJnjMBIPZIDkDrOJ2PQAKBJrPdGauMCppYaTv9dHhV5jAZDn/kf4OHEDBQPosLZCsskFhFNs/2gvqWTr0E5S0QA6icdRHUJjgU8Xbo/18KpiRdIgimNUEVc7AagKT1TRAfsB0aIYZQ/yi0Y1ngY2Cz9aoPn3omVgQ/ETVQbUuVFKwso9S2C+4q4bBJtkc1XZlbla32Jybmd08ExRHM1oqxXFwwrjTCgtmCu9gEz0iM9qqyA43a6vOb3p6pqwm9AtEG2a3w+ZVx2fZFkIJQrRJFeoa79yrFISZjT5VGEuoBmHHDb0DJT9XmfBP4H8QrB4E9AXkJ6Lk5yoTss0OIlfXruxTRiUIO1igrvHOvaQgHGRBdFO+Zetl+2VjaB/mYxoMFITD/UTOKMgCOGurzm96eiYfBGVDb8NuR72lKOAK25g/EQabe+KEn1jd8FOFsXIe+mbpYphsrLJASTM/XtmHBSMMCAuC4ihzzOvRmHewEujKvmi/C56dQY/Ly0gwFr3sZDJamznM+uwCVMZdAv90jrKN0dvb6NA+QN5eRXZ4JFdTAtaELIKo72XVQQa1LmRMyNY1M5wO6NZ7PWMCu/1XMUEpjowFg/4ODNBi0QbmWtXBCFHxjfat+H/qn86oIasBrY+KI2rRfAUsEL6dCcapf9j4Tx/K7xZmfzHikRVjpFMDgBhDA5IxocICBj+uMAI5m7UqGyAT2j99ICagfiRnr9wr7/6Up0NrV1LjTIfVFGBYedtspteE1s6kxoFqggX9SK7WBK9n6bFSHJXUsIdd/1CjevgZRHNZPejlncFImZDJXrf6u8TmINNFnx0iXRQMygRVnimAu75ArbDhwgT/Jzve0ZnnPcMrng5NrgRjWOvx9ZPdsnL4HanQI/usgHRKMC66jAmVFPB2q1hNidamOoUJSiHczYLTQaKbYQOd14JgVn/2I6wWRI9dbPAtZMKKowp21YZdQRjWetj3X7A1ZCyosmMVWRB6uRwA25wOuz5NesykRDR2sfkDufSChOSzKloAAAAASUVORK5CYII="/>
+          <path id="Path_17667" data-name="Path 17667" class="cls-6" d="M64,32A32,32,0,1,0,32,64,32.015,32.015,0,0,0,64,32Z"/>
+          <g id="Group_772" data-name="Group 772" class="cls-7">
+            <g id="Group_771" data-name="Group 771">
+              <path id="Path_17668" data-name="Path 17668" class="cls-8" d="M12.255,39.739l-.681.623L8.345,36.835,22.918,23.491h0a12.869,12.869,0,0,1,17.9.288l0,0a8.126,8.126,0,0,0,11.487,0l3.354,3.355a12.868,12.868,0,0,1-9.1,3.769c-.277,0-.551-.009-.826-.027l2.8,2.8a12.87,12.87,0,0,1-9.1,3.769q-.415,0-.825-.026l2.8,2.8a12.869,12.869,0,0,1-18.2,0l0,0a8.126,8.126,0,0,0-10.96-.478Zm18.082-6.066a8.124,8.124,0,0,0-10.756-.643l-.225.207a12.866,12.866,0,0,1,7.217,3.63l0,0a8.126,8.126,0,0,0,11.005.439,12.863,12.863,0,0,1-7.24-3.634l0,0Zm7.124-6.545a8.125,8.125,0,0,0-11-.439,12.866,12.866,0,0,1,7.24,3.634l0,0a8.125,8.125,0,0,0,11.005.44,12.869,12.869,0,0,1-7.24-3.634l0,0Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

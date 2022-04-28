@@ -1,0 +1,45 @@
+<svg id="Group_13481" data-name="Group 13481" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2575" data-name="Ellipse 2575" class="cls-1" cx="32" cy="32" r="32"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.498" cy="0" r="1.503" gradientTransform="translate(0.745 1) rotate(90) scale(1 0.745)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a56eff"/>
+      <stop offset="1" stop-color="#126df5"/>
+    </radialGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_5468" data-name="Rectangle 5468" class="cls-1" width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13478" data-name="Group 13478">
+    <g id="Group_13477" data-name="Group 13477" class="cls-2">
+      <rect id="Rectangle_5467" data-name="Rectangle 5467" class="cls-3" width="64" height="64"/>
+    </g>
+  </g>
+  <g id="Group_13480" data-name="Group 13480">
+    <g id="Group_13479" data-name="Group 13479" class="cls-4">
+      <path id="Path_32600" data-name="Path 32600" class="cls-5" d="M21.315,28.757l6.66-6.649h8.06l6.66,6.649L32,39.453Zm29.136-.076L43.52,35.613H38.541l6.931-6.932-7.04-6.986H43.39Zm-8.4,8.407L32,47.143,21.944,37.088h4.99L32,42.154l5.065-5.066ZM18.527,28.681l6.932,6.932H20.48l-6.932-6.932,7.062-6.986H25.6ZM33.334,53.63,56.927,30.091a1.9,1.9,0,0,0,0-2.679l-10.6-10.587a1.878,1.878,0,0,0-1.334-.553H18.961a1.878,1.878,0,0,0-1.334.553L7.072,27.412a1.9,1.9,0,0,0,0,2.679L30.665,53.684a1.887,1.887,0,0,0,2.669,0ZM19.677,19.8H44.312l8.97,8.96L32,50.04,10.717,28.757Z"/>
+    </g>
+  </g>
+</svg>
