@@ -3236,5 +3236,53 @@
       "DARK"
     ],
     "addLiquidityUrl": "https://swap.v3s.finance/add/0x40D34600E959A9549CdA7dB2c04A7D5925A96E32/0x83b2AC8642aE46FC2823Bc959fFEB3c1742c48B5"
+  },
+  {
+    "id": "vvs-single-vvs",
+    "pid": 139,
+    "lpSymbol": "VVS-SINGLE LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0x6f72a3f6dB6F486B50217f6e721f4388994B1FBe",
+    "depositFee": "0%",
+    "strategyAddress": "0xcEd47d07103bd11273C64C12207Fbc2B6799AFee",
+    "masterchef": "0xDccd6455AE04b03d785F12196B492b18129564bc",
+    "farmPid": 17,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "vvs-single-vvs",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://singlefinance.io/",
+    "assets": [
+      "SINGLE",
+      "VVS"
+    ],
+    "addLiquidityUrl": "https://vvs.finance/add/0x0804702a4E749d39A35FDe73d1DF0B1f1D6b8347/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03"
+  },
+  {
+    "id": "vvs-single-usdc",
+    "pid": 140,
+    "lpSymbol": "USDC-SINGLE LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0x0fBAB8A90CAC61b481530AAd3a64fE17B322C25d",
+    "depositFee": "0%",
+    "strategyAddress": "0x7882e67F3f1C69bE0540aC12c70c10dAE4f25baa",
+    "masterchef": "0xDccd6455AE04b03d785F12196B492b18129564bc",
+    "farmPid": 18,
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "vvs-single-usdc",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://singlefinance.io/",
+    "assets": [
+      "SINGLE",
+      "USDC"
+    ],
+    "addLiquidityUrl": "https://vvs.finance/add/0x0804702a4E749d39A35FDe73d1DF0B1f1D6b8347/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   }
 ]
