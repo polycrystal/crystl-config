@@ -61,18 +61,21 @@ async function fetchVault(vaultHealerAddress: string, poolId: number) {
     rpcProvider
   );
 
-  const boostInfo = await vaultHealerContract.boostInfo(ZERO_ADDRESS, poolId);
   const strat = await vaultHealerContract.strat(poolId);
-  const want = (await vaultHealerContract.vaultInfo(poolId)).want;
+  const vaultInfo = await vaultHealerContract.vaultInfo(poolId);
+  const want = vaultInfo.want;
 
-  return await Promise.all(
-    boostInfo.available.map(async (pool: { id: any }) => ({
-      ...pool,
+  const boostPools = [];
+  for (let index = 0; index < vaultInfo.numBoosts; index++) {
+    const boostPoolIds = await vaultHealerContract.boostPoolVid(poolId, index);
+    boostPools.push({
+      id: boostPoolIds[0],
       strat,
       want,
-      address: await vaultHealerContract.boostPool(pool.id),
-    }))
-  );
+      address: boostPoolIds[1],
+    });
+  }
+  return boostPools;
 }
 
 async function fetchPool(poolAddress: string) {
@@ -152,15 +155,15 @@ async function main() {
   const oracle = fetchWantToken();
 
   const newPool = {
-    id: boostPool.id.toString(),
+    id: boostPool?.id.toString(),
     address: boostPoolAddress,
-    stratAddress: boostPool.strat,
+    stratAddress: boostPool?.strat,
     vaultHealerAddress,
     vid: pid,
     projectName,
     oracle: oracle.oracle,
     oracleId: oracle.oracleId,
-    wantTokenAddress: boostPool.want,
+    wantTokenAddress: boostPool?.want,
     rewardToken: removeWrapped(rewardToken.symbol),
     rewardTokenAddress: rewardToken.address,
     rewardTokenDecimals: `1e${rewardToken.decimals}`,
