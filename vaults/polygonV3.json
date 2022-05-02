@@ -20,12 +20,12 @@
     "projectSite": "https://apeswap.finance/",
     "assets": [
       {
-        "name": "MATIC",
+        "label": "MATIC",
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
         "decimals": 18
       },
       {
-        "name": "BANANA",
+        "label": "BANANA",
         "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
         "decimals": 18
       }
@@ -60,12 +60,12 @@
     "projectSite": "https://apeswap.finance/",
     "assets": [
       {
-        "name": "MATIC",
+        "label": "MATIC",
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
         "decimals": 18
       },
       {
-        "name": "BANANA",
+        "label": "BANANA",
         "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
         "decimals": 18
       }
@@ -100,7 +100,7 @@
     "projectSite": "https://greenhousedex.com/",
     "assets": [
       {
-        "name": "GREEN",
+        "label": "GREEN",
         "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
         "decimals": 18
       }
@@ -134,7 +134,7 @@
     "projectSite": "https://greenhousedex.com/",
     "assets": [
       {
-        "name": "GREEN",
+        "label": "GREEN",
         "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
         "decimals": 18
       }
@@ -168,12 +168,12 @@
     "projectSite": "https://www.terra.money/",
     "assets": [
       {
-        "name": "USDC",
+        "label": "USDC",
         "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "decimals": 6
       },
       {
-        "name": "UST",
+        "label": "UST",
         "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
         "decimals": 6
       }

@@ -358,7 +358,7 @@ async function main() {
     projectSite: site,
     assets: tokens.map((token) => {
       return {
-        name: token.unwrappedSymbol,
+        label: token.unwrappedSymbol,
         address: token.address,
         decimals: token.decimals,
       };
