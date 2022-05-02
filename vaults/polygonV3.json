@@ -146,5 +146,44 @@
     "isMaximizer": true,
     "isSingleStaking": true,
     "addLiquidityUrl": "https://greenhousedex.com/"
+  },
+  {
+    "id": "v3-green-usdc-ust",
+    "pid": 3,
+    "lpSymbol": "UST-USDC LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x6c5c3285c1519d23777472D302D00731cE514AF9",
+    "depositFee": "0%",
+    "strategyAddress": "0x262af6CA84c6fbA2159c8E09A89655F999bA4d69",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 1,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-usdc-ust",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://www.terra.money/",
+    "assets": [
+      {
+        "name": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6
+      },
+      {
+        "name": "UST",
+        "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Stable Coin"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]
