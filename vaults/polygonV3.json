@@ -38,6 +38,7 @@
     "isMaximizer": false,
     "isSingleStaking": false,
     "targetVid": 0,
+    "targetWantToken": "",
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
@@ -79,6 +80,7 @@
     "isMaximizer": true,
     "isSingleStaking": false,
     "targetVid": 1,
+    "targetWantToken": "BANANA-WMATIC",
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
@@ -114,6 +116,7 @@
     "isMaximizer": false,
     "isSingleStaking": true,
     "targetVid": 0,
+    "targetWantToken": "",
     "addLiquidityUrl": "https://greenhousedex.com/"
   },
   {
@@ -149,6 +152,7 @@
     "isMaximizer": true,
     "isSingleStaking": true,
     "targetVid": 2,
+    "targetWantToken": "GREEN",
     "addLiquidityUrl": "https://greenhousedex.com/"
   },
   {
@@ -189,6 +193,7 @@
     "isMaximizer": false,
     "isSingleStaking": false,
     "targetVid": 0,
+    "targetWantToken": "",
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   },
   {
@@ -200,7 +205,7 @@
     "depositFee": "0%",
     "strategyAddress": "0x828bfdd8e56C43b7257ed09059e662014d94A6C6",
     "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
-    "farmPid": 5,
+    "farmPid": 1280,
     "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
     "pricePerFullShare": 1,
     "tvl": 0,
@@ -229,6 +234,7 @@
     "isMaximizer": true,
     "isSingleStaking": false,
     "targetVid": 2,
+    "targetWantToken": "GREEN",
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]

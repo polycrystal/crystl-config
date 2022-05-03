@@ -337,6 +337,17 @@ async function main() {
     ? tempName.slice(3, tempName.length - counterLabel.length)
     : tempName;
 
+  const targetVid = strategy.isMaximizer ? pid >> 16 : 0;
+  const targetWantToken = strategy.isMaximizer
+    ? (
+        await fetchToken(
+          (
+            await fetchVault(vaultHealerAddress, targetVid, isV3)
+          ).want
+        )
+      ).symbol
+    : "";
+
   const newVault = {
     id: tempName,
     pid,
@@ -368,7 +379,8 @@ async function main() {
     category: [...getCategory(category)],
     isMaximizer: strategy.isMaximizer,
     isSingleStaking,
-    targetVid: strategy.isMaximizer ? pid >> 16 : 0,
+    targetVid,
+    targetWantToken,
     addLiquidityUrl,
   };
 
