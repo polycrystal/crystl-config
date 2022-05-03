@@ -341,10 +341,9 @@ async function main() {
   const targetVault = strategy.isMaximizer
     ? await fetchVault(vaultHealerAddress, targetVid, isV3)
     : { strat: "", want: "" };
-  const targetWantToken = strategy.isMaximizer
-    ? (await fetchToken(targetVault.want)).symbol
-    : "";
-  const targetStrategy = strategy.isMaximizer ? targetVault.strat : "";
+  const targetWant = strategy.isMaximizer
+    ? await fetchToken(targetVault.want)
+    : { symbol: "", decimals: 0 };
 
   const newVault = {
     id: tempName,
@@ -378,8 +377,9 @@ async function main() {
     isMaximizer: strategy.isMaximizer,
     isSingleStaking,
     targetVid,
-    targetWantToken,
-    targetStrategy,
+    targetWantToken: targetWant.symbol,
+    targetWantDecimals: targetWant.decimals,
+    targetStrategy: targetVault.strat,
     addLiquidityUrl,
   };
 
