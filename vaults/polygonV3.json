@@ -37,6 +37,7 @@
     ],
     "isMaximizer": false,
     "isSingleStaking": false,
+    "targetVid": 0,
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
@@ -77,6 +78,7 @@
     ],
     "isMaximizer": true,
     "isSingleStaking": false,
+    "targetVid": 1,
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
@@ -111,6 +113,7 @@
     ],
     "isMaximizer": false,
     "isSingleStaking": true,
+    "targetVid": 0,
     "addLiquidityUrl": "https://greenhousedex.com/"
   },
   {
@@ -145,6 +148,7 @@
     ],
     "isMaximizer": true,
     "isSingleStaking": true,
+    "targetVid": 2,
     "addLiquidityUrl": "https://greenhousedex.com/"
   },
   {
@@ -184,6 +188,47 @@
     ],
     "isMaximizer": false,
     "isSingleStaking": false,
+    "targetVid": 0,
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
+  },
+  {
+    "id": "v3-green-weth-ust",
+    "pid": 131075,
+    "lpSymbol": "UST-WETH LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x38FBdFf275AA144EE76581c56F02bD254840e5e9",
+    "depositFee": "0%",
+    "strategyAddress": "0x828bfdd8e56C43b7257ed09059e662014d94A6C6",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 5,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-weth-ust",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://www.terra.money/",
+    "assets": [
+      {
+        "label": "ETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18
+      },
+      {
+        "label": "UST",
+        "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "targetVid": 2,
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]

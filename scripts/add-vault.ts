@@ -368,6 +368,7 @@ async function main() {
     category: [...getCategory(category)],
     isMaximizer: strategy.isMaximizer,
     isSingleStaking,
+    targetVid: strategy.isMaximizer ? pid >> 16 : 0,
     addLiquidityUrl,
   };
 
