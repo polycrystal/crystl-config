@@ -39,6 +39,7 @@
     "isSingleStaking": false,
     "targetVid": 0,
     "targetWantToken": "",
+    "targetStrategy": "",
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
@@ -81,6 +82,7 @@
     "isSingleStaking": false,
     "targetVid": 1,
     "targetWantToken": "BANANA-WMATIC",
+    "targetStrategy": "0x053452038E078bbb2fF5920A13980d65aDC800e0",
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
@@ -117,6 +119,7 @@
     "isSingleStaking": true,
     "targetVid": 0,
     "targetWantToken": "",
+    "targetStrategy": "",
     "addLiquidityUrl": "https://greenhousedex.com/"
   },
   {
@@ -153,6 +156,7 @@
     "isSingleStaking": true,
     "targetVid": 2,
     "targetWantToken": "GREEN",
+    "targetStrategy": "0x66ce2fb57D5F3455b84FaAa4697F3cAD8c70566c",
     "addLiquidityUrl": "https://greenhousedex.com/"
   },
   {
@@ -194,6 +198,7 @@
     "isSingleStaking": false,
     "targetVid": 0,
     "targetWantToken": "",
+    "targetStrategy": "",
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   },
   {
@@ -235,6 +240,7 @@
     "isSingleStaking": false,
     "targetVid": 2,
     "targetWantToken": "GREEN",
+    "targetStrategy": "0x66ce2fb57D5F3455b84FaAa4697F3cAD8c70566c",
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]
