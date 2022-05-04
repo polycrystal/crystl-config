@@ -37,7 +37,7 @@ const network: any = {
   polygonV3: {
     configFile: "../vaults/polygonV3.json",
     chainId: ChainId.polygon,
-    vaultHealer: "0x8fcb6ce37d2a279a80d65b92af9691f796cf1848",
+    vaultHealer: "0xe5B5da7B82A3057b21c2B0dCef34c25EAA45FE4f",
     isV3: true,
   },
 };

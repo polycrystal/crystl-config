@@ -1,167 +1,47 @@
 [
   {
     "id": "v3-ape-wmatic-banana",
-    "pid": 1,
-    "lpSymbol": "BANANA-WMATIC LP",
-    "lpProvider": "APESWAP",
-    "wantAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
-    "depositFee": "0%",
-    "strategyAddress": "0x053452038E078bbb2fF5920A13980d65aDC800e0",
-    "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
-    "farmPid": 0,
-    "router": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "lps",
-    "oracleId": "ape-wmatic-banana",
-    "paused": false,
-    "platform": "APESWAP",
-    "farmSite": "https://apeswap.finance/",
-    "projectSite": "https://apeswap.finance/",
-    "assets": [
-      {
-        "label": "WMATIC",
-        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18
-      },
-      {
-        "label": "BANANA",
-        "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
-        "decimals": 18
-      }
-    ],
-    "type": "Traditional",
-    "category": [
-      "Blue Chip",
-      "DeFi Token"
-    ],
-    "isMaximizer": false,
-    "isSingleStaking": false,
-    "targetVid": 0,
-    "targetWantToken": "",
-    "targetWantDecimals": 0,
-    "targetStrategy": "",
-    "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
-  },
-  {
-    "id": "v3-ape-wmatic-banana-2",
-    "pid": 65537,
-    "lpSymbol": "BANANA-WMATIC LP",
-    "lpProvider": "APESWAP",
-    "wantAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
-    "depositFee": "0%",
-    "strategyAddress": "0x773B1B1f2e384b0306eE9caf6969332714aE4005",
-    "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
-    "farmPid": 0,
-    "router": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "lps",
-    "oracleId": "ape-wmatic-banana",
-    "paused": false,
-    "platform": "APESWAP",
-    "farmSite": "https://apeswap.finance/",
-    "projectSite": "https://apeswap.finance/",
-    "assets": [
-      {
-        "label": "WMATIC",
-        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18
-      },
-      {
-        "label": "BANANA",
-        "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
-        "decimals": 18
-      }
-    ],
-    "type": "Traditional",
-    "category": [
-      "Blue Chip",
-      "DeFi Token"
-    ],
-    "isMaximizer": true,
-    "isSingleStaking": false,
-    "targetVid": 1,
-    "targetWantToken": "BANANA-WMATIC",
-    "targetWantDecimals": 18,
-    "targetStrategy": "0x053452038E078bbb2fF5920A13980d65aDC800e0",
-    "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
-  },
-  {
-    "id": "v3-green-green",
     "pid": 2,
-    "lpSymbol": "GREEN",
-    "lpProvider": "GREEN",
-    "wantAddress": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
+    "lpSymbol": "BANANA-WMATIC LP",
+    "lpProvider": "APESWAP",
+    "wantAddress": "0x034293F21F1cCE5908BC605CE5850dF2b1059aC0",
     "depositFee": "0%",
-    "strategyAddress": "0x66ce2fb57D5F3455b84FaAa4697F3cAD8c70566c",
-    "masterchef": "0x03c17582435FcA893c342cecc40786C1B0C48C55",
+    "strategyAddress": "0x169B22082BF20dF9b7B8E42F50f10A86287BECca",
+    "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
     "farmPid": 0,
-    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "router": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607",
     "pricePerFullShare": 1,
     "tvl": 0,
-    "oracle": "tokens",
-    "oracleId": "GREEN",
+    "oracle": "lps",
+    "oracleId": "ape-wmatic-banana",
     "paused": false,
-    "platform": "GREENHOUSE",
-    "farmSite": "https://greenhousedex.com/",
-    "projectSite": "https://greenhousedex.com/",
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://apeswap.finance/",
     "assets": [
       {
-        "label": "GREEN",
-        "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18
+      },
+      {
+        "label": "BANANA",
+        "address": "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
         "decimals": 18
       }
     ],
-    "type": "Single Staking",
+    "type": "Traditional",
     "category": [
-      "DeFi Token"
+      "DeFi Token",
+      "Blue Chip"
     ],
     "isMaximizer": false,
-    "isSingleStaking": true,
+    "isSingleStaking": false,
     "targetVid": 0,
     "targetWantToken": "",
     "targetWantDecimals": 0,
     "targetStrategy": "",
-    "addLiquidityUrl": "https://greenhousedex.com/"
-  },
-  {
-    "id": "v3-green-green-2",
-    "pid": 131073,
-    "lpSymbol": "GREEN",
-    "lpProvider": "GREEN",
-    "wantAddress": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
-    "depositFee": "0%",
-    "strategyAddress": "0x01dEfe95fa6B94385837CC6B01664124a9F507b5",
-    "masterchef": "0x03c17582435FcA893c342cecc40786C1B0C48C55",
-    "farmPid": 0,
-    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "tokens",
-    "oracleId": "GREEN",
-    "paused": false,
-    "platform": "GREENHOUSE",
-    "farmSite": "https://greenhousedex.com/",
-    "projectSite": "https://greenhousedex.com/",
-    "assets": [
-      {
-        "label": "GREEN",
-        "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
-        "decimals": 18
-      }
-    ],
-    "type": "Single Staking",
-    "category": [
-      "DeFi Token"
-    ],
-    "isMaximizer": true,
-    "isSingleStaking": true,
-    "targetVid": 2,
-    "targetWantToken": "GREEN",
-    "targetWantDecimals": 18,
-    "targetStrategy": "0x66ce2fb57D5F3455b84FaAa4697F3cAD8c70566c",
-    "addLiquidityUrl": "https://greenhousedex.com/"
+    "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
   },
   {
     "id": "v3-green-usdc-ust",
@@ -170,7 +50,7 @@
     "lpProvider": "GREEN",
     "wantAddress": "0x6c5c3285c1519d23777472D302D00731cE514AF9",
     "depositFee": "0%",
-    "strategyAddress": "0x262af6CA84c6fbA2159c8E09A89655F999bA4d69",
+    "strategyAddress": "0xbdAc6b89fAD890FEfFfEA473309492745B068291",
     "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
     "farmPid": 1,
     "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
@@ -207,15 +87,58 @@
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   },
   {
+    "id": "v3-green-green-weth",
+    "pid": 4,
+    "lpSymbol": "WETH-GREEN LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x179A50706D79a5cfd8CD9D90Eee7bC21bbec52F2",
+    "depositFee": "0%",
+    "strategyAddress": "0x557307C2602140bD93810E696d71E136Ba743fBe",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 3,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-green-weth",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://greenhousedex.com/",
+    "assets": [
+      {
+        "label": "GREEN",
+        "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
+        "decimals": 18
+      },
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x40DB6d7812b8288eCA452F912ca9F262b186f278/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
     "id": "v3-green-weth-ust",
-    "pid": 131075,
+    "pid": 5,
     "lpSymbol": "UST-WETH LP",
     "lpProvider": "GREEN",
     "wantAddress": "0x38FBdFf275AA144EE76581c56F02bD254840e5e9",
     "depositFee": "0%",
-    "strategyAddress": "0x828bfdd8e56C43b7257ed09059e662014d94A6C6",
+    "strategyAddress": "0x0C667D88Ad6B8cBcAF369E0779F7EF2a838eCD64",
     "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
-    "farmPid": 1280,
+    "farmPid": 5,
     "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
     "pricePerFullShare": 1,
     "tvl": 0,
@@ -241,12 +164,12 @@
     "category": [
       "Blue Chip"
     ],
-    "isMaximizer": true,
+    "isMaximizer": false,
     "isSingleStaking": false,
-    "targetVid": 2,
-    "targetWantToken": "GREEN",
-    "targetWantDecimals": 18,
-    "targetStrategy": "0x66ce2fb57D5F3455b84FaAa4697F3cAD8c70566c",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
     "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]
