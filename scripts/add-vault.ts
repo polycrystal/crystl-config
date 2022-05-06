@@ -251,7 +251,7 @@ function getCategory(category: string): string[] {
       case "n":
         return "NFT/GameFi";
       case "a":
-        return "Algorithmic Token (DYOR)";
+        return "Algorithmic Token";
       default:
         return "";
     }
