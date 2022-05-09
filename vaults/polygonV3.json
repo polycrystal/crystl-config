@@ -211,5 +211,140 @@
     "targetWantDecimals": 0,
     "targetStrategy": "",
     "addLiquidityUrl": "https://greenhousedex.com/"
+  },
+  {
+    "id": "v3-green-usdc-ust-2",
+    "pid": 1245187,
+    "lpSymbol": "UST-USDC LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x6c5c3285c1519d23777472D302D00731cE514AF9",
+    "depositFee": "0.2%",
+    "strategyAddress": "0x57F5F0e2BB06bFB1F97A75B0c925f981336FDF30",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 1,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-usdc-ust",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://www.terra.money/",
+    "assets": [
+      {
+        "label": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6
+      },
+      {
+        "label": "UST",
+        "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 19,
+    "targetWantToken": "GREEN",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x47B1e2E45a1365aAF927894Edb686Eac680b93b9",
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
+  },
+  {
+    "id": "v3-green-green-weth-2",
+    "pid": 1245186,
+    "lpSymbol": "WETH-GREEN LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x179A50706D79a5cfd8CD9D90Eee7bC21bbec52F2",
+    "depositFee": "0.2%",
+    "strategyAddress": "0x071B0DEC880687a6f9a1F8D4931B4a50cc474D34",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 3,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-green-weth",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://greenhousedex.com/",
+    "assets": [
+      {
+        "label": "GREEN",
+        "address": "0x40DB6d7812b8288eCA452F912ca9F262b186f278",
+        "decimals": 18
+      },
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 19,
+    "targetWantToken": "GREEN",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x47B1e2E45a1365aAF927894Edb686Eac680b93b9",
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x40DB6d7812b8288eCA452F912ca9F262b186f278/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
+    "id": "v3-green-weth-ust-2",
+    "pid": 1245185,
+    "lpSymbol": "UST-WETH LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x38FBdFf275AA144EE76581c56F02bD254840e5e9",
+    "depositFee": "0.2%",
+    "strategyAddress": "0x04A2F7408Ee10121066E15b336852EF4B3afDD90",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 5,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-weth-ust",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://www.terra.money/",
+    "assets": [
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18
+      },
+      {
+        "label": "UST",
+        "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 19,
+    "targetWantToken": "GREEN",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x47B1e2E45a1365aAF927894Edb686Eac680b93b9",
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]
