@@ -40,6 +40,12 @@ const network: any = {
     vaultHealer: "0xe5B5da7B82A3057b21c2B0dCef34c25EAA45FE4f",
     isV3: true,
   },
+  bnbV3: {
+    configFile: "../vaults/bnbV3.json",
+    chainId: ChainId.bsc,
+    vaultHealer: "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
+    isV3: true,
+  },
 };
 
 const args = yargs.options({

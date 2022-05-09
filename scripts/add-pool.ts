@@ -27,6 +27,12 @@ const network: any = {
     vaultHealer: "0x8FcB6ce37D2a279A80d65B92AF9691F796CF1848",
     vaultConfig: "../vaults/polygonV3.json",
   },
+  bnb: {
+    configFile: "../pools/bnbBoostPools.json",
+    chainId: ChainId.bsc,
+    vaultHealer: "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
+    vaultConfig: "../vaults/bnbV3.json",
+  },
 };
 
 const args = yargs.options({
