@@ -31,7 +31,7 @@ const network: any = {
   cronosV3: {
     configFile: "../vaults/cronosV3.json",
     chainId: ChainId.cronos,
-    vaultHealer: "",
+    vaultHealer: "0xcc7058CF040d3237D86EA9A41598212444cA9dD3",
     isV3: true,
   },
   polygonV3: {
