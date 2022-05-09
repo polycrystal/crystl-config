@@ -200,6 +200,8 @@ function fetchPlatform(platform: string) {
     name: result.name,
     id: result.id,
     site: result.site,
+    totalStaked: result.totalStaked,
+    rewardPerBlock: result.rewardPerBlock,
   };
 }
 
@@ -344,6 +346,8 @@ async function main() {
   const targetWant = strategy.isMaximizer
     ? await fetchToken(targetVault.want)
     : { symbol: "", decimals: 0 };
+  const totalStaked = isSingleStaking ? platformData.totalStaked : "";
+  const rewardPerBlock = isSingleStaking ? platformData.rewardPerBlock : "";
 
   const newVault = {
     id: tempName,
@@ -376,6 +380,8 @@ async function main() {
     category: [...getCategory(category)],
     isMaximizer: strategy.isMaximizer,
     isSingleStaking,
+    totalStaked,
+    rewardPerBlock,
     targetVid,
     targetWantToken: targetWant.symbol,
     targetWantDecimals: targetWant.decimals,

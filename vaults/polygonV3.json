@@ -204,6 +204,8 @@
     ],
     "isMaximizer": false,
     "isSingleStaking": true,
+    "totalStaked": "stakedGreen",
+    "rewardPerBlock": "rewardPerBlock",
     "targetVid": 0,
     "targetWantToken": "",
     "targetWantDecimals": 0,
