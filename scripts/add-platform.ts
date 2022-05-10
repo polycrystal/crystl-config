@@ -37,8 +37,8 @@ async function main() {
   const platformName = String(args["name"]).toUpperCase();
   const idName = String(args["id"]).toLowerCase();
   const siteUrl = String(args["site"]);
-  const totalStaked = String(args["site"] ?? "");
-  const rewardPerBlock = String(args["site"] ?? "");
+  const totalStaked = String(args["staked"] ?? "");
+  const rewardPerBlock = String(args["reward"] ?? "");
 
   const newPlatform = {
     name: platformName,

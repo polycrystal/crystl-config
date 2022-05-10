@@ -95,6 +95,11 @@ const args = yargs.options({
     describe:
       "(S)table Coin | (B)lue Chip | (D)eFi Token | (G)ameFi | (N)FT/GameFi | (T)omb Fork (DYOR). You can select multiple with a '/' like: s/b",
   },
+  vaulted: {
+    type: "string",
+    demandOption: false,
+    describe: "platform that is vaulted",
+  },
 }).argv;
 
 const pid: number = args["pid"];
@@ -105,6 +110,7 @@ const depositFee: number = args["deposit"] ?? 0;
 // const isBoosted: boolean = args["boosted"] ?? false;
 const type: string = args["type"] ?? "";
 const category: string = args["category"] ?? "";
+const vaulted: string = args["vaulted"] ?? platform;
 
 const networkSelected = network[args["network"] as string];
 const isV3 = networkSelected.isV3 ?? false;
@@ -272,6 +278,7 @@ async function main() {
   const vault = await fetchVault(vaultHealerAddress, pid, isV3);
   const strategy = await fetchStrategy(vault.strat, isV3);
   const platformData = fetchPlatform(platform);
+  const vaultedData = fetchPlatform(vaulted);
   const site = fetchProject(token);
   const lpProvider = fetchProvider(provider);
 
@@ -342,7 +349,9 @@ async function main() {
   const oracleId = isSingleStaking
     ? lpSymbol
     : isV3
-    ? tempName.slice(3, tempName.length - counterLabel.length)
+    ? `${
+        vaultedData.id
+      }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`
     : tempName;
 
   const targetVid = strategy.isMaximizer ? pid >> 16 : 0;
@@ -352,8 +361,8 @@ async function main() {
   const targetWant = strategy.isMaximizer
     ? await fetchToken(targetVault.want)
     : { symbol: "", decimals: 0 };
-  const totalStaked = isSingleStaking ? platformData.totalStaked : "";
-  const rewardPerBlock = isSingleStaking ? platformData.rewardPerBlock : "";
+  const totalStaked = isSingleStaking ? vaultedData.totalStaked : "";
+  const rewardPerBlock = isSingleStaking ? vaultedData.rewardPerBlock : "";
 
   const newVault = {
     id: tempName,
@@ -376,7 +385,7 @@ async function main() {
     projectSite: site,
     assets: tokens.map((token) => {
       return {
-        label: token.symbol,
+        label: token.symbol.toUpperCase(),
         address: token.address,
         decimals: token.decimals,
       };

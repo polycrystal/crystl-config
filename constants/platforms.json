@@ -1,5 +1,12 @@
 [
   {
+    "name": "PANCAKE",
+    "id": "pancake",
+    "site": "https://pancakeswap.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "PEGASUSDOLLAR",
     "id": "pegasus",
     "site": "https://pegasusdollar.finance/"

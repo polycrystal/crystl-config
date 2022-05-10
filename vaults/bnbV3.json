@@ -1,3 +1,47 @@
 [
-  
+  {
+    "id": "v3-ape-cake-busd",
+    "pid": 327681,
+    "lpSymbol": "BUSD-Cake LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x804678fa97d91B974ec2af3c843270886528a9E6",
+    "depositFee": "0%",
+    "strategyAddress": "0xD206A44B648F6fd6cD8fE00430aef970480Ca27c",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 39,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "pancake-cake-busd",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://pancakeswap.finance/",
+    "assets": [
+      {
+        "label": "CAKE",
+        "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "decimals": 18
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 5,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0xc1a2BA9D511dF0a1D347c01B08dcf25aFFD35D9E",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  }
 ]

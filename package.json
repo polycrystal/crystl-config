@@ -7,8 +7,10 @@
     "cronos:add": "ts-node scripts/add-vault.ts --network cronos",
     "polygonV3:add": "ts-node scripts/add-vault.ts --network polygonV3",
     "cronosV3:add": "ts-node scripts/add-vault.ts --network cronosV3",
+    "bnbV3:add": "ts-node scripts/add-vault.ts --network bnbV3",
     "polygon:pool:add": "ts-node scripts/add-pool.ts --network polygon",
     "cronos:pool:add": "ts-node scripts/add-pool.ts --network cronos",
+    "bnb:pool:add": "ts-node scripts/add-pool.ts --network bnb",
     "token:add": "ts-node scripts/add-token.ts",
     "platform:add": "ts-node scripts/add-platform.ts",
     "provider:add": "ts-node scripts/add-provider.ts"
