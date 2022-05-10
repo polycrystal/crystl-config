@@ -389,7 +389,7 @@ async function main() {
     projectSite: site,
     assets: tokens.map((token) => {
       return {
-        label: token.symbol.toUpperCase(),
+        label: token.symbol,
         address: token.address,
         decimals: token.decimals,
       };
