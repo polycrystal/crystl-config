@@ -1,6 +1,6 @@
 [
   {
-    "id": "v3-ape-cake-busd",
+    "id": "v3-bnb-ape-cake-busd",
     "pid": 327681,
     "lpSymbol": "BUSD-Cake LP",
     "lpProvider": "PANCAKE",
@@ -13,7 +13,7 @@
     "pricePerFullShare": 1,
     "tvl": 0,
     "oracle": "lps",
-    "oracleId": "pancake-cake-busd",
+    "oracleId": "bnb-pancake-cake-busd",
     "paused": false,
     "platform": "APESWAP",
     "farmSite": "https://apeswap.finance/",

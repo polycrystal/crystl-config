@@ -33,18 +33,21 @@ const network: any = {
     chainId: ChainId.cronos,
     vaultHealer: "0xcc7058CF040d3237D86EA9A41598212444cA9dD3",
     isV3: true,
+    prefix: "cronos",
   },
   polygonV3: {
     configFile: "../vaults/polygonV3.json",
     chainId: ChainId.polygon,
     vaultHealer: "0xe5B5da7B82A3057b21c2B0dCef34c25EAA45FE4f",
     isV3: true,
+    prefix: "polygon",
   },
   bnbV3: {
     configFile: "../vaults/bnbV3.json",
     chainId: ChainId.bsc,
     vaultHealer: "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
     isV3: true,
+    prefix: "bnb",
   },
 };
 
@@ -116,6 +119,7 @@ const networkSelected = network[args["network"] as string];
 const isV3 = networkSelected.isV3 ?? false;
 const vaultHealerAddress = networkSelected.vaultHealer;
 const configFile = networkSelected.configFile;
+const prefix = networkSelected.prefix;
 const config = require(configFile);
 const chainId = networkSelected.chainId;
 const rpcProvider = new ethers.providers.JsonRpcProvider(
@@ -302,7 +306,7 @@ async function main() {
     wantToken = await fetchToken(vault.want);
     tokens.push(wantToken);
 
-    newVaultName = `${isV3Label}${
+    newVaultName = `${isV3Label}${prefix}-${
       platformData.id
     }-${tokens[0].symbol.toLowerCase()}`;
 
@@ -318,7 +322,7 @@ async function main() {
       await fetchToken(wantToken.token1)
     );
 
-    newVaultName = `${isV3Label}${
+    newVaultName = `${isV3Label}${prefix}-${
       platformData.id
     }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`;
 
@@ -349,7 +353,7 @@ async function main() {
   const oracleId = isSingleStaking
     ? lpSymbol
     : isV3
-    ? `${
+    ? `${prefix}-${
         vaultedData.id
       }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`
     : tempName;
