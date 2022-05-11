@@ -403,5 +403,43 @@
     "targetWantDecimals": 18,
     "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
     "addLiquidityUrl": "https://exchange.biswap.org/#/add/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/0x55d398326f99059fF775485246999027B3197955"
+  },
+  {
+    "id": "v3-bnb-ape-banana",
+    "pid": 9,
+    "lpSymbol": "BANANA",
+    "lpProvider": "APESWAP",
+    "wantAddress": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+    "depositFee": "0%",
+    "strategyAddress": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
+    "masterchef": "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9",
+    "farmPid": 0,
+    "router": "0xcF0feBd3f17CEf5b47b0cD257aCf6025c5BFf3b7",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "tokens",
+    "oracleId": "BANANA",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://apeswap.finance/",
+    "assets": [
+      {
+        "label": "BANANA",
+        "address": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+        "decimals": 18
+      }
+    ],
+    "type": "Single Staking",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": true,
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://apeswap.finance/"
   }
 ]
