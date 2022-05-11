@@ -77,7 +77,7 @@
     ],
     "type": "Traditional",
     "category": [
-      "DeFi Token"
+      "Stable Coin"
     ],
     "isMaximizer": true,
     "isSingleStaking": false,
@@ -223,5 +223,185 @@
     "targetWantDecimals": 18,
     "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
     "addLiquidityUrl": "https://exchange.babyswap.finance/#/add/0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657/0x55d398326f99059fF775485246999027B3197955"
+  },
+  {
+    "id": "v3-bnb-ape-bsw-wbnb",
+    "pid": 589831,
+    "lpSymbol": "WBNB-BSW LP",
+    "lpProvider": "BISWAP",
+    "wantAddress": "0x46492B26639Df0cda9b2769429845cb991591E0A",
+    "depositFee": "0%",
+    "strategyAddress": "0xeEBfb523fC15941b7B8A57b8FfA059eae9187805",
+    "masterchef": "0xDbc1A13490deeF9c3C12b44FE77b503c1B061739",
+    "farmPid": 10,
+    "router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-biswap-bsw-wbnb",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://biswap.org/",
+    "assets": [
+      {
+        "label": "BSW",
+        "address": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+        "decimals": 18
+      },
+      {
+        "label": "WBNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
+    "addLiquidityUrl": "https://exchange.biswap.org/#/add/0x965F527D9159dCe6288a2219DB51fc6Eef120dD1/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+  },
+  {
+    "id": "v3-bnb-ape-usdt-bsw",
+    "pid": 589832,
+    "lpSymbol": "BSW-USDT LP",
+    "lpProvider": "BISWAP",
+    "wantAddress": "0x2b30c317ceDFb554Ec525F85E79538D59970BEb0",
+    "depositFee": "0%",
+    "strategyAddress": "0xf6CEd825a54E51c9FD9e2099fffFFaEDC39d8309",
+    "masterchef": "0xDbc1A13490deeF9c3C12b44FE77b503c1B061739",
+    "farmPid": 9,
+    "router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-biswap-usdt-bsw",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://biswap.org/",
+    "assets": [
+      {
+        "label": "USDT",
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "decimals": 18
+      },
+      {
+        "label": "BSW",
+        "address": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
+    "addLiquidityUrl": "https://exchange.biswap.org/#/add/0x55d398326f99059fF775485246999027B3197955/0x965F527D9159dCe6288a2219DB51fc6Eef120dD1"
+  },
+  {
+    "id": "v3-bnb-ape-eth-btcb",
+    "pid": 589833,
+    "lpSymbol": "BTCB-ETH LP",
+    "lpProvider": "BISWAP",
+    "wantAddress": "0x6216E04cd40DB2c6FBEd64f1B5830A98D3A91740",
+    "depositFee": "0%",
+    "strategyAddress": "0x771C6D7652CBbF097bcb2F343baE13413570C345",
+    "masterchef": "0xDbc1A13490deeF9c3C12b44FE77b503c1B061739",
+    "farmPid": 7,
+    "router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-biswap-eth-btcb",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://weth.io/",
+    "assets": [
+      {
+        "label": "ETH",
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimals": 18
+      },
+      {
+        "label": "BTCB",
+        "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
+    "addLiquidityUrl": "https://exchange.biswap.org/#/add/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+  },
+  {
+    "id": "v3-bnb-ape-eth-usdt",
+    "pid": 589834,
+    "lpSymbol": "USDT-ETH LP",
+    "lpProvider": "BISWAP",
+    "wantAddress": "0x63b30de1A998e9E64FD58A21F68D323B9BcD8F85",
+    "depositFee": "0%",
+    "strategyAddress": "0x0c3055EA7aC98aF44A3795bC7C407062a378b7C4",
+    "masterchef": "0xDbc1A13490deeF9c3C12b44FE77b503c1B061739",
+    "farmPid": 5,
+    "router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-biswap-eth-usdt",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://weth.io/",
+    "assets": [
+      {
+        "label": "ETH",
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimals": 18
+      },
+      {
+        "label": "USDT",
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
+    "addLiquidityUrl": "https://exchange.biswap.org/#/add/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/0x55d398326f99059fF775485246999027B3197955"
   }
 ]
