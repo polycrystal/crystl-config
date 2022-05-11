@@ -185,6 +185,7 @@ async function fetchLiquidityPair(lpAddress: string) {
     address: ethers.utils.getAddress(lpAddress),
     token0: await lpContract.token0(),
     token1: await lpContract.token1(),
+    decimals: await lpContract.decimals(),
   };
 }
 
@@ -376,6 +377,7 @@ async function main() {
     lpSymbol,
     lpProvider: provider.toUpperCase(),
     wantAddress: wantToken.address,
+    wantDecimals: wantToken.decimals,
     depositFee: `${depositFee.toLocaleString("en-US")}%`,
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
