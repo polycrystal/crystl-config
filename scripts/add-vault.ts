@@ -326,8 +326,10 @@ async function main() {
       platformData.id
     }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`;
 
-    lpSymbol = `${tokens[1].symbol === "WCRO" ? "CRO" : tokens[1].symbol}-${
-      tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol
+    lpSymbol = `${
+      tokens[1].symbol === "WCRO" ? "CRO" : tokens[1].symbol.toUpperCase()
+    }-${
+      tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol.toUpperCase()
     } LP`;
 
     oracle = "lps";
