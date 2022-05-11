@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #f0b90b;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #53ae94;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5154" data-name="Ellipse 5154" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21338 -21922)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_5529" data-name="Ellipse 5529" class="cls-1" cx="32" cy="32" r="32" transform="translate(-23439 -23605)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_20049" data-name="Group 20049" transform="translate(21338 21922)">
+    <g id="Mask_Group_735" data-name="Mask Group 735" class="cls-2">
+      <g id="BNB" transform="translate(-21338 -21922)">
+        <circle id="Ellipse_5530" data-name="Ellipse 5530" class="cls-3" cx="32" cy="32" r="32"/>
+        <path id="Path_40553" data-name="Path 40553" class="cls-1" d="M20.6,17.27l11.272-6.561L43.145,17.27,39,19.694l-7.128-4.137-7.128,4.137Zm22.544,8.275L39,23.121l-7.128,4.137-7.128-4.137L20.6,25.545v4.848l7.128,4.137v8.275l4.144,2.424,4.144-2.424V34.531l7.128-4.137Zm0,13.123V33.82L39,36.244v4.848Zm2.942,1.713-7.128,4.137v4.848l11.272-6.561V29.683l-4.144,2.424ZM41.943,21.408l4.144,2.424V28.68l4.144-2.424V21.408l-4.144-2.424ZM27.728,46.274v4.848l4.144,2.424,4.144-2.424V46.274L31.873,48.7ZM20.6,38.668l4.144,2.424V36.244L20.6,33.82Zm7.128-17.26,4.144,2.424,4.144-2.424-4.144-2.424Zm-10.07,2.424L21.8,21.408l-4.144-2.424-4.144,2.424v4.848l4.144,2.424Zm0,8.275-4.144-2.424V42.805l11.272,6.561V44.519l-7.128-4.137Z"/>
+      </g>
+    </g>
+    <g id="Mask_Group_734" data-name="Mask Group 734" class="cls-4" transform="translate(2151 1683)">
+      <g id="tether-seeklogo.com" transform="translate(-23439 -23605)">
+        <path id="Path_40551" data-name="Path 40551" class="cls-5" d="M32,0A32,32,0,1,1,0,32,32,32,0,0,1,32,0"/>
+        <path id="Path_40552" data-name="Path 40552" class="cls-1" d="M35.949,27.736v-4.76H46.835V15.723H17.193v7.253H28.08v4.756c-8.848.406-15.5,2.159-15.5,4.258s6.656,3.852,15.5,4.26V51.5h7.872V36.25c8.832-.408,15.471-2.159,15.471-4.256s-6.639-3.848-15.471-4.256m0,7.22v0c-.222.014-1.363.083-3.9.083-2.031,0-3.46-.058-3.964-.084v.006c-7.817-.346-13.652-1.708-13.652-3.336s5.836-2.988,13.652-3.335V33.6c.512.035,1.976.122,4,.122,2.428,0,3.648-.1,3.872-.122V28.288c7.8.348,13.623,1.71,13.623,3.333s-5.824,2.986-13.623,3.334"/>
+      </g>
+    </g>
+  </g>
+</svg>
