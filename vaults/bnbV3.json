@@ -178,5 +178,50 @@
     "targetWantDecimals": 18,
     "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
     "addLiquidityUrl": "https://pancakeswap.finance/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x55d398326f99059fF775485246999027B3197955"
+  },
+  {
+    "id": "v3-bnb-ape-baby-usdt",
+    "pid": 589827,
+    "lpSymbol": "USDT-BABY LP",
+    "lpProvider": "BABYSWAP",
+    "wantAddress": "0xE730C7B7470447AD4886c763247012DfD233bAfF",
+    "depositFee": "0%",
+    "strategyAddress": "0x84C3649B13BbDd97d9075f1a1120459dE24b51A9",
+    "masterchef": "0xdfAa0e08e357dB0153927C7EaBB492d1F60aC730",
+    "farmPid": 28,
+    "router": "0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-babyswap-baby-usdt",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://home.babyswap.finance/",
+    "assets": [
+      {
+        "label": "BABY",
+        "address": "0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657",
+        "decimals": 18
+      },
+      {
+        "label": "USDT",
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x065706377aa52D2b82E7C20D8DFeA5f91F6cA171",
+    "addLiquidityUrl": "https://exchange.babyswap.finance/#/add/0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657/0x55d398326f99059fF775485246999027B3197955"
   }
 ]

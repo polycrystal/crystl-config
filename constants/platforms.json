@@ -1,5 +1,12 @@
 [
   {
+    "name": "BABYSWAP",
+    "id": "babyswap",
+    "site": "https://home.babyswap.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "PANCAKE",
     "id": "pancake",
     "site": "https://pancakeswap.finance/",
