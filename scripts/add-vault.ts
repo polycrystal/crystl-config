@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 const { ethers } = require("ethers");
+const BigNumber = require("bignumber.js");
 const { MULTICHAIN_RPC } = require("../constants/constants");
 
 const LPPairABI = require("../abis/LPPair.json");
@@ -174,6 +175,7 @@ async function fetchStrategy(strategy: string, isV3 = false) {
     pid,
     router,
     isMaximizer,
+    wantDust: new BigNumber(configInfo.wantDust._hex),
   };
 }
 
@@ -337,6 +339,8 @@ async function main() {
     addLiquidityUrl = `${lpProvider.site}/${tokens[0].address}/${tokens[1].address}`;
   }
 
+  const wantDust = strategy.wantDust.div(`1e${wantToken.decimals}`).toString();
+
   let searching = true;
   let counter = 1;
   let counterLabel = "";
@@ -378,6 +382,7 @@ async function main() {
     lpProvider: provider.toUpperCase(),
     wantAddress: wantToken.address,
     wantDecimals: wantToken.decimals,
+    wantDust,
     depositFee: `${depositFee.toLocaleString("en-US")}%`,
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
