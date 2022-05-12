@@ -37,7 +37,8 @@
   },
   {
     "name": "APESWAP",
-    "site": "https://apeswap.finance/add"
+    "site": "https://apeswap.finance/add",
+    "swap": "https://apeswap.finance/swap?inputCurrency=ETH"
   },
   {
     "name": "POLYCAT",

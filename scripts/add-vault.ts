@@ -238,6 +238,7 @@ function fetchProvider(provider: string) {
   return {
     name: result.name,
     site: result.site,
+    swap: result.swap,
   };
 }
 
@@ -316,7 +317,7 @@ async function main() {
     lpSymbol = `${tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol}`;
 
     oracle = "tokens";
-    addLiquidityUrl = site;
+    addLiquidityUrl = `${lpProvider.swap}&outputCurrency=${tokens[0].address}`;
     isSingleStaking = true;
   } else {
     wantToken = await fetchLiquidityPair(vault.want);

@@ -460,6 +460,6 @@
     "targetWantToken": "",
     "targetWantDecimals": 0,
     "targetStrategy": "",
-    "addLiquidityUrl": "https://apeswap.finance/"
+    "addLiquidityUrl": "https://apeswap.finance/swap?inputCurrency=ETH&outputCurrency=0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
   }
 ]
