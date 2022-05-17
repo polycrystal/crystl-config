@@ -22,21 +22,37 @@ async function main() {
       demandOption: true,
       describe: "platform site url",
     },
+    staked: {
+      type: "string",
+      demandOption: false,
+      describe: "totalStaked variable",
+    },
+    reward: {
+      type: "string",
+      demandOption: false,
+      describe: "rewardPerBlock variable",
+    },
   }).argv;
 
   const platformName = String(args["name"]).toUpperCase();
   const idName = String(args["id"]).toLowerCase();
   const siteUrl = String(args["site"]);
+  const totalStaked = String(args["staked"] ?? "");
+  const rewardPerBlock = String(args["reward"] ?? "");
 
   const newPlatform = {
     name: platformName,
     id: idName,
     site: siteUrl,
+    totalStaked,
+    rewardPerBlock,
   };
 
   platformJson.forEach((token: { name: string }) => {
     if (token.name === platformName) {
-      throw Error(`Duplicate: platform with name ${platformName} already exists`);
+      throw Error(
+        `Duplicate: platform with name ${platformName} already exists`
+      );
     }
   });
 

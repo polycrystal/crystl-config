@@ -17,19 +17,28 @@ async function main() {
       demandOption: true,
       describe: "provider url",
     },
+    swap: {
+      type: "string",
+      demandOption: false,
+      describe: "provider swap url",
+    },
   }).argv;
 
   const providerName = String(args["name"]).toUpperCase();
   const siteUrl = String(args["site"]);
+  const swapUrl = String(args["swap"]);
 
   const newProvider = {
     name: providerName,
     site: siteUrl,
+    swap: swapUrl,
   };
 
   providerJson.forEach((token: { name: string }) => {
     if (token.name === providerName) {
-      throw Error(`Duplicate: provider with name ${providerName} already exists`);
+      throw Error(
+        `Duplicate: provider with name ${providerName} already exists`
+      );
     }
   });
 

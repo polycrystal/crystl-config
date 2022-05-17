@@ -1,5 +1,17 @@
 [
   {
+    "name": "BISWAP",
+    "site": "https://exchange.biswap.org/#/add"
+  },
+  {
+    "name": "BABYSWAP",
+    "site": "https://exchange.babyswap.finance/#/add"
+  },
+  {
+    "name": "PANCAKE",
+    "site": "https://pancakeswap.finance/add"
+  },
+  {
     "name": "GREEN",
     "site": "https://trade.greenhousedex.com/#/add"
   },
@@ -24,8 +36,9 @@
     "site": "https://quickswap.exchange/#/add"
   },
   {
-    "name": "APE",
-    "site": "https://apeswap.finance/add"
+    "name": "APESWAP",
+    "site": "https://apeswap.finance/add",
+    "swap": "https://apeswap.finance/swap?inputCurrency=ETH"
   },
   {
     "name": "POLYCAT",

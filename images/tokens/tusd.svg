@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #1a5aff;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        fill: #fcfdfe;
+      }
+
+      .cls-7 {
+        fill: #fafbfd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2563" data-name="Ellipse 2563" class="cls-1" cx="32" cy="32" r="32" transform="translate(-20329 -24913)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_5462" data-name="Rectangle 5462" class="cls-2" width="32.536" height="32.931"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_574" data-name="Mask Group 574" class="cls-3" transform="translate(20329 24913)">
+    <g id="Group_13459" data-name="Group 13459" transform="translate(-18094.76 -22422.439)">
+      <circle id="Ellipse_2561" data-name="Ellipse 2561" class="cls-4" cx="32" cy="32" r="32" transform="translate(-2234.24 -2490.56)"/>
+      <g id="Group_13458" data-name="Group 13458" transform="translate(-2218.508 -2474)">
+        <g id="Group_13457" data-name="Group 13457" class="cls-5">
+          <path id="Path_32582" data-name="Path 32582" class="cls-6" d="M19.482,10.886c-.006,1.873,0,3.7,0,5.536s0,3.667,0,5.5V32.912c-.131.008-.225.018-.32.018H8.981c-.053,0-.106,0-.159,0-.164-.016-.192-.045-.2-.213,0-.053,0-.106,0-.159q0-11.028,0-22.056a9.187,9.187,0,0,1,.242-1.985,10.765,10.765,0,0,1,2.2-4.534A10.612,10.612,0,0,1,14.146,1.4,10.272,10.272,0,0,1,17.192.256,9.4,9.4,0,0,1,18.917.041C19.506.035,20.1,0,20.684,0Q25.311,0,29.936,0C30.3,0,30.3,0,30.3.362V10.544c0,.035,0,.071,0,.106-.007.221-.017.235-.248.235-.837,0-1.674,0-2.512,0H19.482" transform="translate(2.232)"/>
+          <path id="Path_32583" data-name="Path 32583" class="cls-7" d="M.032,10.866C-.023,10.441,0,.224.056.016.126.011.2,0,.28,0H10.586c.035,0,.071,0,.106,0,.175.013.217.058.2.232-.02.281-.029.563-.069.841-.077.539-.142,1.082-.268,1.61A10.405,10.405,0,0,1,9.87,4.616,10.636,10.636,0,0,1,8.1,7.29,10.833,10.833,0,0,1,5.267,9.545,10.721,10.721,0,0,1,2.5,10.61a10.164,10.164,0,0,1-2.273.275c-.06,0-.119-.011-.191-.018"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #43b446;
+      }
+
+      .cls-4 {
+        opacity: 0.61;
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2445" data-name="Ellipse 2445" class="cls-1" cx="32" cy="32" r="32" transform="translate(-22133 -24761)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19972" data-name="Group 19972" transform="translate(22133 24761)">
+    <circle id="Ellipse_1805" data-name="Ellipse 1805" class="cls-1" cx="32" cy="32" r="32" transform="translate(-22133 -24761)"/>
+    <g id="Mask_Group_503" data-name="Mask Group 503" class="cls-2">
+      <g id="layer1" transform="translate(-22213.178 -24785.244)">
+        <g id="g823">
+          <path id="circle822" class="cls-3" d="M112.177,24.245a32,32,0,1,0,32,32,32,32,0,0,0-32-32Zm0,3.113A28.887,28.887,0,1,1,83.29,56.245a28.887,28.887,0,0,1,28.887-28.887Z"/>
+          <g id="g4886" transform="translate(-289.674 -134.462)">
+            <path id="path4882" class="cls-3" d="M399.326,169.973a20.633,20.633,0,0,0-20.534,18.008h5.464a15.291,15.291,0,0,1,15.07-12.6l2.825-.011-.022-5.4Zm-20.534,23.456a20.7,20.7,0,0,0,20.534,18.008l2.808-.011v-5.4h-2.808a15.3,15.3,0,0,1-15.07-12.6Z"/>
+            <path id="path4884" class="cls-4" d="M402.02,169.973l-.011,5.4,2.357.011a15.291,15.291,0,0,1,15.07,12.6h5.459a20.7,20.7,0,0,0-20.528-18.008Zm17.415,23.456a15.3,15.3,0,0,1-15.07,12.6l-2.286-.011.022,5.41,2.264.011a20.633,20.633,0,0,0,20.528-18.008Z"/>
+          </g>
+          <path id="path2" class="cls-5" d="M109.276,56.069l-8.7-8.7h5.8l5.8,5.8,5.8-5.8h5.8l-8.7,8.7-.173.176.173.176,8.7,8.7h-5.8l-5.8-5.8-5.8,5.8h-5.8l8.7-8.7.175-.176Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

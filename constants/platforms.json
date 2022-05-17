@@ -1,5 +1,26 @@
 [
   {
+    "name": "BISWAP",
+    "id": "biswap",
+    "site": "https://biswap.org/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
+    "name": "BABYSWAP",
+    "id": "babyswap",
+    "site": "https://home.babyswap.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
+    "name": "PANCAKE",
+    "id": "pancake",
+    "site": "https://pancakeswap.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "PEGASUSDOLLAR",
     "id": "pegasus",
     "site": "https://pegasusdollar.finance/"
@@ -17,7 +38,9 @@
   {
     "name": "GREENHOUSE",
     "id": "green",
-    "site": "https://greenhousedex.com/"
+    "site": "https://greenhousedex.com/",
+    "totalStaked": "stakedGreen",
+    "rewardPerBlock": "rewardPerBlock"
   },
   {
     "name": "OASIS",
