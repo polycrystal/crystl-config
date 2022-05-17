@@ -23,11 +23,13 @@ const network: any = {
     configFile: "../vaults/cronos.json",
     chainId: ChainId.cronos,
     vaultHealer: "0x4dF0dDc29cE92106eb8C8c17e21083D4e3862533",
+    prefix: "cronos",
   },
   polygon: {
     configFile: "../vaults/polygon.json",
     chainId: ChainId.polygon,
     vaultHealer: "0xD4d696ad5A7779F4D3A0Fc1361adf46eC51C632d",
+    prefix: "polygon",
   },
   cronosV3: {
     configFile: "../vaults/cronosV3.json",
@@ -281,7 +283,7 @@ function getCategory(category: string): string[] {
 }
 
 async function main() {
-  const isV3Label = isV3 ? "v3-" : "";
+  const isV3Label = isV3 ? "v3-" : "v2-";
 
   const vault = await fetchVault(vaultHealerAddress, pid, isV3);
   const strategy = await fetchStrategy(vault.strat, isV3);
@@ -378,6 +380,7 @@ async function main() {
 
   const newVault = {
     id: tempName,
+    chainId,
     pid,
     lpSymbol,
     lpProvider: provider.toUpperCase(),

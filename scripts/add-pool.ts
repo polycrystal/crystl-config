@@ -162,6 +162,7 @@ async function main() {
 
   const newPool = {
     id: boostPool?.id.toString(),
+    chainId,
     address: boostPoolAddress,
     stratAddress: boostPool?.strat,
     vaultHealerAddress,
