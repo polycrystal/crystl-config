@@ -19,7 +19,7 @@
     "@types/node": "^17.0.23",
     "@types/yargs": "^17.0.8",
     "bignumber.js": "^9.0.2",
-    "blockchain-addressbook": "^0.18.1",
+    "blockchain-addressbook": "^0.31.10",
     "ethers": "^5.5.4",
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.2",

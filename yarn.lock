@@ -454,10 +454,10 @@ bl@^4.1.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-blockchain-addressbook@^0.18.1:
-  version "0.18.3"
-  resolved "https://registry.npmjs.org/blockchain-addressbook/-/blockchain-addressbook-0.18.3.tgz"
-  integrity sha512-MdE0GWjvTVPoTrO/baT4g0daDqFsFmOtHbxphS95XiZBmAOcKqayRbRK+n61GnBVrAxqy1ogCwQKQR1oLPPSVA==
+blockchain-addressbook@^0.31.10:
+  version "0.31.10"
+  resolved "https://registry.yarnpkg.com/blockchain-addressbook/-/blockchain-addressbook-0.31.10.tgz#61f23ef562982bed271056edaf093c46dabcbf69"
+  integrity sha512-SrjvFgaVFcrX866cVEORRqlQEmkAXO9nTp+YybQfmdBdn1UJLGkWaRVy1xEAmmyqmoTwUyZMxXArAWYEDMbZ+Q==
 
 bn.js@^4.11.9:
   version "4.12.0"

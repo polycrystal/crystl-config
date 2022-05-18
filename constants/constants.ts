@@ -28,6 +28,8 @@ const METIS_RPC =
   process.env.METIS_RPC || "https://andromeda.metis.io/?owner=1088";
 const MOONBEAM_RPC =
   process.env.METIS_RPC || "https://rpc.api.moonbeam.network";
+const SYS_RPC = process.env.SYS_RPC || "https://rpc.syscoin.org";
+const EMERALD_RPC = process.env.EMERALD_RPC || "https://emerald.oasis.dev";
 
 const BSC_CHAIN_ID = ChainId.bsc;
 const HECO_CHAIN_ID = ChainId.heco;
@@ -43,6 +45,8 @@ const AURORA_CHAIN_ID = ChainId.aurora;
 const FUSE_CHAIN_ID = ChainId.fuse;
 const METIS_CHAIN_ID = ChainId.metis;
 const MOONBEAM_CHAIN_ID = ChainId.moonbeam;
+const SYS_CHAIN_ID = ChainId.sys;
+const EMERALD_CHAIN_ID = ChainId.emerald;
 
 const MULTICHAIN_RPC: Record<ChainId, string> = {
   [ChainId.bsc]: BSC_RPC,
@@ -59,6 +63,8 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
   [ChainId.fuse]: FUSE_RPC,
   [ChainId.metis]: METIS_RPC,
   [ChainId.moonbeam]: MOONBEAM_RPC,
+  [ChainId.sys]: SYS_RPC,
+  [ChainId.emerald]: EMERALD_RPC,
 };
 
 export {
@@ -90,6 +96,10 @@ export {
   METIS_CHAIN_ID,
   MOONBEAM_RPC,
   MOONBEAM_CHAIN_ID,
+  SYS_RPC,
+  SYS_CHAIN_ID,
+  EMERALD_RPC,
+  EMERALD_CHAIN_ID,
   BASE_HPY,
   MINUTELY_HPY,
   HOURLY_HPY,
