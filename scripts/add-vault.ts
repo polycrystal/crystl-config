@@ -20,33 +20,33 @@ const strategyV3ABI = require("../abis/CrystlStrategyV3.json");
 
 const network: any = {
   cronos: {
-    configFile: "../vaults/cronos.json",
+    configFile: "../vaults/vaults.json",
     chainId: ChainId.cronos,
     vaultHealer: "0x4dF0dDc29cE92106eb8C8c17e21083D4e3862533",
     prefix: "cronos",
   },
   polygon: {
-    configFile: "../vaults/polygon.json",
+    configFile: "../vaults/vaults.json",
     chainId: ChainId.polygon,
     vaultHealer: "0xD4d696ad5A7779F4D3A0Fc1361adf46eC51C632d",
     prefix: "polygon",
   },
   cronosV3: {
-    configFile: "../vaults/cronosV3.json",
+    configFile: "../vaults/vaultsV3.json",
     chainId: ChainId.cronos,
     vaultHealer: "0xcc7058CF040d3237D86EA9A41598212444cA9dD3",
     isV3: true,
     prefix: "cronos",
   },
   polygonV3: {
-    configFile: "../vaults/polygonV3.json",
+    configFile: "../vaults/vaultsV3.json",
     chainId: ChainId.polygon,
     vaultHealer: "0xe5B5da7B82A3057b21c2B0dCef34c25EAA45FE4f",
     isV3: true,
     prefix: "polygon",
   },
   bnbV3: {
-    configFile: "../vaults/bnbV3.json",
+    configFile: "../vaults/vaultsV3.json",
     chainId: ChainId.bsc,
     vaultHealer: "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
     isV3: true,
