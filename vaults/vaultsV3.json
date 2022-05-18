@@ -514,7 +514,7 @@
     "addLiquidityUrl": "https://apeswap.finance/swap?inputCurrency=ETH&outputCurrency=0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
   },
   {
-    "id": "v3-bnb-ape-cake-busd-2",
+    "id": "v3-bnb-pancake-cake-busd",
     "chainId": 56,
     "pid": 12,
     "lpSymbol": "BUSD-CAKE LP",
@@ -530,10 +530,10 @@
     "pricePerFullShare": 1,
     "tvl": 0,
     "oracle": "lps",
-    "oracleId": "bnb-ape-cake-busd",
+    "oracleId": "bnb-pancake-cake-busd",
     "paused": false,
-    "platform": "APESWAP",
-    "farmSite": "https://apeswap.finance/",
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
     "projectSite": "https://pancakeswap.finance/",
     "assets": [
       {
