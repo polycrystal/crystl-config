@@ -1,5 +1,10 @@
 [
   {
+    "name": "ANNEX",
+    "site": "https://app.annex.finance/trade/liquidity/add",
+    "swap": "undefined"
+  },
+  {
     "name": "BISWAP",
     "site": "https://exchange.biswap.org/#/add"
   },
