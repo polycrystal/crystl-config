@@ -3427,6 +3427,102 @@
     "addLiquidityUrl": "https://vvs.finance/add/0x0804702a4E749d39A35FDe73d1DF0B1f1D6b8347/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
+    "id": "v2-cronos-toxicdeer-deer-usdc",
+    "chainId": 25,
+    "pid": 141,
+    "lpSymbol": "USDC-DEER LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x264f27BF0eC4fE383Cfda50F1bb11588735bbE6D",
+    "wantDecimals": 18,
+    "wantDust": "0",
+    "depositFee": "0%",
+    "strategyAddress": "0x7AaEEeA8a344803865984822D51415f6296B0059",
+    "masterchef": "0xf6c3e1B489c1e634a3c66876d5A8E19B1A65B252",
+    "farmPid": 0,
+    "router": "",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "toxicdeer-deer-usdc",
+    "paused": false,
+    "platform": "TOXICDEER",
+    "farmSite": "https://toxicdeer.finance/",
+    "projectSite": "https://toxicdeer.finance/",
+    "assets": [
+      {
+        "label": "DEER",
+        "address": "0x6D6D6ba0c7e7DBaFffeC82b1ddF92e271650a63A",
+        "decimals": 18
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6
+      }
+    ],
+    "type": "",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://mm.finance/add/0x6D6D6ba0c7e7DBaFffeC82b1ddF92e271650a63A/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "v2-cronos-toxicdeer-xdshare-usdc",
+    "chainId": 25,
+    "pid": 142,
+    "lpSymbol": "USDC-XDSHARE LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0x18cD20C6CA9Ccfe1C8b48516e6d5e0055a0271D2",
+    "wantDecimals": 18,
+    "wantDust": "0",
+    "depositFee": "0%",
+    "strategyAddress": "0x8Ff06f07c31330d21c85Ae75FB61bb5326858981",
+    "masterchef": "0xf6c3e1B489c1e634a3c66876d5A8E19B1A65B252",
+    "farmPid": 1,
+    "router": "",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "toxicdeer-xdshare-usdc",
+    "paused": false,
+    "platform": "TOXICDEER",
+    "farmSite": "https://toxicdeer.finance/",
+    "projectSite": "https://toxicdeer.finance/",
+    "assets": [
+      {
+        "label": "XDSHARE",
+        "address": "0x6F715158d4B1468528DA002F5941c72fe4159520",
+        "decimals": 18
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6
+      }
+    ],
+    "type": "",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://mm.finance/add/0x6F715158d4B1468528DA002F5941c72fe4159520/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
     "id": "v2-polygon-tako-wmatic-crystl",
     "chainId": 137,
     "pid": 0,

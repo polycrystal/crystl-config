@@ -1,5 +1,12 @@
 [
   {
+    "name": "TOXICDEER",
+    "id": "toxicdeer",
+    "site": "https://toxicdeer.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "BISWAP",
     "id": "biswap",
     "site": "https://biswap.org/",
