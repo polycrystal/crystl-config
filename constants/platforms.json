@@ -1,5 +1,12 @@
 [
   {
+    "name": "LOOTFINANCE",
+    "id": "loot",
+    "site": "https://lootfinance.app/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "TOXICDEER",
     "id": "toxicdeer",
     "site": "https://toxicdeer.finance/",
