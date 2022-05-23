@@ -1,5 +1,12 @@
 [
   {
+    "name": "ANNEX",
+    "id": "annex",
+    "site": "https://www.annex.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "LOOTFINANCE",
     "id": "loot",
     "site": "https://lootfinance.app/",

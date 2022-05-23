@@ -3571,6 +3571,54 @@
     "addLiquidityUrl": "https://swap.crodex.app/#/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0x68C4FD0c9dE98f05D206cd04c958a0Ec14cE016e"
   },
   {
+    "id": "v2-cronos-annex-ann-usdc",
+    "chainId": 25,
+    "pid": 144,
+    "lpSymbol": "USDC-ANN LP",
+    "lpProvider": "ANNEX",
+    "wantAddress": "0xBdb223806f63Fa0C4E4Ed4a06D8dD2bc3816C9e9",
+    "wantDecimals": 18,
+    "wantDust": "0",
+    "depositFee": "0%",
+    "strategyAddress": "0xF91e3E115545DCb213736Ed8AC0F2326343586f3",
+    "masterchef": "0xEF6d860B22cEFe19Ae124b74eb80F0c0eb8201F4",
+    "farmPid": 8,
+    "router": "",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "annex-ann-usdc",
+    "paused": false,
+    "platform": "ANNEX",
+    "farmSite": "https://www.annex.finance/",
+    "projectSite": "https://www.annex.finance/",
+    "assets": [
+      {
+        "label": "ANN",
+        "address": "0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
+        "decimals": 18
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6
+      }
+    ],
+    "type": "",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.annex.finance/trade/liquidity/add/0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
     "id": "v2-polygon-tako-wmatic-crystl",
     "chainId": 137,
     "pid": 0,
