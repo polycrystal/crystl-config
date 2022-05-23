@@ -1,5 +1,26 @@
 [
   {
+    "name": "ANNEX",
+    "id": "annex",
+    "site": "https://www.annex.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
+    "name": "LOOTFINANCE",
+    "id": "loot",
+    "site": "https://lootfinance.app/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
+    "name": "TOXICDEER",
+    "id": "toxicdeer",
+    "site": "https://toxicdeer.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "BISWAP",
     "id": "biswap",
     "site": "https://biswap.org/",
