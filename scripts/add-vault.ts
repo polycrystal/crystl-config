@@ -170,6 +170,9 @@ async function fetchStrategy(strategy: string, isV3 = false) {
   const isMaximizer: boolean = isV3
     ? await strategyContract.isMaximizer()
     : false;
+  const wantDust = isV3
+    ? new BigNumber(configInfo.wantDust._hex)
+    : new BigNumber(0);
 
   return {
     address: ethers.utils.getAddress(strategy),
@@ -177,7 +180,7 @@ async function fetchStrategy(strategy: string, isV3 = false) {
     pid,
     router,
     isMaximizer,
-    wantDust: new BigNumber(configInfo.wantDust._hex),
+    wantDust,
   };
 }
 
@@ -366,7 +369,9 @@ async function main() {
     ? `${prefix}-${
         vaultedData.id
       }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`
-    : tempName;
+    : `${
+        vaultedData.id
+      }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`;
 
   const targetVid = strategy.isMaximizer ? pid >> 16 : 0;
   const targetVault = strategy.isMaximizer
@@ -421,7 +426,12 @@ async function main() {
     addLiquidityUrl,
   };
 
-  const newVaults = [...config, newVault];
+  const newVaults = [...config, newVault].sort((a, b) => {
+    if (a.chainId === b.chainId) {
+      return a.pid - b.pid;
+    }
+    return a.chainId > b.chainId ? 1 : -1;
+  });
 
   fs.writeFileSync(
     path.resolve(__dirname, configFile),
