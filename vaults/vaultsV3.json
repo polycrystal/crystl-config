@@ -794,5 +794,53 @@
     "targetWantDecimals": 0,
     "targetStrategy": "",
     "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x5d47bAbA0d66083C52009271faF3F50DCc01023C"
+  },
+  {
+    "id": "v3-polygon-green-usdc-ust",
+    "chainId": 137,
+    "pid": 1245187,
+    "lpSymbol": "UST-USDC LP",
+    "lpProvider": "GREEN",
+    "wantAddress": "0x6c5c3285c1519d23777472D302D00731cE514AF9",
+    "wantDecimals": 18,
+    "wantDust": "4.096e-15",
+    "depositFee": "0%",
+    "strategyAddress": "0x57F5F0e2BB06bFB1F97A75B0c925f981336FDF30",
+    "masterchef": "0xbD40a260Ddd78287ddA4C4ede5880505a9fEdF9a",
+    "farmPid": 1,
+    "router": "0x324Af1555Ea2b98114eCb852ed67c2B5821b455b",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "green-usdc-ust",
+    "paused": false,
+    "platform": "GREENHOUSE",
+    "farmSite": "https://greenhousedex.com/",
+    "projectSite": "https://www.centre.io/usdc",
+    "assets": [
+      {
+        "label": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6
+      },
+      {
+        "label": "UST",
+        "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 19,
+    "targetWantToken": "GREEN",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x47B1e2E45a1365aAF927894Edb686Eac680b93b9",
+    "addLiquidityUrl": "https://trade.greenhousedex.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59"
   }
 ]
