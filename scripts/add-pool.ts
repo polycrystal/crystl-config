@@ -16,22 +16,22 @@ const inquirer = require("inquirer");
 
 const network: any = {
   cronos: {
-    configFile: "../pools/cronosBoostPools.json",
+    configFile: "../pools/boostPools.json",
     chainId: ChainId.cronos,
     vaultHealer: "",
-    vaultConfig: "../vaults/cronosV3.json",
+    vaultConfig: "../vaults/vaultsV3.json",
   },
   polygon: {
-    configFile: "../pools/polygonBoostPools.json",
+    configFile: "../pools/boostPools.json",
     chainId: ChainId.polygon,
     vaultHealer: "0x8FcB6ce37D2a279A80d65B92AF9691F796CF1848",
-    vaultConfig: "../vaults/polygonV3.json",
+    vaultConfig: "../vaults/vaultsV3.json",
   },
   bnb: {
-    configFile: "../pools/bnbBoostPools.json",
+    configFile: "../pools/boostPools.json",
     chainId: ChainId.bsc,
     vaultHealer: "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
-    vaultConfig: "../vaults/bnbV3.json",
+    vaultConfig: "../vaults/vaultsV3.json",
   },
 };
 
@@ -52,10 +52,10 @@ const pid: number = args["pid"];
 
 const networkSelected = network[args["network"] as string];
 const vaultHealerAddress = networkSelected.vaultHealer;
-const vaults = require(networkSelected.vaultConfig);
+const chainId = networkSelected.chainId;
+const vaults = require(networkSelected.vaultConfig).filter((vault: { chainId: any; }) => vault.chainId === chainId);
 const configFile = networkSelected.configFile;
 const config = require(configFile);
-const chainId = networkSelected.chainId;
 const rpcProvider = new ethers.providers.JsonRpcProvider(
   MULTICHAIN_RPC[chainId]
 );
@@ -125,6 +125,7 @@ function removeWrapped(symbol: string) {
 
 function fetchWantToken() {
   const vault = vaults.find((vault: { pid: number }) => vault.pid === pid);
+  console.log(vault)
   return { oracle: vault.oracle, oracleId: vault.oracleId };
 }
 

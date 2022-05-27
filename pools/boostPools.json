@@ -1,3 +1,38 @@
 [
-    
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805247501",
+    "chainId": 56,
+    "address": "0x792F123a27a90b6199ED14e8b0e2fC5960dfE3f5",
+    "stratAddress": "0x5b1b70aAbd4Bd37E8E068E070A67AAFdF8E5289E",
+    "vaultHealerAddress": "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
+    "vid": 13,
+    "projectName": "APESWAP",
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-cake-busd",
+    "wantTokenAddress": "0x804678fa97d91B974ec2af3c843270886528a9E6",
+    "rewardToken": "BANANA",
+    "rewardTokenAddress": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.004340277777777777,
+    "startBlock": 18146038,
+    "endBlock": 18202638
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159806164993",
+    "chainId": 56,
+    "address": "0xB236874FA3455863120a69E3a2c96b04D5bFb4Da",
+    "stratAddress": "0xF3Ed491Ed3ea0012279Fe1936A8511900f3E96E2",
+    "vaultHealerAddress": "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
+    "vid": 917505,
+    "projectName": "APESWAP",
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-cake-busd",
+    "wantTokenAddress": "0x804678fa97d91B974ec2af3c843270886528a9E6",
+    "rewardToken": "BANANA",
+    "rewardTokenAddress": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.004340277777777777,
+    "startBlock": 18146042,
+    "endBlock": 18202642
+  }
 ]
