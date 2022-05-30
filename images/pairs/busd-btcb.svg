@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-4 {
+        fill: #f0b90b;
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-6 {
+        stroke: #f0b90b;
+        stroke-width: 0.148px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-6);
+      }
+
+      .cls-8 {
+        fill: #f7931a;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5451" data-name="Ellipse 5451" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21640 -19772)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_7551" data-name="Rectangle 7551" width="63.863" height="64" transform="translate(275.145 144.684)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_7550" data-name="Rectangle 7550" width="50.051" height="50.051" transform="translate(281.983 151.521)"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <circle id="Ellipse_5589" data-name="Ellipse 5589" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21817 -21537)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_20092" data-name="Group 20092" transform="translate(21816 19594)">
+    <g id="Mask_Group_732" data-name="Mask Group 732" class="cls-2" transform="translate(-176 178)">
+      <g id="BUSD_1_" data-name="BUSD (1)" class="cls-3" transform="translate(-21915.076 -19916.684)">
+        <path id="Path_40541" data-name="Path 40541" class="cls-4" d="M275.282,176.684a31.726,31.726,0,1,1,31.727,31.726A31.726,31.726,0,0,1,275.282,176.684Z"/>
+        <g id="Group_20041" data-name="Group 20041" class="cls-5">
+          <g id="Group_20040" data-name="Group 20040" class="cls-5">
+            <g id="Group_20039" data-name="Group 20039" class="cls-5">
+              <path id="Path_40542" data-name="Path 40542" class="cls-6" d="M24.956.105l6.157,6.287-15.5,15.459L9.451,15.712Z" transform="translate(282.12 151.658)"/>
+              <path id="Path_40543" data-name="Path 40543" class="cls-6" d="M34.3,9.425l6.157,6.287L15.609,40.49,9.451,34.351Z" transform="translate(282.12 151.658)"/>
+              <path id="Path_40544" data-name="Path 40544" class="cls-6" d="M6.261,18.744l6.157,6.287L6.261,31.17.1,25.031Z" transform="translate(282.12 151.658)"/>
+              <path id="Path_40545" data-name="Path 40545" class="cls-6" d="M43.651,18.744l6.157,6.287L24.956,49.81,18.8,43.67Z" transform="translate(282.12 151.658)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_774" data-name="Mask Group 774" class="cls-7" transform="translate(51 1943)">
+      <g id="Layer_x0020_1" transform="translate(-21816.996 -21537)">
+        <g id="_1421344023328">
+          <path id="Path_40652" data-name="Path 40652" class="cls-8" d="M63.035,39.741A31.989,31.989,0,1,1,39.733.958a31.991,31.991,0,0,1,23.3,38.783h0Z"/>
+          <path id="Path_40653" data-name="Path 40653" class="cls-1" d="M46.107,27.441c.637-4.259-2.605-6.548-7.039-8.075L40.507,13.6,37,12.723l-1.4,5.617c-.923-.23-1.871-.447-2.813-.662l1.41-5.654-3.509-.875-1.439,5.767c-.764-.174-1.514-.346-2.242-.527l0-.018-4.842-1.209-.934,3.75s2.605.6,2.55.634a1.869,1.869,0,0,1,1.636,2.042l-1.638,6.572a2.853,2.853,0,0,1,.365.117c-.117-.029-.242-.061-.371-.092l-2.3,9.206a1.278,1.278,0,0,1-1.609.834c.035.051-2.552-.637-2.552-.637l-1.743,4.02,4.57,1.139c.85.213,1.683.436,2.5.646l-1.453,5.835L24.7,50.1l1.439-5.773c.958.26,1.888.5,2.8.726L27.5,50.8l3.512.875,1.453-5.824c5.988,1.133,10.49.676,12.385-4.74,1.527-4.36-.076-6.876-3.226-8.516,2.294-.529,4.023-2.038,4.483-5.156h0Zm-8.023,11.25c-1.085,4.36-8.427,2-10.807,1.412l1.928-7.73c2.38.594,10.013,1.77,8.879,6.318ZM39.17,27.378c-.99,3.966-7.1,1.951-9.083,1.457l1.748-7.011c1.982.494,8.366,1.416,7.335,5.553Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
