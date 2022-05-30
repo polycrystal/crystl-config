@@ -30,7 +30,7 @@ const network: any = {
   bnb: {
     configFile: "../pools/boostPools.json",
     chainId: ChainId.bsc,
-    vaultHealer: "0x41900A479FcdFe5808eDF12aa22136f98E08C803",
+    vaultHealer: "0x9Fe22630DE9Ec654256AB103adD153D93c4D329C",
     vaultConfig: "../vaults/vaultsV3.json",
   },
 };
