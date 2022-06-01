@@ -125,7 +125,6 @@ function removeWrapped(symbol: string) {
 
 function fetchWantToken() {
   const vault = vaults.find((vault: { pid: number }) => vault.pid === pid);
-  console.log(vault)
   return { oracle: vault.oracle, oracleId: vault.oracleId };
 }
 
