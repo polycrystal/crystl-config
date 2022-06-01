@@ -11,6 +11,29 @@
     "type": "constructor"
   },
   {
+    "inputs": [
+      { "internalType": "contract IERC20", "name": "a", "type": "address" },
+      { "internalType": "contract IERC20", "name": "b", "type": "address" }
+    ],
+    "name": "IdenticalAddresses",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "amountOut", "type": "uint256" },
+      { "internalType": "uint256", "name": "amountOutMin", "type": "uint256" }
+    ],
+    "name": "InsufficientOutputAmount",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      { "internalType": "address", "name": "caller", "type": "address" }
+    ],
+    "name": "Muppet",
+    "type": "error"
+  },
+  {
     "inputs": [{ "internalType": "uint256", "name": "ptr", "type": "uint256" }],
     "name": "Strategy_CriticalMemoryError",
     "type": "error"
@@ -58,6 +81,13 @@
     "type": "error"
   },
   { "inputs": [], "name": "Strategy_TotalSlippageWithdrawal", "type": "error" },
+  { "inputs": [], "name": "Strategy_WantLockedLoss", "type": "error" },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "vid", "type": "uint256" }],
+    "name": "VidOutOfRange",
+    "type": "error"
+  },
+  { "inputs": [], "name": "ZeroAddress", "type": "error" },
   {
     "inputs": [],
     "name": "configAddress",

@@ -425,54 +425,6 @@
     "addLiquidityUrl": "https://pancakeswap.finance/add/0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
   },
   {
-    "id": "v3-bnb-ape-usdt-wbnb-2",
-    "chainId": 56,
-    "pid": 65546,
-    "lpSymbol": "WBNB-USDT LP",
-    "lpProvider": "BABYSWAP",
-    "wantAddress": "0x04580ce6dEE076354e96fED53cb839DE9eFb5f3f",
-    "wantDecimals": 18,
-    "wantDust": "0.001125899906842624",
-    "depositFee": "0%",
-    "strategyAddress": "0xe73BCC1b123d1005E713B7aF7D49F961E6Ab525d",
-    "masterchef": "0xdfAa0e08e357dB0153927C7EaBB492d1F60aC730",
-    "farmPid": 2,
-    "router": "0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "lps",
-    "oracleId": "bnb-babyswap-usdt-wbnb",
-    "paused": false,
-    "platform": "APESWAP",
-    "farmSite": "https://apeswap.finance/",
-    "projectSite": "https://binance.com/",
-    "assets": [
-      {
-        "label": "USDT",
-        "address": "0x55d398326f99059fF775485246999027B3197955",
-        "decimals": 18
-      },
-      {
-        "label": "WBNB",
-        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
-      }
-    ],
-    "type": "Traditional",
-    "category": [
-      "Blue Chip"
-    ],
-    "isMaximizer": true,
-    "isSingleStaking": false,
-    "totalStaked": "",
-    "rewardPerBlock": "",
-    "targetVid": 1,
-    "targetWantToken": "BANANA",
-    "targetWantDecimals": 18,
-    "targetStrategy": "0x2DE9F7B811Ee4B95D1595eb0776dc7e1B3fdB977",
-    "addLiquidityUrl": "https://exchange.babyswap.finance/#/add/0x55d398326f99059fF775485246999027B3197955/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
-  },
-  {
     "id": "v3-bnb-ape-baby-wbnb",
     "chainId": 56,
     "pid": 65547,
@@ -567,5 +519,53 @@
     "targetWantDecimals": 18,
     "targetStrategy": "0x2DE9F7B811Ee4B95D1595eb0776dc7e1B3fdB977",
     "addLiquidityUrl": "https://exchange.babyswap.finance/#/add/0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657/0x55d398326f99059fF775485246999027B3197955"
+  },
+  {
+    "id": "v3-bnb-ape-usdt-busd",
+    "chainId": 56,
+    "pid": 65549,
+    "lpSymbol": "BUSD-USDT LP",
+    "lpProvider": "BABYSWAP",
+    "wantAddress": "0x249cd054697f41d73F1A81fa0F5279fcce3cF70c",
+    "wantDecimals": 18,
+    "wantDust": "0.036028797018963968",
+    "depositFee": "0%",
+    "strategyAddress": "0xf844c9B208f82546CEC44394BB3244d2b51E4c84",
+    "masterchef": "0xdfAa0e08e357dB0153927C7EaBB492d1F60aC730",
+    "farmPid": 3,
+    "router": "0x8317c460C22A9958c27b4B6403b98d2Ef4E2ad32",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-babyswap-usdt-busd",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://binance.com/",
+    "assets": [
+      {
+        "label": "USDT",
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "decimals": 18
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Stable Coin"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 1,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x2DE9F7B811Ee4B95D1595eb0776dc7e1B3fdB977",
+    "addLiquidityUrl": "https://exchange.babyswap.finance/#/add/0x55d398326f99059fF775485246999027B3197955/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
   }
 ]
