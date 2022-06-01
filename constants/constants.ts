@@ -1,4 +1,10 @@
-import { ChainId } from "blockchain-addressbook/build/address-book";
+import { ChainId as ImportedChainId } from "blockchain-addressbook/build/address-book";
+
+enum LocalChainId {
+  // bttc = 199,
+}
+type ChainId = ImportedChainId | LocalChainId
+const ChainId = {...ImportedChainId, ...LocalChainId}
 
 const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 
