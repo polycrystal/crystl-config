@@ -34,14 +34,14 @@ const network: any = {
   cronosV3: {
     configFile: "../vaults/vaultsV3.json",
     chainId: ChainId.cronos,
-    vaultHealer: "0xcc7058CF040d3237D86EA9A41598212444cA9dD3",
+    vaultHealer: "0xBA6f3b9bf74FbFa59d55E52fa722E6a5737070D0",
     isV3: true,
     prefix: "cronos",
   },
   polygonV3: {
     configFile: "../vaults/vaultsV3.json",
     chainId: ChainId.polygon,
-    vaultHealer: "0xe5B5da7B82A3057b21c2B0dCef34c25EAA45FE4f",
+    vaultHealer: "0xA1b26B5eC4a73A6a632bE1f45FfC628518c0AFD6",
     isV3: true,
     prefix: "polygon",
   },

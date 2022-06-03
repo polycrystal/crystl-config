@@ -18,13 +18,13 @@ const network: any = {
   cronos: {
     configFile: "../pools/boostPools.json",
     chainId: ChainId.cronos,
-    vaultHealer: "",
+    vaultHealer: "0xBA6f3b9bf74FbFa59d55E52fa722E6a5737070D0",
     vaultConfig: "../vaults/vaultsV3.json",
   },
   polygon: {
     configFile: "../pools/boostPools.json",
     chainId: ChainId.polygon,
-    vaultHealer: "0x8FcB6ce37D2a279A80d65B92AF9691F796CF1848",
+    vaultHealer: "0xA1b26B5eC4a73A6a632bE1f45FfC628518c0AFD6",
     vaultConfig: "../vaults/vaultsV3.json",
   },
   bnb: {
