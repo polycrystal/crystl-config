@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #000420;
+      }
+
+      .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1135" data-name="Ellipse 1135" class="cls-1" cx="32" cy="32" r="32"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.828" y1="0.427" x2="0.124" y2="0.565" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#50d546"/>
+      <stop offset="0.512" stop-color="#ffeb17"/>
+      <stop offset="1" stop-color="#ff8200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.17" y1="0.143" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#003de9"/>
+      <stop offset="0.38" stop-color="#ff0058"/>
+      <stop offset="1" stop-color="#81bb47"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_250" data-name="Mask Group 250" class="cls-2">
+    <g id="pa">
+      <g id="_-logo-with-text-D" data-name="-logo-with-text-D">
+        <g id="sd">
+          <circle id="Oval" class="cls-3" cx="32" cy="32" r="32"/>
+          <g id="logo" transform="translate(11.378 10.68)">
+            <path id="Path-9" class="cls-4" d="M.739,23.658,15.825,38.477q2.351,2.087,4.362,0l9.178-9.311,3.931-.054h.01L21.569,41.245q-3.735,2.917-7.062-.094L.711,26.935Zm40.505,4.385L27.834,41.4H24.5L37.912,28.043Z" transform="translate(0 -0.014)"/>
+            <path id="Path-8" class="cls-5" d="M19.089.6,4.218,15.147q-2.095,2,0,4.335h0l14.87,14.992L15.8,34.5,1.535,20.792q-3.021-3.306-.095-7.018L15.014.6h4.075Zm2.928.942q3.324-3.005,7.056-.094L40.8,13.557h0L36.863,13.5l-9.17-9.294q-2.009-2.083-4.358,0h0L8.26,19l-.028-3.271Zm4.989,6.112,6.307,5.881H30.077L23.765,7.652Z" transform="translate(0 -0.014)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
