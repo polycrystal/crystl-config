@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#pattern);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #f0b90b;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 96 96">
+      <image width="96" height="96" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5596" data-name="Ellipse 5596" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21338 -21922)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_20107" data-name="Group 20107" transform="translate(21412 19474)">
+    <circle id="download_1_" data-name="download (1)" class="cls-2" cx="32" cy="32" r="32" transform="translate(-21412 -19474)"/>
+    <g id="Mask_Group_778" data-name="Mask Group 778" class="cls-3" transform="translate(-24 2448)">
+      <g id="BNB" transform="translate(-21338 -21922)">
+        <circle id="Ellipse_5595" data-name="Ellipse 5595" class="cls-4" cx="32" cy="32" r="32"/>
+        <path id="Path_40666" data-name="Path 40666" class="cls-1" d="M20.6,17.27l11.272-6.561L43.145,17.27,39,19.694l-7.128-4.137-7.128,4.137Zm22.544,8.275L39,23.121l-7.128,4.137-7.128-4.137L20.6,25.545v4.848l7.128,4.137v8.275l4.144,2.424,4.144-2.424V34.531l7.128-4.137Zm0,13.123V33.82L39,36.244v4.848Zm2.942,1.713-7.128,4.137v4.848l11.272-6.561V29.683l-4.144,2.424ZM41.943,21.408l4.144,2.424V28.68l4.144-2.424V21.408l-4.144-2.424ZM27.728,46.274v4.848l4.144,2.424,4.144-2.424V46.274L31.873,48.7ZM20.6,38.668l4.144,2.424V36.244L20.6,33.82Zm7.128-17.26,4.144,2.424,4.144-2.424-4.144-2.424Zm-10.07,2.424L21.8,21.408l-4.144-2.424-4.144,2.424v4.848l4.144,2.424Zm0,8.275-4.144-2.424V42.805l11.272,6.561V44.519l-7.128-4.137Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

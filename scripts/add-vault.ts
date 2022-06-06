@@ -48,7 +48,7 @@ const network: any = {
   bnbV3: {
     configFile: "../vaults/vaultsV3.json",
     chainId: ChainId.bsc,
-    vaultHealer: "0x9Fe22630DE9Ec654256AB103adD153D93c4D329C",
+    vaultHealer: "0x662018D4fbD804631920d45610E0Ee928Ca75d7c",
     isV3: true,
     prefix: "bnb",
   },
