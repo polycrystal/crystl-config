@@ -89,6 +89,54 @@
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xadbd1231fb360047525BEdF962581F3eee7b49fe"
   },
   {
+    "id": "v3-cronos-vvs-wcro-atom",
+    "chainId": 25,
+    "pid": 4,
+    "lpSymbol": "ATOM-CRO LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0x9e5bd780dff875Dd85848a65549791445AE25De0",
+    "wantDecimals": 18,
+    "wantDust": "3.4359738368e-8",
+    "depositFee": "0%",
+    "strategyAddress": "0x709c13e8eF13e72125cB43f91Bc24D1C7626c35D",
+    "masterchef": "0xDccd6455AE04b03d785F12196B492b18129564bc",
+    "farmPid": 13,
+    "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-vvs-wcro-atom",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://cosmos.network/",
+    "assets": [
+      {
+        "label": "WCRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18
+      },
+      {
+        "label": "ATOM",
+        "address": "0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93"
+  },
+  {
     "id": "v3-cronos-crona-wcro-crona-2",
     "chainId": 25,
     "pid": 131073,
