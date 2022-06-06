@@ -226,54 +226,6 @@
     "addLiquidityUrl": "https://apeswap.finance/swap?inputCurrency=ETH&outputCurrency=0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
   },
   {
-    "id": "v3-bnb-pancake-btt-busd",
-    "chainId": 56,
-    "pid": 2,
-    "lpSymbol": "BUSD-BTT LP",
-    "lpProvider": "PANCAKE",
-    "wantAddress": "0xB7E73DaEe6A6Ca37A21f8E4bfba4DA448DFE4d92",
-    "wantDecimals": 18,
-    "wantDust": "36.893488147419103232",
-    "depositFee": "0%",
-    "strategyAddress": "0x8cB6881301bb1120228EBC2F1218bc68A2a56BD7",
-    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
-    "farmPid": 83,
-    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "lps",
-    "oracleId": "bnb-pancake-btt-busd",
-    "paused": false,
-    "platform": "PANCAKE",
-    "farmSite": "https://pancakeswap.finance/",
-    "projectSite": "https://www.bittorrent.com/token/btt/",
-    "assets": [
-      {
-        "label": "BTT",
-        "address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
-        "decimals": 18
-      },
-      {
-        "label": "BUSD",
-        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "decimals": 18
-      }
-    ],
-    "type": "Traditional",
-    "category": [
-      "Blue Chip"
-    ],
-    "isMaximizer": false,
-    "isSingleStaking": false,
-    "totalStaked": "",
-    "rewardPerBlock": "",
-    "targetVid": 0,
-    "targetWantToken": "",
-    "targetWantDecimals": 0,
-    "targetStrategy": "",
-    "addLiquidityUrl": "https://pancakeswap.finance/add/0x352Cb5E19b12FC216548a2677bD0fce83BaE434B/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
-  },
-  {
     "id": "v3-bnb-pancake-iotx-busd",
     "chainId": 56,
     "pid": 3,
