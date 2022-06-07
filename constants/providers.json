@@ -55,7 +55,8 @@
   },
   {
     "name": "CRONA",
-    "site": "https://app.cronaswap.org/add"
+    "site": "https://app.cronaswap.org/add",
+    "swap": "https://app.cronaswap.org/swap?inputCurrency=CRO"
   },
   {
     "name": "CRODEX",
