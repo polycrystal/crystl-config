@@ -1,3 +1,20 @@
 [
-  
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805313035",
+    "chainId": 56,
+    "address": "0xB070D87b40610465B62ca0442b8f3C505FB7b62D",
+    "stratAddress": "0x18dd53A41CCc2E6Fe951292Bfd2B920830B54D98",
+    "vaultHealerAddress": "0x662018D4fbD804631920d45610E0Ee928Ca75d7c",
+    "vid": 65547,
+    "projectName": "APESWAP",
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-usdt-wbnb",
+    "wantTokenAddress": "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE",
+    "rewardToken": "BANANA",
+    "rewardTokenAddress": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.2467807539682539,
+    "startBlock": 18488030,
+    "endBlock": 18689630
+  }
 ]
