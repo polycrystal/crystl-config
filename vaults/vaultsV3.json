@@ -466,6 +466,102 @@
     "addLiquidityUrl": "https://pancakeswap.finance/add/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
   },
   {
+    "id": "v3-bnb-ape-usdt-usdc",
+    "chainId": 56,
+    "pid": 65538,
+    "lpSymbol": "USDC-USDT LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0xEc6557348085Aa57C72514D67070dC863C0a5A8c",
+    "wantDecimals": 18,
+    "wantDust": "0.036028797018963968",
+    "depositFee": "0%",
+    "strategyAddress": "0xA53cf2aBF6d268f1b22e3B7e47d965f9B3a9704F",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 48,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-usdt-usdc",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://www.centre.io/usdc",
+    "assets": [
+      {
+        "label": "USDT",
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "decimals": 18
+      },
+      {
+        "label": "USDC",
+        "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Stable Coin"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 1,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x6B2888DbC4c709955a51fe35dB22AF7aD7951B18",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x55d398326f99059fF775485246999027B3197955/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+  },
+  {
+    "id": "v3-bnb-ape-cake-busd",
+    "chainId": 56,
+    "pid": 65539,
+    "lpSymbol": "BUSD-CAKE LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x804678fa97d91B974ec2af3c843270886528a9E6",
+    "wantDecimals": 18,
+    "wantDust": "0.009007199254740992",
+    "depositFee": "0%",
+    "strategyAddress": "0x418E59fC1EA9856D421EF0843CAd04F0B604207A",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 39,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-cake-busd",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://pancakeswap.finance/",
+    "assets": [
+      {
+        "label": "Cake",
+        "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "decimals": 18
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 1,
+    "targetWantToken": "BANANA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x6B2888DbC4c709955a51fe35dB22AF7aD7951B18",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
     "id": "v3-bnb-ape-cake-usdt",
     "chainId": 56,
     "pid": 65540,
