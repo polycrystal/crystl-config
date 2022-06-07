@@ -16,5 +16,23 @@
     "rewardPerBlock": 0.2467807539682539,
     "startBlock": 18488030,
     "endBlock": 18689630
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805313034",
+    "chainId": 56,
+    "address": "0xe0ec834f546b14AE2A55E4C66794D0146b4024Ef",
+    "stratAddress": "0xdEd5f620CB04805b3a95E6495BF49ACFd3A96cDB",
+    "vaultHealerAddress": "0x662018D4fbD804631920d45610E0Ee928Ca75d7c",
+    "vid": 65546,
+    "projectName": "APESWAP",
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-btcb-busd",
+    "wantTokenAddress": "0xF45cd219aEF8618A92BAa7aD848364a158a24F33",
+    "rewardToken": "BANANA",
+    "rewardTokenAddress": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.1233878968253968,
+    "startBlock": 18489055,
+    "endBlock": 18690655
   }
 ]
