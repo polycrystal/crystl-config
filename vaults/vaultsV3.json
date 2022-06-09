@@ -281,6 +281,102 @@
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xadbd1231fb360047525BEdF962581F3eee7b49fe"
   },
   {
+    "id": "v3-cronos-crona-wcro-usdc",
+    "chainId": 25,
+    "pid": 327682,
+    "lpSymbol": "USDC-CRO LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x0625A68D25d304aed698c806267a4e369e8Eb12a",
+    "wantDecimals": 18,
+    "wantDust": "6.8719476736e-8",
+    "depositFee": "0%",
+    "strategyAddress": "0x16D00F6882d6319525187372de7AB0051d4Ad0D8",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 3,
+    "router": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-crona-wcro-usdc",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://cronos.crypto.org/",
+    "assets": [
+      {
+        "label": "WCRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 5,
+    "targetWantToken": "CRONA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x919663a6ED3C8774924082f6C28f43Fd699BcEa5",
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "v3-cronos-crona-wbtc-weth-2",
+    "chainId": 25,
+    "pid": 327683,
+    "lpSymbol": "WETH-WBTC LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x285a569EDD6210a0410883d2E29471A6B0c7790d",
+    "wantDecimals": 18,
+    "wantDust": "2.097152e-12",
+    "depositFee": "0%",
+    "strategyAddress": "0x9fc78d473721f840A65b2aB92F73FEa6aE75f803",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 9,
+    "router": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-crona-wbtc-weth",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://weth.io/",
+    "assets": [
+      {
+        "label": "WBTC",
+        "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+        "decimals": 8
+      },
+      {
+        "label": "WETH",
+        "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 5,
+    "targetWantToken": "CRONA",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0x919663a6ED3C8774924082f6C28f43Fd699BcEa5",
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x062E66477Faf219F25D27dCED647BF57C3107d52/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a"
+  },
+  {
     "id": "v3-bnb-ape-banana",
     "chainId": 56,
     "pid": 1,
