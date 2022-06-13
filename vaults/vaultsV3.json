@@ -1129,5 +1129,149 @@
     "targetWantDecimals": 18,
     "targetStrategy": "0x6B2888DbC4c709955a51fe35dB22AF7aD7951B18",
     "addLiquidityUrl": "https://pancakeswap.finance/add/0x55d398326f99059fF775485246999027B3197955/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+  },
+  {
+    "id": "v3-polygon-quick-usdc-tusd",
+    "chainId": 137,
+    "pid": 2,
+    "lpSymbol": "TUSD-USDC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x17a7829cc1167ecdA8b9668414a5405050846F8A",
+    "wantDecimals": 18,
+    "wantDust": "3.4359738368e-8",
+    "depositFee": "0%",
+    "strategyAddress": "0x65057938d012EC01869B4a22412098116a3b296c",
+    "masterchef": "0x1661C61b66A2A2C54970F271f2B86556cdf18B97",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-usdc-tusd",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://trueusd.com/",
+    "assets": [
+      {
+        "label": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6
+      },
+      {
+        "label": "TUSD",
+        "address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Stable Coin"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756"
+  },
+  {
+    "id": "v3-polygon-polydogedao-wmatic-pddollar",
+    "chainId": 137,
+    "pid": 3,
+    "lpSymbol": "PDDOLLAR-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xEBcA34c9Fc0be6a37dEAF62DDd064941f53Ed246",
+    "wantDecimals": 18,
+    "wantDust": "0.144115188075855872",
+    "depositFee": "0%",
+    "strategyAddress": "0x8d51B312b2Fc9E4Bed0AFf0880fCe9616c3468F5",
+    "masterchef": "0x9682D175830643658798ac3367915e57bDdB506A",
+    "farmPid": 0,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-polydogedao-wmatic-pddollar",
+    "paused": false,
+    "platform": "POLYDOGEDAO",
+    "farmSite": "https://polydogedao.net/",
+    "projectSite": "https://polydogedao.net/",
+    "assets": [
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18
+      },
+      {
+        "label": "PDDOLLAR",
+        "address": "0x146e58D34EaB0bFf7e0a63cfe9332908d680c667",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x146e58D34EaB0bFf7e0a63cfe9332908d680c667"
+  },
+  {
+    "id": "v3-polygon-quick-wmatic-maticx",
+    "chainId": 137,
+    "pid": 5,
+    "lpSymbol": "MATICX-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xb0e69f24982791dd49e316313fD3A791020B8bF7",
+    "wantDecimals": 18,
+    "wantDust": "0.072057594037927936",
+    "depositFee": "0%",
+    "strategyAddress": "0xc3F9AEB9F2Bc17C7dE09B0EA634918D8132Fc868",
+    "masterchef": "0x1E16eCc4F912d8dB04b8177b4186bb597267fc25",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-wmatic-maticx",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://staderlabs.com/",
+    "assets": [
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18
+      },
+      {
+        "label": "MaticX",
+        "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6"
   }
 ]
