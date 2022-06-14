@@ -34,5 +34,23 @@
     "rewardPerBlock": 0.1233878968253968,
     "startBlock": 18489055,
     "endBlock": 18690655
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805575171",
+    "chainId": 25,
+    "address": "0xFAC9D0b48E1f13bDd16fBB7D082FdAF6D74d362e",
+    "stratAddress": "0x9fc78d473721f840A65b2aB92F73FEa6aE75f803",
+    "vaultHealerAddress": "0xBA6f3b9bf74FbFa59d55E52fa722E6a5737070D0",
+    "vid": 327683,
+    "projectName": "CRONA",
+    "oracle": "lps",
+    "oracleId": "cronos-crona-wbtc-weth",
+    "wantTokenAddress": "0x285a569EDD6210a0410883d2E29471A6B0c7790d",
+    "rewardToken": "CRONA",
+    "rewardTokenAddress": "0xadbd1231fb360047525BEdF962581F3eee7b49fe",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.9920634920634921,
+    "startBlock": 3232589,
+    "endBlock": 3353549
   }
 ]
