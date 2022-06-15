@@ -274,6 +274,54 @@
     "addLiquidityUrl": "https://photonswap.finance/#/swap?inputCurrency=CRO&outputCurrency=0x8F857Af6Ea31447Bb502fE0E3F4e4340CDFCfc6C"
   },
   {
+    "id": "v3-cronos-crona-wcro-crystl",
+    "chainId": 25,
+    "pid": 12,
+    "lpSymbol": "CRYSTL-CRO LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0xdEb28305D5c8d5Ce3B3bc5398Ba81012580a5A11",
+    "wantDecimals": 18,
+    "wantDust": "0.288230376151711744",
+    "depositFee": "0%",
+    "strategyAddress": "0x81Ab3D2519deDdb1A6A366dB14a848175faC44b0",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 29,
+    "router": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-crona-wcro-crystl",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://crystl.finance/",
+    "assets": [
+      {
+        "label": "WCRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18
+      },
+      {
+        "label": "CRYSTL",
+        "address": "0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B"
+  },
+  {
     "id": "v3-cronos-crona-wcro-crona-2",
     "chainId": 25,
     "pid": 327681,
