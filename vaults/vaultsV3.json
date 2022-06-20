@@ -1417,5 +1417,190 @@
     "targetWantDecimals": 0,
     "targetStrategy": "",
     "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6"
+  },
+  {
+    "id": "v3-polygon-quick-usdc-usdt",
+    "chainId": 137,
+    "pid": 8,
+    "lpSymbol": "USDT-USDC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x2cF7252e74036d1Da831d11089D326296e64a728",
+    "wantDecimals": 18,
+    "wantDust": "3.2768e-14",
+    "depositFee": "0%",
+    "strategyAddress": "0x56D410f6F5598b07Adb79D09B1d04C958E224B0B",
+    "masterchef": "0xAFB76771C98351Aa7fCA13B130c9972181612b54",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-usdc-usdt",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://www.centre.io/usdc",
+    "assets": [
+      {
+        "label": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6
+      },
+      {
+        "label": "USDT",
+        "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Stable Coin"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+  },
+  {
+    "id": "v3-polygon-ape-wmatic-weth",
+    "chainId": 137,
+    "pid": 9,
+    "lpSymbol": "WETH-WMATIC LP",
+    "lpProvider": "APESWAP",
+    "wantAddress": "0x6Cf8654e85AB489cA7e70189046D507ebA233613",
+    "wantDecimals": 18,
+    "wantDust": "0.002251799813685248",
+    "depositFee": "0%",
+    "strategyAddress": "0xC447EF6730B1aBde20eE7Df048665ed63ab9b914",
+    "masterchef": "0x54aff400858Dcac39797a81894D9920f16972D1D",
+    "farmPid": 1,
+    "router": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-ape-wmatic-weth",
+    "paused": false,
+    "platform": "APESWAP",
+    "farmSite": "https://apeswap.finance/",
+    "projectSite": "https://weth.io/",
+    "assets": [
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18
+      },
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://apeswap.finance/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
+    "id": "v3-polygon-polydogedao-polydoge",
+    "chainId": 137,
+    "pid": 10,
+    "lpSymbol": "PolyDoge",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x8A953CfE442c5E8855cc6c61b1293FA648BAE472",
+    "wantDecimals": 18,
+    "wantDust": "19342813.113834066795298816",
+    "depositFee": "0%",
+    "strategyAddress": "0xE1Bf91E461aA2929f1714f46DEf2Ac55F6bd873c",
+    "masterchef": "0x9682D175830643658798ac3367915e57bDdB506A",
+    "farmPid": 3,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "tokens",
+    "oracleId": "PolyDoge",
+    "paused": false,
+    "platform": "POLYDOGEDAO",
+    "farmSite": "https://polydogedao.net/",
+    "projectSite": "https://www.polydoge.com",
+    "assets": [
+      {
+        "label": "PolyDoge",
+        "address": "0x8A953CfE442c5E8855cc6c61b1293FA648BAE472",
+        "decimals": 18
+      }
+    ],
+    "type": "Single Staking",
+    "category": [
+      "NFT/GameFi"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": true,
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/swap?inputCurrency=ETH&outputCurrency=0x8A953CfE442c5E8855cc6c61b1293FA648BAE472"
+  },
+  {
+    "id": "v3-polygon-polydogedao-usdc-weth",
+    "chainId": 137,
+    "pid": 655361,
+    "lpSymbol": "WETH-USDC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x853Ee4b2A13f8a742d64C8F088bE7bA2131f670d",
+    "wantDecimals": 18,
+    "wantDust": "5.36870912e-10",
+    "depositFee": "0%",
+    "strategyAddress": "0xBe158De9C604DdD8B5Ad8F6506579Cc8Fe65E928",
+    "masterchef": "0xbB703E95348424FF9e94fbE4FB524f6d280331B8",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-usdc-weth",
+    "paused": false,
+    "platform": "POLYDOGEDAO",
+    "farmSite": "https://polydogedao.net/",
+    "projectSite": "https://polygon.technology",
+    "assets": [
+      {
+        "label": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6
+      },
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 10,
+    "targetWantToken": "PolyDoge",
+    "targetWantDecimals": 18,
+    "targetStrategy": "0xE1Bf91E461aA2929f1714f46DEf2Ac55F6bd873c",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   }
 ]
