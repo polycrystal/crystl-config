@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #f0b90b;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #03254c;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #ffad4f;
+      }
+
+      .cls-7 {
+        opacity: 0.5;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5605" data-name="Ellipse 5605" class="cls-1" cx="32" cy="32" r="32" transform="translate(-22108 -21537)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_5601" data-name="Ellipse 5601" class="cls-1" cx="32" cy="32" r="32" transform="translate(-22330 -21387)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_20172" data-name="Group 20172" transform="translate(22158 21219)">
+    <g id="Group_20114" data-name="Group 20114">
+      <g id="Mask_Group_785" data-name="Mask Group 785" class="cls-2" transform="translate(-50 318)">
+        <g id="BNB" transform="translate(-22108 -21537)">
+          <circle id="Ellipse_5604" data-name="Ellipse 5604" class="cls-3" cx="32" cy="32" r="32"/>
+          <path id="Path_40686" data-name="Path 40686" class="cls-1" d="M20.6,17.27l11.272-6.561L43.145,17.27,39,19.694l-7.128-4.137-7.128,4.137Zm22.544,8.275L39,23.121l-7.128,4.137-7.128-4.137L20.6,25.545v4.848l7.128,4.137v8.275l4.144,2.424,4.144-2.424V34.531l7.128-4.137Zm0,13.123V33.82L39,36.244v4.848Zm2.942,1.713-7.128,4.137v4.848l11.272-6.561V29.683l-4.144,2.424ZM41.943,21.408l4.144,2.424V28.68l4.144-2.424V21.408l-4.144-2.424ZM27.728,46.274v4.848l4.144,2.424,4.144-2.424V46.274L31.873,48.7ZM20.6,38.668l4.144,2.424V36.244L20.6,33.82Zm7.128-17.26,4.144,2.424,4.144-2.424-4.144-2.424Zm-10.07,2.424L21.8,21.408l-4.144-2.424-4.144,2.424v4.848l4.144,2.424Zm0,8.275-4.144-2.424V42.805l11.272,6.561V44.519l-7.128-4.137Z"/>
+        </g>
+      </g>
+      <g id="Mask_Group_783" data-name="Mask Group 783" class="cls-4" transform="translate(222 168)">
+        <g id="Ann" transform="translate(-22330 -21387)">
+          <path id="Path_40681" data-name="Path 40681" class="cls-5" d="M64,32A32,32,0,1,0,32,64,32,32,0,0,0,64,32Z"/>
+          <path id="Path_40682" data-name="Path 40682" class="cls-6" d="M10.077,44.6,25.035,18.657,27.7,23.1l-8,13.984L35.83,32.967,26.307,16.55l5.035-8.74,15.844,27.1Z"/>
+          <path id="Path_40683" data-name="Path 40683" d="M8.48,49.41l39.2-13.394,7.795,13.391Z"/>
+          <path id="Path_40684" data-name="Path 40684" class="cls-7" d="M8.48,49.41l39.2-13.394,7.795,13.391Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
