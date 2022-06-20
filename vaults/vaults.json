@@ -3587,7 +3587,7 @@
     "pricePerFullShare": 1,
     "tvl": 0,
     "oracle": "lps",
-    "oracleId": "annex-ann-usdc",
+    "oracleId": "cronos-annex-ann-usdc",
     "paused": false,
     "platform": "ANNEX",
     "farmSite": "https://www.annex.finance/",
