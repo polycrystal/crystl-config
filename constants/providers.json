@@ -38,7 +38,8 @@
   },
   {
     "name": "QUICK",
-    "site": "https://quickswap.exchange/#/add"
+    "site": "https://quickswap.exchange/#/add",
+    "swap": "https://quickswap.exchange/#/swap?inputCurrency=ETH"
   },
   {
     "name": "APESWAP",
