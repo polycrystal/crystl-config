@@ -52,5 +52,23 @@
     "rewardPerBlock": 0.9920634920634921,
     "startBlock": 3232589,
     "endBlock": 3353549
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805247500",
+    "chainId": 25,
+    "address": "0xbF08Dd528A5606c9240f0b635D04Ccc3f73eBcAa",
+    "stratAddress": "0x81Ab3D2519deDdb1A6A366dB14a848175faC44b0",
+    "vaultHealerAddress": "0xBA6f3b9bf74FbFa59d55E52fa722E6a5737070D0",
+    "vid": 12,
+    "projectName": "CRYSTL FINANCE",
+    "oracle": "lps",
+    "oracleId": "cronos-crona-wcro-crystl",
+    "wantTokenAddress": "0xdEb28305D5c8d5Ce3B3bc5398Ba81012580a5A11",
+    "rewardToken": "CRYSTL",
+    "rewardTokenAddress": "0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.13778521825396825,
+    "startBlock": 3354681,
+    "endBlock": 3596601
   }
 ]
