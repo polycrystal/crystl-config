@@ -514,6 +514,54 @@
     "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0x39bC1e38c842C60775Ce37566D03B41A7A66C782"
   },
   {
+    "id": "v3-cronos-vvs-vvs-usdc",
+    "chainId": 25,
+    "pid": 22,
+    "lpSymbol": "USDC-VVS LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0x814920D1b8007207db6cB5a2dD92bF0b082BDBa1",
+    "wantDecimals": 18,
+    "wantDust": "5.49755813888e-7",
+    "depositFee": "0%",
+    "strategyAddress": "0xDeb61Ae5307A3EFbD9922F0A4560591f2883d143",
+    "masterchef": "0xDccd6455AE04b03d785F12196B492b18129564bc",
+    "farmPid": 5,
+    "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-vvs-vvs-usdc",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://vvs.finance/",
+    "assets": [
+      {
+        "label": "VVS",
+        "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+        "decimals": 18
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
     "id": "v3-cronos-crona-wcro-crona-2",
     "chainId": 25,
     "pid": 327681,
