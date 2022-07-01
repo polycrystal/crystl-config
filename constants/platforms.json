@@ -1,5 +1,12 @@
 [
   {
+    "name": "10MB",
+    "id": "10mb",
+    "site": "https://10mb.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "ANNEX",
     "id": "annex",
     "site": "https://www.annex.finance/",
