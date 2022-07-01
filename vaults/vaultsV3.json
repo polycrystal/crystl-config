@@ -607,7 +607,8 @@
     "targetWantToken": "",
     "targetWantDecimals": 0,
     "targetStrategy": "",
-    "addLiquidityUrl": "https://mm.finance/add/0x02A8Dc66334B1cc6CD8F28Fe8DBF6b58B49b47B6/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+    "addLiquidityUrl": "https://mm.finance/add/0x02A8Dc66334B1cc6CD8F28Fe8DBF6b58B49b47B6/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+    "disableZap": true
   },
   {
     "id": "v3-cronos-10mb-usdc-10share",
@@ -655,7 +656,8 @@
     "targetWantToken": "",
     "targetWantDecimals": 0,
     "targetStrategy": "",
-    "addLiquidityUrl": "https://mm.finance/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xD8d40DcEE0C2B486EEBd1FEDb3F507B011De7Ff0"
+    "addLiquidityUrl": "https://mm.finance/add/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59/0xD8d40DcEE0C2B486EEBd1FEDb3F507B011De7Ff0",
+    "disableZap": true
   },
   {
     "id": "v3-cronos-crona-wcro-crona-2",
