@@ -160,5 +160,23 @@
     "rewardPerBlock": 0.9093915343915344,
     "startBlock": 3370308,
     "endBlock": 3491268
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805247503",
+    "chainId": 25,
+    "address": "0x1b2A87B841D401D39009Be261Ab648242F320F23",
+    "stratAddress": "0x07E337D9FD22D3BBCd34e6Ac96Edb21a2Cbf99FE",
+    "vaultHealerAddress": "0xBA6f3b9bf74FbFa59d55E52fa722E6a5737070D0",
+    "vid": 15,
+    "projectName": "ANNEX FINANCE",
+    "oracle": "lps",
+    "oracleId": "cronos-annex-wcro-ann",
+    "wantTokenAddress": "0xeFf06792262076081b655d2F07489204C3a504B2",
+    "rewardToken": "ANN",
+    "rewardTokenAddress": "0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.16534391534391535,
+    "startBlock": 3533375,
+    "endBlock": 3654335
   }
 ]
