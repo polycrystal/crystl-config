@@ -1,5 +1,12 @@
 [
   {
+    "name": "STELLASWAP",
+    "id": "stellaswap",
+    "site": "https://stellaswap.com/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "10MB",
     "id": "10mb",
     "site": "https://10mb.finance/",

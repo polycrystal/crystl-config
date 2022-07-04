@@ -1,5 +1,10 @@
 [
   {
+    "name": "STELLA",
+    "site": "https://app.stellaswap.com/exchange/add",
+    "swap": "https://app.stellaswap.com/exchange/swap?inputCurrency=ETH"
+  },
+  {
     "name": "ANNEX",
     "site": "https://app.annex.finance/trade/liquidity/add",
     "swap": "undefined"

@@ -52,6 +52,13 @@ const network: any = {
     isV3: true,
     prefix: "bnb",
   },
+  moonbeamV3: {
+    configFile: "../vaults/vaultsV3.json",
+    chainId: ChainId.moonbeam,
+    vaultHealer: "0x14E1BC2Da67dE9e9eFd7116d9D2f6801374c32a7",
+    isV3: true,
+    prefix: "moonbeam",
+  },
 };
 
 const args = yargs.options({
@@ -296,7 +303,14 @@ async function main() {
   const lpProvider = fetchProvider(provider);
 
   const selectedType = getType(type);
-  let tokens = [];
+  let tokens: {
+    token0?: any;
+    token1?: any;
+    address: any;
+    symbol?: any;
+    decimals?: any;
+    unwrappedSymbol?: string;
+  }[] = [];
   let wantToken: {
     token0?: any;
     token1?: any;
