@@ -1892,5 +1892,293 @@
     "targetWantDecimals": 18,
     "targetStrategy": "0xE1Bf91E461aA2929f1714f46DEf2Ac55F6bd873c",
     "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-usdc-wglmr",
+    "chainId": 1284,
+    "pid": 1,
+    "lpSymbol": "WGLMR-USDC LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x9bFcf685e641206115dadc0C9ab17181e1d4975c",
+    "wantDecimals": 18,
+    "wantDust": "3.4359738368e-8",
+    "depositFee": "0%",
+    "strategyAddress": "0xe987905AD5D1573c9B7DDf3921E636D2F26525e7",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 12,
+    "router": "0x70085a09D30D6f8C4ecF6eE10120d1847383BB57",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-usdc-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://moonbeam.network/",
+    "assets": [
+      {
+        "label": "USDC",
+        "address": "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9",
+        "decimals": 6
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Stable Coin"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-wglmr-xcdot",
+    "chainId": 1284,
+    "pid": 2,
+    "lpSymbol": "XCDOT-WGLMR LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0xa927E1e1E044CA1D9fe1854585003477331fE2Af",
+    "wantDecimals": 18,
+    "wantDust": "0.000002199023255552",
+    "depositFee": "0%",
+    "strategyAddress": "0x53d23B6B6C4436BeA28CD355A0f7B40C76D421ad",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 10,
+    "router": "0x70085a09D30D6f8C4ecF6eE10120d1847383BB57",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-wglmr-xcdot",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://moonbeam.network/",
+    "assets": [
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18
+      },
+      {
+        "label": "xcDOT",
+        "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+        "decimals": 10
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0xAcc15dC74880C9944775448304B263D191c6077F/0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-wbtc-wglmr",
+    "chainId": 1284,
+    "pid": 3,
+    "lpSymbol": "WGLMR-WBTC LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0xE28459075c806b1bFa72A38E669CCd6Fb4125f6a",
+    "wantDecimals": 18,
+    "wantDust": "4.294967296e-9",
+    "depositFee": "0%",
+    "strategyAddress": "0x0d6446D82D6689EF445d25347BdBe21A914b1e78",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 13,
+    "router": "0x70085a09D30D6f8C4ecF6eE10120d1847383BB57",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-wbtc-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://wbtc.network/",
+    "assets": [
+      {
+        "label": "WBTC",
+        "address": "0x1DC78Acda13a8BC4408B207c9E48CDBc096D95e0",
+        "decimals": 8
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x1DC78Acda13a8BC4408B207c9E48CDBc096D95e0/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-weth-wglmr",
+    "chainId": 1284,
+    "pid": 4,
+    "lpSymbol": "WGLMR-WETH LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x9d19EDBFd29D2e01537624B25806493dA0d73bBE",
+    "wantDecimals": 18,
+    "wantDust": "0.001125899906842624",
+    "depositFee": "0%",
+    "strategyAddress": "0x7f91A43691814f199cee09A7a6aD9582Ad6C5231",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 11,
+    "router": "0x70085a09D30D6f8C4ecF6eE10120d1847383BB57",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-weth-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://weth.io/",
+    "assets": [
+      {
+        "label": "WETH",
+        "address": "0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7",
+        "decimals": 18
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-well-wglmr",
+    "chainId": 1284,
+    "pid": 5,
+    "lpSymbol": "WGLMR-WELL LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0xb536c1F9A157B263B70A9a35705168ACC0271742",
+    "wantDecimals": 18,
+    "wantDust": "0.288230376151711744",
+    "depositFee": "0%",
+    "strategyAddress": "0x25B35d649ccc8DB4221EeF0b4D0533354DaE987a",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 15,
+    "router": "0x70085a09D30D6f8C4ecF6eE10120d1847383BB57",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-well-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://moonwell.fi/",
+    "assets": [
+      {
+        "label": "WELL",
+        "address": "0x511aB53F793683763E5a8829738301368a2411E3",
+        "decimals": 18
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x511aB53F793683763E5a8829738301368a2411E3/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-stella-wglmr",
+    "chainId": 1284,
+    "pid": 6,
+    "lpSymbol": "WGLMR-STELLA LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x7F5Ac0FC127bcf1eAf54E3cd01b00300a0861a62",
+    "wantDecimals": 18,
+    "wantDust": "0.072057594037927936",
+    "depositFee": "0%",
+    "strategyAddress": "0x44112B6d16762557B393e4476f372D5C81237944",
+    "masterchef": "0xEDFB330F5FA216C9D2039B99C8cE9dA85Ea91c1E",
+    "farmPid": 0,
+    "router": "0x70085a09D30D6f8C4ecF6eE10120d1847383BB57",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-stella-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://stellaswap.com/",
+    "assets": [
+      {
+        "label": "STELLA",
+        "address": "0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2",
+        "decimals": 18
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2/0xAcc15dC74880C9944775448304B263D191c6077F"
   }
 ]
