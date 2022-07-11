@@ -178,5 +178,41 @@
     "rewardPerBlock": 0.16534391534391535,
     "startBlock": 3533375,
     "endBlock": 3654335
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805313031",
+    "chainId": 56,
+    "address": "0x41cF512f7B87b3e7b887Fc76D6Be1bB4aB805981",
+    "stratAddress": "0x27b832028D784D6215FDeB5dF6e61204eB1e2250",
+    "vaultHealerAddress": "0x662018D4fbD804631920d45610E0Ee928Ca75d7c",
+    "vid": 65543,
+    "projectName": "CRYSTL FINANCE",
+    "oracle": "lps",
+    "oracleId": "bnb-babyswap-baby-wbnb",
+    "wantTokenAddress": "0x36aE10A4d16311959b607eE98Bc4a8A653A33b1F",
+    "rewardToken": "CRYSTL",
+    "rewardTokenAddress": "0x6FF5e1865a833B81c1DE013c925D2e3ab0B6EbD2",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.028203125,
+    "startBlock": 19461558,
+    "endBlock": 20267958
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805313033",
+    "chainId": 56,
+    "address": "0xC20FeA65d4EF6d59b050C5d65F01936aAbc559C2",
+    "stratAddress": "0xaddf2c874D184823b777799ff8957ea5cC5BFD0F",
+    "vaultHealerAddress": "0x662018D4fbD804631920d45610E0Ee928Ca75d7c",
+    "vid": 65545,
+    "projectName": "CRYSTL FINANCE",
+    "oracle": "lps",
+    "oracleId": "bnb-babyswap-baby-usdt",
+    "wantTokenAddress": "0xE730C7B7470447AD4886c763247012DfD233bAfF",
+    "rewardToken": "CRYSTL",
+    "rewardTokenAddress": "0x6FF5e1865a833B81c1DE013c925D2e3ab0B6EbD2",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.05646081349206349,
+    "startBlock": 19461324,
+    "endBlock": 19864524
   }
 ]
