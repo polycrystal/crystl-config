@@ -59,6 +59,13 @@ const network: any = {
     isV3: true,
     prefix: "moonbeam",
   },
+  fantomV3: {
+    configFile: "../vaults/vaultsV3.json",
+    chainId: ChainId.fantom,
+    vaultHealer: "0x38351946Dbe1B096Aed86B299d48d4A4D7444EA8",
+    isV3: true,
+    prefix: "fantom",
+  },
 };
 
 const args = yargs.options({
@@ -254,6 +261,18 @@ function fetchProvider(provider: string) {
   };
 }
 
+function fetchOracleId(vid: number) {
+  const result = config.find(
+    (p: { pid: number; chainId: number }) =>
+      p.pid === vid && p.chainId === chainId
+  );
+  return {
+    targetWantToken: result.oracleId,
+    targetWantDecimals: result.wantDecimals,
+    targetWantSymbol: result.lpSymbol,
+  };
+}
+
 function removeWrapped(symbol: string) {
   return ["WBTC", "WETH", "WBNB", "WBUSD", "WMATIC", "WCRO"].includes(
     symbol.toUpperCase()
@@ -392,8 +411,8 @@ async function main() {
     ? await fetchVault(vaultHealerAddress, targetVid, isV3)
     : { strat: "", want: "" };
   const targetWant = strategy.isMaximizer
-    ? await fetchToken(targetVault.want)
-    : { symbol: "", decimals: 0 };
+    ? fetchOracleId(targetVid)
+    : { targetWantToken: "", targetWantDecimals: 0, targetWantSymbol: "" };
   const totalStaked = isSingleStaking ? vaultedData.totalStaked : "";
   const rewardPerBlock = isSingleStaking ? vaultedData.rewardPerBlock : "";
 
@@ -434,8 +453,9 @@ async function main() {
     totalStaked,
     rewardPerBlock,
     targetVid,
-    targetWantToken: targetWant.symbol,
-    targetWantDecimals: targetWant.decimals,
+    targetWantToken: targetWant.targetWantToken,
+    targetWantDecimals: targetWant.targetWantDecimals,
+    targetWantSymbol: targetWant.targetWantSymbol,
     targetStrategy: targetVault.strat,
     addLiquidityUrl,
   };

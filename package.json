@@ -9,6 +9,7 @@
     "cronosV3:add": "ts-node scripts/add-vault.ts --network cronosV3",
     "bnbV3:add": "ts-node scripts/add-vault.ts --network bnbV3",
     "moonbeamV3:add": "ts-node scripts/add-vault.ts --network moonbeamV3",
+    "fantomV3:add": "ts-node scripts/add-vault.ts --network fantomV3",
     "polygon:pool:add": "ts-node scripts/add-pool.ts --network polygon",
     "cronos:pool:add": "ts-node scripts/add-pool.ts --network cronos",
     "bnb:pool:add": "ts-node scripts/add-pool.ts --network bnb",
