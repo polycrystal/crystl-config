@@ -1,5 +1,20 @@
 [
   {
+    "name": "SPIRIT",
+    "site": "https://swap.spiritswap.finance/#/add",
+    "swap": "undefined"
+  },
+  {
+    "name": "SPOOKY",
+    "site": "https://spooky.fi/#/add",
+    "swap": "undefined"
+  },
+  {
+    "name": "TOMB",
+    "site": "https://swap.tomb.com/#/add",
+    "swap": "undefined"
+  },
+  {
     "name": "STELLA",
     "site": "https://app.stellaswap.com/exchange/add",
     "swap": "https://app.stellaswap.com/exchange/swap?inputCurrency=ETH"

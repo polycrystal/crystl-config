@@ -1,5 +1,26 @@
 [
   {
+    "name": "LIQUID",
+    "id": "liquid",
+    "site": "https://www.liquiddriver.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
+    "name": "SPOOKY",
+    "id": "spooky",
+    "site": "https://spooky.fi/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
+    "name": "TOMB",
+    "id": "tomb",
+    "site": "https://tomb.com/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "STELLASWAP",
     "id": "stellaswap",
     "site": "https://stellaswap.com/",

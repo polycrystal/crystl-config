@@ -59,6 +59,13 @@ const network: any = {
     isV3: true,
     prefix: "moonbeam",
   },
+  fantomV3: {
+    configFile: "../vaults/vaultsV3.json",
+    chainId: ChainId.fantom,
+    vaultHealer: "0x38351946Dbe1B096Aed86B299d48d4A4D7444EA8",
+    isV3: true,
+    prefix: "fantom",
+  },
 };
 
 const args = yargs.options({
