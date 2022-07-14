@@ -1934,55 +1934,6 @@
     "addLiquidityUrl": "https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
-    "id": "v3-fantom-spooky-wftm-boo",
-    "chainId": 250,
-    "pid": 3,
-    "lpSymbol": "BOO-WFTM LP",
-    "lpProvider": "SPOOKY",
-    "wantAddress": "0xEc7178F4C41f346b2721907F5cF7628E388A7a58",
-    "wantDecimals": 18,
-    "wantDust": "0.036028797018963968",
-    "depositFee": "0%",
-    "strategyAddress": "0x50893941b27348E427A702d6D6A228e00eb4784A",
-    "masterchef": "0x2b2929E785374c651a81A63878Ab22742656DcDd",
-    "farmPid": 0,
-    "router": "0xF491e7B69E4244ad4002BC14e878a34207E38c29",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "lps",
-    "oracleId": "fantom-spooky-wftm-boo",
-    "paused": false,
-    "platform": "SPOOKY",
-    "farmSite": "https://spooky.fi/",
-    "projectSite": "https://spooky.fi/",
-    "assets": [
-      {
-        "label": "WFTM",
-        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-        "decimals": 18
-      },
-      {
-        "label": "BOO",
-        "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
-        "decimals": 18
-      }
-    ],
-    "type": "Traditional",
-    "category": [
-      "DeFi Token"
-    ],
-    "isMaximizer": false,
-    "isSingleStaking": false,
-    "totalStaked": "",
-    "rewardPerBlock": "",
-    "targetVid": 0,
-    "targetWantToken": "",
-    "targetWantDecimals": 0,
-    "targetWantSymbol": "",
-    "targetStrategy": "",
-    "addLiquidityUrl": "https://spooky.fi/#/add/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE"
-  },
-  {
     "id": "v3-fantom-tomb-wftm-tomb",
     "chainId": 250,
     "pid": 4,
@@ -2177,6 +2128,55 @@
     "targetWantSymbol": "",
     "targetStrategy": "",
     "addLiquidityUrl": "https://swap.spiritswap.finance/#/add/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/0x5Cc61A78F164885776AA610fb0FE1257df78E59B"
+  },
+  {
+    "id": "v3-fantom-spooky-wftm-boo",
+    "chainId": 250,
+    "pid": 9,
+    "lpSymbol": "BOO-WFTM LP",
+    "lpProvider": "SPOOKY",
+    "wantAddress": "0xEc7178F4C41f346b2721907F5cF7628E388A7a58",
+    "wantDecimals": 18,
+    "wantDust": "0.036028797018963968",
+    "depositFee": "0%",
+    "strategyAddress": "0x54921d631394fBd90f60c832C78942Fdc955BAdb",
+    "masterchef": "0x18b4f774fdC7BF685daeeF66c2990b1dDd9ea6aD",
+    "farmPid": 0,
+    "router": "0xF491e7B69E4244ad4002BC14e878a34207E38c29",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "fantom-spooky-wftm-boo",
+    "paused": false,
+    "platform": "SPOOKY",
+    "farmSite": "https://spooky.fi/",
+    "projectSite": "https://spooky.fi/",
+    "assets": [
+      {
+        "label": "WFTM",
+        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "decimals": 18
+      },
+      {
+        "label": "BOO",
+        "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+        "decimals": 18
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://spooky.fi/#/add/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE"
   },
   {
     "id": "v3-moonbeam-stellaswap-usdc-wglmr",
