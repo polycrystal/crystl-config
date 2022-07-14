@@ -214,5 +214,41 @@
     "rewardPerBlock": 0.05646081349206349,
     "startBlock": 19461324,
     "endBlock": 19864524
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805247490",
+    "chainId": 137,
+    "address": "0x1EA6bEe1ea2a08f36B9f7cB307f58DEEA0ad384C",
+    "stratAddress": "0x65057938d012EC01869B4a22412098116a3b296c",
+    "vaultHealerAddress": "0xA1b26B5eC4a73A6a632bE1f45FfC628518c0AFD6",
+    "vid": 2,
+    "projectName": "CRYSTL FINANCE",
+    "oracle": "lps",
+    "oracleId": "polygon-quick-usdc-tusd",
+    "wantTokenAddress": "0x17a7829cc1167ecdA8b9668414a5405050846F8A",
+    "rewardToken": "USDC",
+    "rewardTokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "rewardTokenDecimals": "1e6",
+    "rewardPerBlock": 4.13e-16,
+    "startBlock": 30718244,
+    "endBlock": 31323044
+  },
+  {
+    "id": "79616668581569616818497161373633226268552926401317148955211875239159805247493",
+    "chainId": 137,
+    "address": "0xB2c38718b393aa4d52C3dAb5129bcD2456c572bA",
+    "stratAddress": "0xc3F9AEB9F2Bc17C7dE09B0EA634918D8132Fc868",
+    "vaultHealerAddress": "0xA1b26B5eC4a73A6a632bE1f45FfC628518c0AFD6",
+    "vid": 5,
+    "projectName": "CRYSTL FINANCE",
+    "oracle": "lps",
+    "oracleId": "polygon-quick-wmatic-maticx",
+    "wantTokenAddress": "0xb0e69f24982791dd49e316313fD3A791020B8bF7",
+    "rewardToken": "MATIC",
+    "rewardTokenAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "rewardTokenDecimals": "1e18",
+    "rewardPerBlock": 0.000885141093474426,
+    "startBlock": 30718500,
+    "endBlock": 31625700
   }
 ]
