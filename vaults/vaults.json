@@ -4966,7 +4966,7 @@
     "id": "v2-polygon-quick-wmatic-wcro",
     "chainId": 137,
     "pid": 56,
-    "lpSymbol": "WCRO-MATIC LP",
+    "lpSymbol": "CRO-MATIC LP",
     "lpProvider": "QUICKSWAP",
     "wantAddress": "0xfD168748dD07a32A401E800240aEC8EC6EFc706f",
     "depositFee": "0%",
