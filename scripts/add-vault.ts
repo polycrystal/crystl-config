@@ -18,6 +18,8 @@ const strategyV2ABI = require("../abis/CrystlStrategyV2.json");
 const vaultV3ABI = require("../abis/CrystlVaultHealerV3.json");
 const strategyV3ABI = require("../abis/CrystlStrategyV3.json");
 
+const unwrappedSymbols = ["WCRO", "WGLMR"];
+
 const network: any = {
   cronos: {
     configFile: "../vaults/vaults.json",
@@ -274,9 +276,7 @@ function fetchOracleId(vid: number) {
 }
 
 function removeWrapped(symbol: string) {
-  return ["WBTC", "WETH", "WBNB", "WBUSD", "WMATIC", "WCRO"].includes(
-    symbol.toUpperCase()
-  )
+  return unwrappedSymbols.includes(symbol.toUpperCase())
     ? symbol.substring(1).toUpperCase()
     : symbol.toUpperCase();
 }
@@ -352,7 +352,7 @@ async function main() {
       platformData.id
     }-${tokens[0].symbol.toLowerCase()}`;
 
-    lpSymbol = `${tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol}`;
+    lpSymbol = `${removeWrapped(tokens[0].symbol)}`;
 
     oracle = "tokens";
     addLiquidityUrl = `${lpProvider.swap}&outputCurrency=${tokens[0].address}`;
@@ -368,11 +368,9 @@ async function main() {
       platformData.id
     }-${tokens[0].symbol.toLowerCase()}-${tokens[1].symbol.toLowerCase()}`;
 
-    lpSymbol = `${
-      tokens[1].symbol === "WCRO" ? "CRO" : tokens[1].symbol.toUpperCase()
-    }-${
-      tokens[0].symbol === "WCRO" ? "CRO" : tokens[0].symbol.toUpperCase()
-    } LP`;
+    lpSymbol = `${removeWrapped(tokens[1].symbol)}-${removeWrapped(
+      tokens[0].symbol
+    )} LP`;
 
     oracle = "lps";
     addLiquidityUrl = `${lpProvider.site}/${tokens[0].address}/${tokens[1].address}`;
