@@ -18,7 +18,7 @@ const strategyV2ABI = require("../abis/CrystlStrategyV2.json");
 const vaultV3ABI = require("../abis/CrystlVaultHealerV3.json");
 const strategyV3ABI = require("../abis/CrystlStrategyV3.json");
 
-const unwrappedSymbols = ["WCRO", "WGLMR"];
+const unwrappedSymbols = ["WCRO", "WGLMR, WFTM, WBNB, WMATIC"];
 
 const network: any = {
   cronos: {
