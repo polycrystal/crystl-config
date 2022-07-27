@@ -1,4 +1,4 @@
-import { ChainId } from "../constants/constants";
+import { ChainId, MULTICHAIN_GAS } from "../constants/constants";
 
 const yargs = require("yargs");
 const fs = require("fs");
@@ -229,6 +229,7 @@ async function fetchToken(tokenAddress: string) {
     symbol,
     decimals,
     unwrappedSymbol,
+    isGas: false,
   };
 }
 
@@ -321,6 +322,8 @@ async function main() {
   const site = fetchProject(token);
   const lpProvider = fetchProvider(provider);
 
+  const gasToken = MULTICHAIN_GAS[chainId];
+
   const selectedType = getType(type);
   let tokens: {
     token0?: any;
@@ -329,6 +332,7 @@ async function main() {
     symbol?: any;
     decimals?: any;
     unwrappedSymbol?: string;
+    isGas?: boolean;
   }[] = [];
   let wantToken: {
     token0?: any;
@@ -337,6 +341,7 @@ async function main() {
     symbol?: any;
     decimals?: any;
     unwrappedSymbol?: string;
+    isGas?: boolean;
   };
   let newVaultName: string;
   let lpSymbol: string;
@@ -374,6 +379,10 @@ async function main() {
 
     oracle = "lps";
     addLiquidityUrl = `${lpProvider.site}/${tokens[0].address}/${tokens[1].address}`;
+
+    if (tokens.map((a) => a.symbol).includes(gasToken.wrapped)) {
+      tokens.push(gasToken);
+    }
   }
 
   const wantDust = strategy.wantDust.div(`1e${wantToken.decimals}`).toString();
@@ -441,6 +450,7 @@ async function main() {
         label: token.symbol,
         address: token.address,
         decimals: token.decimals,
+        isGas: token.isGas,
       };
     }),
     // boosted: isBoosted,

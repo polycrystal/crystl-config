@@ -73,6 +73,55 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
   [ChainId.emerald]: EMERALD_RPC,
 };
 
+const MULTICHAIN_GAS: Record<ChainId, any> = {
+  [ChainId.bsc]: {
+    wrapped: "WBNB",
+    symbol: "BNB",
+    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    decimals: 18,
+    isGas: true,
+  },
+  [ChainId.heco]: {},
+  [ChainId.polygon]: {
+    wrapped: "WMATIC",
+    symbol: "MATIC",
+    address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    decimals: 18,
+    isGas: true,
+  },
+  [ChainId.avax]: {},
+  [ChainId.fantom]: {
+    wrapped: "WFTM",
+    symbol: "FTM",
+    address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+    decimals: 18,
+    isGas: true,
+  },
+  [ChainId.one]: {},
+  [ChainId.arbitrum]: {},
+  [ChainId.celo]: {},
+  [ChainId.moonriver]: {},
+  [ChainId.cronos]: {
+    wrapped: "WCRO",
+    symbol: "CRO",
+    address: "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+    decimals: 18,
+    isGas: true,
+  },
+  [ChainId.aurora]: {},
+  [ChainId.fuse]: {},
+  [ChainId.metis]: {},
+  [ChainId.moonbeam]: {
+    wrapped: "WGLMR",
+    symbol: "GLMR",
+    address: "0xAcc15dC74880C9944775448304B263D191c6077F",
+    decimals: 18,
+    isGas: true,
+  },
+  [ChainId.sys]: {},
+  [ChainId.emerald]: {},
+};
+
 export {
   BSC_RPC,
   BSC_CHAIN_ID,
@@ -114,4 +163,5 @@ export {
   MULTICHAIN_RPC,
   ZERO_ADDRESS,
   ChainId,
+  MULTICHAIN_GAS,
 };
