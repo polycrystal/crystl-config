@@ -25,12 +25,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "CRONA",
         "address": "0xadbd1231fb360047525BEdF962581F3eee7b49fe",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -74,12 +82,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "ATOM",
         "address": "0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -123,7 +139,8 @@
       {
         "label": "CRONA",
         "address": "0xadbd1231fb360047525BEdF962581F3eee7b49fe",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Single Staking",
@@ -165,12 +182,14 @@
       {
         "label": "CRONA",
         "address": "0xadbd1231fb360047525BEdF962581F3eee7b49fe",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDC",
         "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -214,12 +233,14 @@
       {
         "label": "WBTC",
         "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
-        "decimals": 8
+        "decimals": 8,
+        "isGas": false
       },
       {
         "label": "WETH",
         "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -263,7 +284,8 @@
       {
         "label": "ICY",
         "address": "0x8F857Af6Ea31447Bb502fE0E3F4e4340CDFCfc6C",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Single Staking",
@@ -305,12 +327,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "CRYSTL",
         "address": "0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -354,12 +384,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "ANN",
         "address": "0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -403,12 +441,14 @@
       {
         "label": "ANN",
         "address": "0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDC",
         "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -452,12 +492,20 @@
       {
         "label": "VVS",
         "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -501,12 +549,14 @@
       {
         "label": "VVS",
         "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "FER",
         "address": "0x39bC1e38c842C60775Ce37566D03B41A7A66C782",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -550,12 +600,14 @@
       {
         "label": "VVS",
         "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDC",
         "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -599,12 +651,14 @@
       {
         "label": "10MB",
         "address": "0x02A8Dc66334B1cc6CD8F28Fe8DBF6b58B49b47B6",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDC",
         "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -649,12 +703,14 @@
       {
         "label": "USDC",
         "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "10SHARE",
         "address": "0xD8d40DcEE0C2B486EEBd1FEDb3F507B011De7Ff0",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -699,12 +755,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "CRONA",
         "address": "0xadbd1231fb360047525BEdF962581F3eee7b49fe",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -748,12 +812,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "USDC",
         "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -797,12 +869,14 @@
       {
         "label": "WBTC",
         "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
-        "decimals": 8
+        "decimals": 8,
+        "isGas": false
       },
       {
         "label": "WETH",
         "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -846,12 +920,20 @@
       {
         "label": "WCRO",
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "ATOM",
         "address": "0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -895,7 +977,8 @@
       {
         "label": "BANANA",
         "address": "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Single Staking",
@@ -937,12 +1020,14 @@
       {
         "label": "IOTX",
         "address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "BUSD",
         "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -986,12 +1071,20 @@
       {
         "label": "WBNB",
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "Metis",
         "address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1035,12 +1128,20 @@
       {
         "label": "ANN",
         "address": "0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WBNB",
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -1084,12 +1185,14 @@
       {
         "label": "ANN",
         "address": "0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "BUSD",
         "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1133,12 +1236,14 @@
       {
         "label": "ETH",
         "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDC",
         "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1182,12 +1287,14 @@
       {
         "label": "USDT",
         "address": "0x55d398326f99059fF775485246999027B3197955",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDC",
         "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1231,12 +1338,14 @@
       {
         "label": "Cake",
         "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "BUSD",
         "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1280,12 +1389,14 @@
       {
         "label": "Cake",
         "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDT",
         "address": "0x55d398326f99059fF775485246999027B3197955",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1329,12 +1440,20 @@
       {
         "label": "DAR",
         "address": "0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "WBNB",
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -1378,12 +1497,20 @@
       {
         "label": "MBOX",
         "address": "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WBNB",
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -1427,12 +1554,20 @@
       {
         "label": "BABY",
         "address": "0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WBNB",
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -1476,12 +1611,14 @@
       {
         "label": "BABY",
         "address": "0x53E562b9B7E5E94b81f10e96Ee70Ad06df3D2657",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "USDT",
         "address": "0x55d398326f99059fF775485246999027B3197955",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1525,12 +1662,14 @@
       {
         "label": "BTCB",
         "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "BUSD",
         "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1574,12 +1713,20 @@
       {
         "label": "USDT",
         "address": "0x55d398326f99059fF775485246999027B3197955",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WBNB",
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -1623,12 +1770,14 @@
       {
         "label": "USDC",
         "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "TUSD",
         "address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1672,12 +1821,20 @@
       {
         "label": "WMATIC",
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "PDDOLLAR",
         "address": "0x146e58D34EaB0bFf7e0a63cfe9332908d680c667",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1721,12 +1878,20 @@
       {
         "label": "WMATIC",
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "MaticX",
         "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1770,12 +1935,14 @@
       {
         "label": "USDC",
         "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "USDT",
         "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1819,12 +1986,20 @@
       {
         "label": "WMATIC",
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "WETH",
         "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1868,7 +2043,8 @@
       {
         "label": "PolyDoge",
         "address": "0x8A953CfE442c5E8855cc6c61b1293FA648BAE472",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Single Staking",
@@ -1910,12 +2086,14 @@
       {
         "label": "USDC",
         "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "WETH",
         "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -1959,12 +2137,20 @@
       {
         "label": "WFTM",
         "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "FTM",
+        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "TOMB",
         "address": "0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -2008,12 +2194,20 @@
       {
         "label": "USDC",
         "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "WFTM",
         "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "FTM",
+        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2057,12 +2251,20 @@
       {
         "label": "LQDR",
         "address": "0x10b620b2dbAC4Faa7D7FFD71Da486f5D44cd86f9",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WFTM",
         "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "FTM",
+        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2106,12 +2308,20 @@
       {
         "label": "WFTM",
         "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "FTM",
+        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "SPIRIT",
         "address": "0x5Cc61A78F164885776AA610fb0FE1257df78E59B",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -2155,12 +2365,20 @@
       {
         "label": "WFTM",
         "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "FTM",
+        "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "BOO",
         "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -2204,12 +2422,20 @@
       {
         "label": "USDC",
         "address": "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2253,12 +2479,20 @@
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "xcDOT",
         "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
-        "decimals": 10
+        "decimals": 10,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -2302,12 +2536,20 @@
       {
         "label": "WBTC",
         "address": "0x1DC78Acda13a8BC4408B207c9E48CDBc096D95e0",
-        "decimals": 8
+        "decimals": 8,
+        "isGas": false
       },
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2351,12 +2593,20 @@
       {
         "label": "WETH",
         "address": "0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2400,12 +2650,20 @@
       {
         "label": "WELL",
         "address": "0x511aB53F793683763E5a8829738301368a2411E3",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2449,12 +2707,20 @@
       {
         "label": "STELLA",
         "address": "0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
       },
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
@@ -2498,12 +2764,20 @@
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       },
       {
         "label": "xcDOT",
         "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
-        "decimals": 10
+        "decimals": 10,
+        "isGas": false
       }
     ],
     "type": "Traditional",
@@ -2547,12 +2821,20 @@
       {
         "label": "USDC",
         "address": "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9",
-        "decimals": 6
+        "decimals": 6,
+        "isGas": false
       },
       {
         "label": "WGLMR",
         "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
-        "decimals": 18
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
       }
     ],
     "type": "Traditional",
