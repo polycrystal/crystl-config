@@ -1066,6 +1066,57 @@
     "addLiquidityUrl": "https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23"
   },
   {
+    "id": "v3-cronos-vvs-argo-usdc",
+    "chainId": 25,
+    "pid": 2621442,
+    "lpSymbol": "USDC-ARGO LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0xDcBe2035a7b24f7AA479BFf3cCA46d2F5f014B74",
+    "wantDecimals": 18,
+    "wantDust": "2.74877906944e-7",
+    "depositFee": "0%",
+    "strategyAddress": "0x6a3E2d4bBc32B60BeF9A121E52d50BD9C785D92e",
+    "masterchef": "0xbc149c62EFe8AFC61728fC58b1b66a0661712e76",
+    "farmPid": 32,
+    "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-vvs-argo-usdc",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://www.argofinance.money/",
+    "assets": [
+      {
+        "label": "ARGO",
+        "address": "0x47A9D630dc5b28F75d3AF3be3AAa982512Cd89Aa",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 40,
+    "targetWantToken": "cronos-vvs-wcro-usdc",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "USDC-CRO LP",
+    "targetStrategy": "0xA3F02014615Ff3be3Db07C7BDC5168f9d895Fc45",
+    "addLiquidityUrl": "https://vvs.finance/add/0x47A9D630dc5b28F75d3AF3be3AAa982512Cd89Aa/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
     "id": "v3-bnb-ape-banana",
     "chainId": 56,
     "pid": 1,
