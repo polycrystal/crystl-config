@@ -1,5 +1,12 @@
 [
   {
+    "name": "RIPAE",
+    "id": "ripae",
+    "site": "https://ripae.finance/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "LIQUID",
     "id": "liquid",
     "site": "https://www.liquiddriver.finance/",

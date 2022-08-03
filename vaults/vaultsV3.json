@@ -787,6 +787,120 @@
     "addLiquidityUrl": "https://vvs.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
+    "id": "v3-cronos-ripae-wcro-pcro",
+    "chainId": 25,
+    "pid": 47,
+    "lpSymbol": "PCRO-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0xB0dC8B777DD82a951D688f8E5Dc4EBcB42D57C75",
+    "wantDecimals": 18,
+    "wantDust": "0.288230376151711744",
+    "depositFee": "0%",
+    "strategyAddress": "0xff94BAA1e707A8C7673742f8416F34c7435B489f",
+    "masterchef": "0x83EA9d8748A7AD9f2F12B2A2F7a45CE47A862ac9",
+    "farmPid": 0,
+    "router": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-ripae-wcro-pcro",
+    "paused": false,
+    "platform": "RIPAE",
+    "farmSite": "https://ripae.finance/",
+    "projectSite": "https://ripae.finance/",
+    "assets": [
+      {
+        "label": "WCRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "pCRO",
+        "address": "0xA5e6a847f79BA19AAF41b8e1B2e6C4741234C6b7",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA5e6a847f79BA19AAF41b8e1B2e6C4741234C6b7"
+  },
+  {
+    "id": "v3-cronos-ripae-wcro-scro",
+    "chainId": 25,
+    "pid": 48,
+    "lpSymbol": "SCRO-CRO LP",
+    "lpProvider": "MEERKAT",
+    "wantAddress": "0xBa11E930e37721c91ea55fAA7BC2EcEfA05D1436",
+    "wantDecimals": 18,
+    "wantDust": "0.018014398509481984",
+    "depositFee": "0%",
+    "strategyAddress": "0xa4c431B0c755ee4D2732e89c4F84B326Ef7F1a3e",
+    "masterchef": "0x83EA9d8748A7AD9f2F12B2A2F7a45CE47A862ac9",
+    "farmPid": 1,
+    "router": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-ripae-wcro-scro",
+    "paused": false,
+    "platform": "RIPAE",
+    "farmSite": "https://ripae.finance/",
+    "projectSite": "https://ripae.finance/",
+    "assets": [
+      {
+        "label": "WCRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "sCRO",
+        "address": "0xA01fAe0612a4786ec296Be7f87b292F05c68186B",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "CRO",
+        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA01fAe0612a4786ec296Be7f87b292F05c68186B"
+  },
+  {
     "id": "v3-cronos-crona-wcro-usdc-2",
     "chainId": 25,
     "pid": 49,
