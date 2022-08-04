@@ -2601,63 +2601,6 @@
     "addLiquidityUrl": "https://app.sushi.com/add/0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
-    "id": "v3-polygon-quick-wmatic-lcd",
-    "chainId": 137,
-    "pid": 1441794,
-    "lpSymbol": "LCD-WMATIC LP",
-    "lpProvider": "QUICK",
-    "wantAddress": "0xAab5254e17380511887aabA7e96a5339A519E26a",
-    "wantDecimals": 18,
-    "wantDust": "0.144115188075855872",
-    "depositFee": "0%",
-    "strategyAddress": "0x8cD3e1a5fde5004f277e25cCbFF4682EE0626871",
-    "masterchef": "0xaCBD412b649b55d0F3f7565293492637DE7c53Cb",
-    "farmPid": 999,
-    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
-    "pricePerFullShare": 1,
-    "tvl": 0,
-    "oracle": "lps",
-    "oracleId": "polygon-quick-wmatic-lcd",
-    "paused": false,
-    "platform": "QUICKSWAP",
-    "farmSite": "https://quickswap.exchange/",
-    "projectSite": "https://lucidao.com/",
-    "assets": [
-      {
-        "label": "WMATIC",
-        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18,
-        "isGas": false
-      },
-      {
-        "label": "LCD",
-        "address": "0xc2A45FE7d40bCAc8369371B08419DDAFd3131b4a",
-        "decimals": 18,
-        "isGas": false
-      },
-      {
-        "label": "MATIC",
-        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimals": 18,
-        "isGas": true
-      }
-    ],
-    "type": "Traditional",
-    "category": [
-      "DeFi Token"
-    ],
-    "isMaximizer": true,
-    "isSingleStaking": false,
-    "totalStaked": "",
-    "rewardPerBlock": "",
-    "targetVid": 22,
-    "targetWantToken": "polygon-quick-weth-usdt",
-    "targetWantDecimals": 18,
-    "targetWantSymbol": "USDT-WETH LP",
-    "targetStrategy": "0x5Da2DB05bD98Fa1A539dD9C5E45e161DDb619c8B",
-    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xc2A45FE7d40bCAc8369371B08419DDAFd3131b4a"
-  },
-  {
     "id": "v3-fantom-tomb-wftm-tomb",
     "chainId": 250,
     "pid": 4,
