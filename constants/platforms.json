@@ -1,5 +1,12 @@
 [
   {
+    "name": "SUSHI",
+    "id": "sushi",
+    "site": "https://sushi.com/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "RIPAE",
     "id": "ripae",
     "site": "https://ripae.finance/",
