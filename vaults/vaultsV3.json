@@ -841,7 +841,8 @@
     "targetWantDecimals": 0,
     "targetWantSymbol": "",
     "targetStrategy": "",
-    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA5e6a847f79BA19AAF41b8e1B2e6C4741234C6b7"
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA5e6a847f79BA19AAF41b8e1B2e6C4741234C6b7",
+    "disableZap": true
   },
   {
     "id": "v3-cronos-ripae-wcro-scro",
@@ -898,7 +899,8 @@
     "targetWantDecimals": 0,
     "targetWantSymbol": "",
     "targetStrategy": "",
-    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA01fAe0612a4786ec296Be7f87b292F05c68186B"
+    "addLiquidityUrl": "https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xA01fAe0612a4786ec296Be7f87b292F05c68186B",
+    "disableZap": true
   },
   {
     "id": "v3-cronos-crona-wcro-usdc-2",
