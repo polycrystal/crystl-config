@@ -1290,6 +1290,57 @@
     "addLiquidityUrl": "https://vvs.finance/add/0x47A9D630dc5b28F75d3AF3be3AAa982512Cd89Aa/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
+    "id": "v3-cronos-crona-crona-usdc-2",
+    "chainId": 25,
+    "pid": 3211265,
+    "lpSymbol": "USDC-CRONA LP",
+    "lpProvider": "CRONA",
+    "wantAddress": "0x482E0eEb877091cfca439D131321bDE23ddf9bB5",
+    "wantDecimals": 18,
+    "wantDust": "2.74877906944e-7",
+    "depositFee": "0%",
+    "strategyAddress": "0x6db2f5047730b4948AD65B97C43eC87F79634cBf",
+    "masterchef": "0x7B1982b896CF2034A0674Acf67DC7924444637E4",
+    "farmPid": 1,
+    "router": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-crona-crona-usdc",
+    "paused": false,
+    "platform": "CRONA",
+    "farmSite": "https://app.cronaswap.org/",
+    "projectSite": "https://app.cronaswap.org/",
+    "assets": [
+      {
+        "label": "CRONA",
+        "address": "0xadbd1231fb360047525BEdF962581F3eee7b49fe",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "USDC",
+        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "decimals": 6,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 49,
+    "targetWantToken": "cronos-crona-wcro-usdc",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "USDC-CRO LP",
+    "targetStrategy": "0xB0f2E36Fd9684bB68bCF311EC1013e9812F07Ce3",
+    "addLiquidityUrl": "https://app.cronaswap.org/add/0xadbd1231fb360047525BEdF962581F3eee7b49fe/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
     "id": "v3-bnb-ape-banana",
     "chainId": 56,
     "pid": 1,
