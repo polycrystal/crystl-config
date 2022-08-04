@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="64" viewBox="0 0 114 64">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-6 {
+        fill: #103f68;
+      }
+
+      .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #fff;
+        stroke-width: 2.125px;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-9 {
+        stroke: #979797;
+        stroke-width: 0.125px;
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5694" data-name="Ellipse 5694" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21858 -18848)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_5611" data-name="Ellipse 5611" class="cls-1" cx="32" cy="32" r="32" transform="translate(-24921 -24457)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_1807" data-name="Ellipse 1807" class="cls-1" cx="32" cy="32" r="32" transform="translate(-24123 -23674)"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <circle id="Ellipse_2221" data-name="Ellipse 2221" class="cls-1" cx="32" cy="32" r="32" transform="translate(-24083 -9037)"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <circle id="Ellipse_5695" data-name="Ellipse 5695" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21808 -18848)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.579" y1="5.635" x2="-0.288" y2="5.135" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.508" y1="-1.08" x2="0.228" y2="-0.323" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#142d4a"/>
+      <stop offset="0.99" stop-color="#03316c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="25.775" y1="14.463" x2="26.321" y2="15.366" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#415986"/>
+      <stop offset="0.99" stop-color="#03316c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.603" y1="0.683" x2="1.15" y2="1.587" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="Group_20301" data-name="Group 20301" transform="translate(21858 18848)">
+    <g id="Mask_Group_874" data-name="Mask Group 874" class="cls-2">
+      <g id="Mask_Group_791" data-name="Mask Group 791" class="cls-3" transform="translate(3063 5609)">
+        <g id="Group_720" data-name="Group 720" transform="translate(-798 -783)">
+          <g id="Mask_Group_11" data-name="Mask Group 11" class="cls-4">
+            <g id="Mask_Group_471" data-name="Mask Group 471" class="cls-5" transform="translate(-40 -14637)">
+              <g id="Page-1" transform="translate(-24083 -9037)">
+                <circle id="Oval" class="cls-6" cx="32" cy="32" r="32"/>
+                <path id="Polygon" class="cls-7" d="M32.188,11.164,50.232,21.582V42.418L32.188,52.836,14.143,42.418V21.582Z"/>
+                <path id="Path" class="cls-8" d="M24.379,19.561l-1.686,7.632H41.121l-1.8-7.632Z"/>
+                <path id="Path-2" class="cls-8" d="M22.626,29.8l-4.989,3.74,6.8,11.908h2.735l3.212-3.02v-1.5l-3.335-3.2v-5.1Z"/>
+                <path id="Path-2-2" data-name="Path-2" class="cls-8" d="M38.372-29.745l-4.989-3.742,6.8-11.908h2.735l3.211,3.02v1.5l-3.335,3.2v5.1Z" transform="translate(79.513) rotate(180)"/>
+                <path id="Path-3" class="cls-9"/>
+                <path id="Path-4" class="cls-8" d="M27.068,28.362l1.623,4.257-.5,4.771,7.4-.024-.452-4.747,1.6-4.257Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_881" data-name="Mask Group 881" class="cls-10">
+      <g id="Layer_2-2" transform="translate(-21808 -18848)">
+        <g id="Layer_2-3">
+          <g id="Layer_1-2">
+            <path id="Path_51407" data-name="Path 51407" class="cls-11" d="M32,63.266a31.173,31.173,0,1,1,12.17-2.456A31.275,31.275,0,0,1,32,63.266Z"/>
+            <path id="Path_51408" data-name="Path 51408" class="cls-1" d="M32,1.468a30.422,30.422,0,1,1-11.884,2.4A30.541,30.541,0,0,1,32,1.468M32,0A32,32,0,1,0,64,32,32,32,0,0,0,32,0Z"/>
+            <g id="Layer_2-2-2" data-name="Layer_2-2">
+              <g id="graphics">
+                <path id="Path_51409" data-name="Path 51409" class="cls-12" d="M45.181,28.5l-2.93-5.428-1.127-.225-5.6-7.792a74.518,74.518,0,0,0-10.8,1.835A9.537,9.537,0,0,0,16.889,19.9c-4.02,4.517-3.359,11.453,1.412,15.685h0l2.93,5.434,1.123.225,5.591,7.792A74.207,74.207,0,0,0,38.74,47.2a9.54,9.54,0,0,0,7.843-3.007c4.033-4.521,3.369-11.452-1.4-15.69Z"/>
+                <path id="Path_51410" data-name="Path 51410" class="cls-13" d="M46.591,44.185a8.064,8.064,0,0,1-11.358-1.021h0l-5.459-6.543a8.142,8.142,0,0,0-11.468-1.036h0a8.071,8.071,0,0,0-.917,11.368C24.464,55.444,36.638,53.981,46.591,44.185Z"/>
+                <path id="Path_51411" data-name="Path 51411" class="cls-14" d="M16.89,19.91a8.066,8.066,0,0,1,11.361,1.021l5.459,6.535a8.141,8.141,0,0,0,11.466,1.042h0A8.073,8.073,0,0,0,46.1,17.139C39.011,8.644,26.847,10.105,16.89,19.91Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
