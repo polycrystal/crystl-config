@@ -2501,6 +2501,234 @@
     "addLiquidityUrl": "https://quickswap.exchange/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
   },
   {
+    "id": "v3-polygon-quick-wmatic-pae",
+    "chainId": 137,
+    "pid": 23,
+    "lpSymbol": "PAE-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x07D53b147eF96FAD1896D1156755A9Da7E06098E",
+    "wantDecimals": 18,
+    "wantDust": "0.018014398509481984",
+    "depositFee": "0%",
+    "strategyAddress": "0x8c3a824e794e0e357C4f265caa0eF4e88fE885d3",
+    "masterchef": "0xf8A04d1c6a3bF6ee3fB450d9bf394b2cEfbaAd9B",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-wmatic-pae",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://ripae.finance/",
+    "assets": [
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "PAE",
+        "address": "0x8063037ea50E4a066bF1430EA1E3e609CD5cEf6B",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0x8063037ea50E4a066bF1430EA1E3e609CD5cEf6B"
+  },
+  {
+    "id": "v3-polygon-quick-wmatic-ldo",
+    "chainId": 137,
+    "pid": 24,
+    "lpSymbol": "LDO-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xa0f330F5Fc47eE7A3297DBD6Be6Fe60cd0346B26",
+    "wantDecimals": 18,
+    "wantDust": "0.018014398509481984",
+    "depositFee": "0%",
+    "strategyAddress": "0x08417a369aD1A6c0594990Cb9402C596315dC196",
+    "masterchef": "0xd04020De20df404D923c3b19e924878ead015b98",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-wmatic-ldo",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://lido.fi/",
+    "assets": [
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "LDO",
+        "address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
+  },
+  {
+    "id": "v3-polygon-quick-acre-wmatic",
+    "chainId": 137,
+    "pid": 25,
+    "lpSymbol": "WMATIC-ACRE LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0x561ED3FbEAc3C4E5b060024666f9a1Cd2AEC7847",
+    "wantDecimals": 18,
+    "wantDust": "0.576460752303423488",
+    "depositFee": "0%",
+    "strategyAddress": "0x2B29E7380d08d25E129c5042F250baB148cdE36e",
+    "masterchef": "0x9521b60b70D2D40D630268b13A1b28edbf6CD39E",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-acre-wmatic",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://arable.finance/",
+    "assets": [
+      {
+        "label": "ACRE",
+        "address": "0x011734f6Ed20E8D011d85Cf7894814B897420acf",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x011734f6Ed20E8D011d85Cf7894814B897420acf/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+  },
+  {
+    "id": "v3-polygon-quick-wmatic-lcd",
+    "chainId": 137,
+    "pid": 26,
+    "lpSymbol": "LCD-WMATIC LP",
+    "lpProvider": "QUICK",
+    "wantAddress": "0xAab5254e17380511887aabA7e96a5339A519E26a",
+    "wantDecimals": 18,
+    "wantDust": "0.144115188075855872",
+    "depositFee": "0%",
+    "strategyAddress": "0x0EeEF75d1965512Ee3810371da51Fe1a3154EC47",
+    "masterchef": "0xaCBD412b649b55d0F3f7565293492637DE7c53Cb",
+    "farmPid": 999,
+    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-quick-wmatic-lcd",
+    "paused": false,
+    "platform": "QUICKSWAP",
+    "farmSite": "https://quickswap.exchange/",
+    "projectSite": "https://lucidao.com/",
+    "assets": [
+      {
+        "label": "WMATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "LCD",
+        "address": "0xc2A45FE7d40bCAc8369371B08419DDAFd3131b4a",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MATIC",
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://quickswap.exchange/#/add/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/0xc2A45FE7d40bCAc8369371B08419DDAFd3131b4a"
+  },
+  {
     "id": "v3-polygon-polydogedao-usdc-weth",
     "chainId": 137,
     "pid": 655361,
