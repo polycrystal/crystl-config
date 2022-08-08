@@ -1,5 +1,12 @@
 [
   {
+    "name": "EMP",
+    "id": "emp",
+    "site": "https://emp.money/",
+    "totalStaked": "",
+    "rewardPerBlock": ""
+  },
+  {
     "name": "SUSHI",
     "id": "sushi",
     "site": "https://sushi.com/",

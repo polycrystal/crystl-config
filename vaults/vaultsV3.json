@@ -1600,6 +1600,324 @@
     "addLiquidityUrl": "https://app.annex.finance/trade/liquidity/add/0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
   },
   {
+    "id": "v3-bnb-emp-wbnb-eshare",
+    "chainId": 56,
+    "pid": 13,
+    "lpSymbol": "ESHARE-BNB LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x1747AF98EBF0B22d500014c7dd52985d736337d2",
+    "wantDecimals": 18,
+    "wantDust": "0.000070368744177664",
+    "depositFee": "0%",
+    "strategyAddress": "0x1216508ca264CBf4CF7861100A264A9246F1D158",
+    "masterchef": "0x97a68a7949EE30849D273b0c4450314ae26235b1",
+    "farmPid": 0,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-emp-wbnb-eshare",
+    "paused": false,
+    "platform": "EMP",
+    "farmSite": "https://emp.money/",
+    "projectSite": "https://emp.money/",
+    "assets": [
+      {
+        "label": "WBNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "ESHARE",
+        "address": "0xDB20F6A8665432CE895D724b417f77EcAC956550",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xDB20F6A8665432CE895D724b417f77EcAC956550"
+  },
+  {
+    "id": "v3-bnb-emp-eth-emp",
+    "chainId": 56,
+    "pid": 14,
+    "lpSymbol": "EMP-ETH LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x84821bb588f049913Dc579Dc511E5e31EB22d5E4",
+    "wantDecimals": 18,
+    "wantDust": "0.001125899906842624",
+    "depositFee": "0%",
+    "strategyAddress": "0x49Aa029ce670A0575cD70a5877DFdd6528eFa5a7",
+    "masterchef": "0x97a68a7949EE30849D273b0c4450314ae26235b1",
+    "farmPid": 1,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-emp-eth-emp",
+    "paused": false,
+    "platform": "EMP",
+    "farmSite": "https://emp.money/",
+    "projectSite": "https://emp.money/",
+    "assets": [
+      {
+        "label": "ETH",
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "EMP",
+        "address": "0x3b248CEfA87F836a4e6f6d6c9b42991b88Dc1d58",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/0x3b248CEfA87F836a4e6f6d6c9b42991b88Dc1d58"
+  },
+  {
+    "id": "v3-bnb-pancake-wbnb-busd",
+    "chainId": 56,
+    "pid": 15,
+    "lpSymbol": "BUSD-BNB LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+    "wantDecimals": 18,
+    "wantDust": "0.001125899906842624",
+    "depositFee": "0%",
+    "strategyAddress": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 3,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-wbnb-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://binance.com/",
+    "assets": [
+      {
+        "label": "WBNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
+    "id": "v3-bnb-pancake-peel-busd",
+    "chainId": 56,
+    "pid": 16,
+    "lpSymbol": "BUSD-PEEL LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x25bfD3162360BbD8FF97b86169288b311c2A68D7",
+    "wantDecimals": 18,
+    "wantDust": "0.072057594037927936",
+    "depositFee": "0%",
+    "strategyAddress": "0xcc943Ea2ddF1D18D45862AbEF975c20224602258",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 112,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-peel-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://metaapesgame.com/",
+    "assets": [
+      {
+        "label": "PEEL",
+        "address": "0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
+    "id": "v3-bnb-pancake-shell-busd",
+    "chainId": 56,
+    "pid": 17,
+    "lpSymbol": "BUSD-SHELL LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x02D75D7beebF6D5228A3Fa5f810CedF2BEa5aB1E",
+    "wantDecimals": 18,
+    "wantDust": "1.152921504606846976",
+    "depositFee": "0%",
+    "strategyAddress": "0x0abd61500629bDD40AfA4BE5474c67D6AACebE49",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 110,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-shell-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://metaapesgame.com/",
+    "assets": [
+      {
+        "label": "SHELL",
+        "address": "0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
+    "id": "v3-bnb-pancake-high-busd",
+    "chainId": 56,
+    "pid": 18,
+    "lpSymbol": "BUSD-HIGH LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0xe98ac95A1dB2fCaaa9c7D4ba7ecfCE4877ca2bEa",
+    "wantDecimals": 18,
+    "wantDust": "0.018014398509481984",
+    "depositFee": "0%",
+    "strategyAddress": "0x9d724c5700F09Ec1f9411780061e1c2F7a8F7bBa",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 73,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-high-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://emp.money/",
+    "assets": [
+      {
+        "label": "HIGH",
+        "address": "0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
     "id": "v3-bnb-ape-eth-usdc",
     "chainId": 56,
     "pid": 65537,
@@ -2132,6 +2450,375 @@
     "targetWantSymbol": "BANANA",
     "targetStrategy": "0x6B2888DbC4c709955a51fe35dB22AF7aD7951B18",
     "addLiquidityUrl": "https://pancakeswap.finance/add/0x55d398326f99059fF775485246999027B3197955/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+  },
+  {
+    "id": "v3-bnb-pancake-cake-froyo",
+    "chainId": 56,
+    "pid": 983041,
+    "lpSymbol": "FROYO-CAKE LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x1CCc3cC95c8148477Afd18a552f03835Be9D182a",
+    "wantDecimals": 18,
+    "wantDust": "0.144115188075855872",
+    "depositFee": "0%",
+    "strategyAddress": "0xfd9bA0532F5B095990447bC4e199D10f0032c760",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 88,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-cake-froyo",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://froyo.games/",
+    "assets": [
+      {
+        "label": "Cake",
+        "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "Froyo",
+        "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9"
+  },
+  {
+    "id": "v3-bnb-emp-wbnb-eshare-2",
+    "chainId": 56,
+    "pid": 983042,
+    "lpSymbol": "ESHARE-BNB LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x1747AF98EBF0B22d500014c7dd52985d736337d2",
+    "wantDecimals": 18,
+    "wantDust": "0.000004398046511104",
+    "depositFee": "0%",
+    "strategyAddress": "0x2556C057DD120cd4b33ED744c0C30A0733DDF916",
+    "masterchef": "0x97a68a7949EE30849D273b0c4450314ae26235b1",
+    "farmPid": 0,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-emp-wbnb-eshare",
+    "paused": false,
+    "platform": "EMP",
+    "farmSite": "https://emp.money/",
+    "projectSite": "https://emp.money/",
+    "assets": [
+      {
+        "label": "WBNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "ESHARE",
+        "address": "0xDB20F6A8665432CE895D724b417f77EcAC956550",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xDB20F6A8665432CE895D724b417f77EcAC956550"
+  },
+  {
+    "id": "v3-bnb-emp-eth-emp-2",
+    "chainId": 56,
+    "pid": 983043,
+    "lpSymbol": "EMP-ETH LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x84821bb588f049913Dc579Dc511E5e31EB22d5E4",
+    "wantDecimals": 18,
+    "wantDust": "0.001125899906842624",
+    "depositFee": "0%",
+    "strategyAddress": "0xfAb4DF1531311542d6b18bF0C2E3f59Cdb0F9550",
+    "masterchef": "0x97a68a7949EE30849D273b0c4450314ae26235b1",
+    "farmPid": 1,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-emp-eth-emp",
+    "paused": false,
+    "platform": "EMP",
+    "farmSite": "https://emp.money/",
+    "projectSite": "https://emp.money/",
+    "assets": [
+      {
+        "label": "ETH",
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "EMP",
+        "address": "0x3b248CEfA87F836a4e6f6d6c9b42991b88Dc1d58",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Algorithmic Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/0x3b248CEfA87F836a4e6f6d6c9b42991b88Dc1d58"
+  },
+  {
+    "id": "v3-bnb-pancake-wbnb-metis-2",
+    "chainId": 56,
+    "pid": 983044,
+    "lpSymbol": "METIS-BNB LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x69AFe59e88614501c3fDEb7480f12DBA0A414032",
+    "wantDecimals": 18,
+    "wantDust": "0.000140737488355328",
+    "depositFee": "0%",
+    "strategyAddress": "0x90ACd4F9F2219235c6b1661Bb3Ac03f87d8EB292",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 100,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-wbnb-metis",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://www.metis.io/",
+    "assets": [
+      {
+        "label": "WBNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "Metis",
+        "address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BNB",
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xe552Fb52a4F19e44ef5A967632DBc320B0820639"
+  },
+  {
+    "id": "v3-bnb-pancake-peel-busd-2",
+    "chainId": 56,
+    "pid": 983045,
+    "lpSymbol": "BUSD-PEEL LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x25bfD3162360BbD8FF97b86169288b311c2A68D7",
+    "wantDecimals": 18,
+    "wantDust": "0.072057594037927936",
+    "depositFee": "0%",
+    "strategyAddress": "0x06AfF39E4E8420383e5A21431BfB6b994Fb6887E",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 112,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-peel-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://metaapesgame.com/",
+    "assets": [
+      {
+        "label": "PEEL",
+        "address": "0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
+    "id": "v3-bnb-pancake-shell-busd-2",
+    "chainId": 56,
+    "pid": 983046,
+    "lpSymbol": "BUSD-SHELL LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0x02D75D7beebF6D5228A3Fa5f810CedF2BEa5aB1E",
+    "wantDecimals": 18,
+    "wantDust": "1.152921504606846976",
+    "depositFee": "0%",
+    "strategyAddress": "0x2b6e5045663847308C7c3041B167d56AbB5B2897",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 110,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-shell-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://metaapesgame.com/",
+    "assets": [
+      {
+        "label": "SHELL",
+        "address": "0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+  },
+  {
+    "id": "v3-bnb-pancake-high-busd-2",
+    "chainId": 56,
+    "pid": 983048,
+    "lpSymbol": "BUSD-HIGH LP",
+    "lpProvider": "PANCAKE",
+    "wantAddress": "0xe98ac95A1dB2fCaaa9c7D4ba7ecfCE4877ca2bEa",
+    "wantDecimals": 18,
+    "wantDust": "0.018014398509481984",
+    "depositFee": "0%",
+    "strategyAddress": "0xf0fA5bc7de1F980e86dD1F634270a98C3e5b532e",
+    "masterchef": "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652",
+    "farmPid": 73,
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "bnb-pancake-high-busd",
+    "paused": false,
+    "platform": "PANCAKE",
+    "farmSite": "https://pancakeswap.finance/",
+    "projectSite": "https://emp.money/",
+    "assets": [
+      {
+        "label": "HIGH",
+        "address": "0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "BUSD",
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 15,
+    "targetWantToken": "bnb-pancake-wbnb-busd",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "BUSD-BNB LP",
+    "targetStrategy": "0x71ef3BE2dc4483532A8aB5981C73006c80Bc2cE5",
+    "addLiquidityUrl": "https://pancakeswap.finance/add/0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
   },
   {
     "id": "v3-polygon-quick-usdc-tusd",
@@ -2841,6 +3528,57 @@
     "wantDust": "0.002251799813685248",
     "depositFee": "0%",
     "strategyAddress": "0xD2661d65376bd7c6de142BE82D362e1EF4b3456F",
+    "masterchef": "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F",
+    "farmPid": 57,
+    "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-sushi-zed-weth",
+    "paused": false,
+    "platform": "SUSHI",
+    "farmSite": "https://sushi.com/",
+    "projectSite": "https://zedtoken.com/",
+    "assets": [
+      {
+        "label": "ZED",
+        "address": "0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 21,
+    "targetWantToken": "polygon-sushi-weth-usdt",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "USDT-WETH LP",
+    "targetStrategy": "0x981D2261B8d18F0c952b375918695C2202d4Ce7B",
+    "addLiquidityUrl": "https://app.sushi.com/add/0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
+    "id": "v3-polygon-sushi-zed-weth-2",
+    "chainId": 137,
+    "pid": 1376258,
+    "lpSymbol": "WETH-ZED LP",
+    "lpProvider": "SUSHI",
+    "wantAddress": "0x374552804F7CA26C307c8D31f4cC0d9215C87f46",
+    "wantDecimals": 18,
+    "wantDust": "0.002251799813685248",
+    "depositFee": "0%",
+    "strategyAddress": "0x087089daDe0873cb6EDDF31251534Dd10F0B8BE6",
     "masterchef": "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F",
     "farmPid": 57,
     "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
