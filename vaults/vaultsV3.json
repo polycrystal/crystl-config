@@ -3569,6 +3569,57 @@
     "addLiquidityUrl": "https://app.sushi.com/add/0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   {
+    "id": "v3-polygon-sushi-zed-weth-2",
+    "chainId": 137,
+    "pid": 1376258,
+    "lpSymbol": "WETH-ZED LP",
+    "lpProvider": "SUSHI",
+    "wantAddress": "0x374552804F7CA26C307c8D31f4cC0d9215C87f46",
+    "wantDecimals": 18,
+    "wantDust": "0.002251799813685248",
+    "depositFee": "0%",
+    "strategyAddress": "0x087089daDe0873cb6EDDF31251534Dd10F0B8BE6",
+    "masterchef": "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F",
+    "farmPid": 57,
+    "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "polygon-sushi-zed-weth",
+    "paused": false,
+    "platform": "SUSHI",
+    "farmSite": "https://sushi.com/",
+    "projectSite": "https://zedtoken.com/",
+    "assets": [
+      {
+        "label": "ZED",
+        "address": "0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WETH",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 21,
+    "targetWantToken": "polygon-sushi-weth-usdt",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "USDT-WETH LP",
+    "targetStrategy": "0x981D2261B8d18F0c952b375918695C2202d4Ce7B",
+    "addLiquidityUrl": "https://app.sushi.com/add/0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  {
     "id": "v3-fantom-tomb-wftm-tomb",
     "chainId": 250,
     "pid": 4,
