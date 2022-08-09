@@ -6,32 +6,32 @@
       }
 
       .cls-2 {
-        clip-path: url(#clip-path);
+        fill: url(#pattern);
       }
 
       .cls-3 {
-        fill: #2775ca;
+        clip-path: url(#clip-path);
       }
 
       .cls-4 {
-        fill: url(#pattern);
+        fill: #2775ca;
       }
     </style>
-    <clipPath id="clip-path">
-      <circle id="Ellipse_5733" data-name="Ellipse 5733" class="cls-1" cx="32" cy="32" r="32" transform="translate(-22023 -17895)"/>
-    </clipPath>
     <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 96 96">
       <image width="96" height="96" xlink:href="data:image/png;base64,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"/>
     </pattern>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5736" data-name="Ellipse 5736" class="cls-1" cx="32" cy="32" r="32" transform="translate(-21809 -17895)"/>
+    </clipPath>
   </defs>
-  <g id="Group_20370" data-name="Group 20370" transform="translate(22023 17895)">
-    <g id="Mask_Group_929" data-name="Mask Group 929" class="cls-2">
-      <g id="USDC" transform="translate(-22023 -17895)">
-        <path id="Path_51453" data-name="Path 51453" class="cls-3" d="M32,64A32,32,0,1,0,0,32,31.923,31.923,0,0,0,32,64Z"/>
-        <path id="Path_51454" data-name="Path 51454" class="cls-1" d="M40.8,37.067c0-4.667-2.8-6.267-8.4-6.933-4-.533-4.8-1.6-4.8-3.467s1.333-3.067,4-3.067c2.4,0,3.733.8,4.4,2.8a1,1,0,0,0,.933.667h2.133A.911.911,0,0,0,40,26.133V26a6.661,6.661,0,0,0-6-5.467v-3.2c0-.533-.4-.933-1.067-1.067h-2c-.533,0-.933.4-1.067,1.067V20.4c-4,.533-6.533,3.2-6.533,6.533,0,4.4,2.667,6.133,8.267,6.8,3.733.667,4.933,1.467,4.933,3.6s-1.867,3.6-4.4,3.6c-3.467,0-4.667-1.467-5.067-3.467a.974.974,0,0,0-.933-.8H23.867a.911.911,0,0,0-.933.933v.133c.533,3.333,2.667,5.733,7.067,6.4v3.2c0,.533.4.933,1.067,1.067h2c.533,0,.933-.4,1.067-1.067v-3.2c4-.667,6.667-3.467,6.667-7.067Z"/>
-        <path id="Path_51455" data-name="Path 51455" class="cls-1" d="M25.2,51.067a19.952,19.952,0,0,1,0-37.467,1.338,1.338,0,0,0,.8-1.333V10.4a1.013,1.013,0,0,0-.8-1.067.8.8,0,0,0-.533.133,23.994,23.994,0,0,0,0,45.733.811.811,0,0,0,1.2-.533C26,54.533,26,54.4,26,54.133V52.267A1.776,1.776,0,0,0,25.2,51.067Zm14.133-41.6a.811.811,0,0,0-1.2.533c-.133.133-.133.267-.133.533V12.4a1.769,1.769,0,0,0,.8,1.333,19.952,19.952,0,0,1,0,37.467,1.338,1.338,0,0,0-.8,1.333V54.4a1.013,1.013,0,0,0,.8,1.067.8.8,0,0,0,.533-.133,24.1,24.1,0,0,0,0-45.867Z"/>
+  <g id="Group_20371" data-name="Group 20371" transform="translate(21859 17895)">
+    <circle id="ETH" class="cls-2" cx="32" cy="32" r="32" transform="translate(-21859 -17895)"/>
+    <g id="Mask_Group_930" data-name="Mask Group 930" class="cls-3">
+      <g id="USDC" transform="translate(-21809 -17895)">
+        <path id="Path_51456" data-name="Path 51456" class="cls-4" d="M32,64A32,32,0,1,0,0,32,31.923,31.923,0,0,0,32,64Z"/>
+        <path id="Path_51457" data-name="Path 51457" class="cls-1" d="M40.8,37.067c0-4.667-2.8-6.267-8.4-6.933-4-.533-4.8-1.6-4.8-3.467s1.333-3.067,4-3.067c2.4,0,3.733.8,4.4,2.8a1,1,0,0,0,.933.667h2.133A.911.911,0,0,0,40,26.133V26a6.661,6.661,0,0,0-6-5.467v-3.2c0-.533-.4-.933-1.067-1.067h-2c-.533,0-.933.4-1.067,1.067V20.4c-4,.533-6.533,3.2-6.533,6.533,0,4.4,2.667,6.133,8.267,6.8,3.733.667,4.933,1.467,4.933,3.6s-1.867,3.6-4.4,3.6c-3.467,0-4.667-1.467-5.067-3.467a.974.974,0,0,0-.933-.8H23.867a.911.911,0,0,0-.933.933v.133c.533,3.333,2.667,5.733,7.067,6.4v3.2c0,.533.4.933,1.067,1.067h2c.533,0,.933-.4,1.067-1.067v-3.2c4-.667,6.667-3.467,6.667-7.067Z"/>
+        <path id="Path_51458" data-name="Path 51458" class="cls-1" d="M25.2,51.067a19.952,19.952,0,0,1,0-37.467,1.338,1.338,0,0,0,.8-1.333V10.4a1.013,1.013,0,0,0-.8-1.067.8.8,0,0,0-.533.133,23.994,23.994,0,0,0,0,45.733.811.811,0,0,0,1.2-.533C26,54.533,26,54.4,26,54.133V52.267A1.776,1.776,0,0,0,25.2,51.067Zm14.133-41.6a.811.811,0,0,0-1.2.533c-.133.133-.133.267-.133.533V12.4a1.769,1.769,0,0,0,.8,1.333,19.952,19.952,0,0,1,0,37.467,1.338,1.338,0,0,0-.8,1.333V54.4a1.013,1.013,0,0,0,.8,1.067.8.8,0,0,0,.533-.133,24.1,24.1,0,0,0,0-45.867Z"/>
       </g>
     </g>
-    <circle id="ETH" class="cls-4" cx="32" cy="32" r="32" transform="translate(-21973 -17895)"/>
   </g>
 </svg>
