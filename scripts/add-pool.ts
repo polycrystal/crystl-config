@@ -53,7 +53,9 @@ const pid: number = args["pid"];
 const networkSelected = network[args["network"] as string];
 const vaultHealerAddress = networkSelected.vaultHealer;
 const chainId = networkSelected.chainId;
-const vaults = require(networkSelected.vaultConfig).filter((vault: { chainId: any; }) => vault.chainId === chainId);
+const vaults = require(networkSelected.vaultConfig).filter(
+  (vault: { chainId: any }) => vault.chainId === chainId
+);
 const configFile = networkSelected.configFile;
 const config = require(configFile);
 const rpcProvider = new ethers.providers.JsonRpcProvider(
@@ -181,8 +183,8 @@ async function main() {
     endBlock: poolDetails.endBlock,
   };
 
-  config.forEach((pool: { id: any }) => {
-    if (pool.id === newPool.id) {
+  config.forEach((pool: { id: string; chainId: number }) => {
+    if (pool.id === newPool.id && pool.chainId === chainId) {
       throw Error(`Duplicate: pool with id ${newPool.id} already exists`);
     }
   });
