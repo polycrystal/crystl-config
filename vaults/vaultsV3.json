@@ -960,6 +960,57 @@
     "addLiquidityUrl": "https://app.cronaswap.org/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
   },
   {
+    "id": "v3-cronos-vvs-mtd-vvs",
+    "chainId": 25,
+    "pid": 53,
+    "lpSymbol": "VVS-MTD LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0xf10af2E06908A8f234678974712B60DE3063609B",
+    "wantDecimals": 18,
+    "wantDust": "36.893488147419103232",
+    "depositFee": "0%",
+    "strategyAddress": "0x84aB548287A6e2C02E5aee9715F340C023263aca",
+    "masterchef": "0xbc149c62EFe8AFC61728fC58b1b66a0661712e76",
+    "farmPid": 37,
+    "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-vvs-mtd-vvs",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://www.twitter.com/MintedNetwork/",
+    "assets": [
+      {
+        "label": "MTD",
+        "address": "0x0224010BA2d567ffa014222eD960D1fa43B8C8E1",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "VVS",
+        "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://vvs.finance/add/0x0224010BA2d567ffa014222eD960D1fa43B8C8E1/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03"
+  },
+  {
     "id": "v3-cronos-crona-wcro-crona-2",
     "chainId": 25,
     "pid": 327681,
@@ -1288,6 +1339,57 @@
     "targetWantSymbol": "USDC-CRO LP",
     "targetStrategy": "0xA3F02014615Ff3be3Db07C7BDC5168f9d895Fc45",
     "addLiquidityUrl": "https://vvs.finance/add/0x47A9D630dc5b28F75d3AF3be3AAa982512Cd89Aa/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
+  },
+  {
+    "id": "v3-cronos-vvs-mtd-vvs-2",
+    "chainId": 25,
+    "pid": 2621444,
+    "lpSymbol": "VVS-MTD LP",
+    "lpProvider": "VVS",
+    "wantAddress": "0xf10af2E06908A8f234678974712B60DE3063609B",
+    "wantDecimals": 18,
+    "wantDust": "36.893488147419103232",
+    "depositFee": "0%",
+    "strategyAddress": "0x7d2354d828352dA5dC3d66C79be376b8DA3c6d4b",
+    "masterchef": "0xbc149c62EFe8AFC61728fC58b1b66a0661712e76",
+    "farmPid": 37,
+    "router": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "cronos-vvs-mtd-vvs",
+    "paused": false,
+    "platform": "VVS",
+    "farmSite": "https://vvs.finance/",
+    "projectSite": "https://www.twitter.com/MintedNetwork/",
+    "assets": [
+      {
+        "label": "MTD",
+        "address": "0x0224010BA2d567ffa014222eD960D1fa43B8C8E1",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "VVS",
+        "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+        "decimals": 18,
+        "isGas": false
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      ""
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 40,
+    "targetWantToken": "cronos-vvs-wcro-usdc",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "USDC-CRO LP",
+    "targetStrategy": "0xA3F02014615Ff3be3Db07C7BDC5168f9d895Fc45",
+    "addLiquidityUrl": "https://vvs.finance/add/0x0224010BA2d567ffa014222eD960D1fa43B8C8E1/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03"
   },
   {
     "id": "v3-cronos-crona-crona-usdc-2",
