@@ -4349,6 +4349,177 @@
     "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2/0xAcc15dC74880C9944775448304B263D191c6077F"
   },
   {
+    "id": "v3-moonbeam-stellaswap-wglmr-mai",
+    "chainId": 1284,
+    "pid": 9,
+    "lpSymbol": "MAI-GLMR LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x91b11E7649614EaBe97D96d75bE11d1068059FF1",
+    "wantDecimals": 18,
+    "wantDust": "0.036028797018963968",
+    "depositFee": "0%",
+    "strategyAddress": "0xEf7752b0a2883188dD004AD2d1705bdd84842C87",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 17,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-wglmr-mai",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://www.mai.finance/",
+    "assets": [
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "MAI",
+        "address": "0xdFA46478F9e5EA86d57387849598dbFB2e964b02",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "Blue Chip"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0xAcc15dC74880C9944775448304B263D191c6077F/0xdFA46478F9e5EA86d57387849598dbFB2e964b02"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-frax-wglmr",
+    "chainId": 1284,
+    "pid": 10,
+    "lpSymbol": "GLMR-FRAX LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x015c6B2d98969e3bF066110769E53D734e48Ebf6",
+    "wantDecimals": 18,
+    "wantDust": "0.036028797018963968",
+    "depositFee": "0%",
+    "strategyAddress": "0x6d8792024013910274fDB1Cdba140b8CB8c16E65",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 18,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-frax-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://frax.finance/",
+    "assets": [
+      {
+        "label": "FRAX",
+        "address": "0x322E86852e492a7Ee17f28a78c663da38FB33bfb",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x322E86852e492a7Ee17f28a78c663da38FB33bfb/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-wglmr-xcintr",
+    "chainId": 1284,
+    "pid": 14,
+    "lpSymbol": "XCINTR-GLMR LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0xD3DFb90f7996a97f9f394E130342485e37DD28F7",
+    "wantDecimals": 18,
+    "wantDust": "0.000008796093022208",
+    "depositFee": "0%",
+    "strategyAddress": "0xAF4B9bc22d451698235dF6E49a061C97C6528706",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 19,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-wglmr-xcintr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://interlay.io/",
+    "assets": [
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "xcINTR",
+        "address": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab",
+        "decimals": 10,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": false,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 0,
+    "targetWantToken": "",
+    "targetWantDecimals": 0,
+    "targetWantSymbol": "",
+    "targetStrategy": "",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0xAcc15dC74880C9944775448304B263D191c6077F/0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab"
+  },
+  {
     "id": "v3-moonbeam-stellaswap-wglmr-xcdot-2",
     "chainId": 1284,
     "pid": 393217,
@@ -4461,5 +4632,233 @@
     "targetWantSymbol": "GLMR-STELLA LP",
     "targetStrategy": "0x44112B6d16762557B393e4476f372D5C81237944",
     "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-frax-wglmr-2",
+    "chainId": 1284,
+    "pid": 589825,
+    "lpSymbol": "GLMR-FRAX LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x015c6B2d98969e3bF066110769E53D734e48Ebf6",
+    "wantDecimals": 18,
+    "wantDust": "0.036028797018963968",
+    "depositFee": "0%",
+    "strategyAddress": "0xAE67AaF8375A5706cd942B9aB81d897E0199C2b2",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 18,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-frax-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://frax.finance/",
+    "assets": [
+      {
+        "label": "FRAX",
+        "address": "0x322E86852e492a7Ee17f28a78c663da38FB33bfb",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "moonbeam-stellaswap-wglmr-mai",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "MAI-GLMR LP",
+    "targetStrategy": "0xEf7752b0a2883188dD004AD2d1705bdd84842C87",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x322E86852e492a7Ee17f28a78c663da38FB33bfb/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-wglmr-xcintr-2",
+    "chainId": 1284,
+    "pid": 589828,
+    "lpSymbol": "XCINTR-GLMR LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0xD3DFb90f7996a97f9f394E130342485e37DD28F7",
+    "wantDecimals": 18,
+    "wantDust": "0.000008796093022208",
+    "depositFee": "0%",
+    "strategyAddress": "0x3F7A2291D8E526823a2180ade91daC39566CDE0f",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 19,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-wglmr-xcintr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://interlay.io/",
+    "assets": [
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "xcINTR",
+        "address": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab",
+        "decimals": 10,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "moonbeam-stellaswap-wglmr-mai",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "MAI-GLMR LP",
+    "targetStrategy": "0xEf7752b0a2883188dD004AD2d1705bdd84842C87",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0xAcc15dC74880C9944775448304B263D191c6077F/0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-well-wglmr-2",
+    "chainId": 1284,
+    "pid": 589829,
+    "lpSymbol": "GLMR-WELL LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0xb536c1F9A157B263B70A9a35705168ACC0271742",
+    "wantDecimals": 18,
+    "wantDust": "0.288230376151711744",
+    "depositFee": "0%",
+    "strategyAddress": "0x98eD64cd1aCDa7b3500012c6FBC97CBa3eEa791E",
+    "masterchef": "0xF3a5454496E26ac57da879bf3285Fa85DEBF0388",
+    "farmPid": 15,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-well-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://moonwell.fi/",
+    "assets": [
+      {
+        "label": "WELL",
+        "address": "0x511aB53F793683763E5a8829738301368a2411E3",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "moonbeam-stellaswap-wglmr-mai",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "MAI-GLMR LP",
+    "targetStrategy": "0xEf7752b0a2883188dD004AD2d1705bdd84842C87",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x511aB53F793683763E5a8829738301368a2411E3/0xAcc15dC74880C9944775448304B263D191c6077F"
+  },
+  {
+    "id": "v3-moonbeam-stellaswap-stella-wglmr-2",
+    "chainId": 1284,
+    "pid": 589832,
+    "lpSymbol": "GLMR-STELLA LP",
+    "lpProvider": "STELLA",
+    "wantAddress": "0x7F5Ac0FC127bcf1eAf54E3cd01b00300a0861a62",
+    "wantDecimals": 18,
+    "wantDust": "0.072057594037927936",
+    "depositFee": "0%",
+    "strategyAddress": "0x202e143a84446CDc04bF5Cfaff1001edc4Ca9e61",
+    "masterchef": "0xEDFB330F5FA216C9D2039B99C8cE9dA85Ea91c1E",
+    "farmPid": 0,
+    "router": "0xd0A01ec574D1fC6652eDF79cb2F880fd47D34Ab1",
+    "pricePerFullShare": 1,
+    "tvl": 0,
+    "oracle": "lps",
+    "oracleId": "moonbeam-stellaswap-stella-wglmr",
+    "paused": false,
+    "platform": "STELLASWAP",
+    "farmSite": "https://stellaswap.com/",
+    "projectSite": "https://stellaswap.com/",
+    "assets": [
+      {
+        "label": "STELLA",
+        "address": "0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "WGLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": false
+      },
+      {
+        "label": "GLMR",
+        "address": "0xAcc15dC74880C9944775448304B263D191c6077F",
+        "decimals": 18,
+        "isGas": true
+      }
+    ],
+    "type": "Traditional",
+    "category": [
+      "DeFi Token"
+    ],
+    "isMaximizer": true,
+    "isSingleStaking": false,
+    "totalStaked": "",
+    "rewardPerBlock": "",
+    "targetVid": 9,
+    "targetWantToken": "moonbeam-stellaswap-wglmr-mai",
+    "targetWantDecimals": 18,
+    "targetWantSymbol": "MAI-GLMR LP",
+    "targetStrategy": "0xEf7752b0a2883188dD004AD2d1705bdd84842C87",
+    "addLiquidityUrl": "https://app.stellaswap.com/exchange/add/0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2/0xAcc15dC74880C9944775448304B263D191c6077F"
   }
 ]
