@@ -13,6 +13,8 @@
     "polygon:pool:add": "ts-node scripts/add-pool.ts --network polygon",
     "cronos:pool:add": "ts-node scripts/add-pool.ts --network cronos",
     "bnb:pool:add": "ts-node scripts/add-pool.ts --network bnb",
+    "moonbeam:pool:add": "ts-node scripts/add-pool.ts --network moonbeam",
+    "fantom:pool:add": "ts-node scripts/add-pool.ts --network fantom",
     "token:add": "ts-node scripts/add-token.ts",
     "platform:add": "ts-node scripts/add-platform.ts",
     "provider:add": "ts-node scripts/add-provider.ts"
