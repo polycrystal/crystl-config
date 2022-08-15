@@ -33,6 +33,18 @@ const network: any = {
     vaultHealer: "0x662018D4fbD804631920d45610E0Ee928Ca75d7c",
     vaultConfig: "../vaults/vaultsV3.json",
   },
+  moonbeam: {
+    configFile: "../pools/boostPools.json",
+    chainId: ChainId.moonbeam,
+    vaultHealer: "0x14E1BC2Da67dE9e9eFd7116d9D2f6801374c32a7",
+    vaultConfig: "../vaults/vaultsV3.json",
+  },
+  fantom: {
+    configFile: "../pools/boostPools.json",
+    chainId: ChainId.fantom,
+    vaultHealer: "0x38351946Dbe1B096Aed86B299d48d4A4D7444EA8",
+    vaultConfig: "../vaults/vaultsV3.json",
+  },
 };
 
 const args = yargs.options({
@@ -73,7 +85,7 @@ async function fetchVault(vaultHealerAddress: string, poolId: number) {
   const vaultInfo = await vaultHealerContract.vaultInfo(poolId);
   const want = vaultInfo.want;
 
-  const boostPools = [];
+  const boostPools: { id: any; strat: any; want: any; address: any }[] = [];
   for (let index = 0; index < vaultInfo.numBoosts; index++) {
     const boostPoolIds = await vaultHealerContract.boostPoolVid(poolId, index);
     boostPools.push({
