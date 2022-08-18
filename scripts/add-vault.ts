@@ -101,6 +101,11 @@ const args = yargs.options({
     demandOption: false,
     describe: "deposit fee",
   },
+  withdraw: {
+    type: "number",
+    demandOption: false,
+    describe: "withdrawal fee",
+  },
   // boosted: {
   //   type: "boolean",
   //   demandOption: false,
@@ -129,6 +134,7 @@ const platform: string = args["platform"];
 const token: string = args["token"];
 const provider: string = args["provider"];
 const depositFee: number = args["deposit"] ?? 0;
+const withdrawalFee: number = args["withdraw"] ?? 0.1;
 // const isBoosted: boolean = args["boosted"] ?? false;
 const type: string = args["type"] ?? "";
 const category: string = args["category"] ?? "";
@@ -433,6 +439,7 @@ async function main() {
     wantDecimals: wantToken.decimals,
     wantDust,
     depositFee: `${depositFee.toLocaleString("en-US")}%`,
+    withdrawalFee: `${withdrawalFee.toLocaleString("en-US")}%`,
     strategyAddress: strategy.address,
     masterchef: strategy.masterchef,
     farmPid: strategy.pid,
